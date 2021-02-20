@@ -1,14 +1,19 @@
 # InSpace
 
 ## Use cases (direct):
-* Determine biomanufacturing relevance for microbe-of-interest previously flown in space
-* Determine biomanufacturing relevance for microbe-of-interest never flown in space
+* Determine biomanufacturing relevance for bacteria-of-interest previously flown in space
+* Determine biomanufacturing relevance for bacteria-of-interest never flown in space
 
 ## Use cases (implicit): 
-* Search KEGG database for microbe
+* Search KEGG database for microbe 
   * Function - check if microbial data exists in KEGG
   * Input - two set of strings (the Latin name Genus + species) of a microbe
   * Output - three/four letter code from KEGG (search our CSV) 
+
+* Determine if transcriptional data already exists for a bacteria-of-interest in the NASA GeneLab data repository.
+  * Function - query the database for user-input bacteria along with transcriptional data
+  * Input - two set of strings (the Latin name Genus + species) of bacteria
+  * Output - message in the form of a sting indicating the transcriptional data does or does not already exist in the database, along with a visualization of viability scores if the bacterial data does exist
 
 * Assign input microbe a degree of relatedness to microbes present in NASA database
   * Function - use Convolutional neural network (CNN) ML algorithm to predict relatedness
