@@ -24,4 +24,4 @@
   * Input - floats of predicted scores generated based on degree of relatedness score(s)
   * Output - set number of sliding scale bars or a spider/radar plot of survivability scores  
 
-![plot](./win-home/Desktop/InSpace/InSpace_diagram.png)
+
