@@ -1,8 +1,7 @@
 # InSpace
 
 ## Use cases (direct):
-* Determine biomanufacturing relevance for bacteria-of-interest previously flown in space
-* Determine biomanufacturing relevance for bacteria-of-interest never flown in space
+* Determine biomanufacturing relevance for bacteria-of-interest based on data from bacterial space research
 
 ## Use cases (implicit): 
 * Search KEGG database for microbe 
