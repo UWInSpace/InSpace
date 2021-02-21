@@ -25,4 +25,4 @@
   * Input - floats of predicted scores generated based on degree of relatedness score(s)
   * Output - set number of sliding scale bars or a spider/radar plot of survivability scores  
 
-
+![image](https://user-images.githubusercontent.com/41084770/108634409-4df2af80-742e-11eb-85bc-301c1cf7c210.png)
