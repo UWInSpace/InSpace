@@ -1,13 +1,14 @@
 # InSpace
 
 ## Use cases (direct):
-* Determine biomanufacturing relevance for bacteria-of-interest based on data from bacterial space research
+* Predicting relative viability of bacteria-of-interest (BOI) to spaceflight conditions
 
 ## Use cases (implicit): 
-* Search KEGG database for microbe 
-  * Function - check if microbial data exists in KEGG
-  * Input - two set of strings (the Latin name Genus + species) of a microbe
-  * Output - three/four letter code from KEGG (search our CSV) 
+* Find matching genes/gene homologs between BOI and Test/train datasets 
+  * Function - Use “package A” to connect FASTA from dataset ENTREZ IDs to NCBI BLAST of BOI
+  * Input - *strings* of BOI’s name (Genus species strain)
+  * Output - boolean T/F, floats of percent similarity, and strings of explanation to user 
+   (e.g. T (40%): at least one (or more) match exists - calculating prediction, F (0%): “No match found, please specify another bacteria”) 
 
 * Determine if transcriptional data already exists for a bacteria-of-interest in the NASA GeneLab data repository.
   * Function - query the database for user-input bacteria along with transcriptional data
