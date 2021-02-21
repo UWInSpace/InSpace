@@ -7,7 +7,7 @@
 * Find matching genes/gene homologs between BOI and Test/train datasets 
   * Function - Use “package A” to connect FASTA from dataset ENTREZ IDs to NCBI BLAST of BOI
   * Input - *strings* of BOI’s name (Genus species strain)
-  * Output - boolean T/F, floats of percent similarity, and strings of explanation to user 
+  * Output - *boolean* T/F, *floats* of percent similarity, and *strings* of explanation to user 
    (e.g. T (40%): at least one (or more) match exists - calculating prediction, F (0%): “No match found, please specify another bacteria”) 
 
 * Determine if transcriptional data already exists for a bacteria-of-interest in the NASA GeneLab data repository.
