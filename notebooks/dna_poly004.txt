@@ -1,0 +1,3 @@
+ENTREZID	Log2fc_(Random Positioning Machine (RPM))v(Rotating Wall Vessel bioreactor (RWV) in horizontal position)	Adj.p.value_(Random Positioning Machine (RPM))v(Rotating Wall Vessel bioreactor (RWV) in horizontal position)
+880686	-0.004573471	0.973045801
+882393	-0.129905413	0.387415751
