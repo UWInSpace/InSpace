@@ -1,0 +1,53 @@
+ALIAS,SYMBOL,GENENAME,REFSEQ,ENTREZID,Log2fc_(FLT)v(GC),P.value_(FLT)v(GC)
+BSU10040,ecsA,ABC transporter (ATP-binding protein),NP_388885.1,936293,-0.407302823,0.000372148
+BSU08310,bifL,ABC transporter (ATP-binding protein) biofilm formation,NP_388712.2,936175,0.482852918,0.012914978
+BSU30420,ytrE,ABC transporter (ATP-binding protein) involved in resistance to cell wall inhibitors,NP_390920.1,937245,1.100052577,3.60E-22
+BSU30450,ytrB,ABC transporter (ATP-binding protein) involved in resistance to cell wall inhibitors,NP_390923.1,936641,1.161531196,8.94E-25
+BSU39640,tpeL,ABC transporter (ATP-binding protein); efflux of cationic peptides,NP_391843.2,937596,-0.117114121,0.343925948
+BSU10050,ecsB,ABC transporter (permease subunit),NP_388886.1,939298,-0.457373839,4.61E-05
+BSU30370,bceB,ABC transporter (permease),NP_390915.1,938178,-0.235390623,0.022689046
+BSU08320,bifM,ABC transporter (permease) biofilm formation,NP_388713.1,939210,0.267696753,0.114151559
+BSU08330,bifN,ABC transporter (permease) biofilm formation,NP_388714.1,939705,0.450742327,0.001973957
+BSU07110,lplB,ABC transporter (permease) for alpha-galacturonides,NP_388592.1,936088,0.6414561,0.021021733
+BSU07120,lplC,ABC transporter (permease) for alpha-galacturonides,NP_388593.1,938767,0.440579692,0.000437506
+BSU39630,tpeM,ABC transporter (permease); efflux of cationic peptides,NP_391842.2,937589,-0.186173754,0.128693953
+BSU40150,liaL,ABC transporter for regulatory peptide LiaD* (ATP-binding protein),NP_391895.1,937743,1.048548772,0.000103445
+BSU30430,ytrD,"ABC transporter, permease component involved in resistance to cell wall inhibitors",NP_390921.1,936438,1.059661544,5.14E-25
+BSU30440,ytrC,"ABC transporter, permease component involved in resistance to cell wall inhibitors",NP_390922.1,937243,1.145709916,5.29E-27
+BSU14930,ctaG,cytochrome aa(3) assembly factor,NP_389376.1,939909,-0.453948916,9.58E-06
+BSU38160,qoxB,cytochrome aa3-600 quinol oxidase (subunit I),NP_391695.1,937303,-0.399232126,0.007216929
+BSU38170,qoxA,cytochrome aa3-600 quinol oxidase (subunit II),NP_391696.2,937295,-0.233642967,0.036030202
+BSU38150,qoxC,cytochrome aa3-600 quinol oxidase (subunit III),NP_391694.1,937299,-0.473772308,0.000137788
+BSU38140,qoxD,cytochrome aa3-600 quinol oxidase (subunit IV),NP_391693.1,937285,-0.389540243,5.61E-05
+BSU38760,cydA,cytochrome bb' ubiquinol oxidase (subunit I),NP_391755.1,937406,-0.96182853,0.058032628
+BSU38750,cydB,cytochrome bb' ubiquinol oxidase (subunit II),NP_391754.1,937412,-1.189206563,0.016619323
+BSU17930,ccdA,cytochrome c-type biogenesis protein CcdA; thiol-disulfide oxido-reductase,NP_389676.1,937140,-0.150832442,0.100977688
+BSU25190,cccA,cytochrome c550,NP_390398.1,937902,-0.167293466,0.146856795
+BSU35270,cccB,cytochrome c551,NP_391407.1,936703,-0.576539098,3.70E-08
+BSU14900,ctaD,cytochrome caa3 oxidase (subunit I),NP_389373.2,936898,-0.431886302,0.009533515
+BSU14890,ctaC,cytochrome caa3 oxidase (subunit II),NP_389372.1,936789,-0.276396094,0.055436175
+BSU14910,ctaE,cytochrome caa3 oxidase (subunit III),NP_389374.1,935993,-0.459278375,0.00305752
+BSU14920,ctaF,cytochrome caa3 oxidase (subunit IV),NP_389375.1,936259,-0.425437275,0.00104304
+BSU26740,cypA,cytochrome P450,NP_390551.1,937623,-0.417548021,7.81E-06
+BSU27160,cypB,cytochrome P450 CYP102A3,NP_390594.1,937585,-0.308715096,0.037493012
+BSU12210,cypE,"cytochrome P450 CYP109B1, monooxygenase",NP_389103.1,936452,0.116968115,0.535499649
+BSU30190,bioI,cytochrome P450 for pimelic acid formation for biotin biosynthesis,NP_390897.1,935928,0.973702804,1.42E-08
+BSU17230,pksS,cytochrome P450 of bacillaene metabolism,NP_389605.2,940046,-0.363673248,0.020208092
+BSU25560,holA,DNA polymerase clamp loader delta subunit,NP_390434.1,937833,-0.023468105,0.84981852
+BSU29090,polA,DNA polymerase I,NP_390787.1,936617,-0.46631395,4.02E-10
+BSU16580,polC,DNA polymerase III (alpha subunit),NP_389540.1,939620,-0.245998109,0.014472228
+BSU29230,dnaEC,"DNA polymerase III (alpha subunit), DnaE3",NP_390801.1,936593,-0.44552924,0.000167307
+BSU00020,dnaN,DNA polymerase III (beta subunit),NP_387883.1,939970,-0.578608595,5.56E-10
+BSU00310,holB,DNA polymerase III clamp loader delta' subunit,NP_387912.1,935949,0.061081131,0.536210744
+BSU00190,dnaX,DNA polymerase III subunit tau subunit,NP_387900.2,936899,0.268547746,8.07E-06
+BSU20340,dpoL,DNA polymerase with 3'-5' exonuclease activity; phage SPbeta,NP_389916.1,939437,-0.479213954,0.002260127
+BSU28590,polX,DNA polymerase/3'-5' exonuclease X,NP_390737.1,937426,-0.386862021,3.19E-07
+BSU09710,bmrC,efflux ABC transporter (ATP-binding protein),NP_388852.1,936278,1.374731988,3.76E-13
+BSU09720,bmrD,efflux ABC transporter (ATP-binding subunit),NP_388853.1,939287,1.274584486,1.19E-11
+BSU37700,bacE,"efflux protein for bacilysin excretion, self-protection against bacilysin",NP_391650.1,937161,-0.056923471,0.724870645
+BSU07860,yfkL,efflux transporter,NP_388667.1,939689,-0.058287173,0.54943047
+BSU34820,bmrA,efflux transporter (ATP-binding and permease protein),NP_391362.1,936559,0.121216058,0.14287274
+BSU26590,blt,"efflux transporter (promiscuous, acetylated polyamines efflux)",NP_390536.1,937646,-0.094307795,0.384891946
+BSU31650,mrpF,efflux transporter for Na+ and cholate,NP_391043.2,938862,0.215695499,0.007554856
+BSU28520,etfA,electron transfer flavoprotein (alpha subunit),NP_390730.1,936520,-0.107332425,0.476111416
+BSU28530,etfB,electron transfer flavoprotein (beta subunit),NP_390731.1,937962,-0.228190262,0.05175531
