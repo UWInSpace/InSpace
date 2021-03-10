@@ -1,0 +1,133 @@
+,From,To,Species,Gene Name
+0,NP_417169,999849414,Escherichia coli str. K-12 substr. MG1655,transcriptional repressor of microcin B17 synthesis and multidrug efflux(mprA)
+1,NP_418414,999848179,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, beta subunit(rpoB)"
+2,NP_418415,999848178,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, beta prime subunit(rpoC)"
+3,NP_415935,999850623,Escherichia coli str. K-12 substr. MG1655,cytochrome b561(cybB)
+4,NP_414726,999847592,Escherichia coli str. K-12 substr. MG1655,DNA polymerase III alpha subunit(dnaE)
+5,NP_416117,999850443,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system transporter(mdtJ)
+6,NP_416116,999850444,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system transporter(mdtI)
+7,YP_025307,999850381,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system transporter(mdtK)
+8,NP_416356,999850204,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, theta subunit(holE)"
+9,NP_415262,999851278,Escherichia coli str. K-12 substr. MG1655,"cytochrome d terminal oxidase, subunit II(cydB)"
+10,NP_415261,999851279,Escherichia coli str. K-12 substr. MG1655,"cytochrome d terminal oxidase, subunit I(cydA)"
+11,NP_417159,999849423,Escherichia coli str. K-12 substr. MG1655,hydrogen donor for NrdEF electron transport system; glutaredoxin-like protein(nrdH)
+12,NP_418129,999848457,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(emrD)
+13,NP_414602,999847711,Escherichia coli str. K-12 substr. MG1655,DNA polymerase II(polB)
+14,NP_414965,999847358,Escherichia coli str. K-12 substr. MG1655,cytochrome o ubiquinol oxidase subunit I(cyoB)
+15,NP_414966,999847357,Escherichia coli str. K-12 substr. MG1655,cytochrome o ubiquinol oxidase subunit II(cyoA)
+16,NP_414963,999847360,Escherichia coli str. K-12 substr. MG1655,cytochrome o ubiquinol oxidase subunit IV(cyoD)
+17,NP_414842,999847474,Escherichia coli str. K-12 substr. MG1655,LutC family protein; putative electron transport chain YkgEFG component(ykgG)
+18,NP_414601,999847712,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase remodeling/recycling factor ATPase; RNA polymerase-associated, ATP-dependent RNA translocase(rapA)"
+19,NP_414964,999847359,Escherichia coli str. K-12 substr. MG1655,cytochrome o ubiquinol oxidase subunit III(cyoC)
+20,NP_415930,999850629,Escherichia coli str. K-12 substr. MG1655,"NADH-azoreductase, FMN-dependent(azoR)"
+21,NP_414840,999847476,Escherichia coli str. K-12 substr. MG1655,cysteine-rich LutA family protein; putative electron transport chain YkgEFG component(ykgE)
+22,NP_414841,999847475,Escherichia coli str. K-12 substr. MG1655,ferridoxin-like LutB family protein; putative electron transport chain YkgEFG component(ykgF)
+23,NP_415498,999851050,Escherichia coli str. K-12 substr. MG1655,"cytochrome bd-II oxidase, subunit II(cbdB)"
+24,NP_415497,999851051,Escherichia coli str. K-12 substr. MG1655,"cytochrome bd-II oxidase, subunit I(cbdA)"
+25,NP_416460,999850103,Escherichia coli str. K-12 substr. MG1655,flagellar export pore protein(fliR)
+26,NP_416580,999849993,Escherichia coli str. K-12 substr. MG1655,"multidrug efflux system, subunit C(mdtC)"
+27,NP_417221,985001577,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, sigma S (sigma 38) factor(rpoS)"
+28,NP_418156,999848429,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, beta subunit(dnaN)"
+29,NP_417068,999849505,Escherichia coli str. K-12 substr. MG1655,RNA polymerase sigma E factor(rpoE)
+30,NP_417102,999851450,Escherichia coli str. K-12 substr. MG1655,cytochrome c assembly protein family inner membrane protein(ypjD)
+31,NP_417500,999849090,Escherichia coli str. K-12 substr. MG1655,NADPH quinone reductase(mdaB)
+32,NP_417105,999849470,Escherichia coli str. K-12 substr. MG1655,NAD kinase(nadK)
+33,NP_418713,999847883,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase sigma-19 factor, fec operon-specific; ECF sigma factor(fecI)"
+34,NP_417748,999848850,Escherichia coli str. K-12 substr. MG1655,NAD-binding component of TrK potassium transporter(trkA)
+35,NP_414996,999847327,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system(acrA)
+36,NP_416779,999849795,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit N(nuoN)"
+37,NP_415601,999850950,Escherichia coli str. K-12 substr. MG1655,flagellar hook-filament junction protein(flgL)
+38,NP_415600,999850951,Escherichia coli str. K-12 substr. MG1655,flagellar hook-filament junction protein 1(flgK)
+39,NP_414995,999847328,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(acrB)
+40,NP_414751,16128202,Escherichia coli str. K-12 substr. MG1655,DNA polymerase III epsilon subunit(dnaQ)
+41,NP_416254,999850308,Escherichia coli str. K-12 substr. MG1655,"NAD synthetase, NH3/glutamine-dependent(nadE)"
+42,NP_415283,999851256,Escherichia coli str. K-12 substr. MG1655,"AcrAB-TolC efflux pump accessory protein, membrane-associated(acrZ)"
+43,NP_417732,999848867,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(acrF)
+44,NP_418789,999847800,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, psi subunit(holD)"
+45,NP_416406,999850154,Escherichia coli str. K-12 substr. MG1655,"flagellar class II regulon transcriptional activator, with FlhC(flhD)"
+46,NP_416405,999850155,Escherichia coli str. K-12 substr. MG1655,"flagellar class II regulon transcriptional activator, with FlhD(flhC)"
+47,NP_415712,999850841,Escherichia coli str. K-12 substr. MG1655,"flagellar velocity braking protein, c-di-GMP-regulated(ycgR)"
+48,NP_416404,999850156,Escherichia coli str. K-12 substr. MG1655,proton conductor component of flagella motor(motA)
+49,NP_416403,999850157,Escherichia coli str. K-12 substr. MG1655,protein that enables flagellar motor rotation(motB)
+50,NP_414583,999847727,Escherichia coli str. K-12 substr. MG1655,anaerobic carnitine reduction putative electron transfer flavoprotein subunit(fixA)
+51,NP_414584,999847726,Escherichia coli str. K-12 substr. MG1655,"putative electron transfer flavoprotein, NAD/FAD-binding domain and ETFP adenine nucleotide-binding domain-like protein(fixB)"
+52,NP_416483,999850084,Escherichia coli str. K-12 substr. MG1655,cytochrome b561 homolog(yodB)
+53,NP_417170,999849413,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system(emrA)
+54,NP_417171,999849412,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(emrB)
+55,YP_026280,999848169,Escherichia coli str. K-12 substr. MG1655,NADH pyrophosphatase(nudC)
+56,NP_415617,999850934,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, delta prime subunit(holB)"
+57,NP_417918,999848683,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, sigma 32 (sigma H) factor(rpoH)"
+58,NP_416712,999849865,Escherichia coli str. K-12 substr. MG1655,"ferredoxin-type protein, role in electron transfer to periplasmic nitrate reductase NapA(napF)"
+59,NP_416436,999850124,Escherichia coli str. K-12 substr. MG1655,putative flagellar synthesis and assembly chaperone(fliT)
+60,NP_416435,999850125,Escherichia coli str. K-12 substr. MG1655,flagellar protein potentiates polymerization(fliS)
+61,NP_416434,999850126,Escherichia coli str. K-12 substr. MG1655,flagellar filament capping protein(fliD)
+62,NP_416433,999850127,Escherichia coli str. K-12 substr. MG1655,flagellar filament structural protein (flagellin)(fliC)
+63,NP_416432,999850128,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, sigma 28 (sigma F) factor(fliA)"
+64,NP_416791,999849783,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit A(nuoA)"
+65,NP_416790,999849784,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, chain B(nuoB)"
+66,NP_416394,999850166,Escherichia coli str. K-12 substr. MG1655,"flagellin export apparatus, substrate specificity protein(flhB)"
+67,NP_416393,999850167,Escherichia coli str. K-12 substr. MG1655,putative flagellar export pore protein(flhA)
+68,NP_416392,999850168,Escherichia coli str. K-12 substr. MG1655,proton seal during flagellar secretion(flhE)
+69,NP_418680,999847914,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, chi subunit(holC)"
+70,NP_418286,999848306,Escherichia coli str. K-12 substr. MG1655,NAD(P)H-flavin reductase(fre)
+71,NP_418166,999848420,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(mdtL)
+72,NP_417754,999848844,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, alpha subunit(rpoA)"
+73,NP_416824,999849750,Escherichia coli str. K-12 substr. MG1655,putative flagella assembly protein(flk)
+74,NP_416702,999849874,Escherichia coli str. K-12 substr. MG1655,cytochrome c biogenesis protein; heme export ABC transporter holo-CcmE release factor(ccmD)
+75,NP_414766,999847551,Escherichia coli str. K-12 substr. MG1655,DNA polymerase IV(dinB)
+76,NP_416789,999849785,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, fused CD subunit(nuoC)"
+77,NP_415457,999851087,Escherichia coli str. K-12 substr. MG1655,NAD(P)H-dependent FMN reductase(ssuE)
+78,NP_416788,999849786,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, chain E(nuoE)"
+79,NP_416149,999850412,Escherichia coli str. K-12 substr. MG1655,SoxR iron-sulfur cluster reduction factor component; electron transport inner membrane NADH-quinone reductase(rsxE)
+80,NP_416787,999849787,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, chain F(nuoF)"
+81,NP_416786,999849788,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, chain G(nuoG)"
+82,NP_416785,999849789,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit H(nuoH)"
+83,NP_416784,999849790,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, chain I(nuoI)"
+84,NP_416783,999849791,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit J(nuoJ)"
+85,NP_416782,999849792,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit K(nuoK)"
+86,NP_416781,999849793,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit L(nuoL)"
+87,NP_416780,999849794,Escherichia coli str. K-12 substr. MG1655,"NADH:ubiquinone oxidoreductase, membrane subunit M(nuoM)"
+88,NP_417191,999849391,Escherichia coli str. K-12 substr. MG1655,NADH:flavorubredoxin oxidoreductase(norW)
+89,NP_415173,999847152,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III, delta subunit(holA)"
+90,NP_417661,999848938,Escherichia coli str. K-12 substr. MG1655,"ABC transporter maintaining OM lipid asymmetry, inner membrane permease protein(mlaE)"
+91,NP_417662,999848937,Escherichia coli str. K-12 substr. MG1655,"ABC transporter maintaining OM lipid asymmetry, ATP-binding protein(mlaF)"
+92,NP_418632,999847959,Escherichia coli str. K-12 substr. MG1655,NAD(P)H:quinone oxidoreductase(qorB)
+93,NP_418757,999847827,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(mdtM)
+94,NP_417669,999848930,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, sigma 54 (sigma N) factor(rpoN)"
+95,NP_416848,999849727,Escherichia coli str. K-12 substr. MG1655,"ABC transporter maintaining OM lipid asymmetry, OM lipoprotein component(mlaA)"
+96,NP_416459,999850104,Escherichia coli str. K-12 substr. MG1655,flagellar biosynthesis protein(fliQ)
+97,NP_415524,999851023,Escherichia coli str. K-12 substr. MG1655,NAD(P)H:quinone oxidoreductase(wrbA)
+98,NP_416458,999850105,Escherichia coli str. K-12 substr. MG1655,flagellar biosynthesis protein(fliP)
+99,NP_416579,999849994,Escherichia coli str. K-12 substr. MG1655,"multidrug efflux system, subunit B(mdtB)"
+100,NP_416457,999850106,Escherichia coli str. K-12 substr. MG1655,flagellar biosynthesis protein(fliO)
+101,NP_416578,999849995,Escherichia coli str. K-12 substr. MG1655,"multidrug efflux system, subunit A(mdtA)"
+102,NP_416456,999850107,Escherichia coli str. K-12 substr. MG1655,flagellar motor switching and energizing component(fliN)
+103,NP_416455,999850108,Escherichia coli str. K-12 substr. MG1655,flagellar motor switching and energizing component(fliM)
+104,NP_416213,999850349,Escherichia coli str. K-12 substr. MG1655,"putative electron transfer flavoprotein, FAD-binding subunit(ydiR)"
+105,NP_415003,999847319,Escherichia coli str. K-12 substr. MG1655,"DNA polymerase III/DNA elongation factor III, tau and gamma subunits(dnaX)"
+106,NP_416454,999850109,Escherichia coli str. K-12 substr. MG1655,flagellar biosynthesis protein(fliL)
+107,NP_416212,999850350,Escherichia coli str. K-12 substr. MG1655,putative electron transfer flavoprotein subunit(ydiQ)
+108,NP_416453,999850110,Escherichia coli str. K-12 substr. MG1655,flagellar hook-length control protein(fliK)
+109,NP_416057,999850502,Escherichia coli str. K-12 substr. MG1655,NADP-dependent 3-hydroxy acid dehydrogenase; malonic semialdehyde reductase(ydfG)
+110,NP_416452,999850111,Escherichia coli str. K-12 substr. MG1655,flagellar protein(fliJ)
+111,NP_415363,999851180,Escherichia coli str. K-12 substr. MG1655,multidrug efflux system protein(mdfA)
+112,NP_416451,999850112,Escherichia coli str. K-12 substr. MG1655,flagellum-specific ATP synthase(fliI)
+113,NP_416160,999850401,Escherichia coli str. K-12 substr. MG1655,DUF1656 family putative inner membrane efflux pump associated protein(ydhI)
+114,NP_418106,999848485,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, omega subunit(rpoZ)"
+115,NP_417658,999848940,Escherichia coli str. K-12 substr. MG1655,"ABC transporter maintaining OM lipid asymmetry, cytoplasmic STAS component(mlaB)"
+116,NP_417659,999848939,Escherichia coli str. K-12 substr. MG1655,"ABC transporter maintaining OM lipid asymmetry, periplasmic binding protein(mlaC)"
+117,NP_417539,999849051,Escherichia coli str. K-12 substr. MG1655,"RNA polymerase, sigma 70 (sigma D) factor(rpoD)"
+118,NP_416449,999850114,Escherichia coli str. K-12 substr. MG1655,flagellar motor switching and energizing component(fliG)
+119,NP_416448,999850115,Escherichia coli str. K-12 substr. MG1655,flagellar basal-body MS-ring and collar protein(fliF)
+120,NP_416447,999850116,Escherichia coli str. K-12 substr. MG1655,flagellar basal-body component(fliE)
+121,NP_415599,999850952,Escherichia coli str. K-12 substr. MG1655,flagellar rod assembly protein and murein hydrolase; flagellum-specific muramidase(flgJ)
+122,NP_415598,999850953,Escherichia coli str. K-12 substr. MG1655,putative flagellar basal body protein(flgI)
+123,NP_415597,999850954,Escherichia coli str. K-12 substr. MG1655,flagellar protein of basal-body outer-membrane L ring(flgH)
+124,NP_415596,999850955,Escherichia coli str. K-12 substr. MG1655,flagellar component of cell-distal portion of basal-body rod(flgG)
+125,NP_415595,999850956,Escherichia coli str. K-12 substr. MG1655,flagellar component of cell-proximal portion of basal-body rod(flgF)
+126,NP_415594,999850957,Escherichia coli str. K-12 substr. MG1655,flagellar hook protein(flgE)
+127,NP_415593,999850958,Escherichia coli str. K-12 substr. MG1655,flagellar hook assembly protein(flgD)
+128,NP_415592,999850959,Escherichia coli str. K-12 substr. MG1655,flagellar component of cell-proximal portion of basal-body rod(flgC)
+129,NP_415591,999850960,Escherichia coli str. K-12 substr. MG1655,flagellar component of cell-proximal portion of basal-body rod(flgB)
+130,YP_588444,999851277,Escherichia coli str. K-12 substr. MG1655,cytochrome d (bd-I) ubiquinol oxidase subunit X(cydX)
+131,YP_026264,999848325,Escherichia coli str. K-12 substr. MG1655,threonine efflux pump(rhtC)
