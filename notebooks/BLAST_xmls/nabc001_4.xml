@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>G07817.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>human STS CHLC.GATA43D10.P15218 clone GATA43D10, sequence tagged site</BlastOutput_query-def>
+  <BlastOutput_query-len>447</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>G07817.1</Iteration_query-ID>
+  <Iteration_query-def>human STS CHLC.GATA43D10.P15218 clone GATA43D10, sequence tagged site</Iteration_query-def>
+  <Iteration_query-len>447</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11182219|emb|AL357559.16|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-393M18 on chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AL357559</Hit_accession>
+  <Hit_len>190912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.23</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>6.59698e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>148160</Hsp_hit-from>
+      <Hsp_hit-to>147854</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>TATTCCCTTTCTTTTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATAACAGATTTGGTCTTACATCTTTTCATATTTTACTTAAATGGAACAAAACTAAGTATTCTTCTGAAATATTCTTGTTTTCTTGATAGTATGAGTATTAAATACATGCATGTTATTGCATTTAACAGTAGTTTGTTTCNTTTNTGTTTAATACAATAGGGAAATTGTGTAATATTCCATTGTATTAATGTGTTGTAATATACTCACAGATTNTNCTNGGGTTNATAACCTAANTTTC</Hsp_qseq>
+      <Hsp_hseq>TATTCCCTTTCTTTTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATAACAGATTTGGTCTTACATCTTTTCATATTTTACTTAAATGGAACAAAACTAAGTATTCTTCTGAAATATTCTTGTTTTCTTGATAGTATGAGTATTAAATACATGCATGTTATTGCATTTAACAGTAGTTTGTTTCCTTT-TGTTTAATACAATAGGGAAATTGTGTAATATTCCATTGTATTAATGTGTTGTAATATACTCACAGATT-TTCTAGGATT-AT-ATCTAATTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || || || || | |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1828349974|gb|CP050639.1|</Hit_id>
+  <Hit_def>Canis lupus familiaris breed Labrador retriever chromosome 08b</Hit_def>
+  <Hit_accession>CP050639</Hit_accession>
+  <Hit_len>74668984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.3396</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>2.47371e-11</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>6927780</Hsp_hit-from>
+      <Hsp_hit-to>6927840</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAGATAGATAGATAGATAGATAGATAGATAGATAGATA-ACAGATTTGGTCTTACATCTTTT</Hsp_qseq>
+      <Hsp_hseq>GAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATA-GATCTTACATCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| | ||||  | |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.146209</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>29691291</Hsp_hit-from>
+      <Hsp_hit-to>29691248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AAATACATGCATGTTATTGCATTTAACAGTAGTTTGTTTCNTTT</Hsp_qseq>
+      <Hsp_hseq>AAATTCATGCATGCTGTTGCATGTATCAGTAGTTTGTTCCTTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| | |||||| || |||||||||||| | |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.146209</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>29695877</Hsp_hit-from>
+      <Hsp_hit-to>29695834</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AAATACATGCATGTTATTGCATTTAACAGTAGTTTGTTTCNTTT</Hsp_qseq>
+      <Hsp_hseq>AAATTCATGCATGCTGTTGCATGTATCAGTAGTTTGTTCCTTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| | |||||| || |||||||||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1220469775|gb|CP020789.1|</Hit_id>
+  <Hit_def>Oryzias latipes strain HNI chromosome 11</Hit_def>
+  <Hit_accession>CP020789</Hit_accession>
+  <Hit_len>25539739</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>2.47371e-11</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>16814936</Hsp_hit-from>
+      <Hsp_hit-to>16814990</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>AGTTTTATCAAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||  | | |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|698175256|gb|KM246670.1|</Hit_id>
+  <Hit_def>Odontobutis yaluensis microsatellite Oya121 sequence</Hit_def>
+  <Hit_accession>KM246670</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.5362</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>8.6341e-11</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TTTTCATTATAGTTTTATCA-AGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTTCCATTATAG-TTTATCATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||||| ||  | | |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1049422134|ref|XM_017736848.1|</Hit_id>
+  <Hit_def>PREDICTED: Corvus brachyrhynchos theg spermatid protein-like (THEGL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017736848</Hit_accession>
+  <Hit_len>4389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>8.6341e-11</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TAGTTTTATCA-AGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATAACAGAT</Hsp_qseq>
+      <Hsp_hseq>TAGTTTTATCACAGCAA-AAAGATAGATAGATAGATAGATAGATAGATAGATAGATGATAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || || | |||||||||||||||||||||||||||||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1049422131|ref|XM_017736847.1|</Hit_id>
+  <Hit_def>PREDICTED: Corvus brachyrhynchos theg spermatid protein-like (THEGL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017736847</Hit_accession>
+  <Hit_len>4512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>8.6341e-11</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TAGTTTTATCA-AGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATAACAGAT</Hsp_qseq>
+      <Hsp_hseq>TAGTTTTATCACAGCAA-AAAGATAGATAGATAGATAGATAGATAGATAGATAGATGATAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || || | |||||||||||||||||||||||||||||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|56787649|gb|AC153961.2|</Hit_id>
+  <Hit_def>Mus musculus 10 BAC RP24-330I16 (Roswell Park Cancer Institute (C57BL/6J Male) Mouse BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC153961</Hit_accession>
+  <Hit_len>159792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>8.6341e-11</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>73433</Hsp_hit-from>
+      <Hsp_hit-to>73503</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AGAGATAGATAGATAGATAGATAGATAGATAGATAGATAACAGATTTGGT-CTTACATCTTTTCATATTTT</Hsp_qseq>
+      <Hsp_hseq>AGAGATAGATAGATAGATAGATAGATAGATAGATAGATGAGAGAGAGAGCGCTTACATCTTTTTATTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| | |||    |  |||||||||||| || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1862846754|emb|LR812497.1|</Hit_id>
+  <Hit_def>Danio aesculapii genome assembly, chromosome: 14</Hit_def>
+  <Hit_accession>LR812497</Hit_accession>
+  <Hit_len>56859170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.05185e-09</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>6759838</Hsp_hit-from>
+      <Hsp_hit-to>6759895</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTTTTATCAAGTA-ACAG---AGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>GTTTTATCAAGTATAAAGCGTAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | ||   |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1962371007|emb|LR699026.1|</Hit_id>
+  <Hit_def>Nibea albiflora genome assembly, chromosome: 3</Hit_def>
+  <Hit_accession>LR699026</Hit_accession>
+  <Hit_len>29039869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.05185e-09</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>21355323</Hsp_hit-from>
+      <Hsp_hit-to>21355382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>ATTATAGTTTTAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||   ||  | | |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1799936934|ref|XM_032108446.1|</Hit_id>
+  <Hit_def>PREDICTED: Corvus moneduloides theg spermatid protein like (THEGL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032108446</Hit_accession>
+  <Hit_len>4861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.67131e-09</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TAGTTTTATCA-AGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA-ACAGAT</Hsp_qseq>
+      <Hsp_hseq>TAGTTTTATCACAGCAA-AAAGATAGATAGATAGATAGATAGATAGAT-GATAGATAGACAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || || | |||||||||||||||||||||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1799936930|ref|XM_032108443.1|</Hit_id>
+  <Hit_def>PREDICTED: Corvus moneduloides theg spermatid protein like (THEGL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032108443</Hit_accession>
+  <Hit_len>4984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.67131e-09</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TAGTTTTATCA-AGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA-ACAGAT</Hsp_qseq>
+      <Hsp_hseq>TAGTTTTATCACAGCAA-AAAGATAGATAGATAGATAGATAGATAGAT-GATAGATAGACAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || || | |||||||||||||||||||||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|374428414|emb|FQ310506.3|</Hit_id>
+  <Hit_def>Dicentrarchus labrax chromosome sequence corresponding to linkage group 1, top part, complete sequence</Hit_def>
+  <Hit_accession>FQ310506</Hit_accession>
+  <Hit_len>18113738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.67131e-09</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>4724286</Hsp_hit-from>
+      <Hsp_hit-to>4724354</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TTTCTTTTCATTATAGT-TTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTTCTTTTCATT-TACTATTCATTTAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| || | || ||  ||  | | |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1163001990|gb|CP020162.1|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae strain DBVPG6765 chromosome VI, complete sequence</Hit_def>
+  <Hit_accession>CP020162</Hit_accession>
+  <Hit_len>257436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>58377</Hsp_hit-from>
+      <Hsp_hit-to>58315</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1134510297|gb|CP004979.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1574 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004979</Hit_accession>
+  <Hit_len>242634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>55505</Hsp_hit-from>
+      <Hsp_hit-to>55443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1134510296|gb|CP004969.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1450 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004969</Hit_accession>
+  <Hit_len>243202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53049</Hsp_hit-from>
+      <Hsp_hit-to>52987</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1134510293|gb|CP004909.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM681 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004909</Hit_accession>
+  <Hit_len>245862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>54567</Hsp_hit-from>
+      <Hsp_hit-to>54505</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1134510292|gb|CP004899.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM428 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004899</Hit_accession>
+  <Hit_len>258868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>67086</Hsp_hit-from>
+      <Hsp_hit-to>67024</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1115575474|gb|CP004938.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1307 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004938</Hit_accession>
+  <Hit_len>241665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53105</Hsp_hit-from>
+      <Hsp_hit-to>53043</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1115575472|gb|CP004918.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM981 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004918</Hit_accession>
+  <Hit_len>234118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>47466</Hsp_hit-from>
+      <Hsp_hit-to>47404</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1067266224|gb|CP004937.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1304 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004937</Hit_accession>
+  <Hit_len>262612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>63636</Hsp_hit-from>
+      <Hsp_hit-to>63574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1067266223|gb|CP004927.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1190 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004927</Hit_accession>
+  <Hit_len>277799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>85837</Hsp_hit-from>
+      <Hsp_hit-to>85775</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1046966395|gb|CP004976.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1527 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004976</Hit_accession>
+  <Hit_len>238805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46600</Hsp_hit-from>
+      <Hsp_hit-to>46538</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1046966390|gb|CP004946.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1355 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004946</Hit_accession>
+  <Hit_len>258841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>70469</Hsp_hit-from>
+      <Hsp_hit-to>70407</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1034703451|gb|CP004935.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1252 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004935</Hit_accession>
+  <Hit_len>237730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>50924</Hsp_hit-from>
+      <Hsp_hit-to>50862</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1034703450|gb|CP004925.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1129 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004925</Hit_accession>
+  <Hit_len>234066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46921</Hsp_hit-from>
+      <Hsp_hit-to>46859</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1034703449|gb|CP004975.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1526 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004975</Hit_accession>
+  <Hit_len>240292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53127</Hsp_hit-from>
+      <Hsp_hit-to>53065</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1034703444|gb|CP004895.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM270 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004895</Hit_accession>
+  <Hit_len>244497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>57695</Hsp_hit-from>
+      <Hsp_hit-to>57633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1032679750|gb|CP004944.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1341 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004944</Hit_accession>
+  <Hit_len>233831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46839</Hsp_hit-from>
+      <Hsp_hit-to>46777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1032679748|gb|CP004924.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1083 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004924</Hit_accession>
+  <Hit_len>264361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>73204</Hsp_hit-from>
+      <Hsp_hit-to>73142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1032679745|gb|CP004894.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM248 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004894</Hit_accession>
+  <Hit_len>233134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46798</Hsp_hit-from>
+      <Hsp_hit-to>46736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1032679694|gb|CP004104.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1078 chromosome VI genomic sequence</Hit_def>
+  <Hit_accession>CP004104</Hit_accession>
+  <Hit_len>251355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46965</Hsp_hit-from>
+      <Hsp_hit-to>46903</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1031917690|gb|CP004963.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1433 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004963</Hit_accession>
+  <Hit_len>233435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46498</Hsp_hit-from>
+      <Hsp_hit-to>46436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1031917688|gb|CP004943.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1338 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004943</Hit_accession>
+  <Hit_len>238445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46919</Hsp_hit-from>
+      <Hsp_hit-to>46857</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1031917686|gb|CP004923.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM996 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004923</Hit_accession>
+  <Hit_len>234688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>47594</Hsp_hit-from>
+      <Hsp_hit-to>47532</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1031917683|gb|CP004893.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM244 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004893</Hit_accession>
+  <Hit_len>239726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>52872</Hsp_hit-from>
+      <Hsp_hit-to>52810</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1028010250|gb|CP004932.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1244 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004932</Hit_accession>
+  <Hit_len>240492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53136</Hsp_hit-from>
+      <Hsp_hit-to>53074</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1028010249|gb|CP004912.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM689 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004912</Hit_accession>
+  <Hit_len>235783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>48212</Hsp_hit-from>
+      <Hsp_hit-to>48150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1028010248|gb|CP004902.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM453 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004902</Hit_accession>
+  <Hit_len>240758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53391</Hsp_hit-from>
+      <Hsp_hit-to>53329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1028010245|gb|CP004972.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1477 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004972</Hit_accession>
+  <Hit_len>233721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46839</Hsp_hit-from>
+      <Hsp_hit-to>46777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1028010243|gb|CP004952.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1387 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004952</Hit_accession>
+  <Hit_len>237205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>50317</Hsp_hit-from>
+      <Hsp_hit-to>50255</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1023973624|gb|CP004981.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1615 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004981</Hit_accession>
+  <Hit_len>250030</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>62903</Hsp_hit-from>
+      <Hsp_hit-to>62841</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1023973608|gb|CP004971.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1463 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004971</Hit_accession>
+  <Hit_len>236679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>49041</Hsp_hit-from>
+      <Hsp_hit-to>48979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1023973509|gb|CP004931.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1242 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004931</Hit_accession>
+  <Hit_len>233727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46841</Hsp_hit-from>
+      <Hsp_hit-to>46779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1023973485|gb|CP004921.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM990 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004921</Hit_accession>
+  <Hit_len>233125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>46610</Hsp_hit-from>
+      <Hsp_hit-to>46548</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1016043929|gb|CP004960.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1417 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004960</Hit_accession>
+  <Hit_len>234745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>47618</Hsp_hit-from>
+      <Hsp_hit-to>47556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1016043926|gb|CP004930.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1208 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004930</Hit_accession>
+  <Hit_len>254583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>65509</Hsp_hit-from>
+      <Hsp_hit-to>65447</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1016043923|gb|CP004900.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM450 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004900</Hit_accession>
+  <Hit_len>236997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>52262</Hsp_hit-from>
+      <Hsp_hit-to>52200</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1016043922|gb|CP004890.2|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM189 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004890</Hit_accession>
+  <Hit_len>237386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>50215</Hsp_hit-from>
+      <Hsp_hit-to>50153</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|807071958|gb|CP011084.1|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae strain UOA_M2 chromosome 6 sequence</Hit_def>
+  <Hit_accession>CP011084</Hit_accession>
+  <Hit_len>240176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>186771</Hsp_hit-from>
+      <Hsp_hit-to>186833</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|768799136|gb|CP004959.1|</Hit_id>
+  <Hit_def>Saccharomyces cerevisiae YJM1415 chromosome VI sequence</Hit_def>
+  <Hit_accession>CP004959</Hit_accession>
+  <Hit_len>235620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.28141e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>49441</Hsp_hit-from>
+      <Hsp_hit-to>49379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTCATTATAGTTTTATCAAGTAACAGAGATAGATAGATAGATAGATAGATAGATAGATAGATA</Hsp_qseq>
+      <Hsp_hseq>TTCTTTATAGTTTTATATAAAAAAATATATATATAGATAGATAGATAGATAGATAGATAGATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||  |  || | | ||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

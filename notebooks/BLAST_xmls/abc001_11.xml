@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>CAA49606.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>90 kDa early protein, partial [Vaccinia virus]</BlastOutput_query-def>
+  <BlastOutput_query-len>60</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CAA49606.1</Iteration_query-ID>
+  <Iteration_query-def>90 kDa early protein, partial [Vaccinia virus]</Iteration_query-def>
+  <Iteration_query-len>60</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2C7Y|A</Hit_id>
+  <Hit_def>plant enzyme [Arabidopsis thaliana] &gt;pdb|2C7Y|B plant enzyme [Arabidopsis thaliana] &gt;pdb|2C7Z|A Plant enzyme crystal form II [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>2C7Y_A</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.33446</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>DTLIAMKRTLLELSRSSENPLTRSIDTAVYRRKTTLRVVGTRK</Hsp_qseq>
+      <Hsp_hseq>DEIIPVKTKLVDPKTGDEKPITVSVDDGI-RPTTTLASLGKLK</Hsp_hseq>
+      <Hsp_midline>D +I +K  L++     E P+T S+D  + R  TTL  +G  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2WU9|A</Hit_id>
+  <Hit_def>Crystal structure of peroxisomal KAT2 from Arabidopsis thaliana [Arabidopsis thaliana] &gt;pdb|2WU9|B Crystal structure of peroxisomal KAT2 from Arabidopsis thaliana [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>2WU9_A</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.33976</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>DTLIAMKRTLLELSRSSENPLTRSIDTAVYRRKTTLRVVGTRK</Hsp_qseq>
+      <Hsp_hseq>DEIIPVKTKLVDPKTGDEKPITVSVDDGI-RPTTTLASLGKLK</Hsp_hseq>
+      <Hsp_midline>D +I +K  L++     E P+T S+D  + R  TTL  +G  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5NTB|A</Hit_id>
+  <Hit_def>Streptomyces papain inhibitor (SPI) [Streptomyces mobaraensis] &gt;pdb|5NTB|B Streptomyces papain inhibitor (SPI) [Streptomyces mobaraensis]</Hit_def>
+  <Hit_accession>5NTB_A</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.31807</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>LIAMKRTLLELSRSSENPLTRSIDTAVYRRKTTLRVVGTRKNPNCD</Hsp_qseq>
+      <Hsp_hseq>LVAIPAAWWTTPNPNNDPLCRGVSVEVSYNGRTIRVPVRDKCPSCD</Hsp_hseq>
+      <Hsp_midline>L+A+          + +PL R +   V     T+RV    K P+CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6N26|A</Hit_id>
+  <Hit_def>BEST1 calcium-free closed state [Gallus gallus] &gt;pdb|6N26|B BEST1 calcium-free closed state [Gallus gallus] &gt;pdb|6N26|C BEST1 calcium-free closed state [Gallus gallus] &gt;pdb|6N26|D BEST1 calcium-free closed state [Gallus gallus] &gt;pdb|6N26|E BEST1 calcium-free closed state [Gallus gallus] &gt;pdb|6N27|A BEST1 calcium-bound closed state [Gallus gallus] &gt;pdb|6N27|B BEST1 calcium-bound closed state [Gallus gallus] &gt;pdb|6N27|C BEST1 calcium-bound closed state [Gallus gallus] &gt;pdb|6N27|D BEST1 calcium-bound closed state [Gallus gallus] &gt;pdb|6N27|E BEST1 calcium-bound closed state [Gallus gallus] &gt;pdb|6N28|A BEST1 calcium-bound open state [Gallus gallus] &gt;pdb|6N28|B BEST1 calcium-bound open state [Gallus gallus] &gt;pdb|6N28|C BEST1 calcium-bound open state [Gallus gallus] &gt;pdb|6N28|D BEST1 calcium-bound open state [Gallus gallus] &gt;pdb|6N28|E BEST1 calcium-bound open state [Gallus gallus]</Hit_def>
+  <Hit_accession>6N26_A</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.84718</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>MKRTLLELSRSSENPLTRSIDTAVYRR</Hsp_qseq>
+      <Hsp_hseq>LRRTLMRYSNLCSVLILRSVSTAVYKR</Hsp_hseq>
+      <Hsp_midline>++RTL+  S      + RS+ TAVY+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|6N24|A</Hit_id>
+  <Hit_def>BEST1 open state W287F mutant, calcium-free [Gallus gallus] &gt;pdb|6N24|B BEST1 open state W287F mutant, calcium-free [Gallus gallus] &gt;pdb|6N24|C BEST1 open state W287F mutant, calcium-free [Gallus gallus] &gt;pdb|6N24|D BEST1 open state W287F mutant, calcium-free [Gallus gallus] &gt;pdb|6N24|E BEST1 open state W287F mutant, calcium-free [Gallus gallus] &gt;pdb|6N25|A BEST1 open state W287F mutant, calcium-bound [Gallus gallus] &gt;pdb|6N25|B BEST1 open state W287F mutant, calcium-bound [Gallus gallus] &gt;pdb|6N25|C BEST1 open state W287F mutant, calcium-bound [Gallus gallus] &gt;pdb|6N25|D BEST1 open state W287F mutant, calcium-bound [Gallus gallus] &gt;pdb|6N25|E BEST1 open state W287F mutant, calcium-bound [Gallus gallus]</Hit_def>
+  <Hit_accession>6N24_A</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.84718</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>MKRTLLELSRSSENPLTRSIDTAVYRR</Hsp_qseq>
+      <Hsp_hseq>LRRTLMRYSNLCSVLILRSVSTAVYKR</Hsp_hseq>
+      <Hsp_midline>++RTL+  S      + RS+ TAVY+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|5T5N|A</Hit_id>
+  <Hit_def>Calcium-activated chloride channel bestrophin-1 (BEST1), triple mutant: I76A, F80A, F84A; in complex with an Fab antibody fragment, chloride, and calcium [Gallus gallus] &gt;pdb|5T5N|B Calcium-activated chloride channel bestrophin-1 (BEST1), triple mutant: I76A, F80A, F84A; in complex with an Fab antibody fragment, chloride, and calcium [Gallus gallus] &gt;pdb|5T5N|C Calcium-activated chloride channel bestrophin-1 (BEST1), triple mutant: I76A, F80A, F84A; in complex with an Fab antibody fragment, chloride, and calcium [Gallus gallus] &gt;pdb|5T5N|D Calcium-activated chloride channel bestrophin-1 (BEST1), triple mutant: I76A, F80A, F84A; in complex with an Fab antibody fragment, chloride, and calcium [Gallus gallus] &gt;pdb|5T5N|E Calcium-activated chloride channel bestrophin-1 (BEST1), triple mutant: I76A, F80A, F84A; in complex with an Fab antibody fragment, chloride, and calcium [Gallus gallus]</Hit_def>
+  <Hit_accession>5T5N_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.87036</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>MKRTLLELSRSSENPLTRSIDTAVYRR</Hsp_qseq>
+      <Hsp_hseq>LRRTLMRYSNLCSVLILRSVSTAVYKR</Hsp_hseq>
+      <Hsp_midline>++RTL+  S      + RS+ TAVY+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4RDQ|A</Hit_id>
+  <Hit_def>Calcium-activated chloride channel bestrophin-1, from chicken, in complex with Fab antibody fragments, chloride and calcium [Gallus gallus] &gt;pdb|4RDQ|B Calcium-activated chloride channel bestrophin-1, from chicken, in complex with Fab antibody fragments, chloride and calcium [Gallus gallus] &gt;pdb|4RDQ|C Calcium-activated chloride channel bestrophin-1, from chicken, in complex with Fab antibody fragments, chloride and calcium [Gallus gallus] &gt;pdb|4RDQ|D Calcium-activated chloride channel bestrophin-1, from chicken, in complex with Fab antibody fragments, chloride and calcium [Gallus gallus] &gt;pdb|4RDQ|E Calcium-activated chloride channel bestrophin-1, from chicken, in complex with Fab antibody fragments, chloride and calcium [Gallus gallus] &gt;pdb|6N23|A BEST1 in a calcium-bound inactivated state [Gallus gallus] &gt;pdb|6N23|B BEST1 in a calcium-bound inactivated state [Gallus gallus] &gt;pdb|6N23|C BEST1 in a calcium-bound inactivated state [Gallus gallus] &gt;pdb|6N23|D BEST1 in a calcium-bound inactivated state [Gallus gallus] &gt;pdb|6N23|E BEST1 in a calcium-bound inactivated state [Gallus gallus]</Hit_def>
+  <Hit_accession>4RDQ_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.87036</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>MKRTLLELSRSSENPLTRSIDTAVYRR</Hsp_qseq>
+      <Hsp_hseq>LRRTLMRYSNLCSVLILRSVSTAVYKR</Hsp_hseq>
+      <Hsp_midline>++RTL+  S      + RS+ TAVY+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>122927</Statistics_db-num>
+      <Statistics_db-len>32521702</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

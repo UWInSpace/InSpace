@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H13450.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yj15g08.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148862 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>302</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H13450.1</Iteration_query-ID>
+  <Iteration_query-def>yj15g08.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148862 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>302</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1519315205|ref|NM_002205.5|</Hit_id>
+  <Hit_def>Homo sapiens integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>NM_002205</Hit_accession>
+  <Hit_len>4250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.966</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>8.41164e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4216</Hsp_hit-from>
+      <Hsp_hit-to>3922</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1370461814|ref|XM_024448970.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024448970</Hit_accession>
+  <Hit_len>2788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.966</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>8.41164e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>2754</Hsp_hit-from>
+      <Hsp_hit-to>2460</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33870036|gb|BC008786.2|</Hit_id>
+  <Hit_def>Homo sapiens integrin, alpha 5 (fibronectin receptor, alpha polypeptide), mRNA (cDNA clone MGC:3697 IMAGE:3629647), complete cds</Hit_def>
+  <Hit_accession>BC008786</Hit_accession>
+  <Hit_len>4243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.966</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>8.41164e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4201</Hsp_hit-from>
+      <Hsp_hit-to>3907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|15624850|gb|AC079313.35|</Hit_id>
+  <Hit_def>Homo sapiens 12q BAC RP11-753H16 (Roswell Park Cancer Institute Human BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC079313</Hit_accession>
+  <Hit_len>160232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.966</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>8.41164e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>27474</Hsp_hit-from>
+      <Hsp_hit-to>27768</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>232.118</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.33764e-56</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>29757</Hsp_hit-from>
+      <Hsp_hit-to>29918</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>CAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>CAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|34366937|emb|BX647780.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp686D0887 (from clone DKFZp686D0887)</Hit_def>
+  <Hit_accession>BX647780</Hit_accession>
+  <Hit_len>5014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.966</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>8.41164e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4962</Hsp_hit-from>
+      <Hsp_hit-to>4668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|34529284|dbj|AK123678.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ41684 fis, clone HCASM2006131, moderately  similar to Mus musculus AZ2 mRNA</Hit_def>
+  <Hit_accession>AK123678</Hit_accession>
+  <Hit_len>3081</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.162</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>2.93595e-128</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>TTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1849016395|ref|XM_003807568.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_003807568</Hit_accession>
+  <Hit_len>4238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.457</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>3.57672e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4204</Hsp_hit-from>
+      <Hsp_hit-to>3910</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1743146307|ref|XM_030822503.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_030822503</Hit_accession>
+  <Hit_len>4241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.457</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>3.57672e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4207</Hsp_hit-from>
+      <Hsp_hit-to>3913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1367152651|ref|XM_016923273.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes integrin subunit alpha 5 (ITGA5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016923273</Hit_accession>
+  <Hit_len>4108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.457</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>3.57672e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4074</Hsp_hit-from>
+      <Hsp_hit-to>3780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1367152649|ref|XM_016923272.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016923272</Hit_accession>
+  <Hit_len>4450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.457</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>3.57672e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4416</Hsp_hit-from>
+      <Hsp_hit-to>4122</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|31437|emb|X06256.1|</Hit_id>
+  <Hit_def>Human mRNA for integrin alpha 5 subunit</Hit_def>
+  <Hit_accession>X06256</Hit_accession>
+  <Hit_len>4204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.85</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>4.35734e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4163</Hsp_hit-from>
+      <Hsp_hit-to>3870</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCA-GGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1800017153|ref|XM_032173497.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_032173497</Hit_accession>
+  <Hit_len>4241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.949</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>4.35734e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4207</Hsp_hit-from>
+      <Hsp_hit-to>3913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCCTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1753037255|ref|XM_004053263.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_004053263</Hit_accession>
+  <Hit_len>4242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.949</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>4.35734e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4208</Hsp_hit-from>
+      <Hsp_hit-to>3914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCCGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1751193852|ref|XM_010373863.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010373863</Hit_accession>
+  <Hit_len>4432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.30832e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4398</Hsp_hit-from>
+      <Hsp_hit-to>4112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1059109305|ref|XM_017850932.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017850932</Hit_accession>
+  <Hit_len>4432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.30832e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4398</Hsp_hit-from>
+      <Hsp_hit-to>4112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|795359575|ref|XM_011930448.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_011930448</Hit_accession>
+  <Hit_len>4446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.30832e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4412</Hsp_hit-from>
+      <Hsp_hit-to>4126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1864516375|ref|XM_035256550.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus integrin subunit alpha 5 (ITGA5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_035256550</Hit_accession>
+  <Hit_len>4171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.44</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>1.85279e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4137</Hsp_hit-from>
+      <Hsp_hit-to>3843</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTTCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1864090324|ref|XM_009003910.3|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009003910</Hit_accession>
+  <Hit_len>4628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.44</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>1.85279e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4594</Hsp_hit-from>
+      <Hsp_hit-to>4300</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTTCCATCATGGCCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1825857418|ref|XM_033221805.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_033221805</Hit_accession>
+  <Hit_len>4418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.834</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.25716e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4384</Hsp_hit-from>
+      <Hsp_hit-to>4098</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTTGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1788673295|ref|XM_023210882.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_023210882</Hit_accession>
+  <Hit_len>4432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.834</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.25716e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4398</Hsp_hit-from>
+      <Hsp_hit-to>4112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAAGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1351413755|ref|XM_024256718.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_024256718</Hit_accession>
+  <Hit_len>4449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.932</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>2.25716e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4415</Hsp_hit-from>
+      <Hsp_hit-to>4121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGGCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGCGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGACCCCTTCAGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|4464190|gb|M13918.2|HUMFNRAS</Hit_id>
+  <Hit_def>Homo sapiens fibronectin receptor alpha-subunit precursor (ITGA5) mRNA, partial cds</Hit_def>
+  <Hit_accession>M13918</Hit_accession>
+  <Hit_len>4132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.325</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.74978e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4100</Hsp_hit-from>
+      <Hsp_hit-to>3807</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAAGGGAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCA-GGTCCT-GGGAAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1777352440|ref|XM_021923261.2|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis integrin subunit alpha 5 (ITGA5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_021923261</Hit_accession>
+  <Hit_len>4343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4313</Hsp_hit-from>
+      <Hsp_hit-to>4019</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1777352438|ref|XM_021923260.2|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis integrin subunit alpha 5 (ITGA5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021923260</Hit_accession>
+  <Hit_len>4364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4334</Hsp_hit-from>
+      <Hsp_hit-to>4040</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1777352436|ref|XM_003906498.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003906498</Hit_accession>
+  <Hit_len>4445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4415</Hsp_hit-from>
+      <Hsp_hit-to>4121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1411090564|ref|XM_025400830.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_025400830</Hit_accession>
+  <Hit_len>4441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4411</Hsp_hit-from>
+      <Hsp_hit-to>4117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|982281728|ref|XM_005571087.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_005571087</Hit_accession>
+  <Hit_len>4446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4412</Hsp_hit-from>
+      <Hsp_hit-to>4118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|795601833|ref|XM_011728714.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_011728714</Hit_accession>
+  <Hit_len>4446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4412</Hsp_hit-from>
+      <Hsp_hit-to>4118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|795535361|ref|XM_012047957.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_012047957</Hit_accession>
+  <Hit_len>4441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4411</Hsp_hit-from>
+      <Hsp_hit-to>4117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|403296877|ref|XM_003939271.1|</Hit_id>
+  <Hit_def>PREDICTED: Saimiri boliviensis boliviensis integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_003939271</Hit_accession>
+  <Hit_len>4171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4138</Hsp_hit-from>
+      <Hsp_hit-to>3844</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCTCCTTCATGGTCCT-GGGCAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||| ||| |||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1938820744|ref|XM_008003516.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_008003516</Hit_accession>
+  <Hit_len>4446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.59768e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4412</Hsp_hit-from>
+      <Hsp_hit-to>4118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTCGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCA-GGACCAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||| || |||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1804337766|ref|XM_032291760.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_032291760</Hit_accession>
+  <Hit_len>4451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.915</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.16924e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4417</Hsp_hit-from>
+      <Hsp_hit-to>4123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCCGGACAGTGGGCTCCCCTTTCTCTGGGACACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1622845309|ref|XM_015151893.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_015151893</Hit_accession>
+  <Hit_len>4446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.915</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.16924e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4412</Hsp_hit-from>
+      <Hsp_hit-to>4118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTTGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||  ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1044411665|ref|XM_017501886.1|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_017501886</Hit_accession>
+  <Hit_len>4451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.915</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.16924e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4417</Hsp_hit-from>
+      <Hsp_hit-to>4123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCCGGACAGTGGGCTCCCCTTTCTCTGGGACACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCTGG--CTTCTCCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||   ||||||||||||||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|817271502|ref|XM_012450373.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_012450373</Hit_accession>
+  <Hit_len>4240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.407</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>4.97172e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4206</Hsp_hit-from>
+      <Hsp_hit-to>3912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGCGCCAAGGTGAGGGAAAGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCGCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCTGG--CTTCTTCTAAATCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-GGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||   |||| |||||||||||| ||   |||||||||||| | ||||| |||   |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|795200768|ref|XM_011992624.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_011992624</Hit_accession>
+  <Hit_len>4441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.407</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>4.97172e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4411</Hsp_hit-from>
+      <Hsp_hit-to>4117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAGGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGTCGAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATTATGGCCCCTTTGGGGTCCT-GGGAAATTCCTGG--CTTCTCCTAAAGCAGGGTGAA--CTGGGCCTCCAGGAT-CAGGTCTGG-AGCAGGCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||  ||||||| |||||||||||||   |||||||||| |||||| ||   |||||||||||| | ||||| ||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|829724151|ref|XM_012764505.1|</Hit_id>
+  <Hit_def>PREDICTED: Microcebus murinus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_012764505</Hit_accession>
+  <Hit_len>4443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.665</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.14027e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>4415</Hsp_hit-from>
+      <Hsp_hit-to>4162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGAGCCAAGGTGAGGGAAGGGTTGGGCAGAGAAAAGAGGGGCAGCGTCAGTGCAGCTGGAAGGCAGAACCCAAATTCTGTAGGCCCAGG--ATTGGGCTCCCCTTTCTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCCTCAGGGTTCT-GGGCAATTCCT--GACTTCTCCTAAGTCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| | |||||||||| ||||||||||||| ||||||||||||||||||| |||||||||  | ||||||||||||||||||||| || ||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||| || ||| |||||||  |  ||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|667316146|ref|XM_008588134.1|</Hit_id>
+  <Hit_def>PREDICTED: Galeopterus variegatus integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_008588134</Hit_accession>
+  <Hit_len>4341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.665</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.14027e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4314</Hsp_hit-from>
+      <Hsp_hit-to>4021</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGCCC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGGTGTCCAGAGTCGAGGTGAGGGGAGGGTTGGGCAGAGAG--GAGGGGCAGCGTCAGTGCAGCTGGCAGGCAGAACCCCAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGAGGACTGAGAAGGCCTGCATCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCATGGTCCT-GGGCAAGTCCT--GACTTCTCCCAAGTCAAGGGTGAA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| |||||||  | | | ||||||||| ||||||||||||||||  |||||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| | || | || ||||||  ||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||| || ||||  |  |||||| || ||| || | || ||||||||||| || |||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|826269587|ref|XM_012652535.1|</Hit_id>
+  <Hit_def>PREDICTED: Propithecus coquereli integrin, alpha 5 (fibronectin receptor, alpha polypeptide) (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_012652535</Hit_accession>
+  <Hit_len>4280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.763</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>3.14027e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>4246</Hsp_hit-from>
+      <Hsp_hit-to>3973</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGAGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGAAGAGGGGCAGCATCAGTGCAGCTGGAAGGCAGAACCCAAATTCTGTAGGCCCAGG--ATTGGGCTCCCTTTTCTCGGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCTCTCAGGATCCT-GGGCAATTCCT--GACTTCTCCCAAGTCAAGGGT-GGGTTGGGCCTCCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||| |||||||||  | ||||||||| |||||| |||| || ||||||||||| |||||||||||||||||||||||||||||||||||||||||||  ||||| |||| ||| |||||||  |  |||||| || ||| || |    |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1720862996|ref|XM_030322818.1|</Hit_id>
+  <Hit_def>PREDICTED: Lynx canadensis integrin subunit alpha 5 (ITGA5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030322818</Hit_accession>
+  <Hit_len>4234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4200</Hsp_hit-from>
+      <Hsp_hit-to>3908</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1720862994|ref|XM_030322817.1|</Hit_id>
+  <Hit_def>PREDICTED: Lynx canadensis integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030322817</Hit_accession>
+  <Hit_len>4311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4277</Hsp_hit-from>
+      <Hsp_hit-to>3985</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1512034359|ref|XM_027036357.1|</Hit_id>
+  <Hit_def>PREDICTED: Acinonyx jubatus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_027036357</Hit_accession>
+  <Hit_len>4448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4403</Hsp_hit-from>
+      <Hsp_hit-to>4111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1327799326|ref|XM_023513554.1|</Hit_id>
+  <Hit_def>PREDICTED: Otolemur garnettii integrin subunit alpha 5 (ITGA5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_023513554</Hit_accession>
+  <Hit_len>4011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>3977</Hsp_hit-from>
+      <Hsp_hit-to>3705</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGAGCCAAGGTGAGGGAAGGGTTGGGCAAAGAGA---GGGGCAGCGTCAGTGCAGCTGGAAGGCAGAACCCAAATTCTATAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGGAATGGGAGGGCCTGTCTCTGGCCAGGCTGAGGTTCCAGGTCCTTTGCCATCATGGCCTCCTCAGGGTCCT-GGGCAATTCCT--GCCTTCTCCCATGTCAGGGGT-GAGTTGGGCATCCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| |||||   |||||||| ||||||||||||| ||||||||||||||||||  |||||||||||||||||||||||||||||||||| |  |||||||||||| |||||||||||||||||||||| ||  |||||||||||||| | |||||||||| ||| |||||||  || |||||| |  |||||| |  | |||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1327799324|ref|XM_023513553.1|</Hit_id>
+  <Hit_def>PREDICTED: Otolemur garnettii integrin subunit alpha 5 (ITGA5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023513553</Hit_accession>
+  <Hit_len>4185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>4151</Hsp_hit-from>
+      <Hsp_hit-to>3879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGAGCCAAGGTGAGGGAAGGGTTGGGCAAAGAGA---GGGGCAGCGTCAGTGCAGCTGGAAGGCAGAACCCAAATTCTATAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGGAATGGGAGGGCCTGTCTCTGGCCAGGCTGAGGTTCCAGGTCCTTTGCCATCATGGCCTCCTCAGGGTCCT-GGGCAATTCCT--GCCTTCTCCCATGTCAGGGGT-GAGTTGGGCATCCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| |||||   |||||||| ||||||||||||| ||||||||||||||||||  |||||||||||||||||||||||||||||||||| |  |||||||||||| |||||||||||||||||||||| ||  |||||||||||||| | |||||||||| ||| |||||||  || |||||| |  |||||| |  | |||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1327799323|ref|XM_003790463.3|</Hit_id>
+  <Hit_def>PREDICTED: Otolemur garnettii integrin subunit alpha 5 (ITGA5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003790463</Hit_accession>
+  <Hit_len>4284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>4250</Hsp_hit-from>
+      <Hsp_hit-to>3978</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGAGCCAAGGTGAGGGAAGGGTTGGGCAAAGAGA---GGGGCAGCGTCAGTGCAGCTGGAAGGCAGAACCCAAATTCTATAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGGAATGGGAGGGCCTGTCTCTGGCCAGGCTGAGGTTCCAGGTCCTTTGCCATCATGGCCTCCTCAGGGTCCT-GGGCAATTCCT--GCCTTCTCCCATGTCAGGGGT-GAGTTGGGCATCCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| |||||   |||||||| ||||||||||||| ||||||||||||||||||  |||||||||||||||||||||||||||||||||| |  |||||||||||| |||||||||||||||||||||| ||  |||||||||||||| | |||||||||| ||| |||||||  || |||||| |  |||||| |  | |||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1126437881|ref|XM_003988800.4|</Hit_id>
+  <Hit_def>PREDICTED: Felis catus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_003988800</Hit_accession>
+  <Hit_len>4434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4389</Hsp_hit-from>
+      <Hsp_hit-to>4097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1111198518|ref|XM_019419628.1|</Hit_id>
+  <Hit_def>PREDICTED: Panthera pardus integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_019419628</Hit_accession>
+  <Hit_len>4472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4427</Hsp_hit-from>
+      <Hsp_hit-to>4135</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|591310093|ref|XM_007081560.1|</Hit_id>
+  <Hit_def>PREDICTED: Panthera tigris altaica integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_007081560</Hit_accession>
+  <Hit_len>4015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.6267e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>3970</Hsp_hit-from>
+      <Hsp_hit-to>3678</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGAACCAGGC</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGATGTCCGGAGCTGAGGTGAGGGG-GGGTTGGGCAGGGAGAGAAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCCAGGACAGTGGGCTCCCCTTTTTCTGGGGGACTGGGAGGGCCTGCGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTTCTGAGTCAGAGGTGGA-TTGGGCCTCCA-GGCCCAGGTCTGGAA-CAGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| || |||| || ||  |||||||||  ||||||||||| ||||  ||||||||| |||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| ||||||| || ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||  |  |||| || | |||| | |  | ||||||||||| || |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1823864591|ref|XM_033116801.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinolophus ferrumequinum integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_033116801</Hit_accession>
+  <Hit_len>4259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.533</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>2.41424e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>4234</Hsp_hit-from>
+      <Hsp_hit-to>3949</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTGGGCTTTCTCCTAAATCAGGGTTAAANTTGGGCCTCCAGGGTCCAGGTNTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCCGGGTGTCCGGAGCCAAGGGGAAGGGAGGGTTGGGCAGGGAGAGGAGGGGCAGCGTCAGTGCAGCTGGTGGGCAGAACCCAAATCCTGCAGGCCAAGGACAGTGGGCTCCCCTTTCTCTGGGGGACTAGGAGGGCCTGCGTTTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCACGGCCCCTTCAGGGTCCT-GGGCAATTCCT--GACTTCTCCCGAGTCAGGTGGA---TTGGACCTCCA-GGCCCAGGTCTGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| ||||||| || ||||||| || || |||||||||||| |||| |||||||||| |||||||||||||  |||||||||||||| ||||||||| |||||||||||||||||||||||||||| ||  |||||||||| || |||||||||||||||||||||||||||||||||| ||||||||||||||||| ||| |||||||  |  ||||||  | |||||   |   |||| |||||| || |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1016704460|ref|XM_016217999.1|</Hit_id>
+  <Hit_def>PREDICTED: Miniopterus natalensis integrin subunit alpha 5 (ITGA5), mRNA</Hit_def>
+  <Hit_accession>XM_016217999</Hit_accession>
+  <Hit_len>4439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.516</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.25061e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>4409</Hsp_hit-from>
+      <Hsp_hit-to>4171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>TTTATTGCACTTGCAACAGAGTTTAAATAAGTCCTGGGTGTCTGGTGCCAAGGTGAGGGAAGGGTTGGGCAGAGAGATGAGGGGCAGCATCAGTGCAGCTGGCAGGCAGAACCCAAATTCTGCAGGCCCAGGACAGTGGGCTCCCCTTTCTCTGGGGAACAGGGAGGGCCTGTGTCTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGGGTCCTGGGGAAATTCCTG</Hsp_qseq>
+      <Hsp_hseq>TTTATTGCACT-GCAACAGAGTTTAAATAAGTCCCAGGTGTCCCGAGCCGAGGTGAGGGGAGGGTTGGGCAGAGAGAGGAAGGGCAGCGTCAGTGCAGCTGGCAGGCAGAACCCAAATCCTGCAGGCCCAAGACAGTGGGCTCCCCTTTCTCTGGGGGACCGGGAGGGCCTGTCTTTGGCCAGGCTGAGGTTCCAGATCTGTTGCCATCATGGCCCCTTCAGAGTCCT-GGGCAATTCCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||||||||  ||||||  | ||| ||||||||| ||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| || |||||||||||| | |||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

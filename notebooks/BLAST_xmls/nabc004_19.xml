@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H15799.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym21g05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48603 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>392</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H15799.1</Iteration_query-ID>
+  <Iteration_query-def>ym21g05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48603 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>392</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|39645572|gb|BC063601.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0553, mRNA (cDNA clone IMAGE:4777945)</Hit_def>
+  <Hit_accession>BC063601</Hit_accession>
+  <Hit_len>1300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.15246e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>1242</Hsp_hit-from>
+      <Hsp_hit-to>858</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|39644462|gb|BC024147.2|</Hit_id>
+  <Hit_def>Homo sapiens G patch domain containing 8, mRNA (cDNA clone IMAGE:3833127), partial cds</Hit_def>
+  <Hit_accession>BC024147</Hit_accession>
+  <Hit_len>3824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.15246e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>3822</Hsp_hit-from>
+      <Hsp_hit-to>3438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1676318069|ref|NM_001304940.2|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001304940</Hit_accession>
+  <Hit_len>6973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6973</Hsp_hit-from>
+      <Hsp_hit-to>6604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1676317571|ref|NM_001304942.2|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001304942</Hit_accession>
+  <Hit_len>6759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6759</Hsp_hit-from>
+      <Hsp_hit-to>6390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1675178681|ref|NM_001304939.2|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001304939</Hit_accession>
+  <Hit_len>6757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6757</Hsp_hit-from>
+      <Hsp_hit-to>6388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1675024737|ref|NM_001304941.2|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 4, mRNA</Hit_def>
+  <Hit_accession>NM_001304941</Hit_accession>
+  <Hit_len>6850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6850</Hsp_hit-from>
+      <Hsp_hit-to>6481</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1519243596|ref|NM_001002909.4|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001002909</Hit_accession>
+  <Hit_len>6832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6832</Hsp_hit-from>
+      <Hsp_hit-to>6463</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1548994291|gb|CP034495.1|</Hit_id>
+  <Hit_def>Eukaryotic synthetic construct chromosome 17 &gt;gi|1549096955|gb|CP034520.1| Eukaryotic synthetic construct chromosome 17</Hit_def>
+  <Hit_accession>CP034495</Hit_accession>
+  <Hit_len>88299790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>42472649</Hsp_hit-from>
+      <Hsp_hit-to>42473018</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1370470496|ref|XM_024450664.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_024450664</Hit_accession>
+  <Hit_len>6909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6905</Hsp_hit-from>
+      <Hsp_hit-to>6536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1370470495|ref|XM_017024379.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_017024379</Hit_accession>
+  <Hit_len>7114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7110</Hsp_hit-from>
+      <Hsp_hit-to>6741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1370470494|ref|XM_017024376.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_017024376</Hit_accession>
+  <Hit_len>7069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7065</Hsp_hit-from>
+      <Hsp_hit-to>6696</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1370470492|ref|XM_024450663.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_024450663</Hit_accession>
+  <Hit_len>9091</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>9087</Hsp_hit-from>
+      <Hsp_hit-to>8718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1370470490|ref|XM_024450662.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_024450662</Hit_accession>
+  <Hit_len>13811</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>13807</Hsp_hit-from>
+      <Hsp_hit-to>13438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1370470488|ref|XM_024450661.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_024450661</Hit_accession>
+  <Hit_len>13766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>13762</Hsp_hit-from>
+      <Hsp_hit-to>13393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1370470487|ref|XM_011524558.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011524558</Hit_accession>
+  <Hit_len>7121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7117</Hsp_hit-from>
+      <Hsp_hit-to>6748</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1370470485|ref|XM_024450660.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024450660</Hit_accession>
+  <Hit_len>9274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>9270</Hsp_hit-from>
+      <Hsp_hit-to>8901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1034598870|ref|XM_017024378.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_017024378</Hit_accession>
+  <Hit_len>7079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7075</Hsp_hit-from>
+      <Hsp_hit-to>6706</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1034598864|ref|XM_017024375.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_017024375</Hit_accession>
+  <Hit_len>7061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7057</Hsp_hit-from>
+      <Hsp_hit-to>6688</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1034598863|ref|XM_011524561.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_011524561</Hit_accession>
+  <Hit_len>6764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6760</Hsp_hit-from>
+      <Hsp_hit-to>6391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1034598859|ref|XM_017024373.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_017024373</Hit_accession>
+  <Hit_len>7883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7879</Hsp_hit-from>
+      <Hsp_hit-to>7510</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1034598856|ref|XM_011524559.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_011524559</Hit_accession>
+  <Hit_len>7003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6999</Hsp_hit-from>
+      <Hsp_hit-to>6630</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|767994134|ref|XM_011524557.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011524557</Hit_accession>
+  <Hit_len>7106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7102</Hsp_hit-from>
+      <Hsp_hit-to>6733</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|756761835|ref|NG_041943.1|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), RefSeqGene on chromosome 17</Hit_def>
+  <Hit_accession>NG_041943</Hit_accession>
+  <Hit_len>115326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>113322</Hsp_hit-from>
+      <Hsp_hit-to>112953</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1959392269|gb|CP068261.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CHM13 chromosome 17</Hit_def>
+  <Hit_accession>CP068261</Hit_accession>
+  <Hit_len>84277185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>45249554</Hsp_hit-from>
+      <Hsp_hit-to>45249923</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1909942458|dbj|AP023477.1|</Hit_id>
+  <Hit_def>Homo sapiens DNA, chromosome 17, nearly complete genome</Hit_def>
+  <Hit_accession>AP023477</Hit_accession>
+  <Hit_len>80688777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>42092677</Hsp_hit-from>
+      <Hsp_hit-to>42093046</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1889682703|ref|NM_001304943.2|</Hit_id>
+  <Hit_def>Homo sapiens G-patch domain containing 8 (GPATCH8), transcript variant 6, mRNA</Hit_def>
+  <Hit_accession>NM_001304943</Hit_accession>
+  <Hit_len>6909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6909</Hsp_hit-from>
+      <Hsp_hit-to>6540</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|11693431|gb|AC007722.9|AC007722</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17, clone CTC-803M21, complete sequence</Hit_def>
+  <Hit_accession>AC007722</Hit_accession>
+  <Hit_len>75703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>55686</Hsp_hit-from>
+      <Hsp_hit-to>55317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|6103601|gb|AF160252.1|AF160252</Hit_id>
+  <Hit_def>Homo sapiens KIAA0553 protein gene, complete cds; and alphaIIb protein gene, partial cds</Hit_def>
+  <Hit_accession>AF160252</Hit_accession>
+  <Hit_len>11611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>4.38198e-172</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>5800</Hsp_hit-from>
+      <Hsp_hit-to>5431</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|58257657|dbj|AB011125.2|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0553 mRNA for KIAA0553 protein</Hit_def>
+  <Hit_accession>AB011125</Hit_accession>
+  <Hit_len>8115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.825</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>1.86327e-170</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>8115</Hsp_hit-from>
+      <Hsp_hit-to>7749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>365</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>CCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>CCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1753072930|ref|XM_031011098.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla G-patch domain containing 8 (GPATCH8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_031011098</Hit_accession>
+  <Hit_len>7001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.17585e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6997</Hsp_hit-from>
+      <Hsp_hit-to>6628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTTCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGCTAAATACAATCTGTTATGCTTGTAAGTAGGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCGTTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||| || ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1753072928|ref|XM_031011097.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla G-patch domain containing 8 (GPATCH8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_031011097</Hit_accession>
+  <Hit_len>6842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.17585e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6838</Hsp_hit-from>
+      <Hsp_hit-to>6469</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTTCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGCTAAATACAATCTGTTATGCTTGTAAGTAGGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCGTTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||| || ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1753072926|ref|XM_031011096.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla G-patch domain containing 8 (GPATCH8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031011096</Hit_accession>
+  <Hit_len>6822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.17585e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>6818</Hsp_hit-from>
+      <Hsp_hit-to>6449</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTTCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGCTAAATACAATCTGTTATGCTTGTAAGTAGGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCGTTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||| || ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1753072924|ref|XM_031011095.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla G-patch domain containing 8 (GPATCH8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031011095</Hit_accession>
+  <Hit_len>7059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.17585e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7055</Hsp_hit-from>
+      <Hsp_hit-to>6686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTTCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGCTAAATACAATCTGTTATGCTTGTAAGTAGGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCGTTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||| || ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1753072922|ref|XM_031011094.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla G-patch domain containing 8 (GPATCH8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031011094</Hit_accession>
+  <Hit_len>7059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.17585e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>7055</Hsp_hit-from>
+      <Hsp_hit-to>6686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGGT</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTTCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGCTAAATACAATCTGTTATGCTTGTAAGTAGGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCGTTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||| || ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1849038063|ref|XM_008976226.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_008976226</Hit_accession>
+  <Hit_len>6781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6777</Hsp_hit-from>
+      <Hsp_hit-to>6413</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1849038062|ref|XM_003805880.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_003805880</Hit_accession>
+  <Hit_len>6872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6868</Hsp_hit-from>
+      <Hsp_hit-to>6504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1849038060|ref|XM_034941706.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_034941706</Hit_accession>
+  <Hit_len>6793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6789</Hsp_hit-from>
+      <Hsp_hit-to>6425</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1849038058|ref|XM_034941705.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_034941705</Hit_accession>
+  <Hit_len>7007</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7003</Hsp_hit-from>
+      <Hsp_hit-to>6639</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1849038056|ref|XM_034941704.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_034941704</Hit_accession>
+  <Hit_len>6979</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6975</Hsp_hit-from>
+      <Hsp_hit-to>6611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1849038054|ref|XM_034941703.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_034941703</Hit_accession>
+  <Hit_len>7025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7021</Hsp_hit-from>
+      <Hsp_hit-to>6657</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1849038052|ref|XM_034941702.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_034941702</Hit_accession>
+  <Hit_len>6962</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6958</Hsp_hit-from>
+      <Hsp_hit-to>6594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1849038050|ref|XM_034941701.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_034941701</Hit_accession>
+  <Hit_len>6934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6930</Hsp_hit-from>
+      <Hsp_hit-to>6566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1849038048|ref|XM_034941700.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034941700</Hit_accession>
+  <Hit_len>6980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6976</Hsp_hit-from>
+      <Hsp_hit-to>6612</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1849038047|ref|XM_003805879.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_003805879</Hit_accession>
+  <Hit_len>7022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7018</Hsp_hit-from>
+      <Hsp_hit-to>6654</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1849038045|ref|XM_034941699.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus G-patch domain containing 8 (GPATCH8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034941699</Hit_accession>
+  <Hit_len>7111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7107</Hsp_hit-from>
+      <Hsp_hit-to>6743</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1367199582|ref|XM_003952999.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes G-patch domain containing 8 (GPATCH8), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_003952999</Hit_accession>
+  <Hit_len>6971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6967</Hsp_hit-from>
+      <Hsp_hit-to>6603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1367199579|ref|XM_003952996.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes G-patch domain containing 8 (GPATCH8), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_003952996</Hit_accession>
+  <Hit_len>7062</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7058</Hsp_hit-from>
+      <Hsp_hit-to>6694</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1367199576|ref|XM_016931652.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes G-patch domain containing 8 (GPATCH8), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_016931652</Hit_accession>
+  <Hit_len>6792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6788</Hsp_hit-from>
+      <Hsp_hit-to>6424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1367199573|ref|XM_024350243.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes G-patch domain containing 8 (GPATCH8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_024350243</Hit_accession>
+  <Hit_len>6963</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>6959</Hsp_hit-from>
+      <Hsp_hit-to>6595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1367199570|ref|XM_016931650.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes G-patch domain containing 8 (GPATCH8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_016931650</Hit_accession>
+  <Hit_len>7146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.74511e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>7142</Hsp_hit-from>
+      <Hsp_hit-to>6778</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATATATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTTATTTTTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATNTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAAGGAAAAATGAGTCCCTTCACTTACACAGGATGGATTTCATTCTTCCAGTGCTAGTTATCCAAGAAGTGATGNCTTCTGNAATCAGATGAGGTACTGGAACAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCACAAATCATTGGTTTATTAGAAAGTTCCTTTCCCTCATTTTACAGCATAGATATCTCTATCATATGTGATAAAGTTAAATACAATCTGTTATGCTTGTAAGTAAGGTTT----TTATTTTTACTTTTAAAATCACTATTCTGGAAGTTAAAGAAAATGCCCCTAGGAAGGCAAAGAGGCAGCCAGAGTATGGCTCAATCTACAAGCTAATGGGAAGCAGCACGAAAATGTTAATACTGTATTATTTATTTACATGGGCTGAAAGCAAA-GAAAAATGAGTCCCTTCACTTACACA-GAT-GATTTCATTTTTCCAGTGCTAGTTATCCAAGAAGTGATG-CTTCTG-AATCAGATGA-GTACT-GAACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| ||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

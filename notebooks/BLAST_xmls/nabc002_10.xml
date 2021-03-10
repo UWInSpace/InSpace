@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>R87596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym91c04.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:166278 5&apos; similar to SP:VK04_VACCV P18377 PROTEIN K4, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>402</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>R87596.1</Iteration_query-ID>
+  <Iteration_query-def>ym91c04.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:166278 5&apos; similar to SP:VK04_VACCV P18377 PROTEIN K4, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>402</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1849054858|ref|XM_034944623.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus phospholipase D family member 3 (PLD3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_034944623</Hit_accession>
+  <Hit_len>2182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1471</Hsp_hit-from>
+      <Hsp_hit-to>1872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1849054857|ref|XM_008964922.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus phospholipase D family member 3 (PLD3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_008964922</Hit_accession>
+  <Hit_len>2005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1296</Hsp_hit-from>
+      <Hsp_hit-to>1697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1849054856|ref|XM_008964921.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus phospholipase D family member 3 (PLD3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_008964921</Hit_accession>
+  <Hit_len>1987</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1278</Hsp_hit-from>
+      <Hsp_hit-to>1679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1849054854|ref|XM_034944622.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus phospholipase D family member 3 (PLD3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034944622</Hit_accession>
+  <Hit_len>2132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1421</Hsp_hit-from>
+      <Hsp_hit-to>1822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1849054853|ref|XM_008964918.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus phospholipase D family member 3 (PLD3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_008964918</Hit_accession>
+  <Hit_len>2247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1536</Hsp_hit-from>
+      <Hsp_hit-to>1937</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1753051050|ref|XM_019015764.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_019015764</Hit_accession>
+  <Hit_len>1989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1278</Hsp_hit-from>
+      <Hsp_hit-to>1679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1753051049|ref|XM_004060742.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_004060742</Hit_accession>
+  <Hit_len>2234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1523</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1753051047|ref|XM_031003853.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031003853</Hit_accession>
+  <Hit_len>2263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1552</Hsp_hit-from>
+      <Hsp_hit-to>1953</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1519242465|ref|NM_012268.4|</Hit_id>
+  <Hit_def>Homo sapiens phospholipase D family member 3 (PLD3), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_012268</Hit_accession>
+  <Hit_len>2137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1426</Hsp_hit-from>
+      <Hsp_hit-to>1827</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1370474779|ref|XM_005258710.5|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_005258710</Hit_accession>
+  <Hit_len>1904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1193</Hsp_hit-from>
+      <Hsp_hit-to>1594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1370474777|ref|XM_024451438.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_024451438</Hit_accession>
+  <Hit_len>2197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1486</Hsp_hit-from>
+      <Hsp_hit-to>1887</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1370474776|ref|XM_005258708.4|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_005258708</Hit_accession>
+  <Hit_len>1908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1197</Hsp_hit-from>
+      <Hsp_hit-to>1598</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1370474775|ref|XM_005258704.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005258704</Hit_accession>
+  <Hit_len>2323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1612</Hsp_hit-from>
+      <Hsp_hit-to>2013</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1367220501|ref|XM_016935990.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_016935990</Hit_accession>
+  <Hit_len>1977</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1266</Hsp_hit-from>
+      <Hsp_hit-to>1667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1367220497|ref|XM_016935988.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_016935988</Hit_accession>
+  <Hit_len>1975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1264</Hsp_hit-from>
+      <Hsp_hit-to>1665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1367220494|ref|XM_016935986.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_016935986</Hit_accession>
+  <Hit_len>2019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1308</Hsp_hit-from>
+      <Hsp_hit-to>1709</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1367220491|ref|XM_016935985.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_016935985</Hit_accession>
+  <Hit_len>2246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1535</Hsp_hit-from>
+      <Hsp_hit-to>1936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1367220486|ref|XM_016935983.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_016935983</Hit_accession>
+  <Hit_len>2399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1688</Hsp_hit-from>
+      <Hsp_hit-to>2089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1367220484|ref|XM_016935982.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_016935982</Hit_accession>
+  <Hit_len>1959</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1248</Hsp_hit-from>
+      <Hsp_hit-to>1649</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1367220482|ref|XM_016935981.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_016935981</Hit_accession>
+  <Hit_len>1960</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1249</Hsp_hit-from>
+      <Hsp_hit-to>1650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1367220479|ref|XM_016935979.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_016935979</Hit_accession>
+  <Hit_len>2234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1523</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1367220476|ref|XM_016935978.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_016935978</Hit_accession>
+  <Hit_len>2210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1499</Hsp_hit-from>
+      <Hsp_hit-to>1900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1367220473|ref|XM_016935977.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016935977</Hit_accession>
+  <Hit_len>2320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1609</Hsp_hit-from>
+      <Hsp_hit-to>2010</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1367220470|ref|XM_016935976.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016935976</Hit_accession>
+  <Hit_len>2364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1653</Hsp_hit-from>
+      <Hsp_hit-to>2054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1099191004|ref|XM_004060744.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_004060744</Hit_accession>
+  <Hit_len>2234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1523</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1099190999|ref|XM_019015763.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_019015763</Hit_accession>
+  <Hit_len>2131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1420</Hsp_hit-from>
+      <Hsp_hit-to>1821</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1099190989|ref|XM_019015761.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_019015761</Hit_accession>
+  <Hit_len>2045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1334</Hsp_hit-from>
+      <Hsp_hit-to>1735</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1099190983|ref|XM_019015760.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_019015760</Hit_accession>
+  <Hit_len>2033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1322</Hsp_hit-from>
+      <Hsp_hit-to>1723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1099190978|ref|XM_019015759.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_019015759</Hit_accession>
+  <Hit_len>2010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1299</Hsp_hit-from>
+      <Hsp_hit-to>1700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1099190972|ref|XM_019015758.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_019015758</Hit_accession>
+  <Hit_len>2274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1563</Hsp_hit-from>
+      <Hsp_hit-to>1964</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1099190966|ref|XM_019015757.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_019015757</Hit_accession>
+  <Hit_len>2171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1460</Hsp_hit-from>
+      <Hsp_hit-to>1861</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1099190960|ref|XM_019015756.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_019015756</Hit_accession>
+  <Hit_len>2050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1339</Hsp_hit-from>
+      <Hsp_hit-to>1740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1099190953|ref|XM_019015755.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_019015755</Hit_accession>
+  <Hit_len>2447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1736</Hsp_hit-from>
+      <Hsp_hit-to>2137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1099190947|ref|XM_019015754.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_019015754</Hit_accession>
+  <Hit_len>2319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1608</Hsp_hit-from>
+      <Hsp_hit-to>2009</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1099190935|ref|XM_019015753.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_019015753</Hit_accession>
+  <Hit_len>2279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1568</Hsp_hit-from>
+      <Hsp_hit-to>1969</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1099190929|ref|XM_019015752.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla phospholipase D family member 3 (PLD3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_019015752</Hit_accession>
+  <Hit_len>2476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1765</Hsp_hit-from>
+      <Hsp_hit-to>2166</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1034607065|ref|XM_017026549.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_017026549</Hit_accession>
+  <Hit_len>2248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1537</Hsp_hit-from>
+      <Hsp_hit-to>1938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1034607064|ref|XM_005258709.4|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_005258709</Hit_accession>
+  <Hit_len>1991</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1280</Hsp_hit-from>
+      <Hsp_hit-to>1681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1034607061|ref|XM_017026548.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_017026548</Hit_accession>
+  <Hit_len>2145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1434</Hsp_hit-from>
+      <Hsp_hit-to>1835</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1034607060|ref|XM_005258707.4|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_005258707</Hit_accession>
+  <Hit_len>2110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1399</Hsp_hit-from>
+      <Hsp_hit-to>1800</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1034607055|ref|XM_017026546.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017026546</Hit_accession>
+  <Hit_len>2426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1715</Hsp_hit-from>
+      <Hsp_hit-to>2116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1034132079|ref|XM_016935989.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_016935989</Hit_accession>
+  <Hit_len>1971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1260</Hsp_hit-from>
+      <Hsp_hit-to>1661</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1034132069|ref|XM_016935984.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_016935984</Hit_accession>
+  <Hit_len>2229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1518</Hsp_hit-from>
+      <Hsp_hit-to>1919</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1034132061|ref|XM_016935980.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes phospholipase D family member 3 (PLD3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_016935980</Hit_accession>
+  <Hit_len>1943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1232</Hsp_hit-from>
+      <Hsp_hit-to>1633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|768007787|ref|XM_011526693.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_011526693</Hit_accession>
+  <Hit_len>2210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1499</Hsp_hit-from>
+      <Hsp_hit-to>1900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|768007777|ref|XM_011526692.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011526692</Hit_accession>
+  <Hit_len>2490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1779</Hsp_hit-from>
+      <Hsp_hit-to>2180</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|578834220|ref|XM_006723122.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens phospholipase D family member 3 (PLD3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_006723122</Hit_accession>
+  <Hit_len>2495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1784</Hsp_hit-from>
+      <Hsp_hit-to>2185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1890271459|ref|NM_001031696.4|</Hit_id>
+  <Hit_def>Homo sapiens phospholipase D family member 3 (PLD3), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001031696</Hit_accession>
+  <Hit_len>1913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1202</Hsp_hit-from>
+      <Hsp_hit-to>1603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1889421166|ref|NM_001291311.2|</Hit_id>
+  <Hit_def>Homo sapiens phospholipase D family member 3 (PLD3), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001291311</Hit_accession>
+  <Hit_len>2117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1406</Hsp_hit-from>
+      <Hsp_hit-to>1807</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|66911838|gb|BC096820.1|</Hit_id>
+  <Hit_def>Homo sapiens phospholipase D family, member 3, mRNA (cDNA clone MGC:111351 IMAGE:30558682), complete cds</Hit_def>
+  <Hit_accession>BC096820</Hit_accession>
+  <Hit_len>2121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>646.892</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>1395</Hsp_hit-from>
+      <Hsp_hit-to>1796</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAAGGTGCGCCTNCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGCCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGA-NCAGCTGGGAGGCCATTTTCCTGAGGGACTGGGACTTCCCTTNACAGCCATGACCTTGACAANTCAGCTGACAGCTTGGGCAANG-TTGCCGCTTGTTTTGAGG</Hsp_qseq>
+      <Hsp_hseq>CAAGGTGCGCCTGCTCATCAGCTGCTGGGGACACTCGGAGCCATCCATGCGGGCCTTCCTGCTCTCTCTGGCTGCCCTGCGTGACAACCATACCCACTCTGACATCCAGGTGAAACTCTTTGTGGTCCCCGCGGATGAGGCCCAGGCTCGAATCCCATATGCCCGTGTCAACCACAACAAGTACATGGTGACTGAACGCGCCACCTACATCGGAACCTCCAACTGGTCTGGCAACTACTTCACGGAGACGGCGGGCACCTCGCTGCTGGTGACGCAGAATGGGAGGGGCGGCCTGCGGAGCCAGCT-GGAGGCCATTTTCCTGAGGGACTGGGACTCCCCTT-ACAGCCATGACCTTGACACCTCAGCTGACAGCGTGGGCAACGCCTGCCGCCTGCTCTGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||||||||||| ||||| ||||||||||||||||||  |||||||||||| ||||||| |  |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

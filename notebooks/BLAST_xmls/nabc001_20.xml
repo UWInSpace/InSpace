@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>T88239.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>11935 Lambda-PRL2 Arabidopsis thaliana cDNA clone 158F3T7, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>587</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>T88239.1</Iteration_query-ID>
+  <Iteration_query-def>11935 Lambda-PRL2 Arabidopsis thaliana cDNA clone 158F3T7, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>587</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1063689307|ref|NM_104096.3|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein (ATHB-15), mRNA</Hit_def>
+  <Hit_accession>NM_104096</Hit_accession>
+  <Hit_len>3539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.505</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>2779</Hsp_hit-from>
+      <Hsp_hit-to>3319</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>499</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|222424856|dbj|AK317723.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana AT1G52150 mRNA, partial cds, clone: RAFL24-23-E10</Hit_def>
+  <Hit_accession>AK317723</Hit_accession>
+  <Hit_len>2263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.505</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>1576</Hsp_hit-from>
+      <Hsp_hit-to>2116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>499</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|30695148|ref|NM_179464.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein (ATHB-15), mRNA</Hit_def>
+  <Hit_accession>NM_179464</Hit_accession>
+  <Hit_len>3433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.505</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>2696</Hsp_hit-from>
+      <Hsp_hit-to>3236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>499</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|16974580|gb|AY060556.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana At1g52150/F5F19_21 mRNA, complete cds</Hit_def>
+  <Hit_accession>AY060556</Hit_accession>
+  <Hit_len>3415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.505</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>2693</Hsp_hit-from>
+      <Hsp_hit-to>3233</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>499</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|19578318|emb|AJ439449.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana mRNA for homeodomain-leucine zipper protein (ATHB-15 gene)</Hit_def>
+  <Hit_accession>AJ439449</Hit_accession>
+  <Hit_len>2511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>758.701</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>532</Hsp_query-to>
+      <Hsp_hit-from>1976</Hsp_hit-from>
+      <Hsp_hit-to>2504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>492</Hsp_identity>
+      <Hsp_positive>492</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>534</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|42473941|emb|BX813689.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTFB33ZB08 of Flowers and buds of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX813689</Hit_accession>
+  <Hit_len>1249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>752.389</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>570</Hsp_hit-from>
+      <Hsp_hit-to>1109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACA-GGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||| || |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1190951016|ref|XM_021012927.1|</Hit_id>
+  <Hit_def>PREDICTED: Arabidopsis lyrata subsp. lyrata homeobox-leucine zipper protein ATHB-15 (LOC9330419), mRNA</Hit_def>
+  <Hit_accession>XM_021012927</Hit_accession>
+  <Hit_len>3532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.929</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>2817</Hsp_hit-from>
+      <Hsp_hit-to>3357</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>490</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGCGAAGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCTTTGCCCGTCTTCACATTTGCGAACCAGGCGGGACTCGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAAACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTCGCATGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTGAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| ||||||| ||||  |||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1109087046|ref|XM_010481412.2|</Hit_id>
+  <Hit_def>PREDICTED: Camelina sativa homeobox-leucine zipper protein ATHB-15 (LOC104758530), mRNA</Hit_def>
+  <Hit_accession>XM_010481412</Hit_accession>
+  <Hit_len>3467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>700.993</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>2751</Hsp_hit-from>
+      <Hsp_hit-to>3225</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTTCTCGTTGGATCTGCCAGAGTTACAGGGGTTACATGGGTGTTGAGCTACTTAAATCAAACAGCGAAGGCAATGAATCTGTTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCCTGCCTTCAAGG-TGGGATATG-CCTGTCAA-GCATGGGGAGACCAGTTTCGTATGAAAGAGCAGTTGCTTGGAAAGTACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||| || ||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| || |  |||||||||||  ||| |||| ||| |||| |||||||| | ||||||||   | |||  | | ||  ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|727438918|ref|XM_010502505.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelina sativa homeobox-leucine zipper protein ATHB-15-like (LOC104778134), mRNA</Hit_def>
+  <Hit_accession>XM_010502505</Hit_accession>
+  <Hit_len>3559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.075</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>2832</Hsp_hit-from>
+      <Hsp_hit-to>3308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>444</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>481</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCTAA</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCTGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGGGTTACATGGGTGTTGAGCTACTTAAATCAAACAGCGAAGGCAATGAATCTGTTCTTAAGAATCTTTGGCATCACACGGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAATCAGGCAGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTGGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCCTGCCTTCAAGG-TGGGATATG-CCTGTCAA-GCATGGGGAGACCAGTTTCGTATGAAAGAGCAGTTGCTTGGAAAGTACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||| || ||||||||||||  |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| || |  |||||||||||  ||| |||| ||| |||| |||||||| | ||||||||   | |||  | | ||  ||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1063689309|ref|NM_001084233.2|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Homeobox-leucine zipper family protein / lipid-binding START domain-containing protein (ATHB-15), mRNA</Hit_def>
+  <Hit_accession>NM_001084233</Hit_accession>
+  <Hit_len>3618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>689.272</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>2779</Hsp_hit-from>
+      <Hsp_hit-to>3168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGG</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.86568e-10</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>544</Hsp_query-to>
+      <Hsp_hit-from>3244</Hsp_hit-from>
+      <Hsp_hit-to>3398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>CAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTTNGNGGGNGTTTT</Hsp_qseq>
+      <Hsp_hseq>CAGGGCTTCGCGTGCCTTCAAGGC-GGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACTCAATGAAGAAGAAAATGCTCATTGCATCTGCTTTGTGTTCATC-AATTGGTCCTTTGTGTGAGATTT</Hsp_hseq>
+      <Hsp_midline>||||| |||| ||||||||||||| ||| ||||| ||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| |||| | | | | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1109065500|ref|XM_010463750.2|</Hit_id>
+  <Hit_def>PREDICTED: Camelina sativa homeobox-leucine zipper protein ATHB-15-like (LOC104742717), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_010463750</Hit_accession>
+  <Hit_len>2468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.96</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>1763</Hsp_hit-from>
+      <Hsp_hit-to>2237</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTCTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGGGTTACATGGGTGTTGAGCTGCTTAAATTAAACAGCGAAGGCAATGAGTCTGTTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCCTGCCTTCAAGG-TGGGATATG-CCTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||| ||||||| |||||| || |||||||| |||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || |  |||||||||||  ||| |||| |||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1109065499|ref|XM_010463749.2|</Hit_id>
+  <Hit_def>PREDICTED: Camelina sativa homeobox-leucine zipper protein ATHB-15-like (LOC104742717), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010463749</Hit_accession>
+  <Hit_len>3501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.96</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>2804</Hsp_hit-from>
+      <Hsp_hit-to>3278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTCTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGGGTTACATGGGTGTTGAGCTGCTTAAATTAAACAGCGAAGGCAATGAGTCTGTTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCCTGCCTTCAAGG-TGGGATATG-CCTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||| ||||||| |||||| || |||||||| |||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || |  |||||||||||  ||| |||| |||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1338502226|ref|XM_006306235.2|</Hit_id>
+  <Hit_def>PREDICTED: Capsella rubella homeobox-leucine zipper protein ATHB-15 (LOC17900065), mRNA</Hit_def>
+  <Hit_accession>XM_006306235</Hit_accession>
+  <Hit_len>3455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.943</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>2723</Hsp_hit-from>
+      <Hsp_hit-to>3197</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>439</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTGCAGCGAGTAGCACTGGCTCTTTCTCCTTCTCATATCAGTTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCAGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAGTCAAACAGCGAAGGCAATGAATCTATTCTTAAGAATCTTTGGCATCACACAGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTCGACATGCTGGAGACTACATTAGTATCCCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCAGAGTTCCCACAGATCATGC-AACAGGGTTTTGCCTGCCTTCAAGG-TGGGATATG-CCTCTCAA-GCATGGGGAGACCAGTTTCGTATGAGAGAGCAGTTGCTTGGAAAGTACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||| || ||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||| ||||||| || |  |||||||||||  ||| |||| |||||||| |||||||| | ||||||||   | | |  | | ||  ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1350326291|ref|XM_006392891.2|</Hit_id>
+  <Hit_def>PREDICTED: Eutrema salsugineum homeobox-leucine zipper protein ATHB-15 (LOC18010414), mRNA</Hit_def>
+  <Hit_accession>XM_006392891</Hit_accession>
+  <Hit_len>3527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>532</Hsp_query-to>
+      <Hsp_hit-from>2829</Hsp_hit-from>
+      <Hsp_hit-to>3357</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>470</Hsp_identity>
+      <Hsp_positive>470</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>534</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTCCGTTTAAAANGAATTTCTTTGGAAAGTNCT-AATTNTGGGGNAAATCCCCATTGAAT-TNCTTTTGGGTCANNAAATTGGNCCTT</Hsp_qseq>
+      <Hsp_hseq>GTATCATATCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCATATCAGTTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAAATCTAACAGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCATACAGATGCTATAATCTGCTGCTCAATGAAGGCCATGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTAGAGACTACATTAGTTGCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCGTGTCTTCAAGG-TGGGATATGT-CTCTCAA-GCATGGGGAGACCAGTTTCATACGAGAGAGCAGTTGCTTGGAAAGTACTGAATGAAGAAGAAAATGCTCATTGTATCTGCTTTGTGTTCATC-AATTGGTCCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||| ||||||||||| ||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| ||||||||||||||||| ||||| || ||||||||||||| ||| ||||| ||||||||||| || |||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||| || | ||| ||||||||  ||| ||||| ||||||| |||||||| | ||||||||     | |  | | ||  ||||||||| || |||   |  | |||| | ||||| || | ||||  | |||   |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1827894511|ref|XM_009149461.3|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa homeobox-leucine zipper protein ATHB-15 (LOC103871234), mRNA</Hit_def>
+  <Hit_accession>XM_009149461</Hit_accession>
+  <Hit_len>3508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.53</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>7.91167e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2797</Hsp_hit-from>
+      <Hsp_hit-to>3241</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>408</Hsp_identity>
+      <Hsp_positive>408</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGCTCACAAGTCGGTCTGCGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAAATCAACAAGTGAAGGCAATGAATCTATTCTGAAGAATCTTTGGCATCATACAGATGCTATAATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTAGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTTGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| ||||||||||| ||||||||||| |||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||||||||||||||||  ||||| ||||||||||||| ||| ||||||||||||||||| || |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||| || |||||||| ||||||||||| ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || | | | ||||||||  ||| ||||| || |||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1073019028|ref|XM_018605305.1|</Hit_id>
+  <Hit_def>PREDICTED: Raphanus sativus homeobox-leucine zipper protein ATHB-15 (LOC108831793), mRNA</Hit_def>
+  <Hit_accession>XM_018605305</Hit_accession>
+  <Hit_len>2689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.022</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>9.63839e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2007</Hsp_hit-from>
+      <Hsp_hit-to>2451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCACTTTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGAGCTACATGGGCGTTGAGCTACTTAAATCGAACAGCGATGGCAATGAATCTATTCTCAAGAACCTTTGGCATTACACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCCGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACACTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGATTCTCTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| |||||||| |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| ||||||||||||||||| ||||| || ||||||||||||| ||| ||||| ||||||||| |||| |||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||| ||||||||| | ||| |||||||||| |||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1249680391|ref|XM_013784922.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15 (LOC106345748), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_013784922</Hit_accession>
+  <Hit_len>3256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>4.09835e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2567</Hsp_hit-from>
+      <Hsp_hit-to>3011</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGTGTTGAGTTACTTAAATCAACAAGTGAAGGCAATGAATCTGTTCTCAAGAACCTTTGGCATCATACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTTGACATGCTTGAGACTACGTTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTTGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| ||||||||||| ||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||| ||||||||||||  ||||| ||||||||||||  ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||||||||||||||||||||| ||||||||||| |||||||| || ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || | | | ||||||||  ||| ||||| || |||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1249680390|ref|XM_013784921.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15 (LOC106345748), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_013784921</Hit_accession>
+  <Hit_len>3261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>4.09835e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2572</Hsp_hit-from>
+      <Hsp_hit-to>3016</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGTGTTGAGTTACTTAAATCAACAAGTGAAGGCAATGAATCTGTTCTCAAGAACCTTTGGCATCATACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTTGACATGCTTGAGACTACGTTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGCTTTGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| ||||||||||| ||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||| ||||||||||||  ||||| ||||||||||||  ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||||||||||||||||||||| ||||||||||| |||||||| || ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || | | | ||||||||  ||| ||||| || |||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|922512751|ref|XM_013736558.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica oleracea var. oleracea homeobox-leucine zipper protein ATHB-15 (LOC106300422), mRNA</Hit_def>
+  <Hit_accession>XM_013736558</Hit_accession>
+  <Hit_len>3284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.513</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>4.09835e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2573</Hsp_hit-from>
+      <Hsp_hit-to>3017</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATTATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGTTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAAATCAACAAGTGAAGGCAGTGAATCTGTTCTCAAGAACCTTTGGCATCATACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTCGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGGCCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|||| || |||||||| |||||||| ||||||||||| ||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||||||||||||||||  ||||| |||| |||||||  ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||||||||||||||||||||| ||||||||||| ||||||||||| ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| |||| | | ||||||||  ||| ||||| || |||| |||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1249787670|ref|XM_013844952.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15-like (LOC106404216), mRNA</Hit_def>
+  <Hit_accession>XM_013844952</Hit_accession>
+  <Hit_len>1049</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.123e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATTATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGTTCACAAGTCGGTCTGCGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCGGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAAATCAACAAGTGAAGGCAGTGAATCTGTTCTCAAGAACCTTTGGCATCATACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTCGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGGCCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|||| || |||||||| |||||||| ||||||||||| ||||||||||| ||||| |||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||| |||||||||||||||||||  ||||| |||| |||||||  ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||||||||||||||||||||| ||||||||||| ||||||||||| ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| |||| | | ||||||||  ||| ||||| || |||| |||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1072908348|ref|XM_018581427.1|</Hit_id>
+  <Hit_def>PREDICTED: Raphanus sativus homeobox-leucine zipper protein ATHB-15-like (LOC108809280), mRNA</Hit_def>
+  <Hit_accession>XM_018581427</Hit_accession>
+  <Hit_len>3310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.123e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2609</Hsp_hit-from>
+      <Hsp_hit-to>3053</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATTATCTCATCGGTCCAGAGAGTTGCATTAGCTCTCTCTCCTTCTCACATCAGCTCACAAGTCGGTCTGCGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAAATCAACAAGTGAAGGCAATGAATCTGTTCTCAAGAACCTTTGGCACCATACAGATGCTATAGTCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCGGGGCTTGACATGCTGGAGACTACATTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTCTGCTCTGAGTTCCCACAGATCATGC-AACAGGGTTTTGCGAGTCTTCAAGG-TGGGATATGT-CTGTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|||| || |||||||| |||||||| ||||| ||||| ||||||||||| |||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||||||||||||||||  ||||| ||||||||||||  ||| ||||| |||||||| || || ||||||||| |||||||||||||||||||| |||| |||||||||||||||||||||||||| ||||||||||||||||||||||| ||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||| ||||||| || | | | ||||||||  ||| ||||| || |||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|922431339|ref|XM_013766306.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica oleracea var. oleracea homeobox-leucine zipper protein ATHB-15-like (LOC106327973), mRNA</Hit_def>
+  <Hit_accession>XM_013766306</Hit_accession>
+  <Hit_len>3107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.123e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2388</Hsp_hit-from>
+      <Hsp_hit-to>2832</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCTCTCTCTCCTTCTCACATCAGATCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTCGAGCTGCTTAAATCGAACGGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCACACAGATGCTATAATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCACTCTAGAGAAGATATTTGATGACAGTGGAAGAAAGACTCTGTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTCGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| ||||||||||| ||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| || ||||| |||||||| ||| | || ||||||||||||| ||| ||||| |||||||||||||| |||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||| |||||||||||||| ||||||||||| ||| |||||||||| ||| || ||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| | |||| ||||||| |||||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1827916061|ref|XM_009108900.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa homeobox-leucine zipper protein ATHB-15 (LOC103832807), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009108900</Hit_accession>
+  <Hit_len>3819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.33976e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3083</Hsp_hit-from>
+      <Hsp_hit-to>3527</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATAGCATCAGTTCAGAGAGTTGCATTGGCGCTTTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAACTTGAACAGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCATACGGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCTGTCTTCACGTTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCACTCTAGAGAAGATATTTGATGACAGTGGAAGAAAGACTCTGTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||| || |||||||| |||||||| |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||||||||||| |  ||||| || ||||||||||||| ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||| |||||||||||||| |||||||||||||| ||||||||||| ||| |||||||||| ||| || ||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1827916060|ref|XM_009108899.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa homeobox-leucine zipper protein ATHB-15 (LOC103832807), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009108899</Hit_accession>
+  <Hit_len>4005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.33976e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3269</Hsp_hit-from>
+      <Hsp_hit-to>3713</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATAGCATCAGTTCAGAGAGTTGCATTGGCGCTTTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGTGCTACATGGGCGTTGAGCTACTTAACTTGAACAGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCATACGGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCTGTCTTCACGTTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCACTCTAGAGAAGATATTTGATGACAGTGGAAGAAAGACTCTGTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||| || |||||||| |||||||| |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||||||||||| |  ||||| || ||||||||||||| ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| |||||||| |||||||||||||| |||||||||||||| ||||||||||| ||| |||||||||| ||| || ||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1073001198|ref|XM_018596022.1|</Hit_id>
+  <Hit_def>PREDICTED: Raphanus sativus homeobox-leucine zipper protein ATHB-15-like (LOC108822840), mRNA</Hit_def>
+  <Hit_accession>XM_018596022</Hit_accession>
+  <Hit_len>3161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.053</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>2.42234e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2454</Hsp_hit-from>
+      <Hsp_hit-to>2901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>452</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGT---GACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCATCTCATCGGTTCAGAGAGTTGCATTGGCACTTTCTCCTTCTCACATCAGCTCACAAGTCGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATCTGCCAGAGTTACAGGAGCTACATGGGCGTTGATCTACTTAAATCGAACAGCAGCGAAGGCAGTGAATCTGTTCTCAAGAACCTTTGGCATTACACGGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCTGTCTTCACATTTGCAAACCAAGCAGGACTTGACATGCTTGAGACTACACTGGTTTCTCTTCAAGATATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGATTCTCTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGAGATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||| |||||||| |||||||| |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| ||||| ||||||||||| |||||    || |||| |||||||  ||| ||||| ||||||||| |||| |||||||| ||||||||||||||||||||| |||| |||||||||||||||||||| || |||||||||||||| ||||||||| | ||| |||||||||| |||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  |||  ||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1249744945|ref|XR_001285671.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15-like (LOC106428605), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_001285671</Hit_accession>
+  <Hit_len>1029</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>6.94624e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>932</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCCTCTCACCGGTTCAGAGAGTTTCATTGGCTCTTTCTCCTTCTCACATCAGTTCACAAGTCGGTCTACGGACTCCTTTGGGTACTCCTGAAGCCCAAACGCTTGCTCGTTGGATCTGCCAGAGTTACAGGAGCTACATGGGCGTTGAGCTGCTTAAATCGAACGGTGAAGGCAGTGAATCTATTCTCAAGAACCTTTGGCATCACACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGTTTGAGACTACATTGGTTTCTCTGCTAGATATCTCTCTAGAGAAGATATTTGATGACAATGGAGGAAAGGTTCTCTGCTCTTAGTTCCCACAGATTATGC-AACAGGTTTTC</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||| ||||||||  |||||||||||||||||||||| ||||| |||||||| |||||||| ||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||| |||||||||| |||||||| |||||||| ||| |||| |||| |||||||| ||| ||||| |||||||||||||| |||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||| |||||||||||| | ||||||||||| ||| |||| | ||| |||||| |||||||||||||||||||||||||| |||||  ||| |||||| ||||||||||| | |||| ||||||  |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1249744943|ref|XM_022700246.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15-like (LOC106428605), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022700246</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>6.94624e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>656</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTC</Hsp_qseq>
+      <Hsp_hseq>GTATCCTCTCACCGGTTCAGAGAGTTTCATTGGCTCTTTCTCCTTCTCACATCAGTTCACAAGTCGGTCTACGGACTCCTTTGGGTACTCCTGAAGCCCAAACGCTTGCTCGTTGGATCTGCCAGAGTTACAGGAGCTACATGGGCGTTGAGCTGCTTAAATCGAACGGTGAAGGCAGTGAATCTATTCTCAAGAACCTTTGGCATCACACAGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCAGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGTTTGAGACTACATTGGTTTCTCTGCTAGATATCTCTCTAGAGAAGATATTTGATGACAATGGAGGAAAGGTTCTCTGCTCTTAGTTCCCACAGATTATGC-AACAGGTTTTC</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||| ||||||||  |||||||||||||||||||||| ||||| |||||||| |||||||| ||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||| |||||||||| |||||||| |||||||| ||| |||| |||| |||||||| ||| ||||| |||||||||||||| |||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||| |||||||||||| | ||||||||||| ||| |||| | ||| |||||| |||||||||||||||||||||||||| |||||  ||| |||||| ||||||||||| | |||| ||||||  |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1860404121|ref|XM_035044142.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus alba homeobox-leucine zipper protein ATHB-15 (LOC118037954), mRNA</Hit_def>
+  <Hit_accession>XM_035044142</Hit_accession>
+  <Hit_len>3973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.143</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.12863e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3161</Hsp_hit-from>
+      <Hsp_hit-to>3603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTT-TGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTGGCACTATCTCCTTCTCATCTTGGTTCACAGGCTGGTCTTCGGTCACCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGCTACAGGAGCTATTTGGGTGTGGAGCTACTCAAATCCAATGGCGAAGGAAGTGAATCTAGTCTGAA-AACCTTGTGGCATCATTCAGATGCTATTATGTGCTGCTCAATGAAGGTGTTGCCCGTCTTTACTTTTGCAAACCAAGCTGGACTTGACATGCTTGAGACAACATTAGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGAAGAAAAACTCTCTGCTCAGAATTCCCACAGATCATGC-AACAGGGTTTTACTTGTCTTCAAGG-TGGTATCTGT-TTGTCAA-GCATGGGCAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || |||||||| || |||||||||||| |  | ||||| | |||||| ||  | ||  |||||||||||||||| || ||||||||||||||||| |||||||| |||||| ||||  ||||||| |||||||| ||||| ||  | || || | |||||||||||| || || ||| ||||||||  | |||||||| || ||||||||||||||||  ||||||||||| || ||||||||||| || |||||||||||||| ||||| ||||||||||| || ||||||||  |||| || ||||||||||||||  |||||||||| ||||| ||||| || ||||||||| |||||| ||||||| ||    || ||||||||  ||  | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1103919606|ref|XM_010547371.2|</Hit_id>
+  <Hit_def>PREDICTED: Tarenaya hassleriana homeobox-leucine zipper protein ATHB-15 (LOC104817963), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_010547371</Hit_accession>
+  <Hit_len>3669</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.241</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.12863e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2893</Hsp_hit-from>
+      <Hsp_hit-to>3332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATCATATCGACGGTTCAAAGAGTGGCCTTAGCTCTCTCCCCTTCTCACATGAGTTCGCAAGCTGGCCTGCTCACCTCACTGGGTACACCCGAAGCTCAGACGCTTGCTCGTTGGATTTGCCATAGTTACAGGTGCTTCATGGGTGTTGAGTTACTGAAATCAAGC---GATGGAAATGAATCCATTCTCAAGAACCTGTGGAATCATTCAGATGCTATAATGTGCTGCTCGCTTAAGGCTTTGCCCGTCTTCACGTTTGCCAACCAAGCTGGTCTCGACATGCTAGAGACTACATTGGTTGCCCTTCAAGACATCTCTCTGGAGAAGATATTCGATGACAACGGCCGGAAGACTCTCTGCTCGGAGTTCCCCCAGATCATGC-AACAGGGATTTGCGTGCCTTCGGGGC-GGGATATG-CCTCTCGA-GCATGGGGAGACCGGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||  |||| || ||||| || || ||||| || |||||||| || || || |||| ||| || | |||  |  ||||||| || ||||| || || |||||||||||||||||||| ||||||||| ||| ||||||||||||| |||| ||||||| |   || || |||||||| | ||| ||||| || ||| ||||  | ||||||||||| ||||||||  | ||||| |||||||||||||| ||||| ||||| || || || |||||||| ||||||||||| ||||| ||||||||||||||| | ||||||||||| |||||||| ||  | |||||||| ||||| |||||||| ||| |||||| ||||||| || | ||||||||  ||| ||| |||| |||||| | |||||||| | || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1103919605|ref|XM_010547370.2|</Hit_id>
+  <Hit_def>PREDICTED: Tarenaya hassleriana homeobox-leucine zipper protein ATHB-15 (LOC104817963), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_010547370</Hit_accession>
+  <Hit_len>3388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.241</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.12863e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2612</Hsp_hit-from>
+      <Hsp_hit-to>3051</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATCATATCGACGGTTCAAAGAGTGGCCTTAGCTCTCTCCCCTTCTCACATGAGTTCGCAAGCTGGCCTGCTCACCTCACTGGGTACACCCGAAGCTCAGACGCTTGCTCGTTGGATTTGCCATAGTTACAGGTGCTTCATGGGTGTTGAGTTACTGAAATCAAGC---GATGGAAATGAATCCATTCTCAAGAACCTGTGGAATCATTCAGATGCTATAATGTGCTGCTCGCTTAAGGCTTTGCCCGTCTTCACGTTTGCCAACCAAGCTGGTCTCGACATGCTAGAGACTACATTGGTTGCCCTTCAAGACATCTCTCTGGAGAAGATATTCGATGACAACGGCCGGAAGACTCTCTGCTCGGAGTTCCCCCAGATCATGC-AACAGGGATTTGCGTGCCTTCGGGGC-GGGATATG-CCTCTCGA-GCATGGGGAGACCGGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||  |||| || ||||| || || ||||| || |||||||| || || || |||| ||| || | |||  |  ||||||| || ||||| || || |||||||||||||||||||| ||||||||| ||| ||||||||||||| |||| ||||||| |   || || |||||||| | ||| ||||| || ||| ||||  | ||||||||||| ||||||||  | ||||| |||||||||||||| ||||| ||||| || || || |||||||| ||||||||||| ||||| ||||||||||||||| | ||||||||||| |||||||| ||  | |||||||| ||||| |||||||| ||| |||||| ||||||| || | ||||||||  ||| ||| |||| |||||| | |||||||| | || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1103919604|ref|XM_010547369.2|</Hit_id>
+  <Hit_def>PREDICTED: Tarenaya hassleriana homeobox-leucine zipper protein ATHB-15 (LOC104817963), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_010547369</Hit_accession>
+  <Hit_len>3414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.241</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.12863e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2638</Hsp_hit-from>
+      <Hsp_hit-to>3077</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATCATATCGACGGTTCAAAGAGTGGCCTTAGCTCTCTCCCCTTCTCACATGAGTTCGCAAGCTGGCCTGCTCACCTCACTGGGTACACCCGAAGCTCAGACGCTTGCTCGTTGGATTTGCCATAGTTACAGGTGCTTCATGGGTGTTGAGTTACTGAAATCAAGC---GATGGAAATGAATCCATTCTCAAGAACCTGTGGAATCATTCAGATGCTATAATGTGCTGCTCGCTTAAGGCTTTGCCCGTCTTCACGTTTGCCAACCAAGCTGGTCTCGACATGCTAGAGACTACATTGGTTGCCCTTCAAGACATCTCTCTGGAGAAGATATTCGATGACAACGGCCGGAAGACTCTCTGCTCGGAGTTCCCCCAGATCATGC-AACAGGGATTTGCGTGCCTTCGGGGC-GGGATATG-CCTCTCGA-GCATGGGGAGACCGGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||  |||| || ||||| || || ||||| || |||||||| || || || |||| ||| || | |||  |  ||||||| || ||||| || || |||||||||||||||||||| ||||||||| ||| ||||||||||||| |||| ||||||| |   || || |||||||| | ||| ||||| || ||| ||||  | ||||||||||| ||||||||  | ||||| |||||||||||||| ||||| ||||| || || || |||||||| ||||||||||| ||||| ||||||||||||||| | ||||||||||| |||||||| ||  | |||||||| ||||| |||||||| ||| |||||| ||||||| || | ||||||||  ||| ||| |||| |||||| | |||||||| | || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1103919603|ref|XM_010547368.2|</Hit_id>
+  <Hit_def>PREDICTED: Tarenaya hassleriana homeobox-leucine zipper protein ATHB-15 (LOC104817963), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010547368</Hit_accession>
+  <Hit_len>3565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.241</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.12863e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2789</Hsp_hit-from>
+      <Hsp_hit-to>3228</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATCATATCGACGGTTCAAAGAGTGGCCTTAGCTCTCTCCCCTTCTCACATGAGTTCGCAAGCTGGCCTGCTCACCTCACTGGGTACACCCGAAGCTCAGACGCTTGCTCGTTGGATTTGCCATAGTTACAGGTGCTTCATGGGTGTTGAGTTACTGAAATCAAGC---GATGGAAATGAATCCATTCTCAAGAACCTGTGGAATCATTCAGATGCTATAATGTGCTGCTCGCTTAAGGCTTTGCCCGTCTTCACGTTTGCCAACCAAGCTGGTCTCGACATGCTAGAGACTACATTGGTTGCCCTTCAAGACATCTCTCTGGAGAAGATATTCGATGACAACGGCCGGAAGACTCTCTGCTCGGAGTTCCCCCAGATCATGC-AACAGGGATTTGCGTGCCTTCGGGGC-GGGATATG-CCTCTCGA-GCATGGGGAGACCGGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||  |||| || ||||| || || ||||| || |||||||| || || || |||| ||| || | |||  |  ||||||| || ||||| || || |||||||||||||||||||| ||||||||| ||| ||||||||||||| |||| ||||||| |   || || |||||||| | ||| ||||| || ||| ||||  | ||||||||||| ||||||||  | ||||| |||||||||||||| ||||| ||||| || || || |||||||| ||||||||||| ||||| ||||||||||||||| | ||||||||||| |||||||| ||  | |||||||| ||||| |||||||| ||| |||||| ||||||| || | ||||||||  ||| ||| |||| |||||| | |||||||| | || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1126499299|gb|KX155309.1|</Hit_id>
+  <Hit_def>Populus tomentosa clone Ptom.003G050100 HD-ZIPIII mRNA, complete cds</Hit_def>
+  <Hit_accession>KX155309</Hit_accession>
+  <Hit_len>2517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.634</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.5932e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>1984</Hsp_hit-from>
+      <Hsp_hit-to>2426</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>362</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTT-TGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTATCTCCTTCTCATCTTGGTTCACAGGCTGGTCTTCGGTCACCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGCTACAGGAGCTATTTGGGTGTGGAGCTACTCAAATCCAATGGCGAAGGAAGTGAATCTAGTCTGAA-AACCTTGTGGCATCATTCAGATGCTATTATGTGCTGCTCAATGAAGGTGTTGCCCGTCTTTACTTTTGCAAACCAAGCTGGACTTGACATGCTTGAGACAACATTAGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGAAGAAAAACTCTCTGCTCAGAATTCCCACAGATCATGC-AACAGGGTTTTACTTGTCTTCAAGG-TGGTATCTGT-TTGTCAA-GCATGGGCAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || || |||||||||||| |  | ||||| | |||||| ||  | ||  |||||||||||||||| || ||||||||||||||||| |||||||| |||||| ||||  ||||||| |||||||| ||||| ||  | || || | |||||||||||| || || ||| ||||||||  | |||||||| || ||||||||||||||||  ||||||||||| || ||||||||||| || |||||||||||||| ||||| ||||||||||| || ||||||||  |||| || ||||||||||||||  |||||||||| ||||| ||||| || ||||||||| |||||| ||||||| ||    || ||||||||  ||  | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|558605798|gb|KF534716.1|</Hit_id>
+  <Hit_def>Populus alba x Populus glandulosa HD-ZIPIII mRNA, complete cds</Hit_def>
+  <Hit_accession>KF534716</Hit_accession>
+  <Hit_len>2723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.126</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.10266e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>1984</Hsp_hit-from>
+      <Hsp_hit-to>2426</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTT-TGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTATCTCCTTCTCATCTTGGTTCACAGGCTGGTCTTCGGTCACCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGCTACAGGAGCTATTTGGGTGTGGAGCTACTCAAATCCAATGGCGAAGGAAGTGAATCTATTCTGAA-AACCTTGTGGCATCATTCAGATGCTATTATGTGCTGCTCATTGAAGGTGTTGCCCGTCTTTACTTTTGCAAACCAAGCTGGACTTGACATGCTTGAGACAACATTAGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGAAGAAAAACTCTCTGCTCAGAATTCCCACAGATCATGC-AACAGGGTTTTACTTGTCTTCAAGGC-GGTATCTGT-TTGTCAA-GCATGGGCAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || || |||||||||||| |  | ||||| | |||||| ||  | ||  |||||||||||||||| || ||||||||||||||||| |||||||| |||||| ||||  ||||||| |||||||| ||||| ||  | || || | |||||||| ||| || || ||| ||||||||  | |||||||| || ||||||||| ||||||  ||||||||||| || ||||||||||| || |||||||||||||| ||||| ||||||||||| || ||||||||  |||| || ||||||||||||||  |||||||||| ||||| ||||| || ||||||||| |||||| ||||||| ||    || ||||||||| ||  | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1269931744|ref|XM_022859283.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus homeobox-leucine zipper protein ATHB-15 (LOC111274557), mRNA</Hit_def>
+  <Hit_accession>XM_022859283</Hit_accession>
+  <Hit_len>3866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>1.34331e-104</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3115</Hsp_hit-from>
+      <Hsp_hit-to>3557</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCGGTTCAGAGGGTGGCATTAGCACTTTCTCCTTCTCATCTAAGTTCACATGCTGGTCTCCGAACCCCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGGGTTATAGGGTCTACATGGGTGTTGAACTGCTCAAATCTAGCGGTGAAGGGAGTGAATCCATCCTCAAGACCTTGTGGCATCACTCAGATGCTATCATGTGCTGCTCTCTTAAGGCATTGCCCGTATTTACCTTTGCAAATCAGGCTGGGCTTGACATGCTGGAGACAACCCTGGTTGCTCTGCAGGACATAACTTTGGAGAAGATATTTGATGATCATGGACGAAAAACTCTCTGCACGGAGTTCCCACAGATCATGC-AACAGGGTTTTGCTTGTCTACAAGG-TGGGATCTGT-TTATCAA-GCATGGGAAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||||| ||||| || ||||| || ||||||||||||||| | || ||||| | |||||| || || ||  |||||||||||||||| || ||||||||||||||||| |||||| |||| |||| ||||||||||||||| || || ||||| | | |||| || | |||||| |  || ||||   | ||||||||| | |||||||| || ||||||||  | ||||| |||||||| || || |||||||| ||||| || ||||||||||||||||| ||  | |||||||| || |||||  |||| |||||||||||||||||  ||||| |||| ||||| ||| | |||||||||||| |||||| ||||||| || |  || || |||||  ||| | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1249744947|ref|XM_013869351.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15-like (LOC106428603), mRNA</Hit_def>
+  <Hit_accession>XM_013869351</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.814</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>4.68862e-104</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>AGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>AGGTGCTACATGGGCGTTGAGCTACTTAAATTGAACAGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCATACGGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCTGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCACTCTAGAGAAGATATTTGATGACAGTGGAAGAAAGACTCTGTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| ||||||||||||||||  ||||| || ||||||||||||| ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||| |||||||||||||| ||||||||||| ||| |||||||||| ||| || ||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1249744946|ref|XM_013869352.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus homeobox-leucine zipper protein ATHB-15-like (LOC106428604), mRNA</Hit_def>
+  <Hit_accession>XM_013869352</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.814</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>4.68862e-104</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>AGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>AGGTGCTACATGGGCGTTGAGCTACTTAAATTGAACAGCGAAGGCAATGAATCTATTCTCAAGAACCTTTGGCATCATACGGATGCTATCATCTGCTGCTCAATGAAGGCCATGCCTGTCTTCACATTTGCAAACCAGGCAGGACTTGACATGCTTGAGACTACATTGGTTTCTCTTCAAGATATCACTCTAGAGAAGATATTTGATGACAGTGGAAGAAAGACTCTGTGCTCTGAGTTCCCACAGATTATGC-AACAGGGTTTTGGGAGTCTTCAAGG-TGGGATATGT-ATCTCAA-GCATGGGGAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| ||||||||||||||||  ||||| || ||||||||||||| ||| ||||| ||||||||||| || |||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||| |||||||||||||| ||||||||||| ||| |||||||||| ||| || ||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| | |||| ||||||| || ||| | ||||||||  ||| |||||  |||||| |||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1768554134|ref|XM_031398914.1|</Hit_id>
+  <Hit_def>PREDICTED: Pistacia vera homeobox-leucine zipper protein ATHB-15 (LOC116112781), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031398914</Hit_accession>
+  <Hit_len>3573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.109</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>5.7119e-103</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>2831</Hsp_hit-from>
+      <Hsp_hit-to>3240</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTTCAGAGGGTTGCATTAGCACTCTCTCCCTCTCATTTAAGTTCTCAAGCTGGTCTTCGGACACCTTTGGGCACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGTTATAGGTGTTACTTGGGTGTGGAGCTGCTCAAATCCAGCAGCGAAGGGAGTGAATCCGTTCTCAAAACCCTGTGGCATCACACAGATGCTATCATGTGCTGCTCTCTGAAGGCATTGCCCGTTTTCACTTTTGCAAATCAAGCAGGACTTGATATGCTTGAGACAACCTTGGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGACGAAAGACTCTCTGCTCAGAGTTCCCACAGATAATGC-AACAGGGGTTTGCTTGTCTTCAAGGTGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || ||||| || ||||| || || ||||| |||||| | || || |||| |||||| || || |||||||| ||||||||||| || ||||||||||||||||| ||||||||||| ||| | ||| ||||||| ||||| || ||||| | ||| || || | ||||||   ||| || |  || ||||||||||| |||||||| || ||||||||  ||||||| |||||||| ||||| |||||||| || || |||||||| ||||| ||||| || || ||||| || ||||||||  |||| || ||||||||||||||  ||||| |||||||||| ||||| |||||||||||| | |||| ||||||| || |  || |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1768554132|ref|XM_031398913.1|</Hit_id>
+  <Hit_def>PREDICTED: Pistacia vera homeobox-leucine zipper protein ATHB-15 (LOC116112781), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031398913</Hit_accession>
+  <Hit_len>3654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.109</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>5.7119e-103</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>2912</Hsp_hit-from>
+      <Hsp_hit-to>3321</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTTCAGAGGGTTGCATTAGCACTCTCTCCCTCTCATTTAAGTTCTCAAGCTGGTCTTCGGACACCTTTGGGCACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGTTATAGGTGTTACTTGGGTGTGGAGCTGCTCAAATCCAGCAGCGAAGGGAGTGAATCCGTTCTCAAAACCCTGTGGCATCACACAGATGCTATCATGTGCTGCTCTCTGAAGGCATTGCCCGTTTTCACTTTTGCAAATCAAGCAGGACTTGATATGCTTGAGACAACCTTGGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGACGAAAGACTCTCTGCTCAGAGTTCCCACAGATAATGC-AACAGGGGTTTGCTTGTCTTCAAGGTGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || ||||| || ||||| || || ||||| |||||| | || || |||| |||||| || || |||||||| ||||||||||| || ||||||||||||||||| ||||||||||| ||| | ||| ||||||| ||||| || ||||| | ||| || || | ||||||   ||| || |  || ||||||||||| |||||||| || ||||||||  ||||||| |||||||| ||||| |||||||| || || |||||||| ||||| ||||| || || ||||| || ||||||||  |||| || ||||||||||||||  ||||| |||||||||| ||||| |||||||||||| | |||| ||||||| || |  || |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1768554130|ref|XM_031398912.1|</Hit_id>
+  <Hit_def>PREDICTED: Pistacia vera homeobox-leucine zipper protein ATHB-15 (LOC116112781), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031398912</Hit_accession>
+  <Hit_len>4088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.109</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>5.7119e-103</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>3346</Hsp_hit-from>
+      <Hsp_hit-to>3755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTTCAGAGGGTTGCATTAGCACTCTCTCCCTCTCATTTAAGTTCTCAAGCTGGTCTTCGGACACCTTTGGGCACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGTTATAGGTGTTACTTGGGTGTGGAGCTGCTCAAATCCAGCAGCGAAGGGAGTGAATCCGTTCTCAAAACCCTGTGGCATCACACAGATGCTATCATGTGCTGCTCTCTGAAGGCATTGCCCGTTTTCACTTTTGCAAATCAAGCAGGACTTGATATGCTTGAGACAACCTTGGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGACGAAAGACTCTCTGCTCAGAGTTCCCACAGATAATGC-AACAGGGGTTTGCTTGTCTTCAAGGTGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || ||||| || ||||| || || ||||| |||||| | || || |||| |||||| || || |||||||| ||||||||||| || ||||||||||||||||| ||||||||||| ||| | ||| ||||||| ||||| || ||||| | ||| || || | ||||||   ||| || |  || ||||||||||| |||||||| || ||||||||  ||||||| |||||||| ||||| |||||||| || || |||||||| ||||| ||||| || || ||||| || ||||||||  |||| || ||||||||||||||  ||||| |||||||||| ||||| |||||||||||| | |||| ||||||| || |  || |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1269943882|ref|XM_022865723.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus homeobox-leucine zipper protein ATHB-15-like (LOC111278948), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022865723</Hit_accession>
+  <Hit_len>3775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.994</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>8.47722e-101</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>2967</Hsp_hit-from>
+      <Hsp_hit-to>3409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>355</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTTTCTCCTTCAAATTTAAGTTCACATGCTGGTCTCCGATCCCCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGTTATAGGCTTTACATGGGTGTTGAGCTGCTCAAATCTAGCAGTGAAGGTAGTGAATCCATCCTCAAGACCTTGTGGCATCACTCAGATGCTATCATGTGCTGCTCTCTTAAGGCATTGCCTGTTTTCACCTTTTCAAATCAGGCTGGGCTTGACATGCTGGAGACAACCCTAGTTGCTCTGCAGGACATAACTTTGGAGAAGATATTTGATGATCATGGACGAAAGACTCTCTGCACGGAGTTCCCACAGATAATGC-AACAGGGTTTTGCTTGTCTACAAGG-TGGGATCTGT-TTGTCAA-GCATGGGAAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || |||||||||||  || | || ||||| | |||||| ||  | ||  |||||||||||||||| || ||||||||||||||||| ||||||||||| |||   ||||||||||||||||| || ||||| | |||||| || | |||||| |  || ||||   | ||||||||| | |||||||| || ||||||||  | ||||| ||||| || ||||| ||| |||| ||||| || ||||||||||||||||| ||  |||||||||| || |||||  |||| |||||||||||||||||  ||||| |||||||||| ||| | |||||||||||| | |||| ||||||| || |  || || |||||  ||| | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1269943880|ref|XM_022865722.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus homeobox-leucine zipper protein ATHB-15-like (LOC111278948), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022865722</Hit_accession>
+  <Hit_len>3935</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.994</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>8.47722e-101</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3127</Hsp_hit-from>
+      <Hsp_hit-to>3569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>355</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTTTCTCCTTCAAATTTAAGTTCACATGCTGGTCTCCGATCCCCACTGGGTACTCCTGAAGCACAGACACTTGCTCGTTGGATCTGCCAGAGTTATAGGCTTTACATGGGTGTTGAGCTGCTCAAATCTAGCAGTGAAGGTAGTGAATCCATCCTCAAGACCTTGTGGCATCACTCAGATGCTATCATGTGCTGCTCTCTTAAGGCATTGCCTGTTTTCACCTTTTCAAATCAGGCTGGGCTTGACATGCTGGAGACAACCCTAGTTGCTCTGCAGGACATAACTTTGGAGAAGATATTTGATGATCATGGACGAAAGACTCTCTGCACGGAGTTCCCACAGATAATGC-AACAGGGTTTTGCTTGTCTACAAGG-TGGGATCTGT-TTGTCAA-GCATGGGAAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || |||||||||||  || | || ||||| | |||||| ||  | ||  |||||||||||||||| || ||||||||||||||||| ||||||||||| |||   ||||||||||||||||| || ||||| | |||||| || | |||||| |  || ||||   | ||||||||| | |||||||| || ||||||||  | ||||| ||||| || ||||| ||| |||| ||||| || ||||||||||||||||| ||  |||||||||| || |||||  |||| |||||||||||||||||  ||||| |||||||||| ||| | |||||||||||| | |||| ||||||| || |  || || |||||  ||| | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1103912157|ref|XM_010536877.2|</Hit_id>
+  <Hit_def>PREDICTED: Tarenaya hassleriana homeobox-leucine zipper protein ATHB-15-like (LOC104810536), mRNA</Hit_def>
+  <Hit_accession>XM_010536877</Hit_accession>
+  <Hit_len>3665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.994</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>8.47722e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>2904</Hsp_hit-from>
+      <Hsp_hit-to>3336</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGG</Hsp_qseq>
+      <Hsp_hseq>GTATTATATCGGCGGTTCAGAGAGTGGCATTAGCTCTCTCTCCTTCTCACGTAAGTTCACAAGTCGGTCTTCGTACTCCGCTGGGCACTCCCGAGGCCCAAACGCTTGCCCGTTGGATTTGCCATAGTTACAGGTGCTACATGGGCGTGAACTTGCTCAAATCGAGCAGCGAAGGCGATGAATCCGTTCTCAAGAACCTGTGGAATCATTCGGATGCTATAATGTGTTGCTCAATGAAGGCATTGCCCGTCTTCACATTCGCGAACCAAGCTGGGCTCGACATGCTCGAGACAACATTGGTCGCTCTACAAGACATATCGCTCGAGAAGATATTCGACGAAAACGGGCGGAAGGCTCTGTGCTCGGAGTTTCCCCAGATCATGC-AACAGGGATTCGGGTGCATGC-AGGGTGGGATATG-CATATCAA-GCATGGG</Hsp_hseq>
+      <Hsp_midline>|||| |||||  |||| |||||||| ||||| ||||| |||||||||||  | || |||||||| ||||| || |||||  |||| ||||| || |||||||| ||||| |||||||||||||| ||||||||| |||||||||| ||  |  | || ||||| | ||| || ||| |||||||   ||| ||||| || ||| ||||  | ||||||||||| || |||||||||||||| ||||||||||||||||| || ||||| || || || |||||||| ||||| ||||| || ||||| |||||||| ||  | ||||||||||| || || || ||  | ||| |||| ||||| ||||| || ||| |||||| ||||||| ||||||||| | | |||  ||| |||| | | |||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1217007617|ref|XM_021787568.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis homeobox-leucine zipper protein ATHB-15 (LOC110637465), mRNA</Hit_def>
+  <Hit_accession>XM_021787568</Hit_accession>
+  <Hit_len>4128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.092</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3318</Hsp_hit-from>
+      <Hsp_hit-to>3762</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GTATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>GTATTATATCATCAGTTCAGAGAGTAGCATTAGCACTCTCTCCTTCTCATTTGGGGTCACATGCTGGTCTTCGGCCTCCACTTGGTACTCCTGAAGCACAGACGCTTGCTCGTTGGATCTGCCAGAGCTATAGGTGCTACTTGGGTGTGGAGTTACTCAAATCAAGCAGTGAAGGAAGCGAAACCATTCTCAAAACTTTGTGGCATCACTCAGATGCTATCATGTGCTGCTCTCTGAAGGCTTTGCCAGTCTTCACTTTTGCAAACCAAGCAGGGCTTGACATGTTGGAGACGACTTTGGTAGCCTTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGTCGAAAGACTCTCTGCTCAGAGTTCCCACAGATAACGC-AACAGGGTTTTGCTTGTCTTCAAGG-TGGAATCTGT-TTGTCAA-GCATGGGCAGGCCAGTCTC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| || |||||||||||||| || || |||||||||||| |  | ||||| | |||||| ||  ||||  | |||||||||||||| || || |||||||||||||| |||||||| || ||| ||||| ||||||| ||| |||| ||||||| |||||| || |  ||| | | ||| || | | | ||||||||| | |||||||| || ||||||||  ||||||| ||||| |||||||| ||||||||||| || || ||||||||| ||||||| || || || ||  | ||||||||  |||| || ||||||||||||||  ||||  |||||||||| ||||| |||||||||||| | | || ||||||| || |  || ||||||||  ||  | |||  | |||| |||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|743937273|ref|XM_011014740.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica homeobox-leucine zipper protein ATHB-15-like (LOC105117169), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011014740</Hit_accession>
+  <Hit_len>2379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.092</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>1514</Hsp_hit-from>
+      <Hsp_hit-to>1956</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTT-TGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTATCTCCTTCTCATCTTGGTTCACAGGCTGGTCTTCGGTCACCACTGGGTACTCCTGAAGCACAAACACTTGCTCGTTGGATCTGCCAGAGCTACAGGAGCTATTTGGGTGTGGAGCTGCTCAAATCCAATGGCGAAGGAAGTGAATCTATTCTGAA-AACCTTGTGGCATCATTCAGATGCTATTATGTGCTGCTCACTGAAGGTGTTGCCCATCTTTACTTTTGCAAACCAAGCTGGACTTGACATGCTTGAGACAACCTTAGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGAAGAAAAACTCTCTGCTCAGAATTCCCACAGATTATGC-AACAGGGTTTTACTTGTCTTCAAGG-TGGTATCTGT-TTGTCAA-GCATGGGCAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || || |||||||||||| |  | ||||| | |||||| ||  | ||  |||||||||||||||| |||||||||||||||||||| |||||||| |||||| ||||  ||||||| ||||| || ||||| ||  | || || | |||||||| ||| || || ||| ||||||||  | |||||||| || ||||||||| ||||||  |||||| |||| || ||||||||||| || |||||||||||||| ||||| || |||||||| || ||||||||  |||| || ||||||||||||||  |||||||||| ||||| ||||| || ||||||||| | |||| ||||||| ||    || ||||||||  ||  | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|743937271|ref|XM_011014739.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica homeobox-leucine zipper protein ATHB-15-like (LOC105117169), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011014739</Hit_accession>
+  <Hit_len>3992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.092</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>3127</Hsp_hit-from>
+      <Hsp_hit-to>3569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTT-TGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGGGGGCCAGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATTATATCTTCAGTTCAGAGGGTGGCATTAGCACTATCTCCTTCTCATCTTGGTTCACAGGCTGGTCTTCGGTCACCACTGGGTACTCCTGAAGCACAAACACTTGCTCGTTGGATCTGCCAGAGCTACAGGAGCTATTTGGGTGTGGAGCTGCTCAAATCCAATGGCGAAGGAAGTGAATCTATTCTGAA-AACCTTGTGGCATCATTCAGATGCTATTATGTGCTGCTCACTGAAGGTGTTGCCCATCTTTACTTTTGCAAACCAAGCTGGACTTGACATGCTTGAGACAACCTTAGTTGCACTGCAAGACATAACTTTGGAAAAGATATTTGATGATCATGGAAGAAAAACTCTCTGCTCAGAATTCCCACAGATTATGC-AACAGGGTTTTACTTGTCTTCAAGG-TGGTATCTGT-TTGTCAA-GCATGGGCAGACCAGTTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || ||||| || ||||| || || |||||||||||| |  | ||||| | |||||| ||  | ||  |||||||||||||||| |||||||||||||||||||| |||||||| |||||| ||||  ||||||| ||||| || ||||| ||  | || || | |||||||| ||| || || ||| ||||||||  | |||||||| || ||||||||| ||||||  |||||| |||| || ||||||||||| || |||||||||||||| ||||| || |||||||| || ||||||||  |||| || ||||||||||||||  |||||||||| ||||| ||||| || ||||||||| | |||| ||||||| ||    || ||||||||  ||  | |||  | |||| |||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1540499533|ref|XM_027488101.1|</Hit_id>
+  <Hit_def>PREDICTED: Abrus precatorius homeobox-leucine zipper protein ATHB-15 (LOC113856320), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_027488101</Hit_accession>
+  <Hit_len>3521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.19</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2751</Hsp_hit-from>
+      <Hsp_hit-to>3182</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTCCAAAGGGTAGCATTAGCTCTTTCACCTTCTCATTTGAGTTCACAAGCTGGGCTTAGAACACCACTGGGTACTCCTGAAGCTCAAACACTTGCTCGTTGGATCTGCAATAGTTATAGGTGCTACTTGGGTGTTGAGCTACTTAAATCTAATAATGAGGGGAACGAATCTTTGCTGAAGTCCTTGTGGCATCACTCAGATGCAATATTGTGCTGCACTCTAAAGGCGTTGCCAGTATTCACTTTCGCAAACCAGGCAGGGCTTGACATGCTGGAGACTACCTTAGTTGCTCTACAAGATATAACGTTAGAGAAAATATTTGATGATCATGGTCGAAAGATTCTGTGCTCAGAGTTTCCCCAAATTATTC-AACAGGGTTTTGCTTGCCTTCAAGG-TGGTATTTGT-CTCTCAA-GCATGGGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || || || |||||||| |||||||| ||||||||| | || ||||||| ||| ||  | || ||  |||||||||||||||| |||||||||||||||||||| ||| | ||||| ||| ||||| |||||||||||||||||||||| || | ||| || || ||||||   || |||    | ||||||||| | ||||| ||| | |||||| |  | ||||| ||||| || ||||| || ||||||||||| || |||||||||||||||||||| ||||||||||| ||||| ||  | |||||||| |||||||||||  ||||  |||||| ||| ||||| ||||| || ||  | || | ||||||| || |  |||||||||||  ||  | ||| ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1540499529|ref|XM_027488099.1|</Hit_id>
+  <Hit_def>PREDICTED: Abrus precatorius homeobox-leucine zipper protein ATHB-15 (LOC113856320), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_027488099</Hit_accession>
+  <Hit_len>3319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.19</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2549</Hsp_hit-from>
+      <Hsp_hit-to>2980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTCCAAAGGGTAGCATTAGCTCTTTCACCTTCTCATTTGAGTTCACAAGCTGGGCTTAGAACACCACTGGGTACTCCTGAAGCTCAAACACTTGCTCGTTGGATCTGCAATAGTTATAGGTGCTACTTGGGTGTTGAGCTACTTAAATCTAATAATGAGGGGAACGAATCTTTGCTGAAGTCCTTGTGGCATCACTCAGATGCAATATTGTGCTGCACTCTAAAGGCGTTGCCAGTATTCACTTTCGCAAACCAGGCAGGGCTTGACATGCTGGAGACTACCTTAGTTGCTCTACAAGATATAACGTTAGAGAAAATATTTGATGATCATGGTCGAAAGATTCTGTGCTCAGAGTTTCCCCAAATTATTC-AACAGGGTTTTGCTTGCCTTCAAGG-TGGTATTTGT-CTCTCAA-GCATGGGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || || || |||||||| |||||||| ||||||||| | || ||||||| ||| ||  | || ||  |||||||||||||||| |||||||||||||||||||| ||| | ||||| ||| ||||| |||||||||||||||||||||| || | ||| || || ||||||   || |||    | ||||||||| | ||||| ||| | |||||| |  | ||||| ||||| || ||||| || ||||||||||| || |||||||||||||||||||| ||||||||||| ||||| ||  | |||||||| |||||||||||  ||||  |||||| ||| ||||| ||||| || ||  | || | ||||||| || |  |||||||||||  ||  | ||| ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1540499525|ref|XM_027488096.1|</Hit_id>
+  <Hit_def>PREDICTED: Abrus precatorius homeobox-leucine zipper protein ATHB-15 (LOC113856320), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_027488096</Hit_accession>
+  <Hit_len>3355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.19</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2585</Hsp_hit-from>
+      <Hsp_hit-to>3016</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTCCAAAGGGTAGCATTAGCTCTTTCACCTTCTCATTTGAGTTCACAAGCTGGGCTTAGAACACCACTGGGTACTCCTGAAGCTCAAACACTTGCTCGTTGGATCTGCAATAGTTATAGGTGCTACTTGGGTGTTGAGCTACTTAAATCTAATAATGAGGGGAACGAATCTTTGCTGAAGTCCTTGTGGCATCACTCAGATGCAATATTGTGCTGCACTCTAAAGGCGTTGCCAGTATTCACTTTCGCAAACCAGGCAGGGCTTGACATGCTGGAGACTACCTTAGTTGCTCTACAAGATATAACGTTAGAGAAAATATTTGATGATCATGGTCGAAAGATTCTGTGCTCAGAGTTTCCCCAAATTATTC-AACAGGGTTTTGCTTGCCTTCAAGG-TGGTATTTGT-CTCTCAA-GCATGGGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || || || |||||||| |||||||| ||||||||| | || ||||||| ||| ||  | || ||  |||||||||||||||| |||||||||||||||||||| ||| | ||||| ||| ||||| |||||||||||||||||||||| || | ||| || || ||||||   || |||    | ||||||||| | ||||| ||| | |||||| |  | ||||| ||||| || ||||| || ||||||||||| || |||||||||||||||||||| ||||||||||| ||||| ||  | |||||||| |||||||||||  ||||  |||||| ||| ||||| ||||| || ||  | || | ||||||| || |  |||||||||||  ||  | ||| ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1540499523|ref|XM_027488095.1|</Hit_id>
+  <Hit_def>PREDICTED: Abrus precatorius homeobox-leucine zipper protein ATHB-15 (LOC113856320), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_027488095</Hit_accession>
+  <Hit_len>3414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.19</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.95884e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2644</Hsp_hit-from>
+      <Hsp_hit-to>3075</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>ATCATATCATCGGTGCAGAGAGTAGCATTGGCTCTTTCTCCTTCTCATATCAGCTCACAAGTTGGTCTACGCACTCCTTTGGGTACTCCTGAAGCCCAAACACTTGCTCGTTGGATTTGCCAGAGTTACAGGGGCTACATGGGTGTTGAGCTACTTAAATCAAACAGTGACGGCAATGAATCTAGTCTTAAGAATCTTTGGCATCACACTGATGCTATAATCTGCTGCTCAATGAAGGCCTTGCCCGTCTTCACATTTGCAAACCAGGCGGGACTTGACATGCTGGAGACTACATTAGTTGCTCTTCAAGACATCTCTTTAGAGAAGATATTTGATGACAATGGAAGAAAGACTCTTTGCTCTGAGTTCCCACAGGTCATGCAAACAGGGNTTCGGGTGCCTTCAAGGCGGGGNTATGTCCTCTCAAGGCATGGGG</Hsp_qseq>
+      <Hsp_hseq>ATTATATCATCTGTCCAAAGGGTAGCATTAGCTCTTTCACCTTCTCATTTGAGTTCACAAGCTGGGCTTAGAACACCACTGGGTACTCCTGAAGCTCAAACACTTGCTCGTTGGATCTGCAATAGTTATAGGTGCTACTTGGGTGTTGAGCTACTTAAATCTAATAATGAGGGGAACGAATCTTTGCTGAAGTCCTTGTGGCATCACTCAGATGCAATATTGTGCTGCACTCTAAAGGCGTTGCCAGTATTCACTTTCGCAAACCAGGCAGGGCTTGACATGCTGGAGACTACCTTAGTTGCTCTACAAGATATAACGTTAGAGAAAATATTTGATGATCATGGTCGAAAGATTCTGTGCTCAGAGTTTCCCCAAATTATTC-AACAGGGTTTTGCTTGCCTTCAAGG-TGGTATTTGT-CTCTCAA-GCATGGGG</Hsp_hseq>
+      <Hsp_midline>|| |||||||| || || || |||||||| |||||||| ||||||||| | || ||||||| ||| ||  | || ||  |||||||||||||||| |||||||||||||||||||| ||| | ||||| ||| ||||| |||||||||||||||||||||| || | ||| || || ||||||   || |||    | ||||||||| | ||||| ||| | |||||| |  | ||||| ||||| || ||||| || ||||||||||| || |||||||||||||||||||| ||||||||||| ||||| ||  | |||||||| |||||||||||  ||||  |||||| ||| ||||| ||||| || ||  | || | ||||||| || |  |||||||||||  ||  | ||| ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

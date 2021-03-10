@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H13560.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yj15g12.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148870 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>396</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H13560.1</Iteration_query-ID>
+  <Iteration_query-def>yj15g12.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148870 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>396</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1849125425|ref|XM_024928494.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X16, mRNA</Hit_def>
+  <Hit_accession>XM_024928494</Hit_accession>
+  <Hit_len>7820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>6744</Hsp_hit-from>
+      <Hsp_hit-to>6355</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1849125423|ref|XM_034958516.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_034958516</Hit_accession>
+  <Hit_len>5658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4582</Hsp_hit-from>
+      <Hsp_hit-to>4193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1849125421|ref|XM_034958515.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_034958515</Hit_accession>
+  <Hit_len>5881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4805</Hsp_hit-from>
+      <Hsp_hit-to>4416</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1849125419|ref|XM_034958514.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_034958514</Hit_accession>
+  <Hit_len>5917</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4841</Hsp_hit-from>
+      <Hsp_hit-to>4452</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1849125417|ref|XM_034958513.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_034958513</Hit_accession>
+  <Hit_len>5444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4844</Hsp_hit-from>
+      <Hsp_hit-to>4455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1849125415|ref|XM_034958512.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_034958512</Hit_accession>
+  <Hit_len>5959</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4883</Hsp_hit-from>
+      <Hsp_hit-to>4494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1849125413|ref|XM_034958511.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_034958511</Hit_accession>
+  <Hit_len>5519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4919</Hsp_hit-from>
+      <Hsp_hit-to>4530</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1849125411|ref|XM_034958510.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_034958510</Hit_accession>
+  <Hit_len>5489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4889</Hsp_hit-from>
+      <Hsp_hit-to>4500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1849125409|ref|XM_034958509.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_034958509</Hit_accession>
+  <Hit_len>5534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4934</Hsp_hit-from>
+      <Hsp_hit-to>4545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1849125407|ref|XM_034958508.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_034958508</Hit_accession>
+  <Hit_len>5567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4967</Hsp_hit-from>
+      <Hsp_hit-to>4578</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1849125405|ref|XM_034958507.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_034958507</Hit_accession>
+  <Hit_len>5592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4992</Hsp_hit-from>
+      <Hsp_hit-to>4603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1849125403|ref|XM_034958506.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_034958506</Hit_accession>
+  <Hit_len>5595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4995</Hsp_hit-from>
+      <Hsp_hit-to>4606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1849125401|ref|XM_034958505.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_034958505</Hit_accession>
+  <Hit_len>5612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5012</Hsp_hit-from>
+      <Hsp_hit-to>4623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1849125399|ref|XM_034958504.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034958504</Hit_accession>
+  <Hit_len>5648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5048</Hsp_hit-from>
+      <Hsp_hit-to>4659</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1849125397|ref|XM_034958502.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034958502</Hit_accession>
+  <Hit_len>5671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5071</Hsp_hit-from>
+      <Hsp_hit-to>4682</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1849125395|ref|XM_034958501.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus LIM and calponin homology domains 1 (LIMCH1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034958501</Hit_accession>
+  <Hit_len>5657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5057</Hsp_hit-from>
+      <Hsp_hit-to>4668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1676441519|ref|NM_014988.5|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_014988</Hit_accession>
+  <Hit_len>6145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5060</Hsp_hit-from>
+      <Hsp_hit-to>4671</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1676440083|ref|NM_001289122.3|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 6, mRNA</Hit_def>
+  <Hit_accession>NM_001289122</Hit_accession>
+  <Hit_len>6103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5018</Hsp_hit-from>
+      <Hsp_hit-to>4629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1676439667|ref|NM_001330792.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 17, mRNA</Hit_def>
+  <Hit_accession>NM_001330792</Hit_accession>
+  <Hit_len>6028</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4943</Hsp_hit-from>
+      <Hsp_hit-to>4554</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1676325315|ref|NM_001330784.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 10, mRNA</Hit_def>
+  <Hit_accession>NM_001330784</Hit_accession>
+  <Hit_len>5836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4751</Hsp_hit-from>
+      <Hsp_hit-to>4362</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1676319117|ref|NM_001330790.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 15, mRNA</Hit_def>
+  <Hit_accession>NM_001330790</Hit_accession>
+  <Hit_len>6142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5057</Hsp_hit-from>
+      <Hsp_hit-to>4668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1676317682|ref|NM_001112717.4|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001112717</Hit_accession>
+  <Hit_len>6067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4982</Hsp_hit-from>
+      <Hsp_hit-to>4593</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1675175880|ref|NM_001330788.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 13, mRNA</Hit_def>
+  <Hit_accession>NM_001330788</Hit_accession>
+  <Hit_len>6061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4976</Hsp_hit-from>
+      <Hsp_hit-to>4587</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1675144715|ref|NM_001330791.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 16, mRNA</Hit_def>
+  <Hit_accession>NM_001330791</Hit_accession>
+  <Hit_len>6106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5021</Hsp_hit-from>
+      <Hsp_hit-to>4632</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1675096706|ref|NM_001330787.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 12, mRNA</Hit_def>
+  <Hit_accession>NM_001330787</Hit_accession>
+  <Hit_len>6151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5066</Hsp_hit-from>
+      <Hsp_hit-to>4677</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1675076427|ref|NM_001289124.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 7, mRNA</Hit_def>
+  <Hit_accession>NM_001289124</Hit_accession>
+  <Hit_len>6170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5085</Hsp_hit-from>
+      <Hsp_hit-to>4696</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1675062893|ref|NM_001330789.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 14, mRNA</Hit_def>
+  <Hit_accession>NM_001330789</Hit_accession>
+  <Hit_len>5983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4898</Hsp_hit-from>
+      <Hsp_hit-to>4509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1674986322|ref|NM_001330786.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 11, mRNA</Hit_def>
+  <Hit_accession>NM_001330786</Hit_accession>
+  <Hit_len>5956</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4871</Hsp_hit-from>
+      <Hsp_hit-to>4482</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1674985934|ref|NM_001112718.4|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001112718</Hit_accession>
+  <Hit_len>6064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4979</Hsp_hit-from>
+      <Hsp_hit-to>4590</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1519244455|ref|NM_001330672.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 8, mRNA</Hit_def>
+  <Hit_accession>NM_001330672</Hit_accession>
+  <Hit_len>7697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>6612</Hsp_hit-from>
+      <Hsp_hit-to>6223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1370486484|ref|XM_024453938.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant X25, mRNA</Hit_def>
+  <Hit_accession>XM_024453938</Hit_accession>
+  <Hit_len>5664</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4579</Hsp_hit-from>
+      <Hsp_hit-to>4190</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1370486482|ref|XM_024453937.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant X21, mRNA</Hit_def>
+  <Hit_accession>XM_024453937</Hit_accession>
+  <Hit_len>6140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5055</Hsp_hit-from>
+      <Hsp_hit-to>4666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1367284130|ref|XM_001148461.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X34, mRNA</Hit_def>
+  <Hit_accession>XM_001148461</Hit_accession>
+  <Hit_len>5898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4821</Hsp_hit-from>
+      <Hsp_hit-to>4432</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1367284128|ref|XM_016951482.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X33, mRNA</Hit_def>
+  <Hit_accession>XM_016951482</Hit_accession>
+  <Hit_len>5950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4873</Hsp_hit-from>
+      <Hsp_hit-to>4484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1367284126|ref|XM_001148737.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X32, mRNA</Hit_def>
+  <Hit_accession>XM_001148737</Hit_accession>
+  <Hit_len>5934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4857</Hsp_hit-from>
+      <Hsp_hit-to>4468</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1367284122|ref|XM_024356082.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X31, mRNA</Hit_def>
+  <Hit_accession>XM_024356082</Hit_accession>
+  <Hit_len>4893</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4860</Hsp_hit-from>
+      <Hsp_hit-to>4471</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1367284120|ref|XM_009447584.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X30, mRNA</Hit_def>
+  <Hit_accession>XM_009447584</Hit_accession>
+  <Hit_len>6163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5086</Hsp_hit-from>
+      <Hsp_hit-to>4697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1367284117|ref|XM_517164.6|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X29, mRNA</Hit_def>
+  <Hit_accession>XM_517164</Hit_accession>
+  <Hit_len>5976</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4899</Hsp_hit-from>
+      <Hsp_hit-to>4510</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1367284114|ref|XM_024356081.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X28, mRNA</Hit_def>
+  <Hit_accession>XM_024356081</Hit_accession>
+  <Hit_len>4968</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4935</Hsp_hit-from>
+      <Hsp_hit-to>4546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1367284111|ref|XM_009447579.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X27, mRNA</Hit_def>
+  <Hit_accession>XM_009447579</Hit_accession>
+  <Hit_len>4972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4939</Hsp_hit-from>
+      <Hsp_hit-to>4550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1367284105|ref|XM_009447587.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X25, mRNA</Hit_def>
+  <Hit_accession>XM_009447587</Hit_accession>
+  <Hit_len>5022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4997</Hsp_hit-from>
+      <Hsp_hit-to>4608</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1367284102|ref|XM_009447586.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X24, mRNA</Hit_def>
+  <Hit_accession>XM_009447586</Hit_accession>
+  <Hit_len>5025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5000</Hsp_hit-from>
+      <Hsp_hit-to>4611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1367284100|ref|XM_009447583.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X23, mRNA</Hit_def>
+  <Hit_accession>XM_009447583</Hit_accession>
+  <Hit_len>5076</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5051</Hsp_hit-from>
+      <Hsp_hit-to>4662</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1367284097|ref|XM_016951480.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X22, mRNA</Hit_def>
+  <Hit_accession>XM_016951480</Hit_accession>
+  <Hit_len>6130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5053</Hsp_hit-from>
+      <Hsp_hit-to>4664</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1367284094|ref|XM_016951479.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes LIM and calponin homology domains 1 (LIMCH1), transcript variant X21, mRNA</Hit_def>
+  <Hit_accession>XM_016951479</Hit_accession>
+  <Hit_len>6166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>5089</Hsp_hit-from>
+      <Hsp_hit-to>4700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1890341511|ref|NM_001112719.4|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 4, mRNA</Hit_def>
+  <Hit_accession>NM_001112719</Hit_accession>
+  <Hit_len>5741</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4656</Hsp_hit-from>
+      <Hsp_hit-to>4267</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1890335542|ref|NM_001330982.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 19, mRNA</Hit_def>
+  <Hit_accession>NM_001330982</Hit_accession>
+  <Hit_len>5744</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4659</Hsp_hit-from>
+      <Hsp_hit-to>4270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1890273633|ref|NM_001330674.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 9, mRNA</Hit_def>
+  <Hit_accession>NM_001330674</Hit_accession>
+  <Hit_len>5783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4698</Hsp_hit-from>
+      <Hsp_hit-to>4309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1890264664|ref|NM_001330793.2|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 18, mRNA</Hit_def>
+  <Hit_accession>NM_001330793</Hit_accession>
+  <Hit_len>5819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4734</Hsp_hit-from>
+      <Hsp_hit-to>4345</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1889521619|ref|NM_001112720.4|</Hit_id>
+  <Hit_def>Homo sapiens LIM and calponin homology domains 1 (LIMCH1), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001112720</Hit_accession>
+  <Hit_len>5705</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.384</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.11275e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>4620</Hsp_hit-from>
+      <Hsp_hit-to>4231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTNCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGANAAATTATTGCTTACATAACAGAAAAACATCTACTTTGACCCCCTTTTATNGACTACATCAATCTATTTAGGGAGTGTATCCCTAGTCTNACATTTCACAAATGNTCATC</Hsp_qseq>
+      <Hsp_hseq>AAACACCTCCATGAGAAGTCTTGGAAACTTGGAAGTGACTTCATCTCTCTTCAATGTACTGCATCCATAATTTATCGCCATGTGCAACAGCTTTGCGTTTTCTAAGGCACAATTTTTAATGAAATGATGTGTAGATTTCAATCTAATAACAGCTCATCCAAATGACAAATATGGTCGAAATCCCTCCAGTGGCTGAGGAAATTTCTGCACCTATATGGAACCCACATGCAAAGAACCCATCTAGCATGTAATAAATAATCGCTAGCCATACTCAATAAGACACGGAAAAATTATTGCTTACATAACAGAAAAACATCTAC-TTGACCCCCTTTTAT-GACTACATCAATCTATT--AGGAGTGTATCCATAGTCT-ACA-TTCACAAAATGTCATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||   ||||||||||| |||||| ||| ||||||||   |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

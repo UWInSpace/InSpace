@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14940.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yl26h06.r1 Soares breast 3NbHBst Homo sapiens cDNA clone IMAGE:159419 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>382</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14940.1</Iteration_query-ID>
+  <Iteration_query-def>yl26h06.r1 Soares breast 3NbHBst Homo sapiens cDNA clone IMAGE:159419 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>382</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1888522|gb|U84487.1|HSU84487</Hit_id>
+  <Hit_def>Human CX3C chemokine precursor, mRNA, alternatively spliced, complete cds</Hit_def>
+  <Hit_accession>U84487</Hit_accession>
+  <Hit_len>3310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.597</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1518</Hsp_hit-from>
+      <Hsp_hit-to>1893</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>371</Hsp_identity>
+      <Hsp_positive>371</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCTGGGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGSATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1676320216|ref|NM_001304392.3|</Hit_id>
+  <Hit_def>Homo sapiens C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001304392</Hit_accession>
+  <Hit_len>3164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1397</Hsp_hit-from>
+      <Hsp_hit-to>1771</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1519316422|ref|NM_002996.6|</Hit_id>
+  <Hit_def>Homo sapiens C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_002996</Hit_accession>
+  <Hit_len>3285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1518</Hsp_hit-from>
+      <Hsp_hit-to>1892</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1548994290|gb|CP034494.1|</Hit_id>
+  <Hit_def>Eukaryotic synthetic construct chromosome 16 &gt;gi|1549096691|gb|CP034519.1| Eukaryotic synthetic construct chromosome 16</Hit_def>
+  <Hit_accession>CP034494</Hit_accession>
+  <Hit_len>98200793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>57357189</Hsp_hit-from>
+      <Hsp_hit-to>57357563</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1959392270|gb|CP068262.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CHM13 chromosome 16</Hit_def>
+  <Hit_accession>CP068262</Hit_accession>
+  <Hit_len>96330493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>63178403</Hsp_hit-from>
+      <Hsp_hit-to>63178777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1909942457|dbj|AP023476.1|</Hit_id>
+  <Hit_def>Homo sapiens DNA, chromosome 16, nearly complete genome</Hit_def>
+  <Hit_accession>AP023476</Hit_accession>
+  <Hit_len>94690957</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>61779584</Hsp_hit-from>
+      <Hsp_hit-to>61779958</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|261888593|gb|GU047346.1|</Hit_id>
+  <Hit_def>Homo sapiens chemokine (C-X3-C motif) ligand 1 (CX3CL1) mRNA, partial sequence</Hit_def>
+  <Hit_accession>GU047346</Hit_accession>
+  <Hit_len>2039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|117606541|gb|EF064745.1|</Hit_id>
+  <Hit_def>Homo sapiens chemokine (C-X3-C motif) ligand 1 (CX3CL1) gene, complete cds</Hit_def>
+  <Hit_accession>EF064745</Hit_accession>
+  <Hit_len>16178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>12776</Hsp_hit-from>
+      <Hsp_hit-to>13150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|12654650|gb|BC001163.1|</Hit_id>
+  <Hit_def>Homo sapiens chemokine (C-X3-C motif) ligand 1, mRNA (cDNA clone MGC:1623 IMAGE:3503870), complete cds</Hit_def>
+  <Hit_accession>BC001163</Hit_accession>
+  <Hit_len>3304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1506</Hsp_hit-from>
+      <Hsp_hit-to>1880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|3252819|gb|AC004382.1|HUAC004382</Hit_id>
+  <Hit_def>Homo sapiens Chromosome 16 BAC clone CIT987SK-A-152E5, complete sequence</Hit_def>
+  <Hit_accession>AC004382</Hit_accession>
+  <Hit_len>217873</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>33299</Hsp_hit-from>
+      <Hsp_hit-to>33673</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|62087653|dbj|AB209037.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA for chemokine (C-X3-C motif) ligand 1 variant protein</Hit_def>
+  <Hit_accession>AB209037</Hit_accession>
+  <Hit_len>5794</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>4029</Hsp_hit-from>
+      <Hsp_hit-to>4403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|16740573|gb|BC016164.1|</Hit_id>
+  <Hit_def>Homo sapiens chemokine (C-X3-C motif) ligand 1, mRNA (cDNA clone MGC:15771 IMAGE:3502121), complete cds</Hit_def>
+  <Hit_accession>BC016164</Hit_accession>
+  <Hit_len>3299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1506</Hsp_hit-from>
+      <Hsp_hit-to>1880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|29124041|gb|AC009052.8|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 16 clone RP11-250E14, complete sequence</Hit_def>
+  <Hit_accession>AC009052</Hit_accession>
+  <Hit_len>200557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.679</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.73199e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>80994</Hsp_hit-from>
+      <Hsp_hit-to>81368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>370</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1849030818|ref|XM_034940249.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034940249</Hit_accession>
+  <Hit_len>3189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.58688e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1415</Hsp_hit-from>
+      <Hsp_hit-to>1789</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAATACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1849030816|ref|XM_003823745.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003823745</Hit_accession>
+  <Hit_len>3324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.58688e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1550</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAATACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1367192649|ref|XM_016929898.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016929898</Hit_accession>
+  <Hit_len>3281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.58688e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1507</Hsp_hit-from>
+      <Hsp_hit-to>1881</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCATGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1367192647|ref|XM_510989.6|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_510989</Hit_accession>
+  <Hit_len>3330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.17</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.58688e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1556</Hsp_hit-from>
+      <Hsp_hit-to>1930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCATGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1753047089|ref|XM_004057704.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_004057704</Hit_accession>
+  <Hit_len>3322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.628</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>5.18755e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1550</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAACGCCCAGCCCTTTCTGACCCATGCTGCCCTGTGAGTACTACCGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGCTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTCCCT-GGCACTGCTTCCAGTGACGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||||| | |||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1351450960|ref|XM_024233022.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024233022</Hit_accession>
+  <Hit_len>3176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.39201e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1423</Hsp_hit-from>
+      <Hsp_hit-to>1796</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACTCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAACCTCATTGTGTCCCTTGGTCCTGCGGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTGG-GACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1351450955|ref|XM_009250747.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009250747</Hit_accession>
+  <Hit_len>3297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.39201e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1544</Hsp_hit-from>
+      <Hsp_hit-to>1917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACTCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAACCTCATTGTGTCCCTTGGTCCTGCGGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTGG-GACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|207080169|ref|NM_001135355.1|</Hit_id>
+  <Hit_def>Pongo abelii DKFZP459G048 protein (DKFZP459G048), mRNA &gt;gi|55729920|emb|CR859519.1| Pongo abelii mRNA; cDNA DKFZp459G048 (from clone DKFZp459G048)</Hit_def>
+  <Hit_accession>NM_001135355</Hit_accession>
+  <Hit_len>3297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.496</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.39201e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1529</Hsp_hit-from>
+      <Hsp_hit-to>1902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAACGCCCAGCCCCCTCTGACTCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAACCTCATTGTGTCCCTTGGTCCTGCGGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTGG-GACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|197100293|ref|NM_001132042.1|</Hit_id>
+  <Hit_def>Pongo abelii C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA &gt;gi|55728316|emb|CR858692.1| Pongo abelii mRNA; cDNA DKFZp459K117 (from clone DKFZp459K117)</Hit_def>
+  <Hit_accession>NM_001132042</Hit_accession>
+  <Hit_len>3308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.69582e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1543</Hsp_hit-from>
+      <Hsp_hit-to>1916</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>360</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACTCATGCTGCCCTGTGAGTACTACAGCCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAACCTCATTGTGTCCCTTGGTCCTGCGGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTGG-GACATGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||| |||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||| ||||||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1743187060|ref|XM_030796518.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030796518</Hit_accession>
+  <Hit_len>3178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.086</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>5.91899e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1408</Hsp_hit-from>
+      <Hsp_hit-to>1782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACCCACGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCACAACCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCTTCTGTACAGAGCCCATGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTCTTTCCT-GGCACTGCTACCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||| ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||| | |||||||||||||||||||||||||||||||||||||||| || |||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1743187059|ref|XM_003263097.2|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003263097</Hit_accession>
+  <Hit_len>3320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.086</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>5.91899e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1550</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACCCACGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCACAACCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCTTCTGTACAGAGCCCATGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTCTTTCCT-GGCACTGCTACCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||| ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||| | |||||||||||||||||||||||||||||||||||||||| || |||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1799984383|ref|XM_032157435.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032157435</Hit_accession>
+  <Hit_len>3179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.578</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>7.2108e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1409</Hsp_hit-from>
+      <Hsp_hit-to>1783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACCCACACTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCACAACCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCTGTCTTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTCTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGAGTATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||| |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  || ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| || |||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1799984381|ref|XM_032157434.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032157434</Hit_accession>
+  <Hit_len>3320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.578</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>7.2108e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1550</Hsp_hit-from>
+      <Hsp_hit-to>1924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCCCTCTGACCCACACTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCACAACCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCTGTCTTCTGTACAGAGCCCACGCCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTGGTCTTTCCT-GGCACTGCTTCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGAGTATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||| |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  || ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| || |||||| ||||||||||||||| |||||||||||||||||||| ||||| |||||||| |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1825850151|ref|XM_033218523.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_033218523</Hit_accession>
+  <Hit_len>3353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.544</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.93493e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1587</Hsp_hit-from>
+      <Hsp_hit-to>1956</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>354</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGATGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1751264905|ref|XM_010365478.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_010365478</Hit_accession>
+  <Hit_len>3352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.937</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>2.35722e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1582</Hsp_hit-from>
+      <Hsp_hit-to>1949</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>352</Hsp_identity>
+      <Hsp_positive>352</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCT</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTATAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCATGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1788682766|ref|XM_023210022.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_023210022</Hit_accession>
+  <Hit_len>3182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1412</Hsp_hit-from>
+      <Hsp_hit-to>1781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGTCATCCCAGCCCCAATGAAAAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||||||||||||||||  ||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1788682765|ref|XM_023210021.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023210021</Hit_accession>
+  <Hit_len>3335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1569</Hsp_hit-from>
+      <Hsp_hit-to>1938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGTCATCCCAGCCCCAATGAAAAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||||||||||||||||  ||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1411142381|ref|XM_025371129.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025371129</Hit_accession>
+  <Hit_len>3209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1451</Hsp_hit-from>
+      <Hsp_hit-to>1820</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1411142379|ref|XM_025371128.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025371128</Hit_accession>
+  <Hit_len>3330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1572</Hsp_hit-from>
+      <Hsp_hit-to>1941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1411142377|ref|XM_025371127.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025371127</Hit_accession>
+  <Hit_len>3299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1541</Hsp_hit-from>
+      <Hsp_hit-to>1910</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1297637006|ref|XM_023210020.1|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023210020</Hit_accession>
+  <Hit_len>3242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1472</Hsp_hit-from>
+      <Hsp_hit-to>1841</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGTCATCCCAGCCCCAATGAAAAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||||||||||||||||  ||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795193659|ref|XM_012065133.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys chemokine (C-X3-C motif) ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_012065133</Hit_accession>
+  <Hit_len>3349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1583</Hsp_hit-from>
+      <Hsp_hit-to>1952</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|795088266|ref|XM_011971851.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011971851</Hit_accession>
+  <Hit_len>3206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1448</Hsp_hit-from>
+      <Hsp_hit-to>1817</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCCCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|795088262|ref|XM_011971850.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011971850</Hit_accession>
+  <Hit_len>3330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1572</Hsp_hit-from>
+      <Hsp_hit-to>1941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCCCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|795088257|ref|XM_011971849.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011971849</Hit_accession>
+  <Hit_len>3226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.036</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.22752e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1472</Hsp_hit-from>
+      <Hsp_hit-to>1841</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCATGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCCCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1059155940|ref|XM_017878845.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_017878845</Hit_accession>
+  <Hit_len>3361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.429</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>1.00232e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1590</Hsp_hit-from>
+      <Hsp_hit-to>1957</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCT</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTATAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCATCCCCATCCTCTGTACAGAGCCCATGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| | ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1220202226|ref|XM_021932020.1|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_021932020</Hit_accession>
+  <Hit_len>3039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.527</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>1.00232e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1567</Hsp_hit-from>
+      <Hsp_hit-to>1936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>352</Hsp_identity>
+      <Hsp_positive>352</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACACCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|982325495|ref|XM_005595727.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis chemokine (C-X3-C motif) ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_005595727</Hit_accession>
+  <Hit_len>3504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>4.26196e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1745</Hsp_hit-from>
+      <Hsp_hit-to>2114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCTAGCCCCAATGAACAATTATTTATT-----CCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTTCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||     ||||||||| ||||||||| ||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|165934051|gb|AC197394.4|</Hit_id>
+  <Hit_def>MACACA MULATTA BAC clone CH250-409H15 from chromosome 20, complete sequence</Hit_def>
+  <Hit_accession>AC197394</Hit_accession>
+  <Hit_len>165249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>4.26196e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>109324</Hsp_hit-from>
+      <Hsp_hit-to>109693</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGATGCCATCCCAGCCCCAATGAACAATTATTTATT-----CCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTTCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||     ||||||||| ||||||||| ||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|159032195|gb|AC198191.3|</Hit_id>
+  <Hit_def>MACACA MULATTA BAC clone CH250-19M12 from chromosome 20, complete sequence</Hit_def>
+  <Hit_accession>AC198191</Hit_accession>
+  <Hit_len>186843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>4.26196e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>159224</Hsp_hit-from>
+      <Hsp_hit-to>159593</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGATGCCATCCCAGCCCCAATGAACAATTATTTATT-----CCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTTCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACGCCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||     ||||||||| ||||||||| ||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1938877026|ref|XM_007993433.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus fractalkine (LOC103233058), mRNA</Hit_def>
+  <Hit_accession>XM_007993433</Hit_accession>
+  <Hit_len>3321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.51</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>5.19213e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1567</Hsp_hit-from>
+      <Hsp_hit-to>1936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTTCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGAAATCTCATTGTGTCTCTTGGTTCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCTCTGTACAGAGCCCACACCCCCACTAGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGATATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||     |||||||||| ||||||||| ||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | || || ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  ||||||| ||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|795149217|ref|XM_011938845.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011938845</Hit_accession>
+  <Hit_len>3224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.395</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>2.68959e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1451</Hsp_hit-from>
+      <Hsp_hit-to>1822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCC--ACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCGCCTGCGGTGCTATCTCGCCCAGCCCCGTCCTCTGTACAGAGCCCATATGCCCCCACTAGTGACGTGTCTTCTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||| |||||||||||||||||  | | ||||||| ||||| |||||| ||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|795149212|ref|XM_011938844.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011938844</Hit_accession>
+  <Hit_len>3348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.395</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>2.68959e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1575</Hsp_hit-from>
+      <Hsp_hit-to>1946</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCC--ACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCGCCTGCGGTGCTATCTCGCCCAGCCCCGTCCTCTGTACAGAGCCCATATGCCCCCACTAGTGACGTGTCTTCTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||| |||||||||||||||||  | | ||||||| ||||| |||||| ||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|795149207|ref|XM_011938843.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus chemokine (C-X3-C motif) ligand 1 (CX3CL1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011938843</Hit_accession>
+  <Hit_len>3245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.395</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>2.68959e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1472</Hsp_hit-from>
+      <Hsp_hit-to>1843</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCTCTGTACAGAGCCC--ACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACAATTATTTAT-----GCCCAGCCCCCTCTGACCCACGCTACCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGGCCCTCTGCCCACTCCCCGCAATCTCATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCGCCTGCGGTGCTATCTCGCCCAGCCCCGTCCTCTGTACAGAGCCCATATGCCCCCACTAGTGACGTGTCTTCTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTTGGTTAGGCATTGT-GGGAAGGG-GAGATAAGGGTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||     |||||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||| |||||||||||||||||  | | ||||||| ||||| |||||| ||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|817266584|ref|XM_012447887.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_012447887</Hit_accession>
+  <Hit_len>3311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.345</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>3.73859e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1533</Hsp_hit-from>
+      <Hsp_hit-to>1909</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGG-CCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCAT-CCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAGTGAACGATTATTTATTAAACGTCCAGCCCCCTCTGACCCACGCAGCCCTGTGAGTACCACAGTCCTCCCATCTCACACATGAGCCTCAGGCCAGGTCCCTCTGCCCGCTCCCCCAGACCTCATCGTGTCTCCTGGTCCTGCTGCGGTTGCCAGTGACTCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCATCCCTCTGTACAGAGCCCACGCCCCCACTGGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GGCACTGCTCCCAGTGAGGCTCTGCCCTCGGTTAGGCATTGT-GGGAAGGG-GAGATGAGGCTATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||| | ||||||||||||| | |||||||| ||||||||| || ||||||||||||| |||||||||||||||||||||||||| |||||||||| |||||||||| |||||    |||| || ||||||| |||||||||||| ||||||||| || ||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||| ||||||||| ||||||||| ||||| |||||||||||| ||||||| ||||| |||||||| ||||| ||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1804368153|ref|XM_032283975.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella C-X3-C motif chemokine ligand 1 (CX3CL1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032283975</Hit_accession>
+  <Hit_len>3271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.704</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.22215e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1488</Hsp_hit-from>
+      <Hsp_hit-to>1863</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGG-CCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCAT-CCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCC-GCTGACCCACGCAGCCCTGTGAGTACCGCAGGCCTCCCAGCTCACACATGAGCCTCAGGCCAGGCCCCTCTGCCCACTCCCCCAGGCCTCATCGTGTCTCCTGGTCCTGCTGCGGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCCTCTGTACAGAGCCCACACCCCCACTGGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GACACTGCTCCCAGTGAGGCTCTGCCTTCGGTAAGGCATTGT-GGGAAGGG-GAGATGAGGCCATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||  |||||||| || |||||||||||||  ||| ||||||| ||||||||||||| |||||||||| ||||||||||||||||     ||| || ||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||  ||||||||||||| |||||||||||||||||||||||||| ||||||||| | ||||||| ||||| |||||||||| | ||| ||| ||||| |||||||| ||||| |||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1933984920|ref|XM_017502704.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator C-X3-C motif chemokine ligand 1 (CX3CL1), mRNA</Hit_def>
+  <Hit_accession>XM_017502704</Hit_accession>
+  <Hit_len>3139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.704</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.22215e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1356</Hsp_hit-from>
+      <Hsp_hit-to>1731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGANCAATTATTTATTAAATGCCCAGCCCCTTCTGACCCATGCTGCCCTGTGAGTACTACAGTCCTCCCATCTCACACATGAGCATCAGGCCAGG-CCCTCTGCCCACTCCCTGCAACCTGATTGTGTCTCTTGGTCCTGCTGCAGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCAT-CCTCTGTACAGAGCCCACGNCCCCACTGGTGACATGTCTTTTCTTGCATGAGGCTAGTGTNGTGTTTCCTGGGCACTGCTTCCAGTNAGGCTCTGCCCTTGGTTAGGGATTGTNGGGAAGGGNGAGATAAGGGTATCTGG</Hsp_qseq>
+      <Hsp_hseq>GCTGCTGGCTGGTTAGAGGTTCCCTTTGACGCCATCCCAGCCCCAATGAACAATTATTTATTAAATGCCCAGCCCC-GCTGACCCACGCAGCCCTGTGAGTACCGCAGGCCTCCCAGCTCACACATGAGCCTCAGGCCAGGCCCCTCTGCCCACTCCCCCAGGCCTCATCGTGTCTCCTGGTCCTGCTGCGGTTGCCAGTCACCCCGGCCACCTGCGGTGCTATCTCCCCCAGCCCCGTCCCTCTGTACAGAGCCCACACCCCCACTGGTGACGTGTCTTTTCTTGCATGAGGCTAGTGTGGTGTTTCCT-GACACTGCTCCCAGTGAGGCTCTGCCTTCGGTAAGGCATTGT-GGGAAGGG-GAGATGAGGCCATCTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||  |||||||| || |||||||||||||  ||| ||||||| ||||||||||||| |||||||||| ||||||||||||||||     ||| || ||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||  ||||||||||||| |||||||||||||||||||||||||| ||||||||| | ||||||| ||||| |||||||||| | ||| ||| ||||| |||||||| ||||| |||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

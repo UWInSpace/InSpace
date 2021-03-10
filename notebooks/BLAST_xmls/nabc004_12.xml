@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H13458.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yj15a05.r1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148784 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>436</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H13458.1</Iteration_query-ID>
+  <Iteration_query-def>yj15a05.r1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148784 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>436</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|152012824|gb|BC150311.1|</Hit_id>
+  <Hit_def>Homo sapiens TBC1 domain family, member 13, mRNA (cDNA clone MGC:167114 IMAGE:8860447), complete cds</Hit_def>
+  <Hit_accession>BC150311</Hit_accession>
+  <Hit_len>3824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>676.648</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>3402</Hsp_hit-from>
+      <Hsp_hit-to>3814</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>409</Hsp_identity>
+      <Hsp_positive>409</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>422</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTTTTGCAAAAAA</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCACCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCA---TGTGTTCTTTGCAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| ||||||   ||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1519312758|ref|NM_018201.5|</Hit_id>
+  <Hit_def>Homo sapiens TBC1 domain family member 13 (TBC1D13), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_018201</Hit_accession>
+  <Hit_len>3855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3443</Hsp_hit-from>
+      <Hsp_hit-to>3847</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|767957722|ref|XM_005252060.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005252060</Hit_accession>
+  <Hit_len>3806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3392</Hsp_hit-from>
+      <Hsp_hit-to>3796</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1890342085|ref|NM_001286772.2|</Hit_id>
+  <Hit_def>Homo sapiens TBC1 domain family member 13 (TBC1D13), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001286772</Hit_accession>
+  <Hit_len>3480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3068</Hsp_hit-from>
+      <Hsp_hit-to>3472</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|15928871|gb|BC014898.1|</Hit_id>
+  <Hit_def>Homo sapiens TBC1 domain family, member 13, mRNA (cDNA clone IMAGE:3910764)</Hit_def>
+  <Hit_accession>BC014898</Hit_accession>
+  <Hit_len>3807</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3377</Hsp_hit-from>
+      <Hsp_hit-to>3781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|34529462|dbj|AK123828.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ41834 fis, clone NT2RI3000622, highly similar to TBC1 domain family member 13</Hit_def>
+  <Hit_accession>AK123828</Hit_accession>
+  <Hit_len>3511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3105</Hsp_hit-from>
+      <Hsp_hit-to>3509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14042146|dbj|AK027457.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ14551 fis, clone NT2RM2001753, highly similar to TBC1 domain family member 13</Hit_def>
+  <Hit_accession>AK027457</Hit_accession>
+  <Hit_len>2943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>2537</Hsp_hit-from>
+      <Hsp_hit-to>2941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|7022961|dbj|AK001605.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ10743 fis, clone NT2RP3001642, weakly similar to HYPOTHETICAL PROTEIN KIAA0210</Hit_def>
+  <Hit_accession>AK001605</Hit_accession>
+  <Hit_len>3384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>2978</Hsp_hit-from>
+      <Hsp_hit-to>3382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|18476622|emb|AL441992.17|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-545E17 on chromosome 9, complete sequence</Hit_def>
+  <Hit_accession>AL441992</Hit_accession>
+  <Hit_len>166664</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>110604</Hsp_hit-from>
+      <Hsp_hit-to>111008</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1849190507|ref|XM_034929217.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034929217</Hit_accession>
+  <Hit_len>3818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3404</Hsp_hit-from>
+      <Hsp_hit-to>3808</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1849190502|ref|XM_003822339.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003822339</Hit_accession>
+  <Hit_len>3881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3467</Hsp_hit-from>
+      <Hsp_hit-to>3871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1367326191|ref|XM_009457435.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes TBC1 domain family member 13 (TBC1D13), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_009457435</Hit_accession>
+  <Hit_len>3795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3381</Hsp_hit-from>
+      <Hsp_hit-to>3785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1367326190|ref|XM_009457434.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009457434</Hit_accession>
+  <Hit_len>3800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3386</Hsp_hit-from>
+      <Hsp_hit-to>3790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1367326189|ref|XM_520299.6|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_520299</Hit_accession>
+  <Hit_len>3887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3473</Hsp_hit-from>
+      <Hsp_hit-to>3877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|111154168|gb|AC159020.3|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-530A5 from chromosome 9, complete sequence</Hit_def>
+  <Hit_accession>AC159020</Hit_accession>
+  <Hit_len>219428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>661.319</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>185861</Hsp_hit-from>
+      <Hsp_hit-to>185457</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>400</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGAACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAACTCCCAGCAGGACACTGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1753087300|ref|XM_004048696.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla TBC1 domain family member 13 (TBC1D13), mRNA</Hit_def>
+  <Hit_accession>XM_004048696</Hit_accession>
+  <Hit_len>3878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.302</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3466</Hsp_hit-from>
+      <Hsp_hit-to>3868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>396</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>GGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATC--ATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>GGAACCACACTACTTGAATCACCATTAATTTGCCTCACTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAAAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCGTATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||  ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1351515213|ref|XM_024251915.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024251915</Hit_accession>
+  <Hit_len>3819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.83599e-177</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3405</Hsp_hit-from>
+      <Hsp_hit-to>3809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTCGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCCGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTACCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGGTCTCACTCCAGAGGGTTAGAACATTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGATG--ATGAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||| ||||||||| ||||||    |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1351515211|ref|XM_024251914.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024251914</Hit_accession>
+  <Hit_len>3914</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.83599e-177</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3500</Hsp_hit-from>
+      <Hsp_hit-to>3904</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATTAATTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTCGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCCGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTACCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGGTCTCACTCCAGAGGGTTAGAACATTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGATG--ATGAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||| ||||||||| ||||||    |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1800000007|ref|XM_032165333.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch TBC1 domain family member 13 (TBC1D13), mRNA</Hit_def>
+  <Hit_accession>XM_032165333</Hit_accession>
+  <Hit_len>3868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.465</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>6.40822e-177</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3453</Hsp_hit-from>
+      <Hsp_hit-to>3858</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCATTACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAG-TTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATTAATTTGCCTCACTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCACCTGCAGAAAGGACCCGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCCGTATGAATTCAGCAGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTTCATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1825829139|ref|XM_033193116.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_033193116</Hit_accession>
+  <Hit_len>3744</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3333</Hsp_hit-from>
+      <Hsp_hit-to>3737</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAAAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||  |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1825829137|ref|XM_033193105.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_033193105</Hit_accession>
+  <Hit_len>3841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3430</Hsp_hit-from>
+      <Hsp_hit-to>3834</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAAAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||  |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1751243087|ref|XM_010360897.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_010360897</Hit_accession>
+  <Hit_len>3746</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3335</Hsp_hit-from>
+      <Hsp_hit-to>3739</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGAGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1751243086|ref|XM_010360896.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010360896</Hit_accession>
+  <Hit_len>3846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3435</Hsp_hit-from>
+      <Hsp_hit-to>3839</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGAGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1411110239|ref|XM_025358644.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada TBC1 domain family member 13 (TBC1D13), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025358644</Hit_accession>
+  <Hit_len>3544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3130</Hsp_hit-from>
+      <Hsp_hit-to>3534</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTGTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1411110237|ref|XM_025358643.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025358643</Hit_accession>
+  <Hit_len>3849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3435</Hsp_hit-from>
+      <Hsp_hit-to>3839</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTGTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1411110235|ref|XM_025358642.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025358642</Hit_accession>
+  <Hit_len>3919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3505</Hsp_hit-from>
+      <Hsp_hit-to>3909</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTGTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1059093838|ref|XM_017848321.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017848321</Hit_accession>
+  <Hit_len>3806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3395</Hsp_hit-from>
+      <Hsp_hit-to>3799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGAGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1059093836|ref|XM_017848320.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017848320</Hit_accession>
+  <Hit_len>3848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.808</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.08516e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3437</Hsp_hit-from>
+      <Hsp_hit-to>3841</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGAACCTACCCTGACAGTGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGAGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1777271624|ref|XM_031654622.1|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis TBC1 domain family member 13 (TBC1D13), mRNA</Hit_def>
+  <Hit_accession>XM_031654622</Hit_accession>
+  <Hit_len>3652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.62129e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3240</Hsp_hit-from>
+      <Hsp_hit-to>3644</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGAGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTGTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-CTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||| ||||||||| ||||| ||| ||||||||  ||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1622869097|ref|XM_028834419.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_028834419</Hit_accession>
+  <Hit_len>4039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.62129e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3627</Hsp_hit-from>
+      <Hsp_hit-to>4031</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAAGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1622869095|ref|XM_028834418.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_028834418</Hit_accession>
+  <Hit_len>3910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.62129e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3498</Hsp_hit-from>
+      <Hsp_hit-to>3902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAAGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|982299040|ref|XM_015436362.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015436362</Hit_accession>
+  <Hit_len>4508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.62129e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>4094</Hsp_hit-from>
+      <Hsp_hit-to>4498</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTGTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||| ||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|982299039|ref|XM_005580706.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005580706</Hit_accession>
+  <Hit_len>3915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.62129e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3501</Hsp_hit-from>
+      <Hsp_hit-to>3905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTGTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||| ||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|795488081|ref|XM_012038926.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys TBC1 domain family, member 13 (TBC1D13), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_012038926</Hit_accession>
+  <Hit_len>3810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.96202e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3395</Hsp_hit-from>
+      <Hsp_hit-to>3800</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACAC-TTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCGGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-ACAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  |||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795488074|ref|XM_012038925.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys TBC1 domain family, member 13 (TBC1D13), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_012038925</Hit_accession>
+  <Hit_len>3762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.96202e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3347</Hsp_hit-from>
+      <Hsp_hit-to>3752</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACAC-TTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCGGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-ACAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  |||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|795488070|ref|XM_012038924.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys TBC1 domain family, member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012038924</Hit_accession>
+  <Hit_len>3910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.96202e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3495</Hsp_hit-from>
+      <Hsp_hit-to>3900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACAC-TTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCGGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-ACAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  |||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|795488067|ref|XM_012038922.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys TBC1 domain family, member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012038922</Hit_accession>
+  <Hit_len>3922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.96202e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3507</Hsp_hit-from>
+      <Hsp_hit-to>3912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACAC-TTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCGGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-ACAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  |||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1381471175|ref|XM_011711561.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina TBC1 domain family member 13 (TBC1D13), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011711561</Hit_accession>
+  <Hit_len>4094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.23817e-160</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3684</Hsp_hit-from>
+      <Hsp_hit-to>4084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGC----AGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||    |||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1381471174|ref|XM_011711560.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011711560</Hit_accession>
+  <Hit_len>3895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.23817e-160</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3485</Hsp_hit-from>
+      <Hsp_hit-to>3885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGC----AGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||    |||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1938937677|ref|XM_037995339.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus TBC1 domain family member 13 (TBC1D13), mRNA</Hit_def>
+  <Hit_accession>XM_037995339</Hit_accession>
+  <Hit_len>3909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.758</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.5084e-159</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3495</Hsp_hit-from>
+      <Hsp_hit-to>3899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGTAGAGTTGGGTCAAATGCCCTCTCCTTGACTTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCTCCAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGGTCTCACTCCAGAGGGTCAGAACTTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCACTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||| ||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| ||  |||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||| ||| ||||| ||||| ||| |||||||| |||||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|9280246|dbj|AB046085.1|</Hit_id>
+  <Hit_def>Macaca fascicularis brain cDNA, clone:QccE-14947, similar to human TBC1 domain family member 13 (TBC1D13), mRNA, NM_018201.2</Hit_def>
+  <Hit_accession>AB046085</Hit_accession>
+  <Hit_len>2839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>566.642</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>7.81371e-157</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>2413</Hsp_hit-from>
+      <Hsp_hit-to>2828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>426</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAAC-CTGC-CCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTC-AGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTTTTGCAAAAAA</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCGTCTGATTTGCTTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTTGCCTTGAGATGAAAGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGATACCGCCTGCAGAAAGGACCTGCCCTGACAGTGACCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTTCCCACAGAACCAGAGTGCCTGAGGCTTCCTGCTTGAGAACTCTGCTTTCCTGGATCTTGAACACTTACAGATTGAGCTGTATGAATTCAGTGGGTCTCACTCCAGAGGGTCTAGAACGTTTGCTTTAGTTTTTT-ATCTGTTTTGTTCCTTGAG-TCAGTGCTG-TTGAT-GAC-GAGTTGTC-TTGAAT-AAATCA---TGTGTTCTTTGCAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| | |  ||||| ||||||||||||||||||||||||||||||||||  |||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| | || |||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||| ||||   ||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||| ||||||||| ||||| ||| |||||||| |||||| ||||||   ||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1804442883|ref|XM_032257498.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella TBC1 domain family member 13 (TBC1D13), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032257498</Hit_accession>
+  <Hit_len>3370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.985</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>1.32317e-147</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>2958</Hsp_hit-from>
+      <Hsp_hit-to>3360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>372</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGAGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAACGTTTGCTTTTGTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-GAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||||||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||  ||||||||| ||||| ||| |||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1804442881|ref|XM_032257497.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella TBC1 domain family member 13 (TBC1D13), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032257497</Hit_accession>
+  <Hit_len>3660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.985</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>1.32317e-147</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3248</Hsp_hit-from>
+      <Hsp_hit-to>3650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>372</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGAGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAACGTTTGCTTTTGTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-GAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||||||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||  ||||||||| ||||| ||| |||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1804442878|ref|XM_032257496.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032257496</Hit_accession>
+  <Hit_len>3745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.985</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>1.32317e-147</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3333</Hsp_hit-from>
+      <Hsp_hit-to>3735</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>372</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGAGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAACGTTTGCTTTTGTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-GAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||||||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||  ||||||||| ||||| ||| |||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1212369414|ref|XM_012458012.2|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae TBC1 domain family member 13 (TBC1D13), mRNA</Hit_def>
+  <Hit_accession>XM_012458012</Hit_accession>
+  <Hit_len>3774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.61195e-146</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>3363</Hsp_hit-from>
+      <Hsp_hit-to>3770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGG----GTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGAGCTCCCAGCGGGACA---TCTGCAGAAAGGACCTTCCCTGACAATGTCCCTTCTCCAGATTCTCAAGCAGATGTCCAGGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGATCTCACTCCAGAGGGTCAGTCAGAATGTTTGCTTTTGTTTTTTCATCTGTTATGTTCTTCGA-ATCAGTGCTG-TTGATG--ATGAGTTGTTCTCCAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||| |||||    ||||||||||||||| |||||| ||||||||||| ||||||||||||||||||| ||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| | ||||||||||||||    ||||||| ||||||||| ||||||||||||||| ||||| | ||  ||||||||| ||||||    |||||||  |  ||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1212369413|ref|XR_002479112.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae uncharacterized LOC110568960 (LOC110568960), misc_RNA</Hit_def>
+  <Hit_accession>XR_002479112</Hit_accession>
+  <Hit_len>2474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.61195e-146</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>2063</Hsp_hit-from>
+      <Hsp_hit-to>2470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGG----GTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGAGCTCCCAGCGGGACA---TCTGCAGAAAGGACCTTCCCTGACAATGTCCCTTCTCCAGATTCTCAAGCAGATGTCCAGGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGATCTCACTCCAGAGGGTCAGTCAGAATGTTTGCTTTTGTTTTTTCATCTGTTATGTTCTTCGA-ATCAGTGCTG-TTGATG--ATGAGTTGTTCTCCAAT-AAATCATG-TGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||| |||||    ||||||||||||||| |||||| ||||||||||| ||||||||||||||||||| ||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| | ||||||||||||||    ||||||| ||||||||| ||||||||||||||| ||||| | ||  ||||||||| ||||||    |||||||  |  ||| |||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1933978785|ref|XM_017499159.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator uncharacterized LOC108283040 (LOC108283040), mRNA</Hit_def>
+  <Hit_accession>XM_017499159</Hit_accession>
+  <Hit_len>2290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.23926e-141</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>1877</Hsp_hit-from>
+      <Hsp_hit-to>2280</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAG-TTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGGGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAATGTTTGCTTTTGTTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-AAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||| ||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||| ||||||||| | |||||||||||||||||||| ||||  ||||||||| ||||| |||  ||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1933978779|ref|XM_037728071.1|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator TBC1 domain family member 13 (TBC1D13), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_037728071</Hit_accession>
+  <Hit_len>3678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.23926e-141</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3265</Hsp_hit-from>
+      <Hsp_hit-to>3668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAG-TTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGGGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAATGTTTGCTTTTGTTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-AAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||| ||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||| ||||||||| | |||||||||||||||||||| ||||  ||||||||| ||||| |||  ||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1933978776|ref|XM_037728070.1|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator TBC1 domain family member 13 (TBC1D13), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_037728070</Hit_accession>
+  <Hit_len>3759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.23926e-141</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3346</Hsp_hit-from>
+      <Hsp_hit-to>3749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAG-TTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAA-ATCATGTTGTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATCACCATCTAATTTGCCTTGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAG-TGAAGGTCAGGAGCACAGGGACCAGGTCTTGGTTAGGCTGGGCTCCCAGCGGGACATC---TGCGGAAAGGACCTGCCCTGACAATGTCCCTTCTCCAGATTCTCGAGCAGATGTCCAGGGGAGGTCCTCACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCCCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGGAGATCTCACTCCAGAGGGTCAGAATGTTTGCTTTTGTTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCTG-TTGAT-GAC-AAGTTGTTCTCCAATAAATCACATGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| || ||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||| ||||||||||||| ||||||||| ||||| |   ||| ||||||||||||||||| ||||||||||| |||||||||| |||||||| ||| ||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||| ||||||||| | |||||||||||||||||||| ||||  ||||||||| ||||| |||  ||||||  |  ||||||   |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1864394838|ref|XM_035259690.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus TBC1 domain family member 13 (TBC1D13), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_035259690</Hit_accession>
+  <Hit_len>3375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.033</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.83923e-139</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>2962</Hsp_hit-from>
+      <Hsp_hit-to>3365</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>366</Hsp_identity>
+      <Hsp_positive>366</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGGAACCACACTACTTGAATCACCAT-TACTTTGCCTCGCTGGCAGAGTTGGGTCAAGTGCCCTCTCCTTGACCTTGAGATGAAGGTCAAGAGCACAGGGACCAGGCCTTGGTTAGGCTGAGCTCCCAGCAGGACACCGCCTGCAGAAAGGACCTGCCCTGATAATGTCCCTTCCCCAGATTCTCAAGCAGATGCCCAAGGGAGGTCCCCACAGAGCCAGAGTGCCTGAGG-TTCCTGCTTGAGAACCTGCCCCCTGGATCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCGGGTCTCACTCCAGAGGGTCAGAACGTTTGCTTTAGTTTTTTCATCTGTTTTGTTCCTTGAGTTCAGTGCTGTTTGATGGACGGAGTTGTCTTTGAATAAAATCATGTTGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CTGGGACCACACTACTTGAATTACCATCTAATTTACCTTGCTGGCAGAGTTGGGTCAAGTGCCCTTTCCTTGTCCTTGAGATGAAGGTCAGGAGCACAGGGACCAGGTCTTGATTAGGCTGGGCTCCCAGCGGGACATC---TGTGGAAAGGACCTGCCCTAACAATGTCCCTTCTCCAGATTCTCAAGCAGATGTCCAGGGGAGGTCCCTACAGAGCCAGAGTGCCTGAGGCTTCCTGCTTGAGAACCTGCTCCCTGGACCTTGGACACTTACAGATTGAGCTGTATGAATTCAGCAGATCTCACTCCAGAGGGTCAGAACGTTTGCTTTTGTTTTTTCATCTGTTTTGTTCTTTGA-ATCAGTGCT-ATTGATG--ATGAGTTGTCCTCCAAT-AAATCA-CTTGTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||| ||||| || ||| ||| |||||||||||||||||||||||||| |||||| ||||||||||||||||| |||||||||||||||| |||| |||||||| ||||||||| ||||| |   ||  ||||||||||||||| | ||||||||||| ||||||||||||||||||| ||| |||||||||| ||||||||||||||||||||| ||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||  ||||||||  ||||||    |||||||| |  ||| ||||||  ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

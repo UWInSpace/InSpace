@@ -1,0 +1,797 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>AAA91318.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>TBP-associated factor TAFII31 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAA91318.1</Iteration_query-ID>
+  <Iteration_query-def>TBP-associated factor TAFII31 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>264</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6MZC|M</Hit_id>
+  <Hit_def>Human TFIID BC core [Homo sapiens] &gt;pdb|6MZD|L Human TFIID Lobe A canonical [Homo sapiens] &gt;pdb|6MZL|L Human TFIID canonical state [Homo sapiens] &gt;pdb|6MZL|M Human TFIID canonical state [Homo sapiens] &gt;pdb|6MZM|L Human TFIID bound to promoter DNA and TFIIA [Homo sapiens]</Hit_def>
+  <Hit_accession>6MZC_M</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.309</Hsp_bit-score>
+      <Hsp_score>1331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MESGKTASPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRYCLTAPNYRLKSLQKKASTSAGRITVPRLSVGSVTSRPSTPTLGTPTPQTMSVSTKVGTPMSLTGQRFTVQMPTSQSPAVKASIPATSAVQNVLINPSLIGSKNILITTNMMSSQNTANESSNALKRKREDDDDDDDDDDDYDNL</Hsp_qseq>
+      <Hsp_hseq>MESGKTASPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPXXXXXXXPDRYCLTAPNYRLKSLQKKASTSAGRITVPRLSVGSVTSRPSTPTLGTPTPQTMSVSTKVGTPMSLTGQRFTVQMPTSQSPAVKASIPATSAVQNVLINPSLIGSKNILITTNMMSSQNTANESSNALKRKREDDDDDDDDDDDYDNL</Hsp_hseq>
+      <Hsp_midline>MESGKTASPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKP       PDRYCLTAPNYRLKSLQKKASTSAGRITVPRLSVGSVTSRPSTPTLGTPTPQTMSVSTKVGTPMSLTGQRFTVQMPTSQSPAVKASIPATSAVQNVLINPSLIGSKNILITTNMMSSQNTANESSNALKRKREDDDDDDDDDDDYDNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|6F3T|F</Hit_id>
+  <Hit_def>Crystal structure of the human TAF5-TAF6-TAF9 complex [Homo sapiens] &gt;pdb|6F3T|H Crystal structure of the human TAF5-TAF6-TAF9 complex [Homo sapiens] &gt;pdb|6F3T|J Crystal structure of the human TAF5-TAF6-TAF9 complex [Homo sapiens] &gt;pdb|6F3T|L Crystal structure of the human TAF5-TAF6-TAF9 complex [Homo sapiens]</Hit_def>
+  <Hit_accession>6F3T_F</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.82599e-81</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KTASPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRY</Hsp_qseq>
+      <Hsp_hseq>KTAXPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRY</Hsp_hseq>
+      <Hsp_midline>KTA PKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1TAF|A</Hit_id>
+  <Hit_def>Drosophila Tbp Associated Factors Dtafii42DTAFII62 HETEROTETRAMER [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>1TAF_A</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>7.49084e-28</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRAD</Hsp_qseq>
+      <Hsp_hseq>PKDAQVIMSILKELNVQEYEPRVVNQLLEFTFRYVTSILDDAKVYANHARKKTIDLDDVRLATEVTLD</Hsp_hseq>
+      <Hsp_midline>PKDAQ++  ILK++ + EYEPRV+NQ+LEF FRYVT+ILDDAK+Y++HA+K T+D DDVRLA +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6HQA|F</Hit_id>
+  <Hit_def>Molecular structure of promoter-bound yeast TFIID [Komagataella phaffii GS115] &gt;pdb|6TB4|I Structure of SAGA bound to TBP [Komagataella phaffii GS115] &gt;pdb|6TBM|I Structure of SAGA bound to TBP, including Spt8 and DUB [Komagataella phaffii GS115]</Hit_def>
+  <Hit_accession>6HQA_F</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>3.48101e-27</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>SMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAK--------------KATVDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRYCLTAPNYRLKSLQKKAS</Hsp_qseq>
+      <Hsp_hseq>AIPRDVRLLHLIFATQNIYSYQDHVPLQLMDFAYRYTTGTLQDATIYSDHAHASGSHISNAGNAGTNAQLTTEDIRLAIAARTNYQFKPVPPKELLLELAAERNKKPLPAVIPTWGIRLPPEKYCLTGKDWVLEDEEEAVS</Hsp_hseq>
+      <Hsp_midline>++P+D +++  I     I  Y+  V  Q+++FA+RY T  L DA IYS HA                A +  +D+RLAI  R +  F   PP++ LL++A +RN+ PLP + P  G RLPP++YCLT  ++ L+  ++  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|6T9I|F</Hit_id>
+  <Hit_def>cryo-EM structure of transcription coactivator SAGA [Saccharomyces cerevisiae S288C] &gt;pdb|6T9K|F SAGA Core module [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>6T9I_F</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>2.49394e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>ESGKTASPKSMPKDAQMMAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKAT-----VDADDVRLAIQCRADQSFTSPPPRDFLLDIARQRNQTPLPLIKPYSGPRLPPDRYCLTAPNYRLK</Hsp_qseq>
+      <Hsp_hseq>EVGPDSTQEETPRDVRLLHLLLASQSIHQYEDQVPLQLMDFAHRYTQGVLKDALVYNDYAGSGNSAGSGLGVEDIRLAIAARTQYQFKPTAPKELMLQLAAERNKKALPQVMGTWGVRLPPEKYCLTAKEWDLE</Hsp_hseq>
+      <Hsp_midline>E G  ++ +  P+D +++  +L    I +YE +V  Q+++FA RY   +L DA +Y+ +A         +  +D+RLAI  R    F    P++ +L +A +RN+  LP +    G RLPP++YCLTA  + L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3V9R|A</Hit_id>
+  <Hit_def>Crystal structure of Saccharomyces cerevisiae MHF complex [Saccharomyces cerevisiae S288C] &gt;pdb|3V9R|C Crystal structure of Saccharomyces cerevisiae MHF complex [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>3V9R_A</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0595229</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MAQILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQ</Hsp_qseq>
+      <Hsp_hseq>LQQVLSSEDI-KYTPRFINSLLELAYLQLGEXGSDLQAFARHAGRGVVNKSDLXLYLR</Hsp_hseq>
+      <Hsp_midline>+ Q+L    I +Y PR IN +LE A+  +     D + ++ HA +  V+  D+ L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4KUD|A</Hit_id>
+  <Hit_def>Crystal structure of N-terminal acetylated Sir3 BAH domain D205N mutant in complex with yeast nucleosome core particle [Saccharomyces cerevisiae S288C] &gt;pdb|4KUD|E Crystal structure of N-terminal acetylated Sir3 BAH domain D205N mutant in complex with yeast nucleosome core particle [Saccharomyces cerevisiae S288C] &gt;pdb|5ZBA|C Crystal structure of Rtt109-Asf1-H3-H4-CoA complex [Saccharomyces cerevisiae S288C] &gt;pdb|5ZBB|C Crystal structure of Rtt109-Asf1-H3-H4 complex [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>4KUD_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.0790767</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>FQSSAIGALQESVEAYLVSLFEDTNLAAIHAKRVTIQKKDIKLARRLRGERS</Hsp_hseq>
+      <Hsp_midline>++   I  + E    Y+ ++ +D  + + HAK+ T+   D++LA + R ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4JJN|A</Hit_id>
+  <Hit_def>Crystal structure of heterochromatin protein Sir3 in complex with a silenced yeast nucleosome [Saccharomyces cerevisiae S288C] &gt;pdb|4JJN|E Crystal structure of heterochromatin protein Sir3 in complex with a silenced yeast nucleosome [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>4JJN_A</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.0835262</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>FQSSAIGALQESVEAYLVSLFEDTNLAAIHAKRVTIQKKDIKLARRLRGERS</Hsp_hseq>
+      <Hsp_midline>++   I  + E    Y+ ++ +D  + + HAK+ T+   D++LA + R ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|3VH5|A</Hit_id>
+  <Hit_def>Crystal structure of the chicken CENP-T histone fold/CENP-W/CENP-S/CENP-X heterotetrameric complex, crystal form I [Gallus gallus] &gt;pdb|3VH6|A Crystal structure of the chicken CENP-T histone fold/CENP-W/CENP-S/CENP-X heterotetrameric complex, crystal form II [Gallus gallus]</Hit_def>
+  <Hit_accession>3VH5_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.173698</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MAQ-ILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>LAQDVAEDKGVL-FSKQTVAAISEITFRQAENFARDLEMFARHAKRSTITSEDVKL</Hsp_hseq>
+      <Hsp_midline>+AQ + +D G+  +  + +  + E  FR       D ++++ HAK++T+ ++DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|4NDY|A</Hit_id>
+  <Hit_def>Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|C Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|G Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|I Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|J Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|K Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|Q Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|R Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|S Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NDY|T Human MHF1-MHF2 DNA complex [Homo sapiens] &gt;pdb|4NE1|A Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|C Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|G Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|I Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|J Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|K Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|Q Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|R Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|S Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|T Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|Y Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|a Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|c Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|e Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|f Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|g Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|k Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|l Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|m Human MHF1 MHF2 DNA complexes [Homo sapiens] &gt;pdb|4NE1|n Human MHF1 MHF2 DNA complexes [Homo sapiens]</Hit_def>
+  <Hit_accession>4NDY_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.205197</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>QFSKQTIAAISELTFRQCENFAKDLEMFARHAKRTTINTEDVKL</Hsp_hseq>
+      <Hsp_midline>++  + I  + E  FR       D ++++ HAK+ T++ +DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4E44|A</Hit_id>
+  <Hit_def>Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer [Homo sapiens] &gt;pdb|4E44|C Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer [Homo sapiens] &gt;pdb|4E45|A Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens] &gt;pdb|4E45|C Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens] &gt;pdb|4E45|F Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens] &gt;pdb|4E45|H Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens] &gt;pdb|4E45|K Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens] &gt;pdb|4E45|M Crystal structure of the hMHF1/hMHF2 Histone-Fold Tetramer in Complex with Fanconi Anemia Associated Helicase hFANCM [Homo sapiens]</Hit_def>
+  <Hit_accession>4E44_A</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.261638</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>QFSKQTIAAISELTFRQCENFAKDLEMFARHAKRTTINTEDVKL</Hsp_hseq>
+      <Hsp_midline>++  + I  + E  FR       D ++++ HAK+ T++ +DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|4DRA|A</Hit_id>
+  <Hit_def>Crystal structure of MHF complex [Homo sapiens] &gt;pdb|4DRA|B Crystal structure of MHF complex [Homo sapiens] &gt;pdb|4DRA|C Crystal structure of MHF complex [Homo sapiens] &gt;pdb|4DRA|D Crystal structure of MHF complex [Homo sapiens]</Hit_def>
+  <Hit_accession>4DRA_A</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.337892</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>QFSKQTIAAISELTFRQCENFAKDLEMFARHAKRTTINTEDVKL</Hsp_hseq>
+      <Hsp_midline>++  + I  + E  FR       D ++++ HAK+ T++ +DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3B0B|A</Hit_id>
+  <Hit_def>Crystal structure of the chicken CENP-S/CENP-X complex [Gallus gallus] &gt;pdb|3B0B|B Crystal structure of the chicken CENP-S/CENP-X complex [Gallus gallus]</Hit_def>
+  <Hit_accession>3B0B_A</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.386052</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>ILKDMGITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>VAEDKGVL-FSKQTVAAISEITFRQCENFARDLEXFARHAKRSTITSEDVKL</Hsp_hseq>
+      <Hsp_midline>+ +D G+  +  + +  + E  FR       D + ++ HAK++T+ ++DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|4NE3|A</Hit_id>
+  <Hit_def>Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE5|A Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE5|C Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE5|E Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE5|G Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE6|A Human MHF1-MHF2 complex [Homo sapiens] &gt;pdb|4NE6|C Human MHF1-MHF2 complex [Homo sapiens]</Hit_def>
+  <Hit_accession>4NE3_A</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.583572</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>QFSKQTIAAISELTFRQCENFAKDLEXFARHAKRTTINTEDVKL</Hsp_hseq>
+      <Hsp_midline>++  + I  + E  FR       D + ++ HAK+ T++ +DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|6FE8|D</Hit_id>
+  <Hit_def>Cryo-EM structure of the core Centromere Binding Factor 3 complex [Saccharomyces cerevisiae] &gt;pdb|6GSA|D Core Centromere Binding Factor 3 (CBF3) with monomeric Ndc10 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>6FE8_D</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.672281</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGITEYEPRVINQMLEFAF--RYVTTILDDAKIYSSHAKKAT-VDA-------DDVRLAIQCRA---DQSFTSPPPRDFLLD</Hsp_qseq>
+      <Hsp_hseq>LNIFEYSPQLIEKWLEYAFWLRYDCLVLDCFKV--NHLYDGTLIDALEWTYLDNELRLAYFNKASMLEVWYTFKEYKKWVID</Hsp_hseq>
+      <Hsp_midline>+ I EY P++I + LE+AF  RY   +LD  K+  +H    T +DA       +++RLA   +A   +  +T    + +++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|4DRB|A</Hit_id>
+  <Hit_def>The crystal structure of FANCM bound MHF complex [Homo sapiens] &gt;pdb|4DRB|B The crystal structure of FANCM bound MHF complex [Homo sapiens] &gt;pdb|4DRB|D The crystal structure of FANCM bound MHF complex [Homo sapiens] &gt;pdb|4DRB|E The crystal structure of FANCM bound MHF complex [Homo sapiens] &gt;pdb|4DRB|G The crystal structure of FANCM bound MHF complex [Homo sapiens] &gt;pdb|4DRB|H The crystal structure of FANCM bound MHF complex [Homo sapiens]</Hit_def>
+  <Hit_accession>4DRB_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.817121</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRL</Hsp_qseq>
+      <Hsp_hseq>QFSKQTIAAISELTFRQCENFAKDLEXFARHAKRTTINTEDVKL</Hsp_hseq>
+      <Hsp_midline>++  + I  + E  FR       D + ++ HAK+ T++ +DV+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|6GYP|A</Hit_id>
+  <Hit_def>Cryo-EM structure of the CBF3-core-Ndc10-DBD complex of the budding yeast kinetochore [Saccharomyces cerevisiae S288C] &gt;pdb|6GYS|A Cryo-EM structure of the CBF3-CEN3 complex of the budding yeast kinetochore [Saccharomyces cerevisiae] &gt;pdb|6GYS|H Cryo-EM structure of the CBF3-CEN3 complex of the budding yeast kinetochore [Saccharomyces cerevisiae] &gt;pdb|6GYU|A Cryo-EM structure of the CBF3-msk complex of the budding yeast kinetochore [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>6GYP_A</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.844408</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGITEYEPRVINQMLEFAF--RYVTTILDDAKIYSSHAKKAT-VDA-------DDVRLAIQCRA---DQSFTSPPPRDFLLD</Hsp_qseq>
+      <Hsp_hseq>LNIFEYSPQLIEKWLEYAFWLRYDCLVLDCFKV--NHLYDGTLIDALEWTYLDNELRLAYFNKASMLEVWYTFKEYKKWVID</Hsp_hseq>
+      <Hsp_midline>+ I EY P++I + LE+AF  RY   +LD  K+  +H    T +DA       +++RLA   +A   +  +T    + +++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|3AZN|B</Hit_id>
+  <Hit_def>Crystal Structure of Human Nucleosome Core Particle Containing H4K91Q mutation [Homo sapiens] &gt;pdb|3AZN|F Crystal Structure of Human Nucleosome Core Particle Containing H4K91Q mutation [Homo sapiens]</Hit_def>
+  <Hit_accession>3AZN_B</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.01071</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>YVTTILDDAKIYSSHAKKATVDADDVRLAIQ</Hsp_qseq>
+      <Hsp_hseq>FLENVIRDAVTYTEHAKRKTVTAMDVVYALQ</Hsp_hseq>
+      <Hsp_midline>++  ++ DA  Y+ HAK+ TV A DV  A+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1KU5|A</Hit_id>
+  <Hit_def>Crystal Structure of recombinant histone HPhA from hyperthermophilic archaeon Pyrococcus horikoshii OT3 [Pyrococcus horikoshii] &gt;pdb|1KU5|B Crystal Structure of recombinant histone HPhA from hyperthermophilic archaeon Pyrococcus horikoshii OT3 [Pyrococcus horikoshii]</Hit_def>
+  <Hit_accession>1KU5_A</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.06491</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ITEYEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQ</Hsp_qseq>
+      <Hsp_hseq>VSEQAAKVLAEYLE---EYAIEIAKKAVEFARHAGRKTVKVEDIKLAIK</Hsp_hseq>
+      <Hsp_midline>++E   +V+ + LE    Y   I   A  ++ HA + TV  +D++LAI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|4Z5T|A</Hit_id>
+  <Hit_def>The nucleosome containing human H3.5 [Homo sapiens] &gt;pdb|4Z5T|E The nucleosome containing human H3.5 [Homo sapiens]</Hit_def>
+  <Hit_accession>4Z5T_A</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.19713</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>FQSAAVGALQEASEAYLVGLLEDTNLCAIHAKRVTIMPKDIQLARRIRGERA</Hsp_hseq>
+      <Hsp_midline>++   +  + E +  Y+  +L+D  + + HAK+ T+   D++LA + R +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|5Z23|A</Hit_id>
+  <Hit_def>Crystal structure of the nucleosome containing a chimeric histone H3/CENP-A CATD [Homo sapiens] &gt;pdb|5Z23|E Crystal structure of the nucleosome containing a chimeric histone H3/CENP-A CATD [Homo sapiens]</Hit_def>
+  <Hit_accession>5Z23_A</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.48769</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>WQAQALLALQEAAEAFLVHLFEDAYLLTLHAKRVTIMPKDIQLARRIRGERA</Hsp_hseq>
+      <Hsp_midline>++ + +  + E A  ++  + +DA + + HAK+ T+   D++LA + R +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|5ZBX|A</Hit_id>
+  <Hit_def>The crystal structure of the nucleosome containing histone H3.1 CATD(V76Q, K77D) [Homo sapiens] &gt;pdb|5ZBX|E The crystal structure of the nucleosome containing histone H3.1 CATD(V76Q, K77D) [Homo sapiens]</Hit_def>
+  <Hit_accession>5ZBX_A</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.57428</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YEPRVINQMLEFAFRYVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>WQAQALLALQEAAEAFLVHLFEDAYLLTLHAKRVTIMPKDIQLARRIRGERA</Hsp_hseq>
+      <Hsp_midline>++ + +  + E A  ++  + +DA + + HAK+ T+   D++LA + R +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3B0C|T</Hit_id>
+  <Hit_def>Crystal structure of the chicken CENP-T histone fold/CENP-W complex, crystal form I [Gallus gallus] &gt;pdb|3B0D|B Crystal structure of the chicken CENP-T histone fold/CENP-W complex, crystal form II [Gallus gallus] &gt;pdb|3B0D|T Crystal structure of the chicken CENP-T histone fold/CENP-W complex, crystal form II [Gallus gallus]</Hit_def>
+  <Hit_accession>3B0C_T</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.74352</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>RYVTTILDDAKIYSSHAKKATVDADDVRLAIQ</Hsp_qseq>
+      <Hsp_hseq>RYFKQISSDLEAYSQHAGRKTVEMADVELLMR</Hsp_hseq>
+      <Hsp_midline>RY   I  D + YS HA + TV+  DV L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|7BY0|A</Hit_id>
+  <Hit_def>Chain A, Histone H3.2,Histone H3-like centromeric protein A [Gallus gallus] &gt;pdb|7BY0|E Chain E, Histone H3.2,Histone H3-like centromeric protein A [Gallus gallus]</Hit_def>
+  <Hit_accession>7BY0_A</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.10385</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>YVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>FLVHLLEDAYLCSLHARRVTLYPKDLQLARRLRGLQG</Hsp_hseq>
+      <Hsp_midline>++  +L+DA + S HA++ T+   D++LA + R  Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|7BXT|A</Hit_id>
+  <Hit_def>Chain A, Histone H3,Histone H3-like centromeric protein A [Gallus gallus] &gt;pdb|7BXT|E Chain E, Histone H3,Histone H3-like centromeric protein A [Gallus gallus]</Hit_def>
+  <Hit_accession>7BXT_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.13573</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>YVTTILDDAKIYSSHAKKATVDADDVRLAIQCRADQS</Hsp_qseq>
+      <Hsp_hseq>FLVHLLEDAYLCSLHARRVTLYPKDLQLARRLRGLQG</Hsp_hseq>
+      <Hsp_midline>++  +L+DA + S HA++ T+   D++LA + R  Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|3VH5|T</Hit_id>
+  <Hit_def>Crystal structure of the chicken CENP-T histone fold/CENP-W/CENP-S/CENP-X heterotetrameric complex, crystal form I [Gallus gallus] &gt;pdb|3VH6|T Crystal structure of the chicken CENP-T histone fold/CENP-W/CENP-S/CENP-X heterotetrameric complex, crystal form II [Gallus gallus]</Hit_def>
+  <Hit_accession>3VH5_T</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>6.50807</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>RYVTTILDDAKIYSSHAKKATVDADDVRLAIQ</Hsp_qseq>
+      <Hsp_hseq>RYFKQISSDLEAYSQHAGRKTVEMADVELLMR</Hsp_hseq>
+      <Hsp_midline>RY   I  D + YS HA + TV+  DV L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6YUF|D</Hit_id>
+  <Hit_def>Cohesin complex with loader gripping DNA [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>6YUF_D</Hit_accession>
+  <Hit_len>1587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.53335</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>LITTNMMSSQNTANESSNALKRKREDDD</Hsp_qseq>
+      <Hsp_hseq>LLISQVIEAENSEDFSSNSLFIKREDDD</Hsp_hseq>
+      <Hsp_midline>L+ + ++ ++N+ + SSN+L  KREDDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>123766</Statistics_db-num>
+      <Statistics_db-len>32748523</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

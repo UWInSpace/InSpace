@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14466.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yl25g06.r1 Soares breast 3NbHBst Homo sapiens cDNA clone IMAGE:159322 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>335</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14466.1</Iteration_query-ID>
+  <Iteration_query-def>yl25g06.r1 Soares breast 3NbHBst Homo sapiens cDNA clone IMAGE:159322 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>335</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1519242512|ref|NM_018031.6|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6 (WDR6), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_018031</Hit_accession>
+  <Hit_len>4070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3221</Hsp_hit-from>
+      <Hsp_hit-to>3556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|452085191|ref|NG_033126.1|</Hit_id>
+  <Hit_def>Homo sapiens DALR anticodon binding domain containing 3 (DALRD3), RefSeqGene on chromosome 3</Hit_def>
+  <Hit_accession>NG_033126</Hit_accession>
+  <Hit_len>12584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>10970</Hsp_hit-from>
+      <Hsp_hit-to>10635</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1890333445|ref|NM_001320546.3|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6 (WDR6), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001320546</Hit_accession>
+  <Hit_len>4284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3435</Hsp_hit-from>
+      <Hsp_hit-to>3770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1890284010|ref|NM_001320547.2|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6 (WDR6), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001320547</Hit_accession>
+  <Hit_len>3984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3135</Hsp_hit-from>
+      <Hsp_hit-to>3470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|345478723|ref|NG_029915.1|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6 (WDR6), RefSeqGene on chromosome 3</Hit_def>
+  <Hit_accession>NG_029915</Hit_accession>
+  <Hit_len>15750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>12899</Hsp_hit-from>
+      <Hsp_hit-to>13234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|21750585|dbj|AK092079.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ34760 fis, clone NT2NE2001889, highly similar to WD repeat protein 6</Hit_def>
+  <Hit_accession>AK092079</Hit_accession>
+  <Hit_len>1718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>875</Hsp_hit-from>
+      <Hsp_hit-to>1210</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|28916729|gb|AC137630.9|</Hit_id>
+  <Hit_def>Homo sapiens 3 BAC RP13-131K19 (Roswell Park Cancer Institute Human BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC137630</Hit_accession>
+  <Hit_len>120173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.479</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.2256e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>63571</Hsp_hit-from>
+      <Hsp_hit-to>63906</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|194379225|dbj|AK295145.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ56382 complete cds, highly similar to WD repeat protein 6</Hit_def>
+  <Hit_accession>AK295145</Hit_accession>
+  <Hit_len>4033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3550</Hsp_hit-from>
+      <Hsp_hit-to>3885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|50604034|gb|BC078176.1|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6, mRNA (cDNA clone IMAGE:6528453), partial cds</Hit_def>
+  <Hit_accession>BC078176</Hit_accession>
+  <Hit_len>2130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>1269</Hsp_hit-from>
+      <Hsp_hit-to>1604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|10434280|dbj|AK022719.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ12657 fis, clone NT2RM4002140</Hit_def>
+  <Hit_accession>AK022719</Hit_accession>
+  <Hit_len>2305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>1455</Hsp_hit-from>
+      <Hsp_hit-to>1790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCGGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|21739447|emb|AL833910.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp434F1720 (from clone DKFZp434F1720)</Hit_def>
+  <Hit_accession>AL833910</Hit_accession>
+  <Hit_len>3274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>2396</Hsp_hit-from>
+      <Hsp_hit-to>2731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|8885719|gb|AF099100.1|AF099100</Hit_id>
+  <Hit_def>Homo sapiens WD-repeat protein 6 (WDR6) mRNA, complete cds</Hit_def>
+  <Hit_accession>AF099100</Hit_accession>
+  <Hit_len>4079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3219</Hsp_hit-from>
+      <Hsp_hit-to>3554</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6599176|emb|AL133589.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp434J039 (from clone DKFZp434J039)</Hit_def>
+  <Hit_accession>AL133589</Hit_accession>
+  <Hit_len>2190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>1330</Hsp_hit-from>
+      <Hsp_hit-to>1665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38114795|gb|BC002826.2|</Hit_id>
+  <Hit_def>Homo sapiens WD repeat domain 6, mRNA (cDNA clone IMAGE:3636990), complete cds</Hit_def>
+  <Hit_accession>BC002826</Hit_accession>
+  <Hit_len>2103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.971</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>7.58434e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>1231</Hsp_hit-from>
+      <Hsp_hit-to>1566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|164690785|dbj|AK309913.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA, FLJ99954</Hit_def>
+  <Hit_accession>AK309913</Hit_accession>
+  <Hit_len>3917</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.463</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>3.22494e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3430</Hsp_hit-from>
+      <Hsp_hit-to>3765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCGTGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1849111607|ref|XM_008971690.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_008971690</Hit_accession>
+  <Hit_len>4404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>3.92878e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTATTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTTTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1753066507|ref|XM_004034110.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla WD repeat domain 6 (WDR6), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_004034110</Hit_accession>
+  <Hit_len>3978</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>3.92878e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3127</Hsp_hit-from>
+      <Hsp_hit-to>3462</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCTGCAGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1034156580|ref|XM_016941073.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_016941073</Hit_accession>
+  <Hit_len>4419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>3.92878e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3566</Hsp_hit-from>
+      <Hsp_hit-to>3901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTATTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTTTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|426340479|ref|XM_004034109.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004034109</Hit_accession>
+  <Hit_len>4401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>3.92878e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3550</Hsp_hit-from>
+      <Hsp_hit-to>3885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCTGCAGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1099235910|ref|XR_002005086.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_002005086</Hit_accession>
+  <Hit_len>4142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>569.347</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>4.78624e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3398</Hsp_hit-from>
+      <Hsp_hit-to>3731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCTGCAGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1799992446|ref|XM_032161607.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_032161607</Hit_accession>
+  <Hit_len>4398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.937</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>2.03516e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCCGCGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|194386081|dbj|AK297090.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ56107 complete cds, highly similar to WD repeat protein 6</Hit_def>
+  <Hit_accession>AK297090</Hit_accession>
+  <Hit_len>1883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.331</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>2.47933e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>1560</Hsp_hit-from>
+      <Hsp_hit-to>1883</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCA</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTCCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGAAGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1743211411|ref|XM_030811809.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_030811809</Hit_accession>
+  <Hit_len>4398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.05424e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTTTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCCGTGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| | |||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|197101378|ref|NM_001133897.1|</Hit_id>
+  <Hit_def>Pongo abelii WD repeat domain 6 (WDR6), mRNA &gt;gi|55728624|emb|CR858852.1| Pongo abelii mRNA; cDNA DKFZp469K1118 (from clone DKFZp469K1118)</Hit_def>
+  <Hit_accession>NM_001133897</Hit_accession>
+  <Hit_len>4046</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.05424e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3186</Hsp_hit-from>
+      <Hsp_hit-to>3521</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCCGCGGCGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTTTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||| ||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1351491307|ref|XR_654543.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii WD repeat domain 6 (WDR6), transcript variant X1, misc_RNA</Hit_def>
+  <Hit_accession>XR_654543</Hit_accession>
+  <Hit_len>4154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.314</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>1.28433e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3410</Hsp_hit-from>
+      <Hsp_hit-to>3743</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTACGACTGAGGTATCCCGCGGCGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTTTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCGTGGGTTCCTGATGTCGGTGCAGGAGCTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||| ||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1825831678|ref|XM_033206619.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_033206619</Hit_accession>
+  <Hit_len>4395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.20289e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3548</Hsp_hit-from>
+      <Hsp_hit-to>3883</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCGGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| | |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1751186210|ref|XR_004052385.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana WD repeat domain 6 (WDR6), transcript variant X3, misc_RNA</Hit_def>
+  <Hit_accession>XR_004052385</Hit_accession>
+  <Hit_len>4273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.20289e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3425</Hsp_hit-from>
+      <Hsp_hit-to>3760</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1751186207|ref|XM_010370119.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010370119</Hit_accession>
+  <Hit_len>4399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.20289e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|817305169|ref|XM_012467682.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_012467682</Hit_accession>
+  <Hit_len>4395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.20289e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3544</Hsp_hit-from>
+      <Hsp_hit-to>3879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAACAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTATAACTGGTATGACTGAGGTATCCTGAGGTGGCTGGTGTGCTGGGCATGGGGCCTGCTCACAGACAGTGTGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCAGTGGGTTCCTGACATCGGTGCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||| || |||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||  |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1825831680|ref|XR_004436064.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_004436064</Hit_accession>
+  <Hit_len>4126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3382</Hsp_hit-from>
+      <Hsp_hit-to>3715</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCGGGAGCTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| | |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1751186209|ref|XR_748699.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_748699</Hit_accession>
+  <Hit_len>4147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3403</Hsp_hit-from>
+      <Hsp_hit-to>3736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAGCTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1381520829|ref|XM_011739268.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina WD repeat domain 6 (WDR6), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_011739268</Hit_accession>
+  <Hit_len>4776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3926</Hsp_hit-from>
+      <Hsp_hit-to>4261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1381520827|ref|XM_024792497.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina WD repeat domain 6 (WDR6), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_024792497</Hit_accession>
+  <Hit_len>4038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3188</Hsp_hit-from>
+      <Hsp_hit-to>3523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1059100653|ref|XM_017868126.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>XM_017868126</Hit_accession>
+  <Hit_len>4253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3404</Hsp_hit-from>
+      <Hsp_hit-to>3739</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTAACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAGCTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795643060|ref|XM_011739267.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011739267</Hit_accession>
+  <Hit_len>4401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.46542e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1381520826|ref|XR_986460.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_986460</Hit_accession>
+  <Hit_len>4150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>1.78524e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3403</Hsp_hit-from>
+      <Hsp_hit-to>3736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGCGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| ||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1777301421|ref|XM_003894457.5|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003894457</Hit_accession>
+  <Hit_len>4395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3548</Hsp_hit-from>
+      <Hsp_hit-to>3883</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1622900985|ref|XR_003726939.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta WD repeat domain 6 (WDR6), transcript variant X3, misc_RNA</Hit_def>
+  <Hit_accession>XR_003726939</Hit_accession>
+  <Hit_len>4256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3407</Hsp_hit-from>
+      <Hsp_hit-to>3742</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1622900983|ref|XM_015130816.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta WD repeat domain 6 (WDR6), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015130816</Hit_accession>
+  <Hit_len>4043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3194</Hsp_hit-from>
+      <Hsp_hit-to>3529</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|982234505|ref|XM_005547065.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis WD repeat domain 6 (WDR6), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_005547065</Hit_accession>
+  <Hit_len>4907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>4058</Hsp_hit-from>
+      <Hsp_hit-to>4393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCACGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|982234503|ref|XM_005547064.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005547064</Hit_accession>
+  <Hit_len>4400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCACGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|795140511|ref|XM_011980943.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus WD repeat domain 6 (WDR6), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011980943</Hit_accession>
+  <Hit_len>3972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3124</Hsp_hit-from>
+      <Hsp_hit-to>3459</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|795140505|ref|XM_011980942.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus WD repeat domain 6 (WDR6), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011980942</Hit_accession>
+  <Hit_len>4210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3362</Hsp_hit-from>
+      <Hsp_hit-to>3697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|795140500|ref|XM_011980941.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus WD repeat domain 6 (WDR6), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011980941</Hit_accession>
+  <Hit_len>4399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3551</Hsp_hit-from>
+      <Hsp_hit-to>3886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|402767313|ref|NM_001261701.2|</Hit_id>
+  <Hit_def>Macaca mulatta WD repeat domain 6 (WDR6), mRNA</Hit_def>
+  <Hit_accession>NM_001261701</Hit_accession>
+  <Hit_len>4132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.362</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.23111e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3279</Hsp_hit-from>
+      <Hsp_hit-to>3614</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1777301423|ref|XR_643754.4|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_643754</Hit_accession>
+  <Hit_len>4243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>7.59104e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3499</Hsp_hit-from>
+      <Hsp_hit-to>3832</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1622900987|ref|XR_003726940.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta WD repeat domain 6 (WDR6), transcript variant X4, misc_RNA</Hit_def>
+  <Hit_accession>XR_003726940</Hit_accession>
+  <Hit_len>4153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>7.59104e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3407</Hsp_hit-from>
+      <Hsp_hit-to>3740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1622900981|ref|XR_001443009.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta WD repeat domain 6 (WDR6), transcript variant X1, misc_RNA</Hit_def>
+  <Hit_accession>XR_001443009</Hit_accession>
+  <Hit_len>4131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>7.59104e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3385</Hsp_hit-from>
+      <Hsp_hit-to>3718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|982234504|ref|XR_274643.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis WD repeat domain 6 (WDR6), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_274643</Hit_accession>
+  <Hit_len>4136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>7.59104e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3390</Hsp_hit-from>
+      <Hsp_hit-to>3723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCACGGGTTCCTGACATCGGTCCAGGAACTGAAG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1411135989|ref|XM_025376397.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada WD repeat domain 6 (WDR6), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025376397</Hit_accession>
+  <Hit_len>3972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.853</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>7.59104e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>3124</Hsp_hit-from>
+      <Hsp_hit-to>3459</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CTCAGC-TCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTTCCATGTGCCTGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGTTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCTGCGGTGGCTGGCGTCCTGGGCATGGGGCCTGCTCACAGACAGCATGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGTGGCCNTGGGTTCCTGATGTCGGTGCAGGAGCTTAAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCAGCCTCCATTGATCAACGGCTGACCTTCTGGCGTCTGGGGCATGGTGAACCCACCTTCATGAATAGCACTGTGTACCATGTGCCAGATGTGGCTGACATGGACTGCTGGCCTGTGAGCCCTGAGTTTGGCCACCGCTGTGCCCTTGGGGGTCAGGGGCTTGAGGTTTACAACTGGTATGACTGAGGTATCCCACGGTGGCCGGTGTGCTGGGCATGGGGCCTGCTCGCAGACAGCGTGGAGCAGGGATGGGCTGTCTGTGCCCATGCTCAGCATGCCTTGAGGGGAGGAGGTGGCGGCCGCGGGTTCCTGACATCGGTCCAGGAACTGAAGGT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||| || || ||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

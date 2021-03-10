@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>AA787494.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>n5a05a1.r1 Aspergillus nidulans 24hr asexual developmental and vegetative cDNA lambda zap library Aspergillus nidulans cDNA clone n5a05a1, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>435</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AA787494.1</Iteration_query-ID>
+  <Iteration_query-def>n5a05a1.r1 Aspergillus nidulans 24hr asexual developmental and vegetative cDNA lambda zap library Aspergillus nidulans cDNA clone n5a05a1, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>435</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|259483211|tpe|BN001304.1|</Hit_id>
+  <Hit_def>TPA_asm: Aspergillus nidulans FGSC A4 chromosome IV</Hit_def>
+  <Hit_accession>BN001304</Hit_accession>
+  <Hit_len>2831538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>776.735</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>2714411</Hsp_hit-from>
+      <Hsp_hit-to>2714845</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGAGGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCAGGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.0406606</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>2009779</Hsp_hit-from>
+      <Hsp_hit-to>2009824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTCAACTTTGTCGCCTTCGACATCATCGGTGATCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||  |   ||||||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|67901661|ref|XM_675995.1|</Hit_id>
+  <Hit_def>Aspergillus nidulans FGSC A4 STCF_EMENI Probable sterigmatocystin biosynthesis P450 monooxygenase STCF (Cytochrome P450 60A2) (AN7818.2), partial mRNA</Hit_def>
+  <Hit_accession>XM_675995</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>776.735</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGAGGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCAGGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1235618|gb|U34740.1|ENU34740</Hit_id>
+  <Hit_def>Emericella nidulans sterigmatocystin biosynthetic gene cluster: (stcA), (stcB), (stcC), (stcE), (aflR), (stcF), (stcI), (stcJ), (stcK), (stcL), (stcO), (stcQ), (stcS), (stcT), (stcU), (stcV) and (stcW) genes, complete cds</Hit_def>
+  <Hit_accession>U34740</Hit_accession>
+  <Hit_len>59725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>767.718</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>21019</Hsp_hit-from>
+      <Hsp_hit-to>20585</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>431</Hsp_identity>
+      <Hsp_positive>431</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGAGGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCTACTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCAGGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1766757060|gb|MK689407.1|</Hit_id>
+  <Hit_def>Aspergillus pachycristatus strain NRRL 11440 sterigmatocystin gene cluster, complete sequence</Hit_def>
+  <Hit_accession>MK689407</Hit_accession>
+  <Hit_len>52025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>591.89</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>1.95709e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>19689</Hsp_hit-from>
+      <Hsp_hit-to>19255</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCTGTTTGGCGAGTCCCTTATCTGAGGAGCACCATTCGAGGGACGATCGTCAGAGATATCCAGCGTCTGCATGACCAATATGGTCCCATTGTACGAATCGCGCCCGATGAGCTTTCTTACATCACGCCAGACGCAGCAAGGTCAATCTACGCGTCCAGCCCCGAATTCCCCAAAGATCCAATGCATCTCCCTCCGTTCCATAATGGCGCTCCAGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATACCGCCGGCTTCTTGCCTCTGCCTTTTCTGAAAAGGGACTGCGTGCACAGCAGGGGATGATCCAGGGGCATATCGACCGTCTCATGACTCGTCTTCAGGAGAACTGCTCGTCGGGCTCGCTAGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| || ||||||| | ||||||||||| ||||||| |||||||||||||||||  ||||| |||| ||||||||| |||||||||||||||| ||||| ||||| |||||||||||||| |||||||   |||||||| ||||||| ||||||||||||||||| |||||||||||||||||||| ||||||||||| || |||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||| |||||||||||||| || |||||||| || ||||| ||| | ||||| || || || ||||||||||| |||| ||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1968792135|dbj|AP024444.1|</Hit_id>
+  <Hit_def>Aspergillus puulaauensis MK2 DNA, chromosome 2, nearly complete sequence</Hit_def>
+  <Hit_accession>AP024444</Hit_accession>
+  <Hit_len>5431972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.943</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>8.91663e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>125874</Hsp_hit-from>
+      <Hsp_hit-to>125440</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCCGTCTGGCGAGTTCCATATCTGCGAAGCACCATTCGTGGCACCATCGTCCGAGACATCCAGAAACTGCACAAGCAATATGGACCAGTCGTGCGGATTGCGCCAGATGAACTCTCATACATCGCACCAGAGGCCGCGAAGCCAATCTACACGTCGAACCCGGAGTTTTCAAAGGATCCCATGCATCTTCCTCCATTCCACAATGGCGCCCCGGGCATTCTTGCTGCTGACCACGCCCACCACCGCAGGTATCGCCGGCTTCTGGCCCACGCCTTCTCAGACAAAGGATTGCGTGCGCAGCAAGTCATGATACAGCGGCATATTGATCGCCTAATCGCACGGCTACACGAGAAATGCTCGACTGAATCTTCGGACATGACTGTCTGGTTTAACTGGGCCACCTTCGACATAATCGGTGATCTTGCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||||||||||    ||||||||||  | || || ||| |||| ||||||  | |||| || || ||||| || || || || || |||||||||||||| || |||||| | |||||||| || || |||||||||||||| |  || || ||  | || || || |||||||| ||||| || || ||||||||||| |||||||| ||||| ||| |||||||||| ||  | ||||| |||||||| |||   |||||||| || || ||| | || || ||||| | |||||| ||| | ||||||||||| |||||  | || || || | ||| |||||| | |  ||   ||||||||| |||||||| |||||||| |||||||| || ||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|208879565|gb|AY092402.3|</Hit_id>
+  <Hit_def>Aspergillus ochraceoroseus strain SRRC 1432 aflatoxin/sterigmatocystin gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY092402</Hit_accession>
+  <Hit_len>59535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.514</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.32451e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>31194</Hsp_hit-from>
+      <Hsp_hit-to>30761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCTCTTTGGCGTGTACCATATCTTCAAAGCACCATCCGTGGCACGATTGTGCGAGATCTTCAACGACTGCATGAGCAATATGGCCCTGTCGTGCGCATTGCCCCGGACGAGCTGTCCTTTATCAATCCAGAGGCGGCCAAACCCATCTACACGTCGAATCCTGAGTTCTCCAAAGATCCCATGCACCTCCCACCCTTCCACAATGGAGTTCCTGGCATCCTCGCGGCCGACCATGCCCACCACCGGCGGTATCGACGGCTTCTCGCATTCTCATTTTCTGATAAAGGGCTGAAAGCACAGCAGGGCATGATCCAGCAGTACATTGATCAATTGATTGTCCGCCTTCACGAGAATTGCTCCACGGGCCCTGTTGACATGACACTTTGGTATAATTGGGCAACCTTTGACATAATCGGTGACCTGGCCTT</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||| || ||||||||  |  ||||||| ||  | ||||||||  ||||| | || ||| ||||| | || ||||| || || || || || || || || || || ||||  ||||  |||||||| || ||||| ||||||||||| | ||| || ||| ||||||| || ||||| ||||| || || || ||||| |  |||||||| ||||| |||||| | |||||||| ||||| |||||||||||||| || |   | || ||||| || || ||    |||||||| |||||||| |||    | ||||||| | | ||    || || || | |||||||||  ||||| |  | ||||||||  | ||||  || ||||| ||||| || || ||||| || || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1245865573|ref|XM_022529676.1|</Hit_id>
+  <Hit_def>Aspergillus bombycis hypothetical protein (ABOM_002546), partial mRNA</Hit_def>
+  <Hit_accession>XM_022529676</Hit_accession>
+  <Hit_len>1443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.101</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>1.08819e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>TGGTGGGCTGTTTGGCGAGTTCCATATCTGAAGGGCACCATTCGACGGACGATTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TGGTGGGCCATCTGGCGGGTGCCCTACATCCACAGCAACATCCGAGGCAGCCTTGTCCGCGATCTCCAGCGACTACACGAACAATTCGGTCCCGTCGTCCGAATCGCGCCCAATGAGCTATCGTTCATCACCCCCGAGGCGGCGACTCCTATCTACACGAGCAATCCCGAGTTTCCCAAGGATCCGATGCATCTGCCGCCGTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATACCCACCACCGCCGTTATCGACGGCTGTTGGCCTTTTCATTTTCCGACAAAGGTTTACG-GCAGCAGCGCGGTCTTATCGAACGCAGCGTTGACCTGCTAATTACGCGCTTCCATGAGAACTG-TGGCCAGGGCCCTCTGGACCTCACGCTATGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCCTT</Hsp_hseq>
+      <Hsp_midline>||||||||  | ||||| || || ||  |  |  ||| ||| ||| | |   ||||| | ||| |||||||| | ||  | || |  |||||||| || |||||||||||  |||| || || | |||||| || ||||| || |  || |||||||||  || |||||| || ||||| || || |||||||| || ||||| || |||||  |||| ||||| || || |||||| |  ||||||| || || |||||||||||  | |||| | | || || || || ||  | || ||| |||| |||  | ||  |  ||    |||| |  ||||| || ||  |||| | ||| || | | | |||| | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1735079788|gb|CP035528.1|</Hit_id>
+  <Hit_def>Aspergillus sojae strain SMF134 chromosome 3</Hit_def>
+  <Hit_accession>CP035528</Hit_accession>
+  <Hit_len>5932919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.443</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.84273e-44</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>5330502</Hsp_hit-from>
+      <Hsp_hit-to>5330883</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCCTGTCGTCCGAATCGCACCCAATGAACTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTATTGACCTGCTCATCACGCAGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCCTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || || || || |||||||| ||  ||||||| || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  |||||| |  || || || |  ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|992226917|ref|XM_015546914.1|</Hit_id>
+  <Hit_def>Aspergillus nomius NRRL 13137 uncharacterized protein (ANOM_001657), partial mRNA</Hit_def>
+  <Hit_accession>XM_015546914</Hit_accession>
+  <Hit_len>4065</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.443</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.84273e-44</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>2759</Hsp_hit-from>
+      <Hsp_hit-to>3140</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGGCTACACCAACAATTCGGGCCCGTCGTCCGAATCGCGCCGAATGAGCTATCTTTCATAGCCCCCGAGGCGGCCGCTCCGATCTACACGAGCAATCCGGAGTTTTCCAAGGATCCGATGCATCTTCCGCCATTCCATAATGGGACCCCAGGCATCCTGGCCGCCGACCATGCCCACCACCGCCGTTATCGACGGCTGTTGGCCTTTTCATTCTCTGACAAAGGTCTGAG-GCAGCAACGCGGTCTTATCGAACGCAGCGTTAACCTGCTAATCACGCAATTCCATGAGAACTG-TGGCCAGGGACCTCTGGACCTGACGCTGTGGTTCAACTGGGCTACCTTCGACATTATCGGCGATCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||  | ||  | || |  || ||||| || |||||||||||  |||| || || | |||  | || ||||| ||    || |||||||||  || ||| || ||  |||| || || |||||||| || || || ||||||||  |||| ||||| || || |||||| | |||||||| || || |||||||||||  | |||| | | |||||||| || || ||  | ||| || | |||  | ||  |  ||    || | |  ||||| || |   |||| | ||| || | | | |||  | |||||| ||||  | |||||||||||||| |||||||| || |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|46370510|gb|AY510454.1|</Hit_id>
+  <Hit_def>Aspergillus nomius isolate AN13137 aflatoxin biosynthesis gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY510454</Hit_accession>
+  <Hit_len>75352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.443</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.84273e-44</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>53228</Hsp_hit-from>
+      <Hsp_hit-to>52847</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGGCTACACCAACAATTCGGGCCCGTCGTCCGAATCGCGCCGAATGAGCTATCTTTCATAGCCCCCGAGGCGGCCGCTCCGATCTACACGAGCAATCCGGAGTTTTCCAAGGATCCGATGCATCTTCCGCCATTCCATAATGGGACCCCAGGCATCCTGGCCGCCGACCATGCCCACCACCGCCGTTATCGACGGCTGTTGGCCTTTTCATTCTCTGACAAAGGTCTGAG-GCAGCAACGCGGTCTTATCGAACGCAGCGTTAACCTGCTAATCACGCAATTCCATGAGAACTG-TGGCCAGGGACCTCTGGACCTGACGCTGTGGTTCAACTGGGCTACCTTCGACATTATCGGCGATCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||  | ||  | || |  || ||||| || |||||||||||  |||| || || | |||  | || ||||| ||    || |||||||||  || ||| || ||  |||| || || |||||||| || || || ||||||||  |||| ||||| || || |||||| | |||||||| || || |||||||||||  | |||| | | |||||||| || || ||  | ||| || | |||  | ||  |  ||    || | |  ||||| || |   |||| | ||| || | | | |||  | |||||| ||||  | |||||||||||||| |||||||| || |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1835285492|gb|CP051037.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain A9 chromosome 3</Hit_def>
+  <Hit_accession>CP051037</Hit_accession>
+  <Hit_len>5376667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>5264265</Hsp_hit-from>
+      <Hsp_hit-to>5264646</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1835280134|gb|CP051085.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain K54A chromosome 3</Hit_def>
+  <Hit_accession>CP051085</Hit_accession>
+  <Hit_len>5205503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4973528</Hsp_hit-from>
+      <Hsp_hit-to>4973909</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>5201267</Hsp_hit-from>
+      <Hsp_hit-to>5200886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1835280125|gb|CP051045.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain Tox4 chromosome 3</Hit_def>
+  <Hit_accession>CP051045</Hit_accession>
+  <Hit_len>4838824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4725623</Hsp_hit-from>
+      <Hsp_hit-to>4726004</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1835280099|gb|CP051053.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain VCG4 chromosome 3</Hit_def>
+  <Hit_accession>CP051053</Hit_accession>
+  <Hit_len>5049971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4939136</Hsp_hit-from>
+      <Hsp_hit-to>4939517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1835280083|gb|CP051029.1|</Hit_id>
+  <Hit_def>Aspergillus parasiticus strain NRRL 2999 chromosome 3</Hit_def>
+  <Hit_accession>CP051029</Hit_accession>
+  <Hit_len>5242922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>5129472</Hsp_hit-from>
+      <Hsp_hit-to>5129853</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCTCTGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCACCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  ||  | || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1795656091|gb|CP047251.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain SU-16 chromosome 3</Hit_def>
+  <Hit_accession>CP047251</Hit_accession>
+  <Hit_len>5068377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4958428</Hsp_hit-from>
+      <Hsp_hit-to>4958809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1761780985|gb|CP044620.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain NRRL 3357 chromosome 3</Hit_def>
+  <Hit_accession>CP044620</Hit_accession>
+  <Hit_len>5196380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>5056120</Hsp_hit-from>
+      <Hsp_hit-to>5056501</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCTCTGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCACCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  ||  | || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1300550549|ref|XM_023236262.1|</Hit_id>
+  <Hit_def>Aspergillus oryzae RIB40 unnamed protein product (AO090026000021), partial mRNA</Hit_def>
+  <Hit_accession>XM_023236262</Hit_accession>
+  <Hit_len>1488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1910759546|gb|CP061809.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain CA14 chromosome 6</Hit_def>
+  <Hit_accession>CP061809</Hit_accession>
+  <Hit_len>3467297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>146911</Hsp_hit-from>
+      <Hsp_hit-to>146530</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCTCTGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCACCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  ||  | || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1886931347|gb|CP059860.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain AF13 chromosome 3</Hit_def>
+  <Hit_accession>CP059860</Hit_accession>
+  <Hit_len>5029825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4941727</Hsp_hit-from>
+      <Hsp_hit-to>4942108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1886919240|gb|CP059868.1|</Hit_id>
+  <Hit_def>Aspergillus flavus NRRL3357 chromosome 3</Hit_def>
+  <Hit_accession>CP059868</Hit_accession>
+  <Hit_len>5100955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4962193</Hsp_hit-from>
+      <Hsp_hit-to>4962574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCTCTGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCACCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  ||  | || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|46370623|gb|AY510451.1|</Hit_id>
+  <Hit_def>Aspergillus flavus isolate AF13 aflatoxin biosynthesis gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY510451</Hit_accession>
+  <Hit_len>88318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>55792</Hsp_hit-from>
+      <Hsp_hit-to>55411</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|46370486|gb|AY510453.1|</Hit_id>
+  <Hit_def>Aspergillus flavus isolate AF70 aflatoxin biosynthesis gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY510453</Hit_accession>
+  <Hit_len>75829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>47399</Hsp_hit-from>
+      <Hsp_hit-to>47018</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGTACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCTGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | |  ||||| || || |||||||| ||  | |||| | | |||||||| || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|84468460|dbj|AB196490.1|</Hit_id>
+  <Hit_def>Aspergillus oryzae DNA, aflatoxin biosynthesis gene cluster, complete sequence, strain: RIB40</Hit_def>
+  <Hit_accession>AB196490</Hit_accession>
+  <Hit_len>89641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>57127</Hsp_hit-from>
+      <Hsp_hit-to>56746</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|27348212|dbj|AB076804.1|</Hit_id>
+  <Hit_def>Aspergillus oryzae avnA, verB, avfA, omtB genes for cytochrome P450 monooxygenase, averufin dehydrogenase, O-methyltransferase B, complete cds</Hit_def>
+  <Hit_accession>AB076804</Hit_accession>
+  <Hit_len>14134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>6662</Hsp_hit-from>
+      <Hsp_hit-to>6281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|83769366|dbj|AP007159.1|</Hit_id>
+  <Hit_def>Aspergillus oryzae RIB40 DNA, SC026</Hit_def>
+  <Hit_accession>AP007159</Hit_accession>
+  <Hit_len>2324132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.54558e-42</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>63622</Hsp_hit-from>
+      <Hsp_hit-to>63241</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1835285501|gb|CP051061.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain A1 chromosome 3</Hit_def>
+  <Hit_accession>CP051061</Hit_accession>
+  <Hit_len>5043333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.05888e-40</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4930559</Hsp_hit-from>
+      <Hsp_hit-to>4930940</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGAACTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTATCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||  |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1835280217|gb|CP051021.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain AF36 chromosome 3</Hit_def>
+  <Hit_accession>CP051021</Hit_accession>
+  <Hit_len>4958167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.05888e-40</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4823338</Hsp_hit-from>
+      <Hsp_hit-to>4823719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGAACTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTATCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||  |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1835280164|gb|CP051077.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain K49 chromosome 3</Hit_def>
+  <Hit_accession>CP051077</Hit_accession>
+  <Hit_len>5019783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.05888e-40</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4907194</Hsp_hit-from>
+      <Hsp_hit-to>4907575</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGAACTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTATCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||  |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1835280108|gb|CP051093.1|</Hit_id>
+  <Hit_def>Aspergillus flavus strain VCG1 chromosome 3</Hit_def>
+  <Hit_accession>CP051093</Hit_accession>
+  <Hit_len>5024156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.05888e-40</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>4913936</Hsp_hit-from>
+      <Hsp_hit-to>4914317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGAACTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTATCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||  |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|46370536|gb|AY510455.1|</Hit_id>
+  <Hit_def>Aspergillus flavus isolate AF36 aflatoxin biosynthesis gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY510455</Hit_accession>
+  <Hit_len>78264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.05888e-40</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>47052</Hsp_hit-from>
+      <Hsp_hit-to>46671</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGAACTCCAGCGATTGCACCAACAATTCGGCCATGTCGTCCGAATCGCACCCAATGAGCTATCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCAGCAGCGCAGTCTAATCGAACGCAGTGTTAACCTGCTCATCACGCGGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||  |||||||||||||  | || |  || |  || || |||||||| ||  |||| || || | |||    || ||||| || |  || |||||||||  || ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || ||| |||| | |  | ||  |  ||  | || | |  || || || || ||||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1800302601|ref|XM_032090168.1|</Hit_id>
+  <Hit_def>Aspergillus pseudonomius cytochrome P450 (BDV37DRAFT_296669), partial mRNA</Hit_def>
+  <Hit_accession>XM_032090168</Hit_accession>
+  <Hit_len>3128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.41</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>4.94473e-39</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>1703</Hsp_hit-from>
+      <Hsp_hit-to>2084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGGCTACACCAACAATTCGGGCCCGTCGTCCGAATCGCGCCCAATGAGCTATCTTTCATAGCCCCCGAGGCGGCCGCTCCGATCTACACAAGCAATCCGGAGTTTCCCAAGGATCCGATGCATCTTCCGCCATTCCATAATGGGACCCCAGGCATCCTGGCCGCCGACCATGCCCACCACCGCCGTTATCGACGGCTGTTAGCCTTTTCATTCTCCGACAAAGG-TTTGAGGCAGCAACGCGGTCTTATCGAACGCAGCGTTAACCTGCTAATCACGCGATTCCATGAAAACTG-TGGCCAGGGACCTCTGGATCTGACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||  | ||  | || |  || ||||| || |||||||||||  |||| || || | |||  | || ||||| ||    || ||||||||   || ||| || || ||||| || || |||||||| || || || ||||||||  |||| ||||| || || |||||| | |||||||| || || |||||||||||  | |||| | | ||||| || || ||  ||   ||| || | |||  | ||  |  ||    || | |  ||||| || ||  |||| |  || || | | | |||  | |||||  ||||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|45477378|gb|AY371490.1|</Hit_id>
+  <Hit_def>Aspergillus parasiticus aflatoxin pathway gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY371490</Hit_accession>
+  <Hit_len>82081</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.41</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>4.94473e-39</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>47901</Hsp_hit-from>
+      <Hsp_hit-to>47520</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCAC-AGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGATTGCACCAACAATTCGGCCCTGTCGTCCGAATTGCACCCAATGAGCTGTCTTTCATAGTCCCTGAGGCGGCCAGTCCTATCTACACGAGTAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCACGAGCGCAGTCTAATCGAACGCAGTATTGACCTGCTCATCACGCAGCTCCATGAGAACTG-TGGCCAGGGGCCTCTGGACCTCGCGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCCTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||||||||  | || |  || || || || ||||| || ||  |||| || || | |||    || ||||| || |  || |||||||||   | ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || |||| ||| | |  | ||  |  ||  |||||| |  || || || |  ||||| | ||| || | | | |||  | |||||| |  |  | |||||||||||||| |||||||| || |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|46370460|gb|AY510452.1|</Hit_id>
+  <Hit_def>Aspergillus flavus isolate BN008 aflatoxin biosynthesis gene cluster, complete sequence</Hit_def>
+  <Hit_accession>AY510452</Hit_accession>
+  <Hit_len>82511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.705</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>6.02392e-38</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>58691</Hsp_hit-from>
+      <Hsp_hit-to>58310</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>TTGTCAGAGATATCCAGCGATTGCATAACCAGTATGGTCCC-GTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCA---TGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TTGTCCGCGATCTCCAGCGACTGCACCAA-AGTTTCGGCCCTGTCGTCCGAATCGCGCCCAATGAGCTGTCTTTCATAGCCCCTGAGGCGGCCAGTCCTATCTACACGAGCAATCCGGAGTTTCCCAAGGATCCGATGCATCTTCCGCCCTTCCACAATGGGACCCCAGGCATCCTGGCCGCCGACCATGCCCACCACCGCCGTTATCGACGGCTGTTGGCCTTTTCATTTTCCGATAAAGG-CTT-GCG-GCAGCAACGCAGTCTTATCGAACGGAGTGTGAACCTGCTCATCACGCGATTCCATGAGAACTG-TGGCCAGGGACCTCTGGACCTCACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||| |||||||| ||||  |  ||| | | ||| || || |||||||||||  |||| || || | |||  | || ||||| || |  || |||||||||  || ||| || || ||||| || || |||||||| || || || || |||||  |||| ||||| || || |||||| | |||||||| || || |||||||||||  | |||| | | || || || || || ||| |||  |||||  |||   | ||  |  |   | |  | |  || || || ||  |||| | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1799765433|ref|XM_032058134.1|</Hit_id>
+  <Hit_def>Aspergillus pseudotamarii cytochrome P450 (BDV38DRAFT_276006), partial mRNA</Hit_def>
+  <Hit_accession>XM_032058134</Hit_accession>
+  <Hit_len>3021</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.56144e-36</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>1759</Hsp_hit-from>
+      <Hsp_hit-to>2093</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>CGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCA-CAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>CGAATCGCGCCCAATGAGCTGTCTTTCATTGCTCCCGAGGCGGCCACTCCTATCTACACGAGCAATCCAGAGTTTCCCAAGGATCCGATGCATCTTCCACCCTTCCACAATGGGACCCCAGGCATCCTGGCCGCCGACCATGCCCACCACCGCCGTTATCGACGGCTGTTGGCCTTTTCATTTTCTGACAAAGGTTTGCG-GCAGCAACGCGGTCTTATCGAACGAAGTGTTTACCTGCTAATCACGCGATTACACGAGAACTG-TGGCCAGGGACCTCTGGACCTTACGCTGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||  |||| || || | |||  | || ||||| || |  || |||||||||  || ||| || || ||||| || || |||||||| || || || || |||||  |||| ||||| || || |||||| | |||||||| || || |||||||||||  | |||| | | || ||||| || ||  | || ||| || | |||  | ||  |  |   | || | |  ||||| || ||  | || | ||| || | | | |||  | |||||| | ||  | |||||||||||||| |||||||| || |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|754998|gb|L41149.1|ASNORD1A</Hit_id>
+  <Hit_def>Aspergillus parasiticus ord1 gene, complete cds</Hit_def>
+  <Hit_accession>L41149</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.24272e-27</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCAC-AGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>CCTATCTACACGAGTAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCACGAGCGCAGTCTAATCGAACGCAGTATTGACCTGCTCATCACGCAGCTCCATGAGAACTG-TGGCCAGGGCTC--TGGACTCGCGC-TGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCCTT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||   | ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || |||| ||| | |  | ||  |  ||  |||||| |  || || || |  ||||| | ||| || | | | ||||||  |||||  |  | | |||||||||||||| |||||||| || |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|722395|gb|L40839.1|ASNORD1</Hit_id>
+  <Hit_def>Aspergillus parasiticus P450 type monooxigenase/dehydrogenase (avnA) mRNA, complete cds</Hit_def>
+  <Hit_accession>L40839</Hit_accession>
+  <Hit_len>1266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.24272e-27</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCAC-AGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCCAGGGGAATTGCTCGTC-GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>CCTATCTACACGAGTAATCCGGAGTTTCCCAAGGACCCGATGCATCTTCCGCCCTTCCACAATGGAACCCCAGGCATCCTGGCCGCCGACCATGCACACCACCGCCGCTATCGACGACTGTTGGCCTTTTCATTCTCCGACAAAGGTTTGCG-GCACGAGCGCAGTCTAATCGAACGCAGTATTGACCTGCTCATCACGCAGCTCCATGAGAACTG-TGGCCAGGGCTC--TGGACTCGCGC-TGTGGTTCAACTGGGCCACCTTCGACATTATCGGCGACCTCGCCTT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||   | ||| || || ||||| ||||| |||||||| || || || || |||||  |||| ||||| || || |||||| | || ||||| || || |||||||| ||  | |||| | | ||||| || || ||  | || |||| ||| | |  | ||  |  ||  |||||| |  || || || |  ||||| | ||| || | | | ||||||  |||||  |  | | |||||||||||||| |||||||| || |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1331165052|ref|XM_023595698.1|</Hit_id>
+  <Hit_def>Cercospora beticola Averantin hydroxylase (CB0940_03003), mRNA</Hit_def>
+  <Hit_accession>XM_023595698</Hit_accession>
+  <Hit_len>1533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.292</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.9491e-20</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>TATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCACGCCAGAGGCAGCAAAACCAATCTACACGTCCAGTCCCGAATTCCCCAAAGACCCAATGCATCTCCCTCCGTTTCATAATGGCGCCCCTGGCATTCTCGCTGCCGACTACGCCCACCATCGGCGATATCGACGGCTTCTTGCCTCTGCCTTCTCTGAAAAGGGACTTCGCGCACAGCACGGCATGATTCAGAGCCATATTGATCGACTAATGACTCGTCTCC---AGGGGAATTGCTCGTCGGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TATGGTCCCGTCGTTCGACTTGCTCCAGACGAGTTATCGTACATCACACCAGATGCCTCGAAAACGATTTACCAGTCGAATCCGGAATTCCCAAAGGATCCAATGCATCTTCCACCGTTTCACAATGGTACGCCAGGAATACTTGCTGCAGACAAACATAACCATACCAGATTTCGAAGAATGTTAGGTCCAGCTTTTTCCGATAAAGGTATGAGAACCCAGCAGCCGTTGATCCAGAAGCACATCGACCTATTGATGGTGCGACTGCGAGAGCGTAGTAGC---ATTGGCTCTGTGGATATATCCGAGTGGTACAATTGGGTGACATTCGACATCATCGGGGATCTCTCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||| | || ||||| ||  | || |||||||| ||||| ||  | ||| | || |||  ||| | ||| |||||||| || || ||||||||||| || |||||||| |||||  | || || || || ||||| ||| |     |||||    ||| |||| |  |  | |   | || || || || || ||  |  |  | |||||     |||| ||||  || || || | | | |||   || || |   || | | | ||      |||||  |||| ||  |||  |||| ||| |||| ||| ||||| |||||||| |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1833382122|ref|XM_033738432.1|</Hit_id>
+  <Hit_def>Neohortaea acidophila putative P450 monooxygenase (BDY17DRAFT_47780), mRNA</Hit_def>
+  <Hit_accession>XM_033738432</Hit_accession>
+  <Hit_len>1882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.24887e-05</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>652</Hsp_hit-from>
+      <Hsp_hit-to>708</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>GACATGACCAAGTGGTACAACTGGGCTACATTCGATATCATTGCCGATCTCACTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||| ||||||||| || ||||||||||| | ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1758340551|ref|XM_031137249.1|</Hit_id>
+  <Hit_def>Phialemoniopsis curvata uncharacterized protein (E0L32_002997), partial mRNA</Hit_def>
+  <Hit_accession>XM_031137249</Hit_accession>
+  <Hit_len>1515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.84934e-05</Hsp_evalue>
+      <Hsp_query-from>378</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>531</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>GGACATGACGTCCTGGTACAACTGGGCGACATTCGACATGATCGGCGACCTGACTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||   ||||| |||||||||||| ||||| || |||||||| ||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|827074176|ref|XM_008100325.1|</Hit_id>
+  <Hit_def>Colletotrichum graminicola M1.001 cytochrome P450 partial mRNA</Hit_def>
+  <Hit_accession>XM_008100325</Hit_accession>
+  <Hit_len>1524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.8958</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.000273969</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCAC</Hsp_qseq>
+      <Hsp_hseq>CAGTACGGTCCGGTTGTACGCATCGCGCCAGATGAGCTGTCTTACACCAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||| |||||||| |||||||||||||| || || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1331157140|ref|XM_023593182.1|</Hit_id>
+  <Hit_def>Cercospora beticola Benzoate 4-monooxygenase (CB0940_00546), mRNA</Hit_def>
+  <Hit_accession>XM_023593182</Hit_accession>
+  <Hit_len>2002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000956246</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>936</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTCAACTATGTGGCCTTCGATATCATTGGAGATCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||  | | ||||||||||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|628283518|ref|XM_007734206.1|</Hit_id>
+  <Hit_def>Capronia epimyces CBS 606.96 benzoate 4-monooxygenase partial mRNA</Hit_def>
+  <Hit_accession>XM_007734206</Hit_accession>
+  <Hit_len>1539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.000956246</Hsp_evalue>
+      <Hsp_query-from>390</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTCAACTATTTGGCCTTCGATATCATCGGCGACCTCGCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||    | ||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1833502976|ref|XM_033552736.1|</Hit_id>
+  <Hit_def>Arthroderma uncinatum cytochrome P450 (GIQ15_05319), partial mRNA</Hit_def>
+  <Hit_accession>XM_033552736</Hit_accession>
+  <Hit_len>2241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.2891</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>350</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTT</Hsp_qseq>
+      <Hsp_hseq>TGGACATGACCAAACGATTCAACTGGACTACTTTCGATATCATTGGGGATCTGGCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||    | ||||||||| | || ||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1360907969|gb|AC277089.1|</Hit_id>
+  <Hit_def>Bipolaris maydis clone FNFP77-B23, complete sequence</Hit_def>
+  <Hit_accession>AC277089</Hit_accession>
+  <Hit_len>40312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>25460</Hsp_hit-from>
+      <Hsp_hit-to>25411</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTA</Hsp_qseq>
+      <Hsp_hseq>CATGATCAATATGGTCCTGTTGTGCGAATCGCTCCTGATGAACTTTCATA</Hsp_hseq>
+      <Hsp_midline>||| | || |||||||| ||||| |||||||| || ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1360907933|gb|AC277288.1|</Hit_id>
+  <Hit_def>Bipolaris maydis clone FIWS61-D10, complete sequence</Hit_def>
+  <Hit_accession>AC277288</Hit_accession>
+  <Hit_len>39425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>2141</Hsp_hit-from>
+      <Hsp_hit-to>2092</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTA</Hsp_qseq>
+      <Hsp_hseq>CATGATCAATATGGTCCTGTTGTGCGAATCGCTCCTGATGAACTTTCATA</Hsp_hseq>
+      <Hsp_midline>||| | || |||||||| ||||| |||||||| || ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1069467078|ref|XM_018272018.1|</Hit_id>
+  <Hit_def>Pseudogymnoascus verrucosus hypothetical protein mRNA</Hit_def>
+  <Hit_accession>XM_018272018</Hit_accession>
+  <Hit_len>1581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATTGCATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTACATCAC</Hsp_qseq>
+      <Hsp_hseq>ATTGCATGACAAGTATGGTCCCGTTGTCCGGGTCTCTCCAGAAGAACTCTCATTCAACAC</Hsp_hseq>
+      <Hsp_midline>||||||| || |||||||||||||||| ||  || | ||||| ||||| || | || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|928510466|ref|XM_014218562.1|</Hit_id>
+  <Hit_def>Bipolaris maydis ATCC 48331 hypothetical protein partial mRNA</Hit_def>
+  <Hit_accession>XM_014218562</Hit_accession>
+  <Hit_len>2790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTA</Hsp_qseq>
+      <Hsp_hseq>CATGATCAATATGGTCCTGTTGTGCGAATCGCTCCTGATGAACTTTCATA</Hsp_hseq>
+      <Hsp_midline>||| | || |||||||| ||||| |||||||| || ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|627821604|ref|XM_007685452.1|</Hit_id>
+  <Hit_def>Bipolaris oryzae ATCC 44560 hypothetical protein partial mRNA</Hit_def>
+  <Hit_accession>XM_007685452</Hit_accession>
+  <Hit_len>2793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00333763</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>CATAACCAGTATGGTCCCGTTGTACGAATCGCGCCAGATGAACTTTCCTA</Hsp_qseq>
+      <Hsp_hseq>CATGATCAGTATGGCCCCGTTGTACGAATTGCTCCTGATGAACTCTCGTA</Hsp_hseq>
+      <Hsp_midline>||| | |||||||| |||||||||||||| || || |||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1955622018|ref|XM_038892107.1|</Hit_id>
+  <Hit_def>Colletotrichum karsti uncharacterized protein (CkaCkLH20_09392), partial mRNA</Hit_def>
+  <Hit_accession>XM_038892107</Hit_accession>
+  <Hit_len>2754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.0116495</Hsp_evalue>
+      <Hsp_query-from>369</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>531</Hsp_hit-from>
+      <Hsp_hit-to>597</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GGGCTCGCTGGACATGACCGTCTGGTTCAACTGGGCGACCTTCGATATCATCGGCGATCTCGCTTTC</Hsp_qseq>
+      <Hsp_hseq>GGGCGCGTTGGATATCTGCGCCTGGTTCAACTACGCCACGTTCGATATCATCGGAGACCTCACCTTC</Hsp_hseq>
+      <Hsp_midline>|||| || |||| ||   || |||||||||||  || || |||||||||||||| || ||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

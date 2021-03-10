@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14418.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym18f06.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48417 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>411</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14418.1</Iteration_query-ID>
+  <Iteration_query-def>ym18f06.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48417 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>411</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1848985865|ref|XM_034960576.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus fibronectin type III domain containing 5 (FNDC5), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_034960576</Hit_accession>
+  <Hit_len>3050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1912</Hsp_hit-from>
+      <Hsp_hit-to>2312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1848985863|ref|XM_008964981.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_008964981</Hit_accession>
+  <Hit_len>2822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1684</Hsp_hit-from>
+      <Hsp_hit-to>2084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1848985861|ref|XM_008964980.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_008964980</Hit_accession>
+  <Hit_len>3007</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1869</Hsp_hit-from>
+      <Hsp_hit-to>2269</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1848985859|ref|XM_008964979.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_008964979</Hit_accession>
+  <Hit_len>2303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1165</Hsp_hit-from>
+      <Hsp_hit-to>1565</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1848985857|ref|XM_014344499.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_014344499</Hit_accession>
+  <Hit_len>3187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>2049</Hsp_hit-from>
+      <Hsp_hit-to>2449</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1743029721|ref|NM_001171940.2|</Hit_id>
+  <Hit_def>Homo sapiens fibronectin type III domain containing 5 (FNDC5), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001171940</Hit_accession>
+  <Hit_len>2182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1677498253|ref|NM_001171941.3|</Hit_id>
+  <Hit_def>Homo sapiens fibronectin type III domain containing 5 (FNDC5), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001171941</Hit_accession>
+  <Hit_len>3022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1884</Hsp_hit-from>
+      <Hsp_hit-to>2284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1524758945|ref|NM_153756.3|</Hit_id>
+  <Hit_def>Homo sapiens fibronectin type III domain containing 5 (FNDC5), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_153756</Hit_accession>
+  <Hit_len>2831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1693</Hsp_hit-from>
+      <Hsp_hit-to>2093</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|14043122|gb|BC007548.1|</Hit_id>
+  <Hit_def>Homo sapiens fibronectin type III domain containing 5, mRNA (cDNA clone IMAGE:2959994), partial cds &gt;gi|21619866|gb|BC033123.1| Homo sapiens fibronectin type III domain containing 5, mRNA (cDNA clone IMAGE:2959995), partial cds</Hit_def>
+  <Hit_accession>BC007548</Hit_accession>
+  <Hit_len>1610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|21750614|dbj|AK092102.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ34783 fis, clone NT2NE2003921</Hit_def>
+  <Hit_accession>AK092102</Hit_accession>
+  <Hit_len>2657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1527</Hsp_hit-from>
+      <Hsp_hit-to>1927</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|27228880|gb|AC114493.3|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone RP11-336O20, complete sequence</Hit_def>
+  <Hit_accession>AC114493</Hit_accession>
+  <Hit_len>179221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>98426</Hsp_hit-from>
+      <Hsp_hit-to>98026</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|31873749|emb|BX537781.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp779L0160 (from clone DKFZp779L0160)</Hit_def>
+  <Hit_accession>BX537781</Hit_accession>
+  <Hit_len>1977</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>821</Hsp_hit-from>
+      <Hsp_hit-to>1221</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|11991341|emb|AL137791.19|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP5-1079D1 on chromosome 1p32.2-33, complete sequence</Hit_def>
+  <Hit_accession>AL137791</Hit_accession>
+  <Hit_len>66254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.286</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.18065e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>23531</Hsp_hit-from>
+      <Hsp_hit-to>23131</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1034070276|ref|XM_009453148.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_009453148</Hit_accession>
+  <Hit_len>2723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.64762e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1585</Hsp_hit-from>
+      <Hsp_hit-to>1985</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGAGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAG-TTCGGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1034070274|ref|XM_009453146.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_009453146</Hit_accession>
+  <Hit_len>2908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.64762e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1770</Hsp_hit-from>
+      <Hsp_hit-to>2170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGAGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAG-TTCGGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1034070272|ref|XM_009453144.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009453144</Hit_accession>
+  <Hit_len>2204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.64762e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1066</Hsp_hit-from>
+      <Hsp_hit-to>1466</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGAGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAG-TTCGGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1034070270|ref|XM_001155446.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_001155446</Hit_accession>
+  <Hit_len>3088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.269</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.64762e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1950</Hsp_hit-from>
+      <Hsp_hit-to>2350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGAGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAG-TTCGGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1753027874|ref|XM_004025391.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla fibronectin type III domain containing 5 (FNDC5), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_004025391</Hit_accession>
+  <Hit_len>2823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.62912e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1687</Hsp_hit-from>
+      <Hsp_hit-to>2087</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAG-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGATTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCACATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGATAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||| ||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1753027872|ref|XM_019014811.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_019014811</Hit_accession>
+  <Hit_len>3008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.62912e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1872</Hsp_hit-from>
+      <Hsp_hit-to>2272</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAG-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGATTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCACATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGATAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||| ||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1753027870|ref|XM_019014802.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_019014802</Hit_accession>
+  <Hit_len>2300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.62912e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1164</Hsp_hit-from>
+      <Hsp_hit-to>1564</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAG-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGATTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCACATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGATAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||| ||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1753027866|ref|XM_019014798.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_019014798</Hit_accession>
+  <Hit_len>2430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>620.743</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.62912e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1294</Hsp_hit-from>
+      <Hsp_hit-to>1694</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAG-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGATTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCACATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGATAGC--TTGGACAACTGAAAAGTCACATCACAGCT-GGCATTCTGGGGGCTACCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||| ||||  | ||||||||||||||||||||||||||| ||| || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1351374510|ref|XM_024239672.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024239672</Hit_accession>
+  <Hit_len>2128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.611</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.79006e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>991</Hsp_hit-from>
+      <Hsp_hit-to>1390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>386</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGAACATGTT-GTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCAAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTTCTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1351374505|ref|XM_009252966.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009252966</Hit_accession>
+  <Hit_len>3019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.611</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.79006e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1882</Hsp_hit-from>
+      <Hsp_hit-to>2281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>386</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGAACATGTT-GTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCAAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTT-GGAAGGTTCTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | || |||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1743200788|ref|XR_123047.2|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys uncharacterized LOC100593996 (LOC100593996), ncRNA</Hit_def>
+  <Hit_accession>XR_123047</Hit_accession>
+  <Hit_len>1559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.18637e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGCGTGTAAGATGTCACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGCCTGCATTCTAGAGCGCAGATAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-GGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||| ||||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1799989580|ref|XM_032160118.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032160118</Hit_accession>
+  <Hit_len>2731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.11114e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1597</Hsp_hit-from>
+      <Hsp_hit-to>1994</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATTGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||  ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1799989578|ref|XM_032160117.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032160117</Hit_accession>
+  <Hit_len>2916</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.11114e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1782</Hsp_hit-from>
+      <Hsp_hit-to>2179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATTGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||  ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1799989576|ref|XM_032160116.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032160116</Hit_accession>
+  <Hit_len>2209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.11114e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1075</Hsp_hit-from>
+      <Hsp_hit-to>1472</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATTGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||  ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1799989574|ref|XM_032160115.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032160115</Hit_accession>
+  <Hit_len>3096</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.11114e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1962</Hsp_hit-from>
+      <Hsp_hit-to>2359</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATTGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||  ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1743149052|ref|XM_003276386.3|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_003276386</Hit_accession>
+  <Hit_len>2813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.839</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>2.44744e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1679</Hsp_hit-from>
+      <Hsp_hit-to>2076</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCCAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCATGTAAGATGTCACCTGGTTTGTCTCTTTCGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATCGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||| ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1743149049|ref|XM_012511507.2|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012511507</Hit_accession>
+  <Hit_len>2232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.839</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>2.44744e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1098</Hsp_hit-from>
+      <Hsp_hit-to>1495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTGGGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCCAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACCTTTGCAAGCATGTAAGATGTCACCTGGTTTGTCTCTTTCGGAAAACAAAAATCAGAAGGCCGCATTCTAGAGGGCAGAGAAATTCCCCCGATGACTGAGCTGGCTGCCTGCA---TCTATCTTCTTTGACCCTTATGACTGTAAGATCGTCAGTTT-GGAAGGTACTGGTCCAATTTATTTA-CGAAGTATC-TCTT-GGAG-TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGCTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||| ||||||||   |||||||||||||||||||||||||| |||||| ||||||| |||||||||||||||||||||||||  |||||||| |||| |||| ||||||||||||||||  | |||||||||||||||||||||||| || ||| || ||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1938807806|ref|XM_007979552.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_007979552</Hit_accession>
+  <Hit_len>2860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.42508e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1707</Hsp_hit-from>
+      <Hsp_hit-to>2125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGATCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1938807805|ref|XM_007979551.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007979551</Hit_accession>
+  <Hit_len>2325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.42508e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1172</Hsp_hit-from>
+      <Hsp_hit-to>1590</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGATCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1938807803|ref|XM_037996532.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_037996532</Hit_accession>
+  <Hit_len>3231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.42508e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>2078</Hsp_hit-from>
+      <Hsp_hit-to>2496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGATCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1751208316|ref|XM_030913719.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana fibronectin type III domain containing 5 (FNDC5), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_030913719</Hit_accession>
+  <Hit_len>2973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1820</Hsp_hit-from>
+      <Hsp_hit-to>2238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTATGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTCGGGGTCTTGGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||||||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1751208315|ref|XM_010354248.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_010354248</Hit_accession>
+  <Hit_len>2256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1103</Hsp_hit-from>
+      <Hsp_hit-to>1521</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTATGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTCGGGGTCTTGGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||||||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1751208313|ref|XM_010354251.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_010354251</Hit_accession>
+  <Hit_len>2849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1696</Hsp_hit-from>
+      <Hsp_hit-to>2114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTATGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTCGGGGTCTTGGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||||||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1622833545|ref|XM_015134594.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015134594</Hit_accession>
+  <Hit_len>2844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1692</Hsp_hit-from>
+      <Hsp_hit-to>2110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATATTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCCGAAGGCTGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCCGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||| |||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1622833543|ref|XM_015134585.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015134585</Hit_accession>
+  <Hit_len>2230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1078</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATATTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCCGAAGGCTGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCCGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||| |||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|795102300|ref|XM_011974078.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_011974078</Hit_accession>
+  <Hit_len>1944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>791</Hsp_hit-from>
+      <Hsp_hit-to>1209</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGTCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|795102298|ref|XM_011974077.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011974077</Hit_accession>
+  <Hit_len>2604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1451</Hsp_hit-from>
+      <Hsp_hit-to>1869</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGTCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|795102296|ref|XM_011974076.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011974076</Hit_accession>
+  <Hit_len>2070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1335</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGTCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|795102294|ref|XM_011974075.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011974075</Hit_accession>
+  <Hit_len>3064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.88159e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1911</Hsp_hit-from>
+      <Hsp_hit-to>2329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGTCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||  ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1411084146|ref|XM_025366665.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada fibronectin type III domain containing 5 (FNDC5), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_025366665</Hit_accession>
+  <Hit_len>3064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.002</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1911</Hsp_hit-from>
+      <Hsp_hit-to>2329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACTCACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATCTT-TTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| | |||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1411084144|ref|XM_025366656.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025366656</Hit_accession>
+  <Hit_len>2179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.002</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACTCACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATCTT-TTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| | |||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1411084142|ref|XM_025366647.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025366647</Hit_accession>
+  <Hit_len>2839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.002</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1686</Hsp_hit-from>
+      <Hsp_hit-to>2104</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACTCACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATCTT-TTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| | |||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1411084140|ref|XM_025366637.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025366637</Hit_accession>
+  <Hit_len>2305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.002</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1152</Hsp_hit-from>
+      <Hsp_hit-to>1570</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACTCACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATCTT-TTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| | |||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|982229032|ref|XM_005544075.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis fibronectin type III domain containing 5 (FNDC5), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_005544075</Hit_accession>
+  <Hit_len>3567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>2415</Hsp_hit-from>
+      <Hsp_hit-to>2833</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATATTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCCGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCCGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||| |||||||||||||||||||||||||||||||||| |||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|982229031|ref|XM_005544074.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_005544074</Hit_accession>
+  <Hit_len>3035</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.29225e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>1883</Hsp_hit-from>
+      <Hsp_hit-to>2301</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTGACTCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>CTGACGCAAGCTGTGTCTTTCAGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATACACACCTTTGCAAGTGTGTAAGATATTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCCGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTTGGGGTCTTAGGAAGACCCGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTGAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||| |||||||||||||||||||||||||||||||||| |||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||| ||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1751208311|ref|XM_010354239.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana fibronectin type III domain containing 5 (FNDC5), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_010354239</Hit_accession>
+  <Hit_len>1853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.246</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.11212e-141</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>721</Hsp_hit-from>
+      <Hsp_hit-to>1118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>AGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>AGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTATGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTCGGGGTCTTGGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| |  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||||||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1751208309|ref|XM_030913718.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana fibronectin type III domain containing 5 (FNDC5), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030913718</Hit_accession>
+  <Hit_len>1856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.246</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.11212e-141</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>724</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>AGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCAGGNNGNATACATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTGTGATGCACACTTTTGCAAGCGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCTGCATTCTAGAGGGCAGAGAAATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGAAAGATCATCAGTTTG-----------------GGAAGGTACTGGTCCAATTTATTTAGGGAAGTATCNTCTTGGGAGTTTTCAGAAATGCTAGCCTTGGGACAACTGAAAAGTCACATCACAGCTGGGCTTTTTGGGGGCTACCCAAAC</Hsp_qseq>
+      <Hsp_hseq>AGACCAAGGAACATCAGAGAAGCTGTGGGGCTGCCTGCCATGCAGGAT-CATGGCTGCCATCAAGCCTTTTCTGGATCCAGCCATCAAGGACATGTTTGTGGTATGATACACACCTTTGCAAGTGTGTAAGATGTTACCTGGTTTGTCTCTTTTGGAAAACAAAAATCAGAAGGCCGCACTCTAGAGGGCAGAGAGATTCCCCCGAAGACTGAGCTGGTTGCCTGCATCCTCTATCTTCTTTGACCCTTATGACTGTAAGATCATCAGTTCGGGGTCTTGGGAAGACCTGGAAGGTACTGGTCTAATTTATTTA-GGAAGTATC-TCTTGGAA--TTTCAGAAATGCTAGC--TTGGACAACTGAAAAGTCACATCACATCT-GGCATTCTGGGGGTTACTAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| |  | || |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |                 |||||||||||||| |||||||||| ||||||||| |||||| |  ||||||||||||||||  | |||||||||||||||||||||||| || ||| || |||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>R87870.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yo45g03.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:180916 5&apos; similar to gb:M24899 THYROID HORMONE RECEPTOR ALPHA-2 (HUMAN), mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>80</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>R87870.1</Iteration_query-ID>
+  <Iteration_query-def>yo45g03.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:180916 5&apos; similar to gb:M24899 THYROID HORMONE RECEPTOR ALPHA-2 (HUMAN), mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>80</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1849039445|ref|XM_034941932.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_034941932</Hit_accession>
+  <Hit_len>4922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>793</Hsp_hit-from>
+      <Hsp_hit-to>872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1804359481|ref|XM_032279792.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_032279792</Hit_accession>
+  <Hit_len>6155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>799</Hsp_hit-from>
+      <Hsp_hit-to>878</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1799996344|ref|XM_032163527.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_032163527</Hit_accession>
+  <Hit_len>4711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>597</Hsp_hit-from>
+      <Hsp_hit-to>676</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1753074951|ref|XM_019026893.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_019026893</Hit_accession>
+  <Hit_len>4908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>801</Hsp_hit-from>
+      <Hsp_hit-to>880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1752423552|ref|NM_199334.5|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor alpha (THRA), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_199334</Hit_accession>
+  <Hit_len>5204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>725</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1743136334|ref|XM_030808091.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_030808091</Hit_accession>
+  <Hit_len>4933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>822</Hsp_hit-from>
+      <Hsp_hit-to>901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1677499490|ref|NM_003250.6|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor alpha (THRA), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_003250</Hit_accession>
+  <Hit_len>2383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>725</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1677498565|ref|NM_001190918.2|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor alpha (THRA), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001190918</Hit_accession>
+  <Hit_len>2266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>725</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1367201384|ref|XM_016931867.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_016931867</Hit_accession>
+  <Hit_len>5024</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>869</Hsp_hit-from>
+      <Hsp_hit-to>948</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1351465733|ref|XM_024234932.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_024234932</Hit_accession>
+  <Hit_len>4987</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>878</Hsp_hit-from>
+      <Hsp_hit-to>957</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1212443226|ref|XM_012452009.2|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae thyroid hormone receptor, alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_012452009</Hit_accession>
+  <Hit_len>4963</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>877</Hsp_hit-from>
+      <Hsp_hit-to>956</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|955526123|ref|XM_014790726.1|</Hit_id>
+  <Hit_def>PREDICTED: Ceratotherium simum simum thyroid hormone receptor, alpha (LOC101397778), mRNA</Hit_def>
+  <Hit_accession>XM_014790726</Hit_accession>
+  <Hit_len>4875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>784</Hsp_hit-from>
+      <Hsp_hit-to>863</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|830037590|ref|XM_012726211.1|</Hit_id>
+  <Hit_def>PREDICTED: Condylura cristata thyroid hormone receptor, alpha (THRA), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012726211</Hit_accession>
+  <Hit_len>2242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>674</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|830037587|ref|XM_004684229.2|</Hit_id>
+  <Hit_def>PREDICTED: Condylura cristata thyroid hormone receptor, alpha (THRA), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004684229</Hit_accession>
+  <Hit_len>2359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>674</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|649121577|gb|KJ897672.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone ccsbBroadEn_07066 THRA gene, encodes complete protein</Hit_def>
+  <Hit_accession>KJ897672</Hit_accession>
+  <Hit_len>1603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>365</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|504159971|ref|XM_004591166.1|</Hit_id>
+  <Hit_def>PREDICTED: Ochotona princeps thyroid hormone receptor alpha (THRA), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_004591166</Hit_accession>
+  <Hit_len>1915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>729</Hsp_hit-from>
+      <Hsp_hit-to>808</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|504159969|ref|XM_004591165.1|</Hit_id>
+  <Hit_def>PREDICTED: Ochotona princeps thyroid hormone receptor alpha (THRA), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_004591165</Hit_accession>
+  <Hit_len>2332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>741</Hsp_hit-from>
+      <Hsp_hit-to>820</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|504159965|ref|XM_004591163.1|</Hit_id>
+  <Hit_def>PREDICTED: Ochotona princeps thyroid hormone receptor alpha (THRA), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004591163</Hit_accession>
+  <Hit_len>2449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>741</Hsp_hit-from>
+      <Hsp_hit-to>820</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1933972772|ref|XM_017497118.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_017497118</Hit_accession>
+  <Hit_len>4935</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>798</Hsp_hit-from>
+      <Hsp_hit-to>877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1915441680|ref|XM_036496037.1|</Hit_id>
+  <Hit_def>PREDICTED: Ochotona princeps thyroid hormone receptor alpha (THRA), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_036496037</Hit_accession>
+  <Hit_len>1227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1915441679|ref|XM_004591164.2|</Hit_id>
+  <Hit_def>PREDICTED: Ochotona princeps thyroid hormone receptor alpha (THRA), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_004591164</Hit_accession>
+  <Hit_len>2381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>670</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1890263803|ref|NM_001190919.2|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor alpha (THRA), transcript variant 4, mRNA</Hit_def>
+  <Hit_accession>NM_001190919</Hit_accession>
+  <Hit_len>2514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>856</Hsp_hit-from>
+      <Hsp_hit-to>935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1864484339|ref|XM_035299685.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_035299685</Hit_accession>
+  <Hit_len>4973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>838</Hsp_hit-from>
+      <Hsp_hit-to>917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|325495528|gb|HQ692859.1|</Hit_id>
+  <Hit_def>Homo sapiens thyroid normone nuclear receptor alpha variant 1 (NR1A1) mRNA, complete cds</Hit_def>
+  <Hit_accession>HQ692859</Hit_accession>
+  <Hit_len>1233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|224487812|dbj|AB489181.1|</Hit_id>
+  <Hit_def>Synthetic construct DNA, clone: pF1KB7752, Homo sapiens THRA gene for thyroid hormone receptor, alpha, without stop codon, in Flexi system</Hit_def>
+  <Hit_accession>AB489181</Hit_accession>
+  <Hit_len>1487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|216409679|dbj|AB307686.1|</Hit_id>
+  <Hit_def>Homo sapiens NR1A1 mRNA for thyroid hormone receptor alpha, complete cds</Hit_def>
+  <Hit_accession>AB307686</Hit_accession>
+  <Hit_len>1233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|168149375|emb|CU674114.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens gateway clone IMAGE:100018344 5&apos; read THRA mRNA</Hit_def>
+  <Hit_accession>CU674114</Hit_accession>
+  <Hit_len>1197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|164696108|dbj|AK311344.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA, FLJ18386</Hit_def>
+  <Hit_accession>AK311344</Hit_accession>
+  <Hit_len>1375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>650</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|158261164|dbj|AK290071.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ75155 complete cds, highly similar to Homo sapiens thyroid hormone receptor, alpha (erythroblasticleukemia viral (v-erb-a) oncogene homolog, avian) (THRA),transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>AK290071</Hit_accession>
+  <Hit_len>1909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|158254491|dbj|AK290530.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ75491 complete cds, highly similar to Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian) (THRA), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>AK290530</Hit_accession>
+  <Hit_len>2260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>856</Hsp_hit-from>
+      <Hsp_hit-to>935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123998100|gb|DQ895726.2|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone IMAGE:100010186; FLH187029.01L; RZPDo839D0162D thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian) (THRA) gene, encodes complete protein</Hit_def>
+  <Hit_accession>DQ895726</Hit_accession>
+  <Hit_len>1513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123983393|gb|DQ892512.2|</Hit_id>
+  <Hit_def>Synthetic construct clone IMAGE:100005142; FLH187033.01X; RZPDo839D0172D thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian) (THRA) gene, encodes complete protein</Hit_def>
+  <Hit_accession>DQ892512</Hit_accession>
+  <Hit_len>1513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|38196940|gb|BC006571.2|</Hit_id>
+  <Hit_def>Homo sapiens cDNA clone IMAGE:2961613, **** WARNING: chimeric clone **** &gt;gi|39644841|gb|BC008851.2| Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian), mRNA (cDNA clone MGC:14305 IMAGE:4137980), complete cds &gt;gi|92443546|gb|BC006560.2| Homo sapiens cDNA clone IMAGE:2961613, **** WARNING: chimeric clone ****</Hit_def>
+  <Hit_accession>BC006571</Hit_accession>
+  <Hit_len>3044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>946</Hsp_hit-from>
+      <Hsp_hit-to>1025</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|54696117|gb|BT019625.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian) mRNA, partial cds &gt;gi|61365613|gb|AY890796.1| Synthetic construct Homo sapiens clone FLH010352.01L thyroid hormone receptor alpha (THRA) mRNA, partial cds</Hit_def>
+  <Hit_accession>BT019625</Hit_accession>
+  <Hit_len>1356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|23243454|gb|BC035137.1|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian), mRNA (cDNA clone MGC:43240 IMAGE:5264048), complete cds</Hit_def>
+  <Hit_accession>BC035137</Hit_accession>
+  <Hit_len>2457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>884</Hsp_hit-from>
+      <Hsp_hit-to>963</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|33990916|gb|BC002728.2|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian), mRNA (cDNA clone MGC:3645 IMAGE:3628335), complete cds</Hit_def>
+  <Hit_accession>BC002728</Hit_accession>
+  <Hit_len>2413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>724</Hsp_hit-from>
+      <Hsp_hit-to>803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|12653000|gb|BC000261.1|</Hit_id>
+  <Hit_def>Homo sapiens thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian), mRNA (cDNA clone MGC:2353 IMAGE:3501886), complete cds</Hit_def>
+  <Hit_accession>BC000261</Hit_accession>
+  <Hit_len>2415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>724</Hsp_hit-from>
+      <Hsp_hit-to>803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|62088271|dbj|AB209346.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA for thyroid hormone receptor, alpha isoform 1 variant protein</Hit_def>
+  <Hit_accession>AB209346</Hit_accession>
+  <Hit_len>4984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>881</Hsp_hit-from>
+      <Hsp_hit-to>960</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|49456784|emb|CR541915.1|</Hit_id>
+  <Hit_def>Homo sapiens full open reading frame cDNA clone RZPDo834E0733D for gene THRA, thyroid hormone receptor, alpha (erythroblastic leukemia viral (v-erb-a) oncogene homolog, avian); complete cds, without stopcodon</Hit_def>
+  <Hit_accession>CR541915</Hit_accession>
+  <Hit_len>1230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|29878|emb|X55005.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA for thyroid hormone receptor alpha 1 THRA1, (c-erbA-1 gene)</Hit_def>
+  <Hit_accession>X55005</Hit_accession>
+  <Hit_len>2288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>766</Hsp_hit-from>
+      <Hsp_hit-to>845</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|60834864|gb|AY894077.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone FLH130864.01L unknown (MGC4479) mRNA, partial cds</Hit_def>
+  <Hit_accession>AY894077</Hit_accession>
+  <Hit_len>1233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|60813031|gb|AY893206.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone FLH054041.01X thyroid hormone receptor alpha (THRA) mRNA, complete cds</Hit_def>
+  <Hit_accession>AY893206</Hit_accession>
+  <Hit_len>1356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|537521|gb|M24899.1|HUMEAR7A</Hit_id>
+  <Hit_def>Human triiodothyronine (ear7) mRNA, complete cds</Hit_def>
+  <Hit_accession>M24899</Hit_accession>
+  <Hit_len>2309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>711</Hsp_hit-from>
+      <Hsp_hit-to>790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|472376|gb|J03239.1|HUMTHRA2A</Hit_id>
+  <Hit_def>Human c-erbA-alpha-2 gene encoding thyroid hormone receptor type alpha-2 mRNA, complete cds, clone hTR-alpha-2</Hit_def>
+  <Hit_accession>J03239</Hit_accession>
+  <Hit_len>2015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>357</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|339662|gb|M24748.1|HUMTHRA1A</Hit_id>
+  <Hit_def>Human thyroid hormone receptor alpha 1 (TR-alpha-1) gene, complete cds</Hit_def>
+  <Hit_accession>M24748</Hit_accession>
+  <Hit_len>1876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.78181e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1214014876|ref|XM_021718434.1|</Hit_id>
+  <Hit_def>PREDICTED: Carlito syrichta thyroid hormone receptor, alpha (THRA), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021718434</Hit_accession>
+  <Hit_len>2225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.31998e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>703</Hsp_hit-from>
+      <Hsp_hit-to>781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>AAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>AAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1214014875|ref|XM_008070404.2|</Hit_id>
+  <Hit_def>PREDICTED: Carlito syrichta thyroid hormone receptor, alpha (THRA), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_008070404</Hit_accession>
+  <Hit_len>2479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.31998e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>957</Hsp_hit-from>
+      <Hsp_hit-to>1035</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>AAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>AAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||||||||| ||||||||||||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1016680562|ref|XM_007531024.2|</Hit_id>
+  <Hit_def>PREDICTED: Erinaceus europaeus thyroid hormone receptor, alpha (THRA), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007531024</Hit_accession>
+  <Hit_len>2008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.31998e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>696</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>AAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>AAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCTGTTGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||||||||| |||||||||||||||||  | ||| ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1016680559|ref|XM_007531023.2|</Hit_id>
+  <Hit_def>PREDICTED: Erinaceus europaeus thyroid hormone receptor, alpha (THRA), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_007531023</Hit_accession>
+  <Hit_len>2275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.31998e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>762</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>AAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>AAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAGTGCATCGCTGTTGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||||||||| |||||||||||||||||  | ||| ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1984072510|ref|XM_039476106.1|</Hit_id>
+  <Hit_def>PREDICTED: Saimiri boliviensis boliviensis thyroid hormone receptor alpha (THRA), mRNA</Hit_def>
+  <Hit_accession>XM_039476106</Hit_accession>
+  <Hit_len>6251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.997</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.60807e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>872</Hsp_hit-from>
+      <Hsp_hit-to>951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CAAGATCANCCGCAATCAGTGCCAGCTGTGCCNCTTCAAGAAGTGCATCGNCGNTGGGATGGCCANGGACTTGGTTCTAG</Hsp_qseq>
+      <Hsp_hseq>CAAGATCACCCGCAATCAGTGCCAGCTGTGCCGCTTCAAGAAATGCATCGCCGTGGGCATGGCCATGGACTTGGTTCTAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||| ||||||||| ||||||| ||  || ||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14579.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym19c05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48536 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>337</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14579.1</Iteration_query-ID>
+  <Iteration_query-def>ym19c05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48536 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>337</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1676318080|ref|NM_020730.3|</Hit_id>
+  <Hit_def>Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_020730</Hit_accession>
+  <Hit_len>5090</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5073</Hsp_hit-from>
+      <Hsp_hit-to>4744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1519312151|ref|NM_021120.4|</Hit_id>
+  <Hit_def>Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_021120</Hit_accession>
+  <Hit_len>6042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6025</Hsp_hit-from>
+      <Hsp_hit-to>5696</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1543378679|ref|NG_015849.2|</Hit_id>
+  <Hit_def>Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), RefSeqGene on chromosome X</Hit_def>
+  <Hit_accession>NG_015849</Hit_accession>
+  <Hit_len>67636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>65619</Hsp_hit-from>
+      <Hsp_hit-to>65290</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1370515977|ref|XM_005262248.4|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_005262248</Hit_accession>
+  <Hit_len>4675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4658</Hsp_hit-from>
+      <Hsp_hit-to>4329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1370515976|ref|XM_017029326.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_017029326</Hit_accession>
+  <Hit_len>4464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4447</Hsp_hit-from>
+      <Hsp_hit-to>4118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1370515975|ref|XM_017029325.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_017029325</Hit_accession>
+  <Hit_len>6385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6368</Hsp_hit-from>
+      <Hsp_hit-to>6039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1370515974|ref|XM_017029324.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_017029324</Hit_accession>
+  <Hit_len>4680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4663</Hsp_hit-from>
+      <Hsp_hit-to>4334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1370515973|ref|XM_017029323.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_017029323</Hit_accession>
+  <Hit_len>4722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4705</Hsp_hit-from>
+      <Hsp_hit-to>4376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1370515972|ref|XM_017029322.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_017029322</Hit_accession>
+  <Hit_len>4734</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4717</Hsp_hit-from>
+      <Hsp_hit-to>4388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1034673702|ref|XM_017029327.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_017029327</Hit_accession>
+  <Hit_len>4433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4416</Hsp_hit-from>
+      <Hsp_hit-to>4087</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|768037451|ref|XM_006724626.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_006724626</Hit_accession>
+  <Hit_len>6069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6052</Hsp_hit-from>
+      <Hsp_hit-to>5723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|768037448|ref|XM_011530883.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011530883</Hit_accession>
+  <Hit_len>6081</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6064</Hsp_hit-from>
+      <Hsp_hit-to>5735</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|768037446|ref|XM_006724625.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006724625</Hit_accession>
+  <Hit_len>6123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6106</Hsp_hit-from>
+      <Hsp_hit-to>5777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1890284512|ref|NM_001166278.2|</Hit_id>
+  <Hit_def>Homo sapiens discs large MAGUK scaffold protein 3 (DLG3), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001166278</Hit_accession>
+  <Hit_len>4453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4436</Hsp_hit-from>
+      <Hsp_hit-to>4107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|189085236|gb|AC217013.3|</Hit_id>
+  <Hit_def>Homo sapiens FOSMID clone ABC11-48296000J22 from chromosome x, complete sequence</Hit_def>
+  <Hit_accession>AC217013</Hit_accession>
+  <Hit_len>41447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>21220</Hsp_hit-from>
+      <Hsp_hit-to>20891</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|10045311|emb|AL139109.14|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-291O7 on chromosome X, complete sequence</Hit_def>
+  <Hit_accession>AL139109</Hit_accession>
+  <Hit_len>197536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>193651</Hsp_hit-from>
+      <Hsp_hit-to>193980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|6330721|dbj|AB033058.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA1232 mRNA for KIAA1232 protein</Hit_def>
+  <Hit_accession>AB033058</Hit_accession>
+  <Hit_len>5072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.297</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.41345e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5058</Hsp_hit-from>
+      <Hsp_hit-to>4729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGGCAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1367329408|ref|XM_016943705.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_016943705</Hit_accession>
+  <Hit_len>4632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4615</Hsp_hit-from>
+      <Hsp_hit-to>4284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1367329407|ref|XM_016943704.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_016943704</Hit_accession>
+  <Hit_len>4832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4815</Hsp_hit-from>
+      <Hsp_hit-to>4484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1367329405|ref|XM_016943701.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_016943701</Hit_accession>
+  <Hit_len>6056</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6039</Hsp_hit-from>
+      <Hsp_hit-to>5708</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1367329403|ref|XM_016943700.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_016943700</Hit_accession>
+  <Hit_len>6099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6082</Hsp_hit-from>
+      <Hsp_hit-to>5751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1367329401|ref|XM_016943699.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016943699</Hit_accession>
+  <Hit_len>6111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6094</Hsp_hit-from>
+      <Hsp_hit-to>5763</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1367329399|ref|XM_016943698.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016943698</Hit_accession>
+  <Hit_len>6152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6135</Hsp_hit-from>
+      <Hsp_hit-to>5804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1034192233|ref|XM_016943703.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_016943703</Hit_accession>
+  <Hit_len>4527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4510</Hsp_hit-from>
+      <Hsp_hit-to>4179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1034192231|ref|XM_016943702.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_016943702</Hit_accession>
+  <Hit_len>5070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.32225e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5053</Hsp_hit-from>
+      <Hsp_hit-to>4722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1849203070|ref|XM_024927272.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_024927272</Hit_accession>
+  <Hit_len>4499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4482</Hsp_hit-from>
+      <Hsp_hit-to>4151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1849203050|ref|XM_008973568.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_008973568</Hit_accession>
+  <Hit_len>4537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4520</Hsp_hit-from>
+      <Hsp_hit-to>4189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1849203033|ref|XM_034950562.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_034950562</Hit_accession>
+  <Hit_len>6025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6008</Hsp_hit-from>
+      <Hsp_hit-to>5677</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1849203028|ref|XM_034950561.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034950561</Hit_accession>
+  <Hit_len>6045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6028</Hsp_hit-from>
+      <Hsp_hit-to>5697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1849203022|ref|XM_008973566.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_008973566</Hit_accession>
+  <Hit_len>5830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5813</Hsp_hit-from>
+      <Hsp_hit-to>5482</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1849203015|ref|XM_008973565.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_008973565</Hit_accession>
+  <Hit_len>5843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.04733e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5826</Hsp_hit-from>
+      <Hsp_hit-to>5495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGACAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||  ||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1753089885|ref|XM_019019613.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_019019613</Hit_accession>
+  <Hit_len>4525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4508</Hsp_hit-from>
+      <Hsp_hit-to>4177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTGTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTTCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAGCAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| || |||||||||||||||||||| ||||||||||| |||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1753089884|ref|XM_019019612.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_019019612</Hit_accession>
+  <Hit_len>5087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5070</Hsp_hit-from>
+      <Hsp_hit-to>4739</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTGTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTTCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAGCAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| || |||||||||||||||||||| ||||||||||| |||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1753089883|ref|XM_019019611.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_019019611</Hit_accession>
+  <Hit_len>6039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6022</Hsp_hit-from>
+      <Hsp_hit-to>5691</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTGTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTTCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAGCAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| || |||||||||||||||||||| ||||||||||| |||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1753089882|ref|XM_019019610.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_019019610</Hit_accession>
+  <Hit_len>6060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6043</Hsp_hit-from>
+      <Hsp_hit-to>5712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTGTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTTCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAGCAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| || |||||||||||||||||||| ||||||||||| |||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1753089881|ref|XM_019019609.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_019019609</Hit_accession>
+  <Hit_len>6114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6097</Hsp_hit-from>
+      <Hsp_hit-to>5766</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTGTGTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTTCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAGCAGTGTGACCACAGGACAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| || |||||||||||||||||||| ||||||||||| |||||||||| ||||||||||| |||||||||||||||||||||||| |||||||||||||||| || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1743232807|ref|XM_030806940.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_030806940</Hit_accession>
+  <Hit_len>6151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6139</Hsp_hit-from>
+      <Hsp_hit-to>5808</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCATAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| ||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1743232805|ref|XM_030806939.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_030806939</Hit_accession>
+  <Hit_len>4601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4589</Hsp_hit-from>
+      <Hsp_hit-to>4258</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCATAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| ||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1743232803|ref|XM_030806938.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030806938</Hit_accession>
+  <Hit_len>6053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6041</Hsp_hit-from>
+      <Hsp_hit-to>5710</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCATAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| ||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1743232801|ref|XM_030806937.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030806937</Hit_accession>
+  <Hit_len>6095</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.657</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.09657e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6083</Hsp_hit-from>
+      <Hsp_hit-to>5752</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGAATGTTCTTCAGCTGTACCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCATAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| ||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1351522155|ref|XM_024240894.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_024240894</Hit_accession>
+  <Hit_len>4751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4741</Hsp_hit-from>
+      <Hsp_hit-to>4410</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1351522154|ref|XM_009234955.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_009234955</Hit_accession>
+  <Hit_len>4531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4514</Hsp_hit-from>
+      <Hsp_hit-to>4183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1351522152|ref|XM_024240893.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_024240893</Hit_accession>
+  <Hit_len>5088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5071</Hsp_hit-from>
+      <Hsp_hit-to>4740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1351522151|ref|XM_009234954.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_009234954</Hit_accession>
+  <Hit_len>5611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5601</Hsp_hit-from>
+      <Hsp_hit-to>5270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1351522149|ref|XM_009234952.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009234952</Hit_accession>
+  <Hit_len>5722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5712</Hsp_hit-from>
+      <Hsp_hit-to>5381</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1351522146|ref|XM_009234951.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii discs large MAGUK scaffold protein 3 (DLG3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009234951</Hit_accession>
+  <Hit_len>5764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.148</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.91484e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5754</Hsp_hit-from>
+      <Hsp_hit-to>5423</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCAAAGTTG-CTCTCTATCTTCTCGTGCTGGGGCTGAATGTTCTTCAGCTGTCCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGCCAG-ATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| |||| |||||| |||| |||||||||||||||||| ||||||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||  || |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1820547344|ref|XM_032757138.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch discs large MAGUK scaffold protein 3 (DLG3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_032757138</Hit_accession>
+  <Hit_len>4886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.738</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.79069e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4869</Hsp_hit-from>
+      <Hsp_hit-to>4537</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGCATGTTCTTCAGCTGTGCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGGCCAGATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| || |||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1820547342|ref|XM_032757137.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch discs large MAGUK scaffold protein 3 (DLG3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032757137</Hit_accession>
+  <Hit_len>4665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.738</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.79069e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4648</Hsp_hit-from>
+      <Hsp_hit-to>4316</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGCATGTTCTTCAGCTGTGCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGGCCAGATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| || |||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1820547340|ref|XM_032757136.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch discs large MAGUK scaffold protein 3 (DLG3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032757136</Hit_accession>
+  <Hit_len>6061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.738</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.79069e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6044</Hsp_hit-from>
+      <Hsp_hit-to>5712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGCATGTTCTTCAGCTGTGCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGGCCAGATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| || |||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1820547338|ref|XM_032757135.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch discs large MAGUK scaffold protein 3 (DLG3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032757135</Hit_accession>
+  <Hit_len>6103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.738</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.79069e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6086</Hsp_hit-from>
+      <Hsp_hit-to>5754</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATANTACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCNGGAGGAGNTAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGNACGG--CAGTGTTAAAGGGTGTGTCTCCCTTTGGGGNTTTCCAAGTTGACTCTGTATCTTCTCGTGCTGGGGNTGAATGTTCTTNAGCTGTACCTCCACTAGGAGAANATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGANAGAATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_qseq>
+      <Hsp_hseq>ATTTTATTTATTCATGGGTAGACCATAAGGTTTGATAATACAGTTCTTCCTCTGTTAGAGATGAAGGAGTCAAGGCATGATCAGCTGCAATGTCAGCAACAAAACCAGGAGGAGATAGGGCTCTCTCCTCCTTCAGGACACGGCACAGCACAGCACGGCACAGTGTT-AAGGGTGTGTCTCCCTTTGGGG-TTTCCAAGTTG-CTCTGTATCTTCTTGTGCTGGGGCTGCATGTTCTTCAGCTGTGCCTCCACTAGGAGAACATCAGCTGTGAAGACAGAGCCTCAACAGTGTGACCACAGGGCCAGATCTTTGTTCTCTTTGTCCTCAGGAGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||| ||||  ||||||| |||||||||||||||||||||| ||||||||||| ||||||||||||| ||||||||| || |||||||| |||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

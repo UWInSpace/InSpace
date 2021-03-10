@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14587.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym19f05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48442 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>447</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14587.1</Iteration_query-ID>
+  <Iteration_query-def>ym19f05.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48442 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>447</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1519242214|ref|NM_022899.5|</Hit_id>
+  <Hit_def>Homo sapiens actin related protein 8 (ACTR8), mRNA</Hit_def>
+  <Hit_accession>NM_022899</Hit_accession>
+  <Hit_len>3579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2464</Hsp_hit-from>
+      <Hsp_hit-to>2862</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1370485622|ref|XR_940516.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens actin related protein 8 (ACTR8), transcript variant X3, misc_RNA</Hit_def>
+  <Hit_accession>XR_940516</Hit_accession>
+  <Hit_len>11680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2491</Hsp_hit-from>
+      <Hsp_hit-to>2889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1370485621|ref|XM_011534249.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011534249</Hit_accession>
+  <Hit_len>11671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2482</Hsp_hit-from>
+      <Hsp_hit-to>2880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|22024573|gb|AC113172.2|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3 clone RP11-739J4, complete sequence</Hit_def>
+  <Hit_accession>AC113172</Hit_accession>
+  <Hit_len>149634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>127333</Hsp_hit-from>
+      <Hsp_hit-to>127731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|7363385|gb|AC012467.9|</Hit_id>
+  <Hit_def>Homo sapiens chr3 BAC RP11-884K10 (Roswell Park Cancer Institute Human BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC012467</Hit_accession>
+  <Hit_len>177072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>47915</Hsp_hit-from>
+      <Hsp_hit-to>48313</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|10439015|dbj|AK026232.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA: FLJ22579 fis, clone HSI02562</Hit_def>
+  <Hit_accession>AK026232</Hit_accession>
+  <Hit_len>2797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.693</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.77665e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>1666</Hsp_hit-from>
+      <Hsp_hit-to>2064</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCTCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1367272543|ref|XM_009445651.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes interleukin 17 receptor B (IL17RB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009445651</Hit_accession>
+  <Hit_len>4462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>6.59115e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>4446</Hsp_hit-from>
+      <Hsp_hit-to>4053</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATACCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTTCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAGTTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| || |||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1367272514|ref|XM_016941311.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes ARP8 actin related protein 8 homolog (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016941311</Hit_accession>
+  <Hit_len>5369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>6.59115e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2682</Hsp_hit-from>
+      <Hsp_hit-to>3075</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATACCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTTCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAGTTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| || |||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1753065619|ref|XM_004034327.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004034327</Hit_accession>
+  <Hit_len>3569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>566.642</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>8.02967e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2455</Hsp_hit-from>
+      <Hsp_hit-to>2847</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTGTACAGATACGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1799991783|ref|XM_032161260.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032161260</Hit_accession>
+  <Hit_len>3636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.626</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>4.15947e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2521</Hsp_hit-from>
+      <Hsp_hit-to>2913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCATAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTGTACAGGTATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAGTTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||| ||| || |||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1351493886|ref|XM_024244728.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii ARP8 actin related protein 8 homolog (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024244728</Hit_accession>
+  <Hit_len>3624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>5.06727e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2512</Hsp_hit-from>
+      <Hsp_hit-to>2909</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGAGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCTAAAACAGAACAAACGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATGGTTTGGGTATAATTT-AGAGTTCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  |||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||| ||||||||||||| |||||||||||||||||||||| |||||||||||||||||||||| |||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1743210885|ref|XM_030811592.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030811592</Hit_accession>
+  <Hit_len>3642</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.51</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>6.1732e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2522</Hsp_hit-from>
+      <Hsp_hit-to>2919</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCATAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGACCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCCAAATAGAAATAATTTGGGTATAATTT-AGAGTTCTTGTGTTGTACAGGTATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAGTTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||| ||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||| ||| || |||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|55726997|emb|CR858015.1|</Hit_id>
+  <Hit_def>Pongo abelii mRNA; cDNA DKFZp469N145 (from clone DKFZp469N145)</Hit_def>
+  <Hit_accession>CR858015</Hit_accession>
+  <Hit_len>3127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.51</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>6.1732e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>2488</Hsp_hit-from>
+      <Hsp_hit-to>2885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAAATTAATG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGAGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCTAAAACAGAACAAACGCTGAAAAGGAAATGTTGTTTTCTTCCTAAAGCCAAATAGAAATGGTTTGGGTATAATTT-AGAGTTCTTGTGTTGTACAGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTTTGG-AG-TTCAT-GATGTTCAGTAT-GATCAGTT-AACC-TTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA--TAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  |||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||| ||||||||||||| |||||||||||||| ||||||| |||||||||||||||||||||| |||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||||||| || ||||| |||||||||||| |||||||| |||| ||||||||||   ||| ||| |||  ||||||| |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1297719524|ref|XM_023189534.1|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023189534</Hit_accession>
+  <Hit_len>3353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>507.131</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>6.59698e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2569</Hsp_hit-from>
+      <Hsp_hit-to>2962</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>369</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTATCCGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAACGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CCTTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||  ||||||||||||||||||||||| | |||||||| |||| ||||||| ||||||||||||||||| |||| ||||||||||||||||||||| |||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||||||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||| ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1622822900|ref|XM_028842586.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta actin-related protein 8-like (LOC114669758), mRNA</Hit_def>
+  <Hit_accession>XM_028842586</Hit_accession>
+  <Hit_len>3295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.525</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>8.03676e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2434</Hsp_hit-from>
+      <Hsp_hit-to>2826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATT--AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||  |||||||||||| |||||||||| |||||||||| |||| ||||||| ||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||  ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||| ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1381517233|ref|XM_011739678.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina ARP8 actin related protein 8 homolog (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011739678</Hit_accession>
+  <Hit_len>3381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.525</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>8.03676e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>2518</Hsp_hit-from>
+      <Hsp_hit-to>2888</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||  |||||||||||| |||||||||| |||||||||| |||| ||||||| ||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||| ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|982235012|ref|XM_005547410.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005547410</Hit_accession>
+  <Hit_len>3241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.623</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>8.03676e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2462</Hsp_hit-from>
+      <Hsp_hit-to>2855</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGCAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTTCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||  |||||||||||| |||||||||| |||||||||| |||| |||||||  |||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||| ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|795594852|ref|XM_012059527.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_012059527</Hit_accession>
+  <Hit_len>3294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.114</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>3.41732e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2444</Hsp_hit-from>
+      <Hsp_hit-to>2837</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>367</Hsp_identity>
+      <Hsp_positive>367</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATATCCAAAGGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTGCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||| ||||||||||||||||||  |||||||||||| |||||||||| |||||||||| |||| ||||||| ||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||  ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|795594843|ref|XM_012059524.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012059524</Hit_accession>
+  <Hit_len>3364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.114</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>3.41732e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2514</Hsp_hit-from>
+      <Hsp_hit-to>2907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>367</Hsp_identity>
+      <Hsp_positive>367</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATATCCAAAGGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTGCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||| ||||||||||||||||||  |||||||||||| |||||||||| |||||||||| |||| ||||||| ||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||  ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1059111200|ref|XR_001881457.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti ARP8 actin-related protein 8 homolog (ACTR8), transcript variant X1, misc_RNA</Hit_def>
+  <Hit_accession>XR_001881457</Hit_accession>
+  <Hit_len>4675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.213</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>3.41732e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>2523</Hsp_hit-from>
+      <Hsp_hit-to>2912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATC</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTATCTGACATGCTCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAACGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTATAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACCAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACGTG-AAGGATTAAGTGAAAGCTTCTGG-AG-TTCAT-GATGTTTAGTAT-GATTAGTTGA--CCTTAACCTCTG--AGCA-TCCTGAA--GCAAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||  ||||||||||||||||||||||| |||||||||  |||| ||||||| ||||||||||||||||| |||| ||||||||||||||||||||| |||||||||||||||||||||| |||||||||| |||||||||||||||||||||||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||||||||||| ||||||| ||| |||||||||||||| || ||||||||||||||||||| ||| || ||||| |||||| ||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|795165851|ref|XM_011986173.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus ARP8 actin-related protein 8 homolog (yeast) (ACTR8), mRNA</Hit_def>
+  <Hit_accession>XM_011986173</Hit_accession>
+  <Hit_len>3620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.098</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>1.77021e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>2513</Hsp_hit-from>
+      <Hsp_hit-to>2906</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>365</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAGAT-ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTTTAACCTCTGGAGGCANTCCCGAAGGGCAAAATCCTAAA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAAGTCTCAATTTCCAAAAGTAAAGATGGAAGGCTGGGCAGACTAGCTTTTGTTATCTGACATGCCCTAGGGTGAGCTTGGAGGAAGAAAGAAAACAGTTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTCTTCCTAAAGCTAAATAGAAATGATTTGGGTACAATTT-AGAGTTCTTGTGTTATACTGATAATGGTGACTGATGTAGTTATTAATACTACAAACTTAG-TCATCAA-GCCCCAATTTTCCTTTACCTG-AAGGATTAAGTGAAAGCTGCTGG-AG-TTCAT-GATGTTCAGTAT-GATTAGTTGA--CATTAACCTCTG--AGCA-TCCTGAA--GCAAAAT-CTAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||| ||||| ||||||||| |||||||||||  |||||||||||| |||||||||| |||||||||| |||| ||||||| ||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||||||||||||| ||||| ||||| |||||||| ||| ||| ||||||||||||||||||||||||||||| ||||||| ||||||| ||| ||||||||||||||||| ||||||||||||||||||  ||| || ||||| |||||||||||| ||| |||| |  | ||||||||||   ||| ||| |||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|10434708|dbj|AK022996.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ12934 fis, clone NT2RP2004978, weakly similar to ACTIN-LIKE PROTEIN ARP8</Hit_def>
+  <Hit_accession>AK022996</Hit_accession>
+  <Hit_len>2676</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.862</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.77334e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2463</Hsp_hit-from>
+      <Hsp_hit-to>2676</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTAT</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACAGAAAAAGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGAAGGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTTATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1121898841|ref|XM_019667413.1|</Hit_id>
+  <Hit_def>PREDICTED: Hipposideros armiger ARP8 actin-related protein 8 homolog (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_019667413</Hit_accession>
+  <Hit_len>2639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.04999e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2277</Hsp_hit-from>
+      <Hsp_hit-to>2626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTC-----CTTGTGTTGTACAGAT----ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGATTAGGGCCCATTCGGGTCTAGATTTGCAGAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACCCGACATGCTCTAGGGTGGGCTT--GGGAAG--AGAAAACAATCATTATTTGACCAAAAC--AAC--------AAAAGAAAAATTGGTTTTCTTACTAAAGCTAAATAGAAATGATTCAGGTATAATTT-AGAGTCGTTAGTTTGTACTGTACAGATGAACAAGGTGACT------GCTATAATTACTACTGGCTTA-ATCATCAA-GCCCCCATTTTCCTTGACCTG-AAGAACCCATTGAAAGCATTT-GAAG-TTCTTCG-TGTTCAGTAT-GATCGGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| || | || ||||||| ||||| ||||| || ||| ||||||  |  ||||||| | ||||||||||||||| |||||||  || |||| ||||   |||||  ||||||||||  | ||||| |||||||  |||        ||||| |||  | ||||| || ||||||| ||||||||||||||  |||||||||| ||||||      ||||  |||||||||    | |||||||      | ||| | ||||||   ||||  ||||||| ||| | ||||||||| ||||| ||| |   | ||||||| ||| | || ||| | | |||||||||| |||| |||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1121898838|ref|XM_019667412.1|</Hit_id>
+  <Hit_def>PREDICTED: Hipposideros armiger ARP8 actin-related protein 8 homolog (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_019667412</Hit_accession>
+  <Hit_len>2833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.04999e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2471</Hsp_hit-from>
+      <Hsp_hit-to>2820</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTC-----CTTGTGTTGTACAGAT----ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGATTAGGGCCCATTCGGGTCTAGATTTGCAGAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACCCGACATGCTCTAGGGTGGGCTT--GGGAAG--AGAAAACAATCATTATTTGACCAAAAC--AAC--------AAAAGAAAAATTGGTTTTCTTACTAAAGCTAAATAGAAATGATTCAGGTATAATTT-AGAGTCGTTAGTTTGTACTGTACAGATGAACAAGGTGACT------GCTATAATTACTACTGGCTTA-ATCATCAA-GCCCCCATTTTCCTTGACCTG-AAGAACCCATTGAAAGCATTT-GAAG-TTCTTCG-TGTTCAGTAT-GATCGGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| || | || ||||||| ||||| ||||| || ||| ||||||  |  ||||||| | ||||||||||||||| |||||||  || |||| ||||   |||||  ||||||||||  | ||||| |||||||  |||        ||||| |||  | ||||| || ||||||| ||||||||||||||  |||||||||| ||||||      ||||  |||||||||    | |||||||      | ||| | ||||||   ||||  ||||||| ||| | ||||||||| ||||| ||| |   | ||||||| ||| | || ||| | | |||||||||| |||| |||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1807939719|ref|XM_032411500.1|</Hit_id>
+  <Hit_def>PREDICTED: Phoca vitulina actin related protein 8 (ACTR8), mRNA</Hit_def>
+  <Hit_accession>XM_032411500</Hit_accession>
+  <Hit_len>4675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.755</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.46468e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2472</Hsp_hit-from>
+      <Hsp_hit-to>2830</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTATTGGATTACA-AAAAGGACTCTGACCAGTTGAGCTCTGGATTTCCAAAGGCAAAGATTTAAGGATGGGCTGGTTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCTTAGGG----AAAGAAAACAATCCTTATCTGACCAAAACAGGACAA---CTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTAGAAACAATTCAGGTGTAATTT-ATAGTTGTTAACTTGTGCAGATGAATAAGGTGACTGCTG--GTCACCTTATTACTACCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAAGGTTTTGGAACTCT-TTG--TGCTCAGTA-GGATCA-TTTGACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| || |  ||||  || || ||| |||||||||||| ||||||  |  | ||||| |  ||||||| |||||   ||||||   ||| || |||||| |    ||||||||||||  | || || ||||||||| ||||   |||||||||||| |   |||  ||||||||||||| ||||||  |||  ||| |||||| | |||  ||   |||| |||    ||| |||||||| ||  || |  ||| |||||||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||||| |||||| | | |  ||  || |||||| |||||| ||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1851962887|ref|XM_034998646.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034998646</Hit_accession>
+  <Hit_len>3275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.05</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.55833e-45</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2361</Hsp_hit-from>
+      <Hsp_hit-to>2685</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>TGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTA-ATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TGGATTACA-AAAAAGACTGTGACCAGTTGAGCTCTGGATTTCCAAAGGCAAAGATTTAAGGATGGGCTGGCTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCTTAGGG----AAAGAAAACAATCCTTATCTGACCAAAACAGAACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTAGAAACAATCCAGGTGTAATTT-ATAGTTGTTAACTTGTGCAGATGAATAAGGTGACTGCTG--GTCACCTTATTTACTACCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAAGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>||||||||| |||| || || ||||  || || ||| |||||||||||| ||||||  |  | ||||| | |||||||| |||||   ||||||   ||| || |||||| |    ||||||||||||  | || || ||||||||||||||   |||||||||||| |   |||  ||||||||||||| ||||||  ||   ||| |||||| | |||  ||   |||| |||    ||| |||||||| ||  || |  |||  |||||||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1851962885|ref|XM_034998644.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034998644</Hit_accession>
+  <Hit_len>3409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.05</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.55833e-45</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2495</Hsp_hit-from>
+      <Hsp_hit-to>2819</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>TGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTA-ATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TGGATTACA-AAAAAGACTGTGACCAGTTGAGCTCTGGATTTCCAAAGGCAAAGATTTAAGGATGGGCTGGCTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCTTAGGG----AAAGAAAACAATCCTTATCTGACCAAAACAGAACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTAGAAACAATCCAGGTGTAATTT-ATAGTTGTTAACTTGTGCAGATGAATAAGGTGACTGCTG--GTCACCTTATTTACTACCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAAGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>||||||||| |||| || || ||||  || || ||| |||||||||||| ||||||  |  | ||||| | |||||||| |||||   ||||||   ||| || |||||| |    ||||||||||||  | || || ||||||||||||||   |||||||||||| |   |||  ||||||||||||| ||||||  ||   ||| |||||| | |||  ||   |||| |||    ||| |||||||| ||  || |  |||  |||||||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1212200473|ref|XM_021695212.1|</Hit_id>
+  <Hit_def>PREDICTED: Neomonachus schauinslandi ARP8 actin related protein 8 homolog (ACTR8), mRNA</Hit_def>
+  <Hit_accession>XM_021695212</Hit_accession>
+  <Hit_len>3363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.247</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.43909e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2512</Hsp_hit-from>
+      <Hsp_hit-to>2837</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AGAGTCCTTGTGTTGTACAGATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTATTGGATTACA-AAAAAGACTGTGACCAGTTGAGCTCTGGATTTCCGAAGGCAAAGATTTAAGGATGGGCTGGCTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCTTACGG----AAAGAAAACAATCCTTATCTGACCAAAACAGAACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTAGAAACAATTCAGGTGTAATTTATAGTTAACTTGTGCAG-ATGAATAAGGTGACTGCTG--GTCACCTTATTACTGCCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAAGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| || || ||||  || || ||| ||||||| |||| ||||||  |  | ||||| | |||||||| |||||   ||||||   ||| || |||||  |    ||||||||||||  | || || ||||||||||||||   |||||||||||| |   |||  ||||||||||||| ||||||  |||  ||| ||||||| ||    ||||||  | |   ||| |||||||| ||  || |  ||| |||| ||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1328741888|ref|XM_003410052.3|</Hit_id>
+  <Hit_def>PREDICTED: Loxodonta africana ARP8 actin related protein 8 homolog (ACTR8), mRNA</Hit_def>
+  <Hit_accession>XM_003410052</Hit_accession>
+  <Hit_len>3924</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.525</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>3.43244e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>2493</Hsp_hit-from>
+      <Hsp_hit-to>2843</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTT-TNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AGAGT--CCTTGTGTTGTAC-AGATATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTC-AATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCA</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGAGAACAAAAAAG--ATTGGACCCATTCATGTCTAGATTTCCTGAAGCAAAGATTTAAGACTGGGCAGATT----TTTGTCACCTGACAAGCTCTAGGCTTTGCTTAGGG----AAAGAAAACAATTTATTATTTGACCAACACAGGGTAAAAGCTGAAAAGAAAGTCTTGTTTCTTTCCTAAACCCTAATAGAAATGATTTAGGTATAATTTACAGAATTAACTTGTATTATACAAGTTAAACAAATTGACTAAGCTGTAATTAGTACTGACGTA-ATCATTAAGCCCCCAAATTTTCCTTTACCTG-AAGAACCAGGTAGATGCTTTTAGAA-TTCCTTG--TGTTTAGTAT-GATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||| ||||   || ||||||||||| |||| |||||||  | | ||||||  |   ||||||||| |    ||||| |||||||| ||  |||| |  |||||| |    |||||||||||||| | ||||| |||| ||||   ||| ||||||||| || |||||||| ||||||||| || |||||||||||||| ||||||||||| ||| |   ||||| || ||| || ||     | |||   || | | | || |||  || ||  |||| ||| || | |||||||||||||||| ||| |  | ||  | |||||| | | || | ||  |||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1753130797|ref|XM_031034421.1|</Hit_id>
+  <Hit_def>PREDICTED: Leptonychotes weddellii actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031034421</Hit_accession>
+  <Hit_len>3265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.43244e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2349</Hsp_hit-from>
+      <Hsp_hit-to>2675</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTATTGGATTACA-AAAAAGACTGTGACCAGTTGAGCTCTGGATTTCCAAAGGCAAAAATTTAAGGATGGGCTGGCTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCT-ATAGG--GAAAGAAAA---TCCTTATCTGACCAAAACAGAACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTCGAAACAATTCAGGTGTAATTT-ATAGTTGTTAACTTGTGCAGATGAATAAGGTGACTGCTG--GTCACCTTATTACTACCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAGAGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| || || ||||  || || ||| |||||||||||| ||| ||  |  | ||||| | |||||||| |||||   ||||||   ||| || ||| | |||  |||||||||   |  | || || ||||||||||||||   |||||||||||| |   |||  ||||||||||||| | ||||  |||  ||| |||||| | |||  ||   |||| |||    ||| |||||||| ||  || |  ||| |||||||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| || || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1753130796|ref|XM_006739225.2|</Hit_id>
+  <Hit_def>PREDICTED: Leptonychotes weddellii actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006739225</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.43244e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2471</Hsp_hit-from>
+      <Hsp_hit-to>2797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGTCCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTATTGGATTACA-AAAAAGACTGTGACCAGTTGAGCTCTGGATTTCCAAAGGCAAAAATTTAAGGATGGGCTGGCTGGCTTTGGTTACTCCACATGCTTCAGGGTGGGCT-ATAGG--GAAAGAAAA---TCCTTATCTGACCAAAACAGAACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCAAGTCGAAACAATTCAGGTGTAATTT-ATAGTTGTTAACTTGTGCAGATGAATAAGGTGACTGCTG--GTCACCTTATTACTACCAACTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAGAGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| || || ||||  || || ||| |||||||||||| ||| ||  |  | ||||| | |||||||| |||||   ||||||   ||| || ||| | |||  |||||||||   |  | || || ||||||||||||||   |||||||||||| |   |||  ||||||||||||| | ||||  |||  ||| |||||| | |||  ||   |||| |||    ||| |||||||| ||  || |  ||| |||||||||||||  |||||||| || ||| ||||||||| ||| ||| |  ||| || || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1811005466|ref|XM_014559606.2|</Hit_id>
+  <Hit_def>PREDICTED: Camelus ferus actin related protein 8 (ACTR8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_014559606</Hit_accession>
+  <Hit_len>3222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2343</Hsp_hit-from>
+      <Hsp_hit-to>2695</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1811005464|ref|XM_032458258.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus ferus actin related protein 8 (ACTR8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032458258</Hit_accession>
+  <Hit_len>3201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2322</Hsp_hit-from>
+      <Hsp_hit-to>2674</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1811005462|ref|XM_032458257.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus ferus actin related protein 8 (ACTR8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032458257</Hit_accession>
+  <Hit_len>3241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2362</Hsp_hit-from>
+      <Hsp_hit-to>2714</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1811005461|ref|XM_014559608.2|</Hit_id>
+  <Hit_def>PREDICTED: Camelus ferus actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_014559608</Hit_accession>
+  <Hit_len>3253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2374</Hsp_hit-from>
+      <Hsp_hit-to>2726</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|743744115|ref|XM_010968356.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus bactrianus ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_010968356</Hit_accession>
+  <Hit_len>3094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2282</Hsp_hit-from>
+      <Hsp_hit-to>2634</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|743744113|ref|XM_010968355.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus bactrianus ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_010968355</Hit_accession>
+  <Hit_len>2938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2126</Hsp_hit-from>
+      <Hsp_hit-to>2478</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|743744111|ref|XM_010968354.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus bactrianus ARP8 actin-related protein 8 homolog (yeast) (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_010968354</Hit_accession>
+  <Hit_len>3152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.311</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.0942e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2340</Hsp_hit-from>
+      <Hsp_hit-to>2692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTAGG-TGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTG-AAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGTTTTTGTTACCAG-CATGATCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCAAATGGAACAAAAACTATAAAAGGAAA-CTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATATGTCATACAGAAAAGCAAGGTGACTGTTGGA---------ATTACTAACTGA-ATCATCAGGTCCCTAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGGAGCTCTTTT---TGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | |||| |||||||||| | ||||   | || || |||| |     ||| || ||||||  | ||||| || |||  |||||||  ||  ||||||||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   | |||  ||||||     | |||||||| || |         | ||| |||| |  |||||| | ||  |||||||||||| ||| ||  || ||||||||| ||||||   | |  |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1595739668|ref|XM_007124970.2|</Hit_id>
+  <Hit_def>PREDICTED: Physeter catodon actin related protein 8 (ACTR8), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_007124970</Hit_accession>
+  <Hit_len>3341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.901</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.16611e-37</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>2342</Hsp_hit-from>
+      <Hsp_hit-to>2675</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>TGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGT--ATAATTTAAGAGTCCT-TGTGTTGTACAGAT----ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGT</Hsp_qseq>
+      <Hsp_hseq>TGTATTACAAAAAAT-ATTGGGGCACATTCAGGTCTAGATTTCCAGAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTA-CTGACGTAATCTAGGGTGGGCTT-GGGGAAG---GAAAACA---GTCA-TTGACCAAAACAGAACAGA-AATGAAAAGGAAAACTCATTTGCTTCCTAAAGCCAGATAGAAATGATTTAGGTTAATGATTT-----TCTTACGTGTTGTACAGATAAACAAGGAGACTGCTGTA---------ATTTCTAACTTA-AGCATCAGGTCCCCAGTTTTCCTTTACCTG-AAAAATGAAGTGAAAGTTCTTGG-AG--TGCTTTTTGTTCAGTAT-GATCAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||| ||||  | |||| | ||||||||||| |||||||| ||| ||||||  |  ||||||| | ||||||||||||| ||||| |    || |||| |||| | |||||   |||||||    | | ||| ||||||||||||| |   ||||||||||| ||  |||  |||||||||||| ||||||||||||| |||  || ||||     || |  |||||||||||||    | || ||||| ||||         | | | ||||||   ||||| | || || |||||||||||||| ||  || ||||||||| | |||| ||  |  |   |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1595739662|ref|XM_007124969.3|</Hit_id>
+  <Hit_def>PREDICTED: Physeter catodon actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_007124969</Hit_accession>
+  <Hit_len>3526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.901</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.16611e-37</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>2527</Hsp_hit-from>
+      <Hsp_hit-to>2860</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>TGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGT--ATAATTTAAGAGTCCT-TGTGTTGTACAGAT----ATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGT</Hsp_qseq>
+      <Hsp_hseq>TGTATTACAAAAAAT-ATTGGGGCACATTCAGGTCTAGATTTCCAGAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTA-CTGACGTAATCTAGGGTGGGCTT-GGGGAAG---GAAAACA---GTCA-TTGACCAAAACAGAACAGA-AATGAAAAGGAAAACTCATTTGCTTCCTAAAGCCAGATAGAAATGATTTAGGTTAATGATTT-----TCTTACGTGTTGTACAGATAAACAAGGAGACTGCTGTA---------ATTTCTAACTTA-AGCATCAGGTCCCCAGTTTTCCTTTACCTG-AAAAATGAAGTGAAAGTTCTTGG-AG--TGCTTTTTGTTCAGTAT-GATCAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||| ||||  | |||| | ||||||||||| |||||||| ||| ||||||  |  ||||||| | ||||||||||||| ||||| |    || |||| |||| | |||||   |||||||    | | ||| ||||||||||||| |   ||||||||||| ||  |||  |||||||||||| ||||||||||||| |||  || ||||     || |  |||||||||||||    | || ||||| ||||         | | | ||||||   ||||| | || || |||||||||||||| ||  || ||||||||| | |||| ||  |  |   |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1777494956|ref|XM_015236102.2|</Hit_id>
+  <Hit_def>PREDICTED: Vicugna pacos actin related protein 8 (ACTR8), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_015236102</Hit_accession>
+  <Hit_len>3233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2350</Hsp_hit-from>
+      <Hsp_hit-to>2712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATG-CCGTAGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCC--AA---AAC-AGAACAAATG---CTGA-AAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGCTTTTGTTACCAG-CATGAGCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCGAATGGAACAAAAAAAAATGGAACACATAAAAGAAAACTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATGTGTCATACAGAAAAGCAAGGTGACTGTTGCA---------ATTACTAACTTA-ATCATTAGGTCCCCAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGG-AGTT--CTTTTTGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | ||||||||||||||| | ||||  |   |||| |||| |     ||| || ||||||  | ||||| ||  ||   ||| | || |||||   |  | ||| |||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   |||||  ||||||     | |||||||| || |         | ||| ||||||  |||| | | || ||||||||||||| ||| ||  || ||||||||| |||||| ||||   |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1777494954|ref|XM_031686412.1|</Hit_id>
+  <Hit_def>PREDICTED: Vicugna pacos actin related protein 8 (ACTR8), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_031686412</Hit_accession>
+  <Hit_len>3210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2327</Hsp_hit-from>
+      <Hsp_hit-to>2689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATG-CCGTAGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCC--AA---AAC-AGAACAAATG---CTGA-AAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGCTTTTGTTACCAG-CATGAGCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCGAATGGAACAAAAAAAAATGGAACACATAAAAGAAAACTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATGTGTCATACAGAAAAGCAAGGTGACTGTTGCA---------ATTACTAACTTA-ATCATTAGGTCCCCAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGG-AGTT--CTTTTTGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | ||||||||||||||| | ||||  |   |||| |||| |     ||| || ||||||  | ||||| ||  ||   ||| | || |||||   |  | ||| |||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   |||||  ||||||     | |||||||| || |         | ||| ||||||  |||| | | || ||||||||||||| ||| ||  || ||||||||| |||||| ||||   |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1777494953|ref|XM_015236105.2|</Hit_id>
+  <Hit_def>PREDICTED: Vicugna pacos actin related protein 8 (ACTR8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_015236105</Hit_accession>
+  <Hit_len>3345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2462</Hsp_hit-from>
+      <Hsp_hit-to>2824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATG-CCGTAGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCC--AA---AAC-AGAACAAATG---CTGA-AAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGCTTTTGTTACCAG-CATGAGCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCGAATGGAACAAAAAAAAATGGAACACATAAAAGAAAACTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATGTGTCATACAGAAAAGCAAGGTGACTGTTGCA---------ATTACTAACTTA-ATCATTAGGTCCCCAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGG-AGTT--CTTTTTGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | ||||||||||||||| | ||||  |   |||| |||| |     ||| || ||||||  | ||||| ||  ||   ||| | || |||||   |  | ||| |||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   |||||  ||||||     | |||||||| || |         | ||| ||||||  |||| | | || ||||||||||||| ||| ||  || ||||||||| |||||| ||||   |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1777494952|ref|XM_015236095.2|</Hit_id>
+  <Hit_def>PREDICTED: Vicugna pacos actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015236095</Hit_accession>
+  <Hit_len>3265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2382</Hsp_hit-from>
+      <Hsp_hit-to>2744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTACCTGACATG-CCGTAGGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCC--AA---AAC-AGAACAAATG---CTGA-AAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGA---GTCCTTGTGTTGTACAGA----TATGGTGACTGATGTAGTTATTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGGNAGTTTCATGGATGTTCAGTATGGATCAGTTNAACCTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGGATTACA-AAAAAGTTTGGGGCCCATTCAGGTCTAGATTTTCAGAGGCAAAGATTTAAGTCTGGGCTGGCTGGCTTTTGTTACCAG-CATGAGCTGGGGTGGGCTTGG-----GAAGGAGAACAATCATTATTTGACCCGAATGGAACAAAAAAAAATGGAACACATAAAAGAAAACTCATTTTCTTCCTAAAGCCAAGTAGAAATGATTTTTGTATAATTT-AGACTTGTTAATGTGTCATACAGAAAAGCAAGGTGACTGTTGCA---------ATTACTAACTTA-ATCATTAGGTCCCCAATTTTCCTTTATCTGAAA--ATGAAGTGAAAGTTTTTGG-AGTT--CTTTTTGTTCAGTAT-GATCAGTTG-ACCTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| |||| |  |||| ||||||||||||| ||||| || ||| ||||||  |   |||||| | ||||||||||||||| | ||||  |   |||| |||| |     ||| || ||||||  | ||||| ||  ||   ||| | || |||||   |  | ||| |||| ||  |||| ||||||||||||| ||||||||||||  ||||||||| |||   ||   |||||  ||||||     | |||||||| || |         | ||| ||||||  |||| | | || ||||||||||||| ||| ||  || ||||||||| |||||| ||||   |   |||||||||| ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1432305872|ref|XM_025885256.1|</Hit_id>
+  <Hit_def>PREDICTED: Callorhinus ursinus ARP8 actin related protein 8 homolog (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025885256</Hit_accession>
+  <Hit_len>3243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2320</Hsp_hit-from>
+      <Hsp_hit-to>2650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AG-AGT--CCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--AACAA---CTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAACAATTCAGG--TAATTTATAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGCTG--GTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||  |||||   |||||||||||| |   |||  ||||||||||| | ||||||  |||  ||  ||||||| ||  ||   |||||||||| |||    ||| || ||||| ||  || |  ||| ||||||||| |||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1432305870|ref|XM_025885255.1|</Hit_id>
+  <Hit_def>PREDICTED: Callorhinus ursinus ARP8 actin related protein 8 homolog (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025885255</Hit_accession>
+  <Hit_len>3413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.295</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2490</Hsp_hit-from>
+      <Hsp_hit-to>2820</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AG-AGT--CCTTGTGTTGTACAG----ATATGGTGACTGATGTAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--AACAA---CTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAACAATTCAGG--TAATTTATAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGCTG--GTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||  |||||   |||||||||||| |   |||  ||||||||||| | ||||||  |||  ||  ||||||| ||  ||   |||||||||| |||    ||| || ||||| ||  || |  ||| ||||||||| |||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1570518268|ref|XM_028124515.1|</Hit_id>
+  <Hit_def>PREDICTED: Eumetopias jubatus actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_028124515</Hit_accession>
+  <Hit_len>3300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.393</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2319</Hsp_hit-from>
+      <Hsp_hit-to>2653</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AG-AGT--CCTTGTGTTGTACAG----ATATGGTGACTGA-TG-TAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--CACAA---CTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAATAATTCAGG--TAATTTATAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGACTGCTGGTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||   ||||   |||||||||||| |   |||  ||||||||||| | ||||||| |||  ||  ||||||| ||  ||   |||||||||| |||    ||| || |||||| || | || |  ||| ||||||||| |||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1570518264|ref|XM_028124514.1|</Hit_id>
+  <Hit_def>PREDICTED: Eumetopias jubatus actin related protein 8 (ACTR8), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_028124514</Hit_accession>
+  <Hit_len>3472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.393</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.63886e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2491</Hsp_hit-from>
+      <Hsp_hit-to>2825</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTA-AG-AGT--CCTTGTGTTGTACAG----ATATGGTGACTGA-TG-TAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--CACAA---CTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAATAATTCAGG--TAATTTATAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGACTGCTGGTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTATCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||   ||||   |||||||||||| |   |||  ||||||||||| | ||||||| |||  ||  ||||||| ||  ||   |||||||||| |||    ||| || |||||| || | || |  ||| ||||||||| |||  |||||||| || ||| ||||||||| ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1886001718|ref|XM_027583777.2|</Hit_id>
+  <Hit_def>PREDICTED: Zalophus californianus actin related protein 8 (ACTR8), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_027583777</Hit_accession>
+  <Hit_len>4734</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.983</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.12207e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2366</Hsp_hit-from>
+      <Hsp_hit-to>2703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGT--CCTTGTGTTGTACAG----ATATGGTGACTGA-TG-TAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--AACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAACAATTCAGGTAATTTGTAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGACTGCTGGTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTGTCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||  |||||   |||||||||||| |   |||  ||||||||||| | ||||||  |||  ||||   | ||   ||   |||||||||| |||    ||| || |||||| || | || |  ||| ||||||||| |||  |||||||| || ||| ||||||||  ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1886001717|ref|XM_027583776.2|</Hit_id>
+  <Hit_def>PREDICTED: Zalophus californianus actin related protein 8 (ACTR8), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_027583776</Hit_accession>
+  <Hit_len>4757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.983</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.12207e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2389</Hsp_hit-from>
+      <Hsp_hit-to>2726</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>TCTGTTGGATTACAGAAAANGAATGGGACCCATTCAGGTCTCGATTTCCAAAGGTAAAGATGGATTGCTGGGCAGACTGGCTTTTGTTAC----CTGACATGCCGTA-GGTGAGCTTAGAGGAAGAAAGAAAACAATTTTNATTTGGCCAAAACAGAACAAATGCTGAAAAGGAAATCTTGTTTTTTTCCTAAAGCCAAATAGAAATGATTTGGGTATAATTTAAGAGT--CCTTGTGTTGTACAG----ATATGGTGACTGA-TG-TAGTTA--TTAATACTACCAACTTAGNTCATCAAGGCCTCAATTTTCCTTTACCTGCAAGGATTAAGTGAAAGCTTTTGG</Hsp_qseq>
+      <Hsp_hseq>TCTGTTGGATTACA-AAAAAGCCTGTGACCAGTTGAGCTCTAGATATCCAAAGGCAAAGATTTAAGGCTGGGCTGGCTGGCTTTTGTTACTCGGATGATGTGCTTCAGGGTGGGCTTAG----GGAAAGACAACAATCCTTATCTGACCAAAAC--AACAACAACTGAAAAGGAAAACCCATTTCCTTCCTAAAGCCGAGTAGAAACAATTCAGGTAATTTGTAGTTGTTAACTTGTGTTGTGCAGATGAATAAGGGGACTGACTGCTGGTCACCTTATTACTACCAATTTA-ATCATCAAGTCCCCAAATTTCCTTTGTCTG-AAGAACCAAGAGAAGGGTTTTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||| |  || ||||  || || ||| ||| |||||||| ||||||  |  ||||||| | ||||||||||||||     |||  |||   | |||| ||||||     |||||| ||||||  | || || |||||||  |||||   |||||||||||| |   |||  ||||||||||| | ||||||  |||  ||||   | ||   ||   |||||||||| |||    ||| || |||||| || | || |  ||| ||||||||| |||  |||||||| || ||| ||||||||  ||| ||| |  ||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

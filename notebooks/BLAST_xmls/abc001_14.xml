@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>CAA48531.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>immunoglobulin light chain, partial [Oncorhynchus mykiss]</BlastOutput_query-def>
+  <BlastOutput_query-len>59</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CAA48531.1</Iteration_query-ID>
+  <Iteration_query-def>immunoglobulin light chain, partial [Oncorhynchus mykiss]</Iteration_query-def>
+  <Iteration_query-len>59</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|4UAO|B</Hit_id>
+  <Hit_def>Crystal structure of Apical Membrane Antigen 1 from Plasmodium Knowlesi in complex with an invasion inhibitory antibody [Rattus norvegicus]</Hit_def>
+  <Hit_accession>4UAO_B</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.10579e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>TFGSGTRLEIKRADAAPTVSIFPPSTEQL-ATGGASVVCLMNNFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>TFGSGTRL++   ++APT+++ PPS+E+L +T  A++ CL N  +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3R06|A</Hit_id>
+  <Hit_def>Crystal structure of anti-mouse CD3epsilon antibody 2C11 Fab fragment [Cricetulus migratorius] &gt;pdb|3R06|C Crystal structure of anti-mouse CD3epsilon antibody 2C11 Fab fragment [Cricetulus migratorius] &gt;pdb|3R06|E Crystal structure of anti-mouse CD3epsilon antibody 2C11 Fab fragment [Cricetulus migratorius] &gt;pdb|3R06|L Crystal structure of anti-mouse CD3epsilon antibody 2C11 Fab fragment [Cricetulus migratorius] &gt;pdb|3R08|L Crystal structure of mouse cd3epsilon in complex with antibody 2C11 Fab [Cricetulus migratorius]</Hit_def>
+  <Hit_accession>3R06_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.23811e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGPGTKLEIKRADAKPTVSIFPPSSEQL-GTGSATLVCFVNNFYPKDINVKWKVDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++ PT+++ PPSSE+L  T +ATL C  N  +P D  + WKVDG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6WIK|C</Hit_id>
+  <Hit_def>Cryo-EM structure of SLC40/ferroportin with Fab in the presence of hepcidin [Mus musculus]</Hit_def>
+  <Hit_accession>6WIK_C</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.24615e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>TFGSGTRLDVGNNSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>TFGSGTKLEIKEDAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>TFGSGT+L++  ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1BFO|A</Hit_id>
+  <Hit_def>Campath-1g Igg2b Rat Monoclonal Fab [Rattus rattus] &gt;pdb|1BFO|C Campath-1g Igg2b Rat Monoclonal Fab [Rattus rattus] &gt;pdb|1BFO|E Campath-1g Igg2b Rat Monoclonal Fab [Rattus rattus] &gt;pdb|1BFO|G Campath-1g Igg2b Rat Monoclonal Fab [Rattus rattus]</Hit_def>
+  <Hit_accession>1BFO_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.34947e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>TFGTGTKLELKRANAAPTVSIFPPSTEQLA-TGGASVVCLMNKFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>TFG+GT+L++   N+APT+++ PPS+E+L+ T  A++ CL NK +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1C5D|A</Hit_id>
+  <Hit_def>The Crystal Structure Of The Fab Fragment Of A Rat Monoclonal Antibody Against The Main Immunogenic Region Of The Human Muscle Acetylcholine Receptor [Rattus norvegicus] &gt;pdb|1C5D|L The Crystal Structure Of The Fab Fragment Of A Rat Monoclonal Antibody Against The Main Immunogenic Region Of The Human Muscle Acetylcholine Receptor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1C5D_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.42134e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>YTFGAGTKLEIKRADAAPTVSIFPPSTEQL-ATGGASVVCLMNNFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>+TFG+GT+L++   ++APT+++ PPS+E+L +T  A++ CL N  +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3LD8|B</Hit_id>
+  <Hit_def>Structure of JMJD6 and Fab Fragments [Cricetulus migratorius] &gt;pdb|3LDB|B Structure of JMJD6 complexd with ALPHA-KETOGLUTARATE and Fab Fragment. [Cricetulus migratorius]</Hit_def>
+  <Hit_accession>3LD8_B</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.55467e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGNNSA-PTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>YTFGAGTKLEIKRADAKPTVSIFPPSSEQL-GTGSATLVCFVNNFYPKDINVKWKVDGS</Hsp_hseq>
+      <Hsp_midline>+TFG+GT+L++    A PT+++ PPSSE+L  T +ATL C  N  +P D  + WKVDG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1Q72|L</Hit_id>
+  <Hit_def>Anti-Cocaine Antibody M82G2 Complexed with Cocaine [Mus musculus] &gt;pdb|1QYG|L Anti-Cocaine Antibody M82g2 Complexed With Benzoylecgonine [Mus musculus] &gt;pdb|1RFD|L Anti-Cocaine Antibody M82g2 [Mus musculus] &gt;pdb|1RIU|L Anti-Cocaine Antibody M82G2 Complexed With Norbenzoylecgonine [Mus musculus] &gt;pdb|1RIV|L Anti-Cocaine Antibody M82G2 Complexed With meta-Oxybenzoylecgonine [Mus musculus]</Hit_def>
+  <Hit_accession>1Q72_L</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.62851e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDG</Hsp_qseq>
+      <Hsp_hseq>FTFGSGTKLEIKRADAAPTVSIFPPSSEQLTSGG-ASVVCFLNNFYPQDITVSWKIDG</Hsp_hseq>
+      <Hsp_midline>+TFGSGT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D T+SWK+DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|5JUE|L</Hit_id>
+  <Hit_def>Crystal Structure of UIC2 Fab [Mus musculus]</Hit_def>
+  <Hit_accession>5JUE_L</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>4.12879e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLDIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+LD+   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4HLZ|H</Hit_id>
+  <Hit_def>Crystal Structure of Fab C179 in Complex with a H2N2 influenza virus hemagglutinin [Mus musculus] &gt;pdb|4HLZ|J Crystal Structure of Fab C179 in Complex with a H2N2 influenza virus hemagglutinin [Mus musculus] &gt;pdb|4HLZ|L Crystal Structure of Fab C179 in Complex with a H2N2 influenza virus hemagglutinin [Mus musculus]</Hit_def>
+  <Hit_accession>4HLZ_H</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>4.35927e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTRLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GTRL++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|3MJ8|A</Hit_id>
+  <Hit_def>Crystal structure of HL4E10 Fab, a hamster Ab stimulatory for gammadelta T cells [Cricetulus migratorius] &gt;pdb|3MJ8|L Crystal structure of HL4E10 Fab, a hamster Ab stimulatory for gammadelta T cells [Cricetulus migratorius] &gt;pdb|3MJ9|L Crystal structure of JAML in complex with the stimulatory antibody HL4E10 [Cricetulus migratorius]</Hit_def>
+  <Hit_accession>3MJ8_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.96743e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDV--GNNSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WVFGSGTKVTVLGQPNAAPSVTLFPPSSEELK-TNQATLVCMINGFYPADVAVTWEADGT</Hsp_hseq>
+      <Hsp_midline>W FGSGT++ V    N+AP++T+ PPSSEEL  T  ATL C+ N  +P+D  ++W+ DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|3G5Z|A</Hit_id>
+  <Hit_def>Antibodies Specifically Targeting a Locally Misfolded Region of Tumor Associated EGFR [Mus musculus]</Hit_def>
+  <Hit_accession>3G5Z_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>8.23587e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIARADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1OAK|L</Hit_id>
+  <Hit_def>Crystal Structure Of The Von Willebrand Factor (Vwf) A1 Domain In Complex With The Function Blocking Nmc-4 Fab [Mus musculus]</Hit_def>
+  <Hit_accession>1OAK_L</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>9.3225e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEVKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L+V   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|5AUM|B</Hit_id>
+  <Hit_def>Crystal structure of a Fab fragment with the ligand peptide [Rattus] &gt;pdb|5AUM|L Crystal structure of a Fab fragment with the ligand peptide [Rattus]</Hit_def>
+  <Hit_accession>5AUM_B</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>9.77123e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>TFGSGTKLEIKRADAAPTVSIFPPSTEQL-ATGGASVVCLMNNFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>TFGSGT+L++   ++APT+++ PPS+E+L +T  A++ CL N  +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|5HBT|C</Hit_id>
+  <Hit_def>Complex structure of Fab35 and human nAChR alpha1 [Rattus norvegicus] &gt;pdb|5HBV|C Complex structure of Fab35 and mouse nAChR alpha1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>5HBT_C</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>9.83697e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>YTFGTGTKLELKRADAAPTVSIFPPSTEQLA-TGGASVVCLMNNFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>+TFG+GT+L++   ++APT+++ PPS+E+L+ T  A++ CL N  +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1FNS|L</Hit_id>
+  <Hit_def>Crystal Structure Of The Von Willebrand Factor (Vwf) A1 Domain I546v Mutant In Complex With The Function Blocking Fab Nmc4 [Mus musculus]</Hit_def>
+  <Hit_accession>1FNS_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.00582e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEVKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L+V   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1JGL|L</Hit_id>
+  <Hit_def>Crystal structure of immunoglobulin Fab fragment complexed with 17-beta-estradiol [Mus musculus] &gt;pdb|1JHK|L Crystal structure of the anti-estradiol antibody 57-2 [Mus musculus]</Hit_def>
+  <Hit_accession>1JGL_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.01637e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEVKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L+V   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|6OY4|C</Hit_id>
+  <Hit_def>Crystal structure of complex between recombinant Der p 2.0103 and Fab fragment of 7A1 [Mus musculus]</Hit_def>
+  <Hit_accession>6OY4_C</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.02947e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVAWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  ++WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6PYC|B</Hit_id>
+  <Hit_def>Structure of kappa-on-heavy (KoH) antibody Fab bound to the cardiac hormone marinobufagenin [Mus musculus]</Hit_def>
+  <Hit_accession>6PYC_B</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.09345e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|6YE3|B</Hit_id>
+  <Hit_def>IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens] &gt;pdb|6YE3|E IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens] &gt;pdb|6YE3|H IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens]</Hit_def>
+  <Hit_accession>6YE3_B</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.13384e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|5MHS|D</Hit_id>
+  <Hit_def>T1L reovirus sigma1 complexed with 5C6 Fab fragments [Mus musculus] &gt;pdb|5MHS|F T1L reovirus sigma1 complexed with 5C6 Fab fragments [Mus musculus] &gt;pdb|5MHS|G T1L reovirus sigma1 complexed with 5C6 Fab fragments [Mus musculus]</Hit_def>
+  <Hit_accession>5MHS_D</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.14379e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>TFGSGTRLDVGNNSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>TFGAGTKLELKADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>TFG+GT+L++  ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|4X80|L</Hit_id>
+  <Hit_def>Crystal Structure of murine 7B4 Fab monoclonal antibody against ADAMTS5 [Mus musculus]</Hit_def>
+  <Hit_accession>4X80_L</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.15058e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|2XQY|K</Hit_id>
+  <Hit_def>Crystal Structure Of Pseudorabies Core Fragment Of Glycoprotein H In Complex With Fab D6.3 [Mus musculus] &gt;pdb|2XQY|L Crystal Structure Of Pseudorabies Core Fragment Of Glycoprotein H In Complex With Fab D6.3 [Mus musculus]</Hit_def>
+  <Hit_accession>2XQY_K</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.1585e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEINRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3V7A|G</Hit_id>
+  <Hit_def>Structural basis for broad detection of genogroup II noroviruses by a monoclonal antibody that binds to a site occluded in the viral particle [Mus musculus] &gt;pdb|3V7A|H Structural basis for broad detection of genogroup II noroviruses by a monoclonal antibody that binds to a site occluded in the viral particle [Mus musculus]</Hit_def>
+  <Hit_accession>3V7A_G</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.17773e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3DIF|A</Hit_id>
+  <Hit_def>Crystal structure of FabOX117 [Homo sapiens] &gt;pdb|3DIF|C Crystal structure of FabOX117 [Homo sapiens] &gt;pdb|4I2X|A Crystal structure of Signal Regulatory Protein gamma (SIRP-gamma) in complex with FabOX117 [Homo sapiens] &gt;pdb|4I2X|C Crystal structure of Signal Regulatory Protein gamma (SIRP-gamma) in complex with FabOX117 [Homo sapiens]</Hit_def>
+  <Hit_accession>3DIF_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.1887e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1N5Y|L</Hit_id>
+  <Hit_def>HIV-1 Reverse Transcriptase Crosslinked to Post-Translocation AZTMP-Terminated DNA (Complex P) [Mus musculus] &gt;pdb|1N6Q|L HIV-1 Reverse Transcriptase Crosslinked to pre-translocation AZTMP-terminated DNA (complex N) [Mus musculus] &gt;pdb|1R0A|L Crystal structure of HIV-1 reverse transcriptase covalently tethered to DNA template-primer solved to 2.8 angstroms [Mus musculus] &gt;pdb|1T03|L HIV-1 reverse transcriptase crosslinked to tenofovir terminated template-primer (complex P) [Mus musculus] &gt;pdb|3KLH|C Crystal structure of AZT-Resistant HIV-1 Reverse Transcriptase crosslinked to post-translocation AZTMP-Terminated DNA (COMPLEX P) [Mus musculus]</Hit_def>
+  <Hit_accession>1N5Y_L</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.20887e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|1UZ6|E</Hit_id>
+  <Hit_def>anti-Lewis X Fab fragment uncomplexed [Mus musculus] &gt;pdb|1UZ6|L anti-Lewis X Fab fragment uncomplexed [Mus musculus] &gt;pdb|1UZ6|M anti-Lewis X Fab fragment uncomplexed [Mus musculus] &gt;pdb|1UZ6|V anti-Lewis X Fab fragment uncomplexed [Mus musculus]</Hit_def>
+  <Hit_accession>1UZ6_E</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.23143e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1UZ8|A</Hit_id>
+  <Hit_def>anti-Lewis X Fab fragment in complex with Lewis X [Mus musculus] &gt;pdb|1UZ8|L anti-Lewis X Fab fragment in complex with Lewis X [Mus musculus]</Hit_def>
+  <Hit_accession>1UZ8_A</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.23143e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1MF2|L</Hit_id>
+  <Hit_def>Anti Hiv1 Protease Fab Complex [Mus musculus] &gt;pdb|1MF2|M Anti Hiv1 Protease Fab Complex [Mus musculus]</Hit_def>
+  <Hit_accession>1MF2_L</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.25382e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1FN4|A</Hit_id>
+  <Hit_def>Crystal Structure Of Fab198, An Efficient Protector Of Acetylcholine Receptor Against Myasthenogenic Antibodies [Rattus norvegicus] &gt;pdb|1FN4|C Crystal Structure Of Fab198, An Efficient Protector Of Acetylcholine Receptor Against Myasthenogenic Antibodies [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1FN4_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.27373e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGNNSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>YTFGAGTKLEL-KRTAPTVSIFPPSTEQLA-TGGASVVCLMNNFYPRDISVKWKIDGT</Hsp_hseq>
+      <Hsp_midline>+TFG+GT+L++   +APT+++ PPS+E+L+ T  A++ CL N  +P D ++ WK+DGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|7DNL|L</Hit_id>
+  <Hit_def>2-fold subparticles refinement of human papillomavirus type 58 pseudovirus in complexed with the Fab fragment of A4B4 [Mus musculus]</Hit_def>
+  <Hit_accession>7DNL_L</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.29905e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|5T6P|A</Hit_id>
+  <Hit_def>Crystal structure of therapeutic mAB AR20.5 in complex with MUC1 peptide [Mus musculus] &gt;pdb|5T6P|C Crystal structure of therapeutic mAB AR20.5 in complex with MUC1 peptide [Mus musculus] &gt;pdb|5T78|A Crystal structure of therapeutic mAB AR20.5 in complex with MUC1 peptide [Mus musculus] &gt;pdb|5T78|C Crystal structure of therapeutic mAB AR20.5 in complex with MUC1 peptide [Mus musculus]</Hit_def>
+  <Hit_accession>5T6P_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.30859e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1EGJ|L</Hit_id>
+  <Hit_def>DOMAIN 4 OF THE BETA COMMON CHAIN IN COMPLEX WITH AN ANTIBODY [Mus musculus]</Hit_def>
+  <Hit_accession>1EGJ_L</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.32097e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRGDAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDANVAWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  ++WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|2HRP|L</Hit_id>
+  <Hit_def>Antigen-Antibody Complex [Mus musculus] &gt;pdb|2HRP|M Antigen-Antibody Complex [Mus musculus]</Hit_def>
+  <Hit_accession>2HRP_L</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.3246e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3O41|B</Hit_id>
+  <Hit_def>Crystal Structure of 101F Fab Bound to 15-mer Peptide Epitope [Mus musculus] &gt;pdb|3O41|L Crystal Structure of 101F Fab Bound to 15-mer Peptide Epitope [Mus musculus] &gt;pdb|3O45|B Crystal Structure of 101F Fab Bound to 17-mer Peptide Epitope [Mus musculus] &gt;pdb|3O45|L Crystal Structure of 101F Fab Bound to 17-mer Peptide Epitope [Mus musculus]</Hit_def>
+  <Hit_accession>3O41_B</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.35249e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5OBF|L</Hit_id>
+  <Hit_def>fAb. AbVance: increasing our knowledge of antibody structural space to enable faster and better decision-making in antibody drug discovery. [Mus musculus]</Hit_def>
+  <Hit_accession>5OBF_L</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.36556e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|3BGF|C</Hit_id>
+  <Hit_def>X-ray crystal structure of the SARS coronavirus spike receptor binding domain in complex with F26G19 Fab [Mus musculus] &gt;pdb|3BGF|L X-ray crystal structure of the SARS coronavirus spike receptor binding domain in complex with F26G19 Fab [Mus musculus]</Hit_def>
+  <Hit_accession>3BGF_C</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.37233e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|6ELU|C</Hit_id>
+  <Hit_def>Structure of Serum Resistance Associated protein from T. b. rhodesiense [Mus musculus] &gt;pdb|6ELU|F Structure of Serum Resistance Associated protein from T. b. rhodesiense [Mus musculus] &gt;pdb|6ELU|I Structure of Serum Resistance Associated protein from T. b. rhodesiense [Mus musculus] &gt;pdb|6ELU|L Structure of Serum Resistance Associated protein from T. b. rhodesiense [Mus musculus]</Hit_def>
+  <Hit_accession>6ELU_C</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.37987e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|3WKM|L</Hit_id>
+  <Hit_def>The periplasmic PDZ tandem fragment of the RseP homologue from Aquifex aeolicus in complex with the Fab fragment [Mus musculus] &gt;pdb|3WKM|M The periplasmic PDZ tandem fragment of the RseP homologue from Aquifex aeolicus in complex with the Fab fragment [Mus musculus]</Hit_def>
+  <Hit_accession>3WKM_L</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.38097e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|4M61|A</Hit_id>
+  <Hit_def>Crystal structure of unliganded anti-DNA Fab A52 [Mus musculus] &gt;pdb|4M61|C Crystal structure of unliganded anti-DNA Fab A52 [Mus musculus]</Hit_def>
+  <Hit_accession>4M61_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.38193e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|6QU9|B</Hit_id>
+  <Hit_def>Fab fragment of an antibody that inhibits polymerisation of alpha-1-antitrypsin [Mus musculus] &gt;pdb|6QU9|L Fab fragment of an antibody that inhibits polymerisation of alpha-1-antitrypsin [Mus musculus]</Hit_def>
+  <Hit_accession>6QU9_B</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.41602e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|4ODT|L</Hit_id>
+  <Hit_def>Fab Structure of lipid A-specific antibody S1-15 in complex with lipid A carbohydrate backbone [Mus musculus] &gt;pdb|4ODU|B Unliganded Fab structure of lipid A-specific antibody S1-15 [Mus musculus] &gt;pdb|4ODU|L Unliganded Fab structure of lipid A-specific antibody S1-15 [Mus musculus] &gt;pdb|4Z8F|L Fab structure of antibody S1-15 in complex with ssDNA DNA, 5&apos;-p5(dT)p-3&apos; [Mus musculus] &gt;pdb|4Z95|L Fab structure of antibody S1-15 in complex with ssDNA DNA, 5&apos;-5(dT)-p-3&apos; [Mus musculus]</Hit_def>
+  <Hit_accession>4ODT_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.41951e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|3G5V|A</Hit_id>
+  <Hit_def>Antibodies Specifically Targeting a Locally Misfolded Region of Tumor Associated EGFR [Mus musculus]</Hit_def>
+  <Hit_accession>3G5V_A</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.43089e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|3G5X|A</Hit_id>
+  <Hit_def>Antibodies Specifically Targeting a Locally Misfolded Region of Tumor Associated EGFR [Mus musculus] &gt;pdb|3G5X|C Antibodies Specifically Targeting a Locally Misfolded Region of Tumor Associated EGFR [Mus musculus]</Hit_def>
+  <Hit_accession>3G5X_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.4344e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|5TIH|L</Hit_id>
+  <Hit_def>Structural basis for inhibition of erythrocyte invasion by antibodies to Plasmodium falciparum protein CyRPA [Mus musculus]</Hit_def>
+  <Hit_accession>5TIH_L</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.44591e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1NCA|L</Hit_id>
+  <Hit_def>Refined Crystal Structure Of The Influenza Virus N9 Neuraminidase-Nc41 Fab Complex [Mus musculus] &gt;pdb|1NCB|L Crystal Structures Of Two Mutant Neuraminidase-Antibody Complexes With Amino Acid Substitutions In The Interface [Mus musculus] &gt;pdb|1NCC|L Crystal Structures Of Two Mutant Neuraminidase-Antibody Complexes With Amino Acid Substitutions In The Interface [Mus musculus] &gt;pdb|1NCD|L Refined Crystal Structure Of The Influenza Virus N9 Neuraminidase-Nc41 Fab Complex [Mus musculus]</Hit_def>
+  <Hit_accession>1NCA_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.44945e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|3RKD|C</Hit_id>
+  <Hit_def>Hepatitis E Virus E2s domain (Genotype I) in complex with a neutralizing antibody [Mus musculus] &gt;pdb|3RKD|L Hepatitis E Virus E2s domain (Genotype I) in complex with a neutralizing antibody [Mus musculus]</Hit_def>
+  <Hit_accession>3RKD_C</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.46465e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|7DNK|L</Hit_id>
+  <Hit_def>2-fold subparticles refinement of human papillomavirus type 58 pseudovirus in complexed with the Fab fragment of 5G9 [Mus musculus]</Hit_def>
+  <Hit_accession>7DNK_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.46465e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|4TPR|L</Hit_id>
+  <Hit_def>Structure of Tau5 antibody Fab fragment [Mus musculus] &gt;pdb|4TQE|L Structure of tau peptide in complex with Tau5 antibody Fab fragment [Mus musculus]</Hit_def>
+  <Hit_accession>4TPR_L</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.47003e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|6BZV|B</Hit_id>
+  <Hit_def>Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody 19B3 [Mus musculus] &gt;pdb|6BZV|D Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody 19B3 [Mus musculus] &gt;pdb|6BZV|F Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody 19B3 [Mus musculus] &gt;pdb|6BZV|H Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody 19B3 [Mus musculus] &gt;pdb|6BZW|B Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody AP33 [Mus musculus] &gt;pdb|6BZW|D Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody AP33 [Mus musculus] &gt;pdb|6BZW|F Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody AP33 [Mus musculus] &gt;pdb|6BZW|H Structure of the Hepatitis C virus envelope glycoprotein E2 antigenic region 412-423 bound to the GL precursor of the broadly neutralizing antibody AP33 [Mus musculus]</Hit_def>
+  <Hit_accession>6BZV_B</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.47102e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVD</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GTASVVCLLNNFYPREAKVQWKVD</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S  TA++ CL N  +P +  + WKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1QBL|L</Hit_id>
+  <Hit_def>Fab E8 (Fabe8a) X-Ray Structure At 2.26 Angstrom Resolution [Mus musculus] &gt;pdb|1QBM|L Fab E8b Antibody, X-Ray Structure At 2.37 Angstroms Resolution [Mus musculus] &gt;pdb|1WEJ|L Igg1 Fab Fragment (Of E8 Antibody) Complexed With Horse Cytochrome C At 1.8 A Resolution [Mus musculus]</Hit_def>
+  <Hit_accession>1QBL_L</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.48002e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>WTFGSGTRLDVGN-NSAPTLTVLPPSSEELSSTTTATLTCLANKGFPSDWTLSWKVDGT</Hsp_qseq>
+      <Hsp_hseq>WTFGGGTKLEIKRADAAPTVSIFPPSSEQLTS-GGASVVCFLNNFYPKDINVKWKIDGS</Hsp_hseq>
+      <Hsp_midline>WTFG GT+L++   ++APT+++ PPSSE+L+S   A++ C  N  +P D  + WK+DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>123916</Statistics_db-num>
+      <Statistics_db-len>32790775</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

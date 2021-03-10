@@ -1,0 +1,1765 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>T88391.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>12087 Lambda-PRL2 Arabidopsis thaliana cDNA clone 155I4T7, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>457</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>T88391.1</Iteration_query-ID>
+  <Iteration_query-def>12087 Lambda-PRL2 Arabidopsis thaliana cDNA clone 155I4T7, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>457</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1063702459|ref|NM_129197.4|</Hit_id>
+  <Hit_def>Arabidopsis thaliana growth-regulating factor 3 (GRF3), mRNA</Hit_def>
+  <Hit_accession>NM_129197</Hit_accession>
+  <Hit_len>1907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|21539883|gb|AY102636.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana transcription activator (GRF3) mRNA, complete cds</Hit_def>
+  <Hit_accession>AY102636</Hit_accession>
+  <Hit_len>1627</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|42469168|emb|BX820563.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTPGH48ZD11 of Hormone Treated Callus of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX820563</Hit_accession>
+  <Hit_len>1526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|26449923|dbj|AK117417.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana At2g36400 mRNA for unknown protein, complete cds, clone: RAFL17-02-B13</Hit_def>
+  <Hit_accession>AK117417</Hit_accession>
+  <Hit_len>1572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.353</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCGGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1839133136|emb|LR782543.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR782543</Hit_accession>
+  <Hit_len>20021703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15593711</Hsp_hit-from>
+      <Hsp_hit-to>15593303</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1731306554|emb|LR699746.2|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699746</Hit_accession>
+  <Hit_len>19417579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>14982108</Hsp_hit-from>
+      <Hsp_hit-to>14981700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1731306447|emb|LR699771.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699771</Hit_accession>
+  <Hit_len>19416174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>14973769</Hsp_hit-from>
+      <Hsp_hit-to>14973361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1731305693|emb|LR699766.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699766</Hit_accession>
+  <Hit_len>19545947</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15136348</Hsp_hit-from>
+      <Hsp_hit-to>15135940</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1731305467|emb|LR699761.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699761</Hit_accession>
+  <Hit_len>20044946</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15531884</Hsp_hit-from>
+      <Hsp_hit-to>15531476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1731305462|emb|LR699756.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699756</Hit_accession>
+  <Hit_len>19229142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>14777339</Hsp_hit-from>
+      <Hsp_hit-to>14776931</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1731305318|emb|LR699751.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR699751</Hit_accession>
+  <Hit_len>19510813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15050102</Hsp_hit-from>
+      <Hsp_hit-to>15049694</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1572541210|emb|LR215053.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR215053</Hit_accession>
+  <Hit_len>19252707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>14820618</Hsp_hit-from>
+      <Hsp_hit-to>14820210</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1901035191|emb|LR881467.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR881467</Hit_accession>
+  <Hit_len>21955978</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>17350866</Hsp_hit-from>
+      <Hsp_hit-to>17350458</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1862939933|emb|LR797808.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR797808</Hit_accession>
+  <Hit_len>19794769</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15357897</Hsp_hit-from>
+      <Hsp_hit-to>15357489</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1862939928|emb|LR797803.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR797803</Hit_accession>
+  <Hit_len>19659098</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15233293</Hsp_hit-from>
+      <Hsp_hit-to>15232885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1862939918|emb|LR797793.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR797793</Hit_accession>
+  <Hit_len>19454276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15008396</Hsp_hit-from>
+      <Hsp_hit-to>15007988</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1862939913|emb|LR797788.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR797788</Hit_accession>
+  <Hit_len>20246543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15728601</Hsp_hit-from>
+      <Hsp_hit-to>15728193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|330250293|gb|CP002685.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana chromosome 2 sequence</Hit_def>
+  <Hit_accession>CP002685</Hit_accession>
+  <Hit_len>19698289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15272811</Hsp_hit-from>
+      <Hsp_hit-to>15272403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|20197920|gb|AC006919.6|</Hit_id>
+  <Hit_def>Arabidopsis thaliana chromosome 2 clone F1O11 map g6825, complete sequence</Hit_def>
+  <Hit_accession>AC006919</Hit_accession>
+  <Hit_len>104364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.55</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>21859</Hsp_hit-from>
+      <Hsp_hit-to>21451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|42469464|emb|BX819325.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTFB69ZB02 of Flowers and buds of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX819325</Hit_accession>
+  <Hit_len>1442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>397</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>GAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTT-AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>GAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|42469276|emb|BX820895.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTPGH79ZH08 of Hormone Treated Callus of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX820895</Hit_accession>
+  <Hit_len>1509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1862939923|emb|LR797798.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR797798</Hit_accession>
+  <Hit_len>19682547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>15148590</Hsp_hit-from>
+      <Hsp_hit-to>15148187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>390</Hsp_identity>
+      <Hsp_positive>390</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAAGAAAGCTTTTTCCTTCGAGCAAAGAAAGTTCTTTTTT-----CTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| ||||||||| |||||||||||||||||| ||||||      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|42469485|emb|BX819392.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTFB74ZC12 of Flowers and buds of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX819392</Hit_accession>
+  <Hit_len>1534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.302</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>400</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAGAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAGTCAGAACCCTGGAAGACAAAGGAGGGGAAAGACCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAGACAATGGAGAAGCCAGCAGCAGCGACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|42468402|emb|BX819886.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTLS43ZE03 of Adult vegetative tissue of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX819886</Hit_accession>
+  <Hit_len>1558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.302</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>400</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAGAGTTCTTTTTTCTTTTCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAGGTCAGAACCCTGGAAGACAAAAGAGGGGAAAGGCCATTATCCTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGATTTGCAACTGAGACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||  ||| ||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||| ||||||||  ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|42468916|emb|BX819097.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTFB46ZB11 of Flowers and buds of strain col-0 of Arabidopsis thaliana (thale cress)</Hit_def>
+  <Hit_accession>BX819097</Hit_accession>
+  <Hit_len>1394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>624.35</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>3.49469e-174</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>CAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTT-CGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAAC-CATTATCC--TTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGG-ATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CAGAAACTGACTACCAAGAACAAAGCTTTTTCCTTCGAGCAAAGAAAGTACTTTTTTCTTTTCTTTTGCTCTTACGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACACATTATTCCTTTAAAGTAACCAACACTTCTCTCTCTCTTTCTTCAATGGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTATTTGACCAGATTCATTCTCACACTGCAACTACTACTGCTCTTCCTCTCTTTACCCCTGAACCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGAAGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||| ||||||  ||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |  |||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||  |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| |  |||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1985657903|emb|LR999454.1|</Hit_id>
+  <Hit_def>Arabidopsis arenosa genome assembly, chromosome: 4</Hit_def>
+  <Hit_accession>LR999454</Hit_accession>
+  <Hit_len>17268480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.626</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>4.26117e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>11988602</Hsp_hit-from>
+      <Hsp_hit-to>11988200</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>372</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTAT--CCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACAAAGAACAAAGCTTTTTTCTTAGAGCAAAAAAAGTTCTTTTT--TTTTCTTTTGCTCTTCATAACCC---CAACAAGACTTTCATAAGCTATTAAATCAGA-CCCTGGAAGACAAAAAAGGGGAAAAACCATTATATCCCAAAAGTAACCAACACTTCTCTCTCTCT--CTTCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAGCAACAGCAGACAGAGTCAGAAGAACAACCTTCTGCTGCTAAGATACCAAAACATGTCTTTGACCAGATTCAATCTCACTCTGCAACTTCTACTGCCCTTCCTCTCTTTGCCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCTTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||||||||||||  ||| ||||||| ||||| ||||||  ||| |||||||||||| ||||||   ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||  |||||||||||||||||| |||||||  |||| ||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||| |||||| |||||||| ||||||| |||||||||||| |||||||| |||||| ||||||||| |||||||||||||| |||| ||| ||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1190978454|ref|XM_021029169.1|</Hit_id>
+  <Hit_def>PREDICTED: Arabidopsis lyrata subsp. lyrata growth-regulating factor 3 (LOC9315677), mRNA</Hit_def>
+  <Hit_accession>XM_021029169</Hit_accession>
+  <Hit_len>1875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.047</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.5208e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGC-AAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCA----ACAAGACTTTCATAAGCTATTAAATCAGAACCCTGGAAGACAAAAAAGGGGAAAAACCATTAT--CCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACAAAGAACAAAGCTTTTTTTTTAGAGCCAAAAAAAGTTCTTTTT--------TTT----TTCATAACCCCTACAGGCTACAAGACTTTCATAAGCTATTAAATCAGA-CCCTGGAAGACAAAAAAGGTGAAAAACCATTATATCCCAAAAGTAACCAGCACTTCTCTCTCTCTTCC----ATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAACAGCA---------GACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCAATCTCACTCTGCAACTTCTACTGCTCTTCCTCTCTTTGCCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGAATCTTCTTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||||||||||||   || |||| ||| ||||| ||||||        |||    ||| ||||||   ||    ||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||  ||  |||||||||| ||||||| |||||||| |    ||||||||||||||||||||||||||||||||||| |||||         |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||| |||||||||||||||||||| |||||||| |||||| ||||||||| |||||||||||||| || | ||| ||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1338523310|ref|XM_006295965.2|</Hit_id>
+  <Hit_def>PREDICTED: Capsella rubella growth-regulating factor 3 (LOC17890081), mRNA</Hit_def>
+  <Hit_accession>XM_006295965</Hit_accession>
+  <Hit_len>1643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.536</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>2.07103e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAA---CAAAGCTTTTNC-CTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAAGCTATTAAATCAGAACCC-TGGAAGACAAAAAA------------------GGGGAAA-AACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGTCCCC--AGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAACTGACTACAAAGAAGAACAAACCTTTTTTTCTTAGAGCAAAAGAACTTCTTTTT----------TGCTCTTCCTAACCC---CAACAAGACTTTCATA-GCTATTAAATCAGACCCCCTGGTAGACAAAAAAATATATATATATATAAAGGGGGAAATAACTATTATCCCAAAAGTGACCAACACTTCTCTCTCTCTTCC----ATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCA------ACAGCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTATGACCAGATTCATTCCCAAACTCCAACTTCTACTGCTCTTCCTCTCTTTTCCCCTGAACCTTCCTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCTTCCAGGTTCCCGAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||   |||| |||||   ||| |||||||  || | ||||||          |||||||| ||||||   |||||||||||||||| |||||||||||||| ||| ||| ||||||||||                  ||||||| ||| |||||||  ||||| |||||||||||| |||||||| |    ||||||||||||||||||||||||||||||||||||||      ||| |||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||| || ||| ||||| |||||||||||||||||||| |||||||  || | | ||||||||| |||||||||||||| |||| ||| ||| ||| |||  || | ||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1350217756|ref|XM_006410754.2|</Hit_id>
+  <Hit_def>PREDICTED: Eutrema salsugineum growth-regulating factor 3 (LOC18026422), mRNA</Hit_def>
+  <Hit_accession>XM_006410754</Hit_accession>
+  <Hit_len>1600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.567</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.49124e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>515</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>456</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT-----------CATAAGCTATTAAATCAGAACCCTGGAAG----ACAAAAA-AGGG-GAAAAACCATT-ATCCTTAAAGTAACCAACACT-------TCTNTCTCTCTTTCTT----CAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGTCCCC--AGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACAGAAGCTGACTGCAAAGAACAGAGCTTTT-CCTTAGATTGAAAAAAGTTGTTCTTTTCTT-CTTTTACTCTTCACAACCC---CAACAAGACTTTGCTGTTGTTGCCATA-GCTATTAAATCA-AACCCTGGAAACAAAATAAAAATAGGGTGAAAAACGATTTATCCCAAAAGCAGCCAACATACACACACTCTCTCTCTCTTTCTCTCTGCCATGGATTTGCAACTGAAACAATGGAGAAACCAGCAGGTGCAGCAGCAGCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTATGATCAGATTCAATCCCATACTGCAACTTCTACTGCTCTTCCACTCTTTGCCCCTGAGCCTACCTCTTCTAAACTCTCCTCTTTGTCTCCTGATCCTTCTTCCAGGTTCCCTAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||| | ||||||| ||||||| |||| ||   || |||||  || ||   || ||||| ||||||  |||||   ||||||||||||           |||| |||||||||||| ||||||||||     | ||||| |||| ||||||| ||| ||||  |||| | ||||||         ||| |||||||||||     | |||||||||||||||||||||||||||| |||||||  ||| || || |||||||||||||| ||||||||||||||||||||||||||||||||||||| ||| |||||||| || || ||||||||| ||||||||||||| |||||| |||||||| |||| | ||||||||| |||||||||||||| |||  ||| ||| ||| |||  || | ||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|111074411|gb|BT026472.1|</Hit_id>
+  <Hit_def>Arabidopsis thaliana At2g36400 mRNA, complete cds</Hit_def>
+  <Hit_accession>BT026472</Hit_accession>
+  <Hit_len>1197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.69623e-93</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>ATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>ATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGAAGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTTCTACTGCTCTTCCTCTCTTTACCCCTGAGCCTACTTCTTCTAAACTCTCCTCTTTGTCTCCTGATTCTTCCTCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||| ||||||||| |||||||||||||| |||| ||||||| || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1249675501|ref|XM_013889226.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106447330), mRNA</Hit_def>
+  <Hit_accession>XM_013889226</Hit_accession>
+  <Hit_len>1578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.499</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.07377e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACA--GAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAA-GTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTC------------ATAAGCTATTAAATCAGA-ACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCT-CTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAAGTTGTTTCTTTTCTTCTTTTGCTAGTCACAACCCAA---ACAAGACTTTCCTATTTGTTGCCATAGGCTATTGAATCACACACCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACT-CTCTCTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGGTGCAGCAGCAGACAGAGCCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAGCCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTTTGTCTGCTGATTCTTCTGCCAGGTTCCCCAAGATGGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||||||| ||||||||||||         ||| ||| ||| ||  ||| |  | | ||||||||  ||  |||||||   |||||||||||            ||| |||||| ||||| | ||||||||| ||||    ||||||  |||| |||| ||  || |||  | | |||||||| || ||| |||| ||| | |||||||||||||||||||||||||||||||||||||||   || || ||||||||| |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||||||||| | |||| |||  || || |||||| | ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1827797794|ref|XM_033290232.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa growth-regulating factor 3 (LOC103865541), mRNA</Hit_def>
+  <Hit_accession>XM_033290232</Hit_accession>
+  <Hit_len>2383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.269</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>8.2551e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>869</Hsp_hit-from>
+      <Hsp_hit-to>1310</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>452</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACA--GAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAA-GTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTCATAA------------GCTATTAAATCAGA-ACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACT-TCTNTCT-CTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAAGTTGTTTCTTTTCTTCTTTTGCTAGTCACAACCCAA---ACAAGACTTTCCTATTTGTTGCCTTAGGCTATTGAATCACACACCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACTCTCTCTTTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGGTGCAGCAGCAGCAGACAGAACCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAACCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTTTGTCTGCTGATTCTTCTGCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||||||| ||||||||||||         ||| ||| ||| ||  ||| |  | | ||||||||  ||  |||||||   ||||||||||| ||             |||||| ||||| | ||||||||| ||||    ||||||  |||| |||| ||  || |||  | | |||||||| ||| | | |||| ||| | ||||||||||||||||||||||||||||||||||||  ||| || || ||||||||  |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||||||||| | |||| |||  || || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1249671074|ref|XM_013832135.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106391473), mRNA</Hit_def>
+  <Hit_accession>XM_013832135</Hit_accession>
+  <Hit_len>1564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.564</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.00568e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>450</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACA--GAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTC------------ATAAGCTATTAAATCAGA-ACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCT-CTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAGTTGTTTCTTTTCTTCTTTTGCTAGTCACAACCCAA---ACAAGACTTTCCTATTTGTTGCCATAGGCTATTGAATCACACACCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACT-CTCTCTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAG------------ACAGAGCCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAGCCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTTTGTCTGCTGATTCTTCTGCCAGGTTCCCCAAGATGGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||||||| ||||||||||||         ||| ||| |||||  ||| |  | | ||||||||  ||  |||||||   |||||||||||            ||| |||||| ||||| | ||||||||| ||||    ||||||  |||| |||| ||  || |||  | | |||||||| || ||| |||| ||| | |||||||||||||||||||||||||||||||||||||||            |||||| |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||||||||| | |||| |||  || || |||||| | ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1516538420|emb|LR031576.1|</Hit_id>
+  <Hit_def>Brassica rapa genome, scaffold: A04</Hit_def>
+  <Hit_accession>LR031576</Hit_accession>
+  <Hit_len>21690166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.744</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.81831e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>18045320</Hsp_hit-from>
+      <Hsp_hit-to>18044912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>CTCAGATACA--GAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTC------------ATAAGCTATTAAATCAGA-ACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCT-CTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATACACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAGTTGTTTCTTTTCTTCTTTTGCTAGTCACAACCCAA---ACAAGACTTTCCTATTTGTTGCCATAGGCTATTGAATCACACACCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACT-CTCTCTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAG------------ACAGAGCCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAGCCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTTTGTCTGCTGATTCTTCTGCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||||||| ||||||||||||         ||| ||| |||||  ||| |  | | ||||||||  ||  |||||||   |||||||||||            ||| |||||| ||||| | ||||||||| ||||    ||||||  |||| |||| ||  || |||  | | |||||||| || ||| |||| ||| | |||||||||||||||||||||||||||||||||||||||            |||||| |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||||||||| | |||| |||  || || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>7.75215e-18</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>4147720</Hsp_hit-from>
+      <Hsp_hit-to>4147935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>TTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAA---CTNCTACTGCTCTTCCTCTCTTTACCCCTGA---GGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTC</Hsp_qseq>
+      <Hsp_hseq>TTCTCTGTCTCTCCACTCCATGGACTTGCAACTGAAGCAATGGAGAATTCAGCAG------------CAGAATGAGTCAGAAGAACAAAGCTATGCAACTAAGATGTCCAAGTCTTTCTCCCATCAGATTCAATCTCAAACTGCAACTTCTGCTACTGCTCTACCTCTCTTTGTTCCTGAACCCACCACTTCTTCATCCTTCTCATGTTTCTCTCCTGATTCTTCCTC</Hsp_hseq>
+      <Hsp_midline>|||| | |||||    || ||||| ||||||||||| ||||||||||  ||||||            ||||  |||||||| ||||||   | |||| |||||||  | ||   | |||   | |||||||| ||||| |||||||   || |||||||||| |||||||||   |||||     | |||| |||     | || | ||| ||||| |||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|922476923|ref|XM_013781470.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica oleracea var. oleracea growth-regulating factor 3-like (LOC106342515), mRNA</Hit_def>
+  <Hit_accession>XM_013781470</Hit_accession>
+  <Hit_len>1488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>7.73164e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>CTCAGATA--CAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTC------------ATAAGCTATTAAATCAGAACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATATACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAGTTGTTCTTTTCTT-CTTTTGCTAGTCACAACCCAA---ACAAGACTCTCCTATTTGTTGCCATAGGCTATTGAATCACA-CCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAGTGGAGAAGCCAGCAGGTGCAGCAGCA---GACAGAGCCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAACCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTCTGTCTTCTGATTCTTCTGCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||||||| ||||||||||||         ||| ||| |||||  || ||   || ||||||||  ||  |||||||   |||||||| ||            ||| |||||| ||||| | |||||||| ||||    ||||||  |||| |||| ||  || |||  | | ||||||||     |||||||||  | |||||||||||||||||||| |||||||||||||||  ||| || ||   ||||||| |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||| ||||| | |||| |||  || || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1249745373|ref|XM_013836607.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106396265), mRNA</Hit_def>
+  <Hit_accession>XM_013836607</Hit_accession>
+  <Hit_len>1660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.727</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.41907e-74</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGC---AGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGT--CCCCAGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGCAGCAGCAGCAGCAGCAGACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCAGATTCAGTCCCAAACTGCAACTTCTACTGCTCTTCCACTCTTTTCCCCTGAGCCTACCGCTTCTAAACTATCCTCTCTGTCTCAAGATTCTTCTTCCAGGTTCCCCAAGATTGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| ||||||||||||||||   ||||||| || || |||||||||||||| || |||||||||||||||||||||||||||||||||||||| |||||||| || || ||||||||| ||||||||||||| |||||| |||||||| ||||   ||||||||| |||||| ||||||  |||| ||| ||| |||  ||| || ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.36898</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGC-TTTTNCCTTCGA--GCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACAAAGCTTTTTTTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | ||||||||||| ||||  ||  ||  ||||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1072944627|ref|XM_018627403.1|</Hit_id>
+  <Hit_def>PREDICTED: Raphanus sativus growth-regulating factor 3-like (LOC108853921), mRNA</Hit_def>
+  <Hit_accession>XM_018627403</Hit_accession>
+  <Hit_len>1600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.727</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.41907e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>450</Hsp_align-len>
+      <Hsp_qseq>CTCAGATA--CAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT-------------CATAAGCTATTAAATCAGAACCCTGGAAGACAA-----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATATACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGGAA-AAAGTTGTT----CTTTTCTTCTGCTAGTCACAACCC---CAACAAGACTTTGCTGTTTGTTTTGCATAGGCTATTAAATCATA-CCCTGGAACACAATACAAAAAAGGTTGAACCACCAATAATCTCAAAAAGCAGCCAAC-------TCTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGGAGCCAGCAGCAGCAGCAGCAGCAGACAGAGCCAGACGAACAGCCTTCTGCAGCAAAGATACCTAAACATGTTTTTGATCAGTTTCAGTCACACAGTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTCTGTCGTCTGATTCTTCTGCCAGGTTCCCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||||||| ||||||||||||         |||  || |||||  ||     ||| ||| ||||  ||  |||||   ||||||||||||             |||| |||||||||||| | |||||||| ||||     ||||||  |||  |||| ||  || |||  | | |||||       ||||||| ||| | |||||||||||||||||||||||||| |||||||||||||| || || ||||||||| |||| ||||| ||||||||||| |||||||| |||||||| ||||| ||| |||| || |||| |||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||| ||||  | |||| |||  || || |||||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1516555473|emb|LR031873.1|</Hit_id>
+  <Hit_def>Brassica oleracea HDEM genome, scaffold: C4</Hit_def>
+  <Hit_accession>LR031873</Hit_accession>
+  <Hit_len>65381821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.12</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.14748e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>61005696</Hsp_hit-from>
+      <Hsp_hit-to>61005289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>CTCAGATA--CAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTTC------------ATAAGCTATTAAATCAGAACCCTGGAAGACAA----AAAAGGG-GAAAAACCATTATCCTTAAA--GTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATATACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGAAAAAAAGTTGTTCTTTTCTT-CTTTTGCTAGTCACAACCCAA---ACAAGACTCTCCTATTTGTTGCCATAGGCTATTGAATCACA-CCCTGGAACACAATACAAAAAGGTTGAAACACCAATAATCTCAAAAAGCAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAGTGGAGAAGCCAGCAGGTGCAGCAGCA---GACAGAGCCAGAAGAACAGCCTTCTGCAGCTAAGATACCAAAGCATGTTTTTGATCAGTTTCAACCCCAAACTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTCTGTCTTCTGATTCTTCTGCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||||||| ||||||||||||         ||| ||| |||||  || ||   || ||||||||  ||  |||||||   |||||||| ||            ||| |||||| ||||| | |||||||| ||||    ||||||  |||| |||| ||  || |||  | | ||||||||     |||||||||  | |||||||||||||||||||| |||||||||||||||  ||| || ||   ||||||| |||| ||||| ||||||||||||||||||||||| ||||| ||||| ||| ||||  | || |||||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||| ||||| | |||| |||  || || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>266.382</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.07471e-66</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>9237964</Hsp_hit-from>
+      <Hsp_hit-to>9238181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGCAGCA---------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCAGATTCAGTCCCAAACTGCAACTTCTACTGCTCTTCCACTCTTTTCCCCTGAGCCTACCGCTTCTAAACTATCCTCTCTGTCTCAAGATTCTTCTTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| |||||||||||||||||||||||         |||||||||||| || |||||||||||||||||||||||||||||||||||||| |||||||| || || ||||||||| ||||||||||||| |||||| |||||||| ||||   ||||||||| |||||| ||||||  |||| ||| ||| || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>266.382</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.07471e-66</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>9240624</Hsp_hit-from>
+      <Hsp_hit-to>9240841</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGCAGCA---------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCAGATTCAGTCCCAAACTGCAACTTCTACTGCTCTTCCACTCTTTTCCCCTGAGCCTACCGCTTCTAAACTATCCTCTCTGTCTCAAGATTCTTCTTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| |||||||||||||||||||||||         |||||||||||| || |||||||||||||||||||||||||||||||||||||| |||||||| || || ||||||||| ||||||||||||| |||||| |||||||| ||||   ||||||||| |||||| ||||||  |||| ||| ||| || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>119.407</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.51947e-22</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>39616795</Hsp_hit-from>
+      <Hsp_hit-to>39617063</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>ACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCT------------TCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAA---CTNCTACTGCTCTTCCTCTCTTTACCCCTGA---GGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTC</Hsp_qseq>
+      <Hsp_hseq>ACAAAGAAGTGGAGAAAT-ACTATCCCAAAAGCAACCAACACATTTCTCTCTTTTTCTCTGTCTCTCCACTCCATGGACTTGCAACTGAAGCAATGGAGAAGTCAGCAG------------CAGAATGAGTCAAAAGAACAAAGCTATGCAACTAAGATGTTCAACTCTTTCTCCCATCAGATTCAATCTCAGACTGCAACTTCTGCTACTGCTCTACCTCTCTTTGTCCCTGAACCCACCACTTCTTCATCCTTCTCATGTTTCTCTCCTGATTCTTCCTC</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||| |||  | |||||  |||| ||||||||| | | ||||| |||||            || ||||| ||||||||||| ||||||||||| ||||||            ||||  |||||| | ||||||   | |||| |||||||    ||   | |||   | |||||||| ||||| |||||||   || |||||||||| |||||||||  ||||||     | |||| |||     | || | ||| ||||| |||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.36898</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>9237820</Hsp_hit-from>
+      <Hsp_hit-to>9237908</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGC-TTTTNCCTTCGA--GCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACAAAGCTTTTTTTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | ||||||||||| ||||  ||  ||  ||||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.36898</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>9240480</Hsp_hit-from>
+      <Hsp_hit-to>9240568</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGC-TTTTNCCTTCGA--GCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACAAAGCTTTTTTTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | ||||||||||| ||||  ||  ||  ||||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|922474907|ref|XM_013780770.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica oleracea var. oleracea growth-regulating factor 3-like (LOC106342002), mRNA</Hit_def>
+  <Hit_accession>XM_013780770</Hit_accession>
+  <Hit_len>1675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.317</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>4.00509e-72</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGT--CCCCAGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGCAGCAGCAGCA---GGCAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCAGATTCAGTCCCAAACTGCAACTTCTACTGCTCTTCCACTCTTTTCCCCTGAGCCTACCGCTTCTAAACTATCCTCTCTGTCTCAAGATTCTTCTTCCAGGTTCCCCAAGATTGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| ||||||||||||||||||||||| || ||   | |||||||||| || |||||||||||||||||||||||||||||||||||||| |||||||| || || ||||||||| ||||||||||||| |||||| |||||||| ||||   ||||||||| |||||| ||||||  |||| ||| ||| |||  ||| || ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.36898</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGC-TTTTNCCTTCGA--GCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACAAAGCTTTTTTTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | ||||||||||| ||||  ||  ||  ||||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1820521181|emb|LR778311.1|</Hit_id>
+  <Hit_def>Raphanus sativus genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR778311</Hit_accession>
+  <Hit_len>53721154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.07911e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>11085424</Hsp_hit-from>
+      <Hsp_hit-to>11085828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>CTCAGATA--CAGAAACTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT-------------CATAAGCTATTAAATCAGAACCCTGGAAGACAA-----AAAAGGG-GAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTCAGATATACAGAAACTGACTACAAAGAACAAAGCTGA-------GAGGGAA-AAAGTTGTT----CTTTTCTTCTGCCAGTCACAACCC---CAACAAGACTTTGCTGTTTGTTTTGCATAGGCTATTAAATCATA-CCCTGGAACACAATACAAAAAAGGTTGAACCACCAATAATCTCAAA--AAGCAGC-CAACTCTCTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGGAGCCAGCAGCAGCAGCA------GACAGAGCCAGACGAACAGCCTTCTGCAGCAAAGATACCTAAACATGTTTTTGATCAGTTTCAGTCACACAGTGCAGCTTCTACTGCTCTTCCACTCTTTACCCCTGATCCTACACCTTCCAAACTCTCCTCTCTGTCGTCTGATTCTTCTGCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||||||| ||||||||||||         |||  || |||||  ||     ||| ||| |||   ||  |||||   ||||||||||||             |||| |||||||||||| | |||||||| ||||     ||||||  |||  |||| ||  || |||  || || | |  || ||||||| ||| | |||||||||||||||||||||||||| |||||||||||||| ||      ||||||| |||| ||||| ||||||||||| |||||||| |||||||| ||||| ||| |||| || |||| |||| || ||||||||||||| ||||||||||||||  ||||   ||| ||||| |||||| ||||  | |||| |||  || || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.88896e-23</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>4662819</Hsp_hit-from>
+      <Hsp_hit-to>4663086</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>ACAAAAAAGGGGAAAAACCATTATCCTTAAAGTAACCAACACTTCTNTCTCTCTTTCT----------TCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAA---CTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTC---TTTGTCTCCNGATTTTTCCTC</Hsp_qseq>
+      <Hsp_hseq>ACAGATAAGTGGAGAAAATACTATCCCAAAAGCAACCAAAACATTTCTCTCTTTTTCTGTCTCTCCACTCCATGGACTCGCAACTCAAGCAATGGAGAAGTCAGCAG------------CAGAATGAGTCAGAAGAACAAAGGTATGCAACTAAGATGTCCAACTCTTTCTACCATCAGATTCAATCCCAAACTGCAACTTCTGCTACTGCTCTACCTCTCTTTGTCCCTGAAGCCACCTCTTCTTCATCGTACTCATGTTTCTCTCCTGATTCTTCCTC</Hsp_hseq>
+      <Hsp_midline>||| | ||| ||| |||  | |||||  |||| |||||| || | | ||||| |||||          || ||||| | |||||| || ||||||||||| ||||||            ||||  |||||||| ||||||   | |||| |||||||  | ||   | |||   | |||||||| || || |||||||   || |||||||||| |||||||||  |||||| || || | ||||  |   | |||   ||| ||||| |||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1249674686|ref|XM_013892978.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3 (LOC106451116), mRNA</Hit_def>
+  <Hit_accession>XM_013892978</Hit_accession>
+  <Hit_len>1538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.48</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.75112e-66</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGTCCCC--AGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGAAGCAGCA------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTATGATCAGATTCAGTCCCATACTGCAACTTCTACTGCTCTCCCACTCTTTTCCCCTGAGCCTACCTCTTCTAAACTATCCTCTCTGTCTCAAGATTCCTCTTCCAGGTTCCCTAAGATGGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| |||||||||||||||||| |||| ||      |||||||||||| || |||||||||||||||||||||||||||||||||| ||| |||||||| || || ||||||||| |||||||||| || |||||| |||||||| |||| | ||||||||| |||||| ||||||  ||||  || ||| ||| |||  || | ||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.0429138</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGCTTTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTT-TNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACTAAGCTTTTCTCTAAGAGGGAAAAAAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CCAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | |||||| ||||||||  ||  |||  || ||||   | ||   || | ||||||||||||  ||||   ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1072980899|ref|XM_018585390.1|</Hit_id>
+  <Hit_def>PREDICTED: Raphanus sativus growth-regulating factor 3 (LOC108812980), mRNA</Hit_def>
+  <Hit_accession>XM_018585390</Hit_accession>
+  <Hit_len>1516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.873</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>4.5698e-65</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>TCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGG</Hsp_qseq>
+      <Hsp_hseq>TCTCTTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCA---------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCACATTCAATCCCATACGGCAACTTCTACTGCTCTTCCACTCTTTTCCTCTGAGCCTACCTCTTCTAAACTCTCCTCTCTGTCTCATGATTCTTCTTCCAGGTTCCCCAAGATGGG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| ||| | |||||||||||||||||||||||||||||||||||||||||         |||||||||||| || |||||||||||||||||||||||||||||||||||||| || ||||| || || || |||||| ||||||||||||| |||||| || ||||| |||| | ||||||||| |||||| ||||||  |||| ||| ||| || |||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1827820125|ref|XM_009145340.3|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa growth-regulating factor 3 (LOC103867286), mRNA</Hit_def>
+  <Hit_accession>XM_009145340</Hit_accession>
+  <Hit_len>3310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>4.5698e-65</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1991</Hsp_hit-from>
+      <Hsp_hit-to>2229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGTCCCC--AGGTTGGGGGGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCGCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGAAGCAGCA------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTATGATCAGATTCAGTCCCATACTGCAACTTCTACTGCTCTCCCACTCTTTTCCCCTGAGCCTACCTCTTCTAAACTATCCTCTCTGTCTCAAGATTCCTCTTCCAGGTTCCCTAAGATGGGGAGCTTTTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||  || ||||||||||||||||||| |||||||||||||||||| |||| ||      |||||||||||| || |||||||||||||||||||||||||||||||||| ||| |||||||| || || ||||||||| |||||||||| || |||||| |||||||| |||| | ||||||||| |||||| ||||||  ||||  || ||| ||| |||  || | ||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.82474</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1848</Hsp_hit-from>
+      <Hsp_hit-to>1935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGCTTTTNCCTTCGAG--CAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACTAAGCTTTTCTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | |||||| ||||||||  ||  |||  |||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1820521180|emb|LR778310.1|</Hit_id>
+  <Hit_def>Raphanus sativus genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR778310</Hit_accession>
+  <Hit_len>58898396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.07</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.59502e-64</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>54296125</Hsp_hit-from>
+      <Hsp_hit-to>54295902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>TCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAG</Hsp_qseq>
+      <Hsp_hseq>TCTCTTTCTCTCTCTCCCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCA---------GACAGAGTCAGAAGACCAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGATCACATTCAATCCCATACGGCAACTTCTACTGCTCTTCCACTCTTTTCCTCTGAGCCTACCTCTTCTAAACTCTCCTCTCTGTCTCATGATTCTTCTTCCAGGTTCCCCAG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| ||| | |||||||||||||||||||||||||||||||||||||||||         |||||||||||| || |||||||||||||||||||||||||||||||||||||| || ||||| || || || |||||| ||||||||||||| |||||| || ||||| |||| | ||||||||| |||||| ||||||  |||| ||| ||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1516510546|emb|LR031570.1|</Hit_id>
+  <Hit_def>Brassica rapa genome, scaffold: A05</Hit_def>
+  <Hit_accession>LR031570</Hit_accession>
+  <Hit_len>47572232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.365</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.56716e-64</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>10643676</Hsp_hit-from>
+      <Hsp_hit-to>10643893</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCCGGGTCCCC</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTCTCCAATGGATTTGCAACTGAAGCAATGGAGAAGCCAGCAGCAGCAGCA------GACAGAGTCAGAAGACCAACCTTCTGCAGCCAAGATACCAAAACATGTCTATGATCAGATTCAGTCCCATACTGCAACTTCTACTGCTCTCCCACTCTTTTCCCCTGAGCCTACCTCTTCTAAACTATCCTCTCTGTCTCAAGATTCCTCTTCCAGGTTCCC</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||| ||||||||||||||||||||||| ||      |||||||||||| || |||||||||||||| ||||||||||||||||||| ||| |||||||| || || ||||||||| |||||||||| || |||||| |||||||| |||| | ||||||||| |||||| ||||||  ||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.82474</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>10643533</Hsp_hit-from>
+      <Hsp_hit-to>10643620</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>CTGACTACCAAGAACAAAGCTTTTNCCTTCGAG--CAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACAAGACTTT</Hsp_qseq>
+      <Hsp_hseq>CTGACTGCAAAGAACTAAGCTTTTCTCTAAGAGGGCAAA-AAGGTTTGTTCTTTTCTTCTTTTGCTCTTCACAACC---CGAACAATACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| | |||||| ||||||||  ||  |||  |||| || ||   || |  | | ||||||||||||  ||||   | ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1249738631|ref|XM_013828115.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106388119), mRNA</Hit_def>
+  <Hit_accession>XM_013828115</Hit_accession>
+  <Hit_len>1544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.724</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.81991e-57</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGGTGCA---------GACAGAGTCAGAACCACAACCTTCTGCAGCTAAGATACCAAGACATGCCTTTGATCCGATTCAGTCCCAAACTGCAACTTCTACTGTTCTTCCACTCTTTGCCCCTGAACCTGCCTCTTCTAAACTCTCCTCCTTATGTCCTGATTCTTCTTCCAGGTTCTCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||     |||||||||  | ||||||||||||||||||||||||||||||||||||  |||         ||||||||||||   |||||||||||||||||||||||||| ||||| |||||| | |||||| || || ||||||||| |||||| |||||| |||||| |||||||  || | | ||||||||| ||||| || | ||| |||| ||| ||| || || ||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.012295</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TCAGATACAGAAACTGACTACCAAGAACAAAGCT</Hsp_qseq>
+      <Hsp_hseq>TCAGATACAGAAACTGACTGCAAAGAACAAAGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1249738627|ref|XM_022699051.1|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106388121), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022699051</Hit_accession>
+  <Hit_len>1544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.724</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.81991e-57</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGGTGCA---------GACAGAGTCAGAACCACAACCTTCTGCAGCTAAGATACCAAGACATGCCTTTGATCCGATTCAGTCCCAAACTGCAACTTCTACTGTTCTTCCACTCTTTGCCCCTGAACCTGCCTCTTCTAAACTCTCCTCCTTATGTCCTGATTCTTCTTCCAGGTTCTCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||     |||||||||  | ||||||||||||||||||||||||||||||||||||  |||         ||||||||||||   |||||||||||||||||||||||||| ||||| |||||| | |||||| || || ||||||||| |||||| |||||| |||||| |||||||  || | | ||||||||| ||||| || | ||| |||| ||| ||| || || ||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.012295</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TCAGATACAGAAACTGACTACCAAGAACAAAGCT</Hsp_qseq>
+      <Hsp_hseq>TCAGATACAGAAACTGACTGCAAAGAACAAAGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1249738626|ref|XM_013828114.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106388121), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_013828114</Hit_accession>
+  <Hit_len>1415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.724</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.81991e-57</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGG-GGTTTTTTAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGGTGCA---------GACAGAGTCAGAACCACAACCTTCTGCAGCTAAGATACCAAGACATGCCTTTGATCCGATTCAGTCCCAAACTGCAACTTCTACTGTTCTTCCACTCTTTGCCCCTGAACCTGCCTCTTCTAAACTCTCCTCCTTATGTCCTGATTCTTCTTCCAGGTTCTCCAAGATGGGGAGCTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||     |||||||||  | ||||||||||||||||||||||||||||||||||||  |||         ||||||||||||   |||||||||||||||||||||||||| ||||| |||||| | |||||| || || ||||||||| |||||| |||||| |||||| |||||||  || | | ||||||||| ||||| || | ||| |||| ||| ||| || || ||| | ||||| | || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.012295</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TCAGATACAGAAACTGACTACCAAGAACAAAGCT</Hsp_qseq>
+      <Hsp_hseq>TCAGATACAGAAACTGACTGCAAAGAACAAAGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1827691776|ref|XM_009134833.3|</Hit_id>
+  <Hit_def>PREDICTED: Brassica rapa growth-regulating factor 3 (LOC103857622), mRNA</Hit_def>
+  <Hit_accession>XM_009134833</Hit_accession>
+  <Hit_len>1528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.216</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>7.73847e-56</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGGGGTTT-TTTAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTAGCCAACACT-----CTCTCTTTC--CCATGGATTTGCAACTGAAACAATGGAGGAGCAAGCAGGTGCA---------GACAGAGTCAGAACCACAACCTTCTGCAGCTAAGATACCAAGACATGCCTTTGATCCGATTCAGTCCCAAACTGCAACTTCTACTGTTCTTCCACTCTTTGCCCCTGAACCTGCGTCTTCTAAACTCTCCTCCTTATGTCCTGATTCTTCTTCCAGGTTCTCCAAGATGGGGAGTTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||     |||||||||  | |||||||||||||||||||||||||| ||| |||||  |||         ||||||||||||   |||||||||||||||||||||||||| ||||| |||||| | |||||| || || ||||||||| |||||| |||||| |||||| |||||||  || | | ||||||||| ||||| || | ||| |||| ||| ||| || || ||| | ||||| |||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.00100924</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>TCAGATACAGAAACTGACTACCAAGAACAAAGCT------------TTTNCCTTCGAGCAAAGAAAGTNCTTTTTNNTTTNCTTTTGCTCTTCGTAACCCAACCAACA-AGACTTTCATAAGCTATT--AAATCAGAACCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCAGATACAGAAACTGACTGCAAAGAACAAAGCTGCAAGGTGCAGCTATTCCTT--AGTAAAAAGCTTTGTTCTCTTTCTTCTTTTGCTCTTCACATCCCCCCCAACAGAGACTTT--TCTGCTATTTAAAACCAG-ACCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| | ||||||||||||            | | ||||  || ||| |   |  || |   | | ||||||||||||  | |||  |||||| |||||||  |  ||||||  ||| ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1249738630|ref|XM_013828119.2|</Hit_id>
+  <Hit_def>PREDICTED: Brassica napus growth-regulating factor 3-like (LOC106388121), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_013828119</Hit_accession>
+  <Hit_len>1544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.707</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>9.42739e-55</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AAAGTAACCAACACTTCTNTCTCTCTTTCTTCAATGGATTTGCAACTGAAACAATGGAGAAGCCAGCAGCAGCAACAACATCAGACAGAGTCAGANGAACAACCTTCTGCAGCTAAGATACCAAAACATGTCTTTGACCAGATTCATTCTCACACTGCAACTNCTACTGCTCTTCCTCTCTTTACCCCTGAGGCTACTTNTTCTAAACTNTCCTCTTTGTCTCCNGATTTTTCCTCC-GGGTCCCCAGGTTGGGGGGTTT-TTTAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTAGCCAACACT-----CTCTCTTTC--CCATGGATTTGAAACTGAAACAATGGAGAAGCAAGCAGGTGCA---------GACAGAGTCAGAACCACAACCTTCTGCAGCTAAGATACCAAGACATGCCTTTGATCCGACTCAGTCCCAAACTGCAACTTCTACTGTTCTTCCACTCTTTGCCCCTGAACCTGCCTCTTCTAAACTCTCCTCCTTATGTCCTGATTCTTCTTCCAGGTTCTCCAAGATGGGGAGTTTCTTTAG</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||     |||||||||  | ||||||||| |||||||||||||||||||| |||||  |||         ||||||||||||   |||||||||||||||||||||||||| ||||| |||||| | || ||| || || ||||||||| |||||| |||||| |||||| |||||||  || | | ||||||||| ||||| || | ||| |||| ||| ||| || || ||| | ||||| |||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.012295</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TCAGATACAGAAACTGACTACCAAGAACAAAGCT</Hsp_qseq>
+      <Hsp_hseq>TCAGATACAGAAACTGACTGCAAAGAACAAAGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

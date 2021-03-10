@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H13576.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yj07b06.r1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148019 5&apos; similar to gb:S45630 ALPHA CRYSTALLIN B CHAIN (HUMAN), mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>452</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H13576.1</Iteration_query-ID>
+  <Iteration_query-def>yj07b06.r1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148019 5&apos; similar to gb:S45630 ALPHA CRYSTALLIN B CHAIN (HUMAN), mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>452</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1676440444|ref|NM_001885.3|</Hit_id>
+  <Hit_def>Homo sapiens crystallin alpha B (CRYAB), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001885</Hit_accession>
+  <Hit_len>983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.139</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1564386052|ref|NM_001368245.1|</Hit_id>
+  <Hit_def>Homo sapiens crystallin alpha B (CRYAB), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001368245</Hit_accession>
+  <Hit_len>964</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.139</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|577019570|ref|NM_001289807.1|</Hit_id>
+  <Hit_def>Homo sapiens crystallin alpha B (CRYAB), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001289807</Hit_accession>
+  <Hit_len>964</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.139</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>644</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1367142888|ref|XM_016921980.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016921980</Hit_accession>
+  <Hit_len>1170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>870</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1367142885|ref|XM_016921979.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016921979</Hit_accession>
+  <Hit_len>1204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>474</Hsp_hit-from>
+      <Hsp_hit-to>904</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1034091613|ref|XM_009424148.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_009424148</Hit_accession>
+  <Hit_len>956</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>656</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|694947018|ref|XM_003952027.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_003952027</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1849010086|ref|XM_003805460.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_003805460</Hit_accession>
+  <Hit_len>980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTTGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1849010085|ref|XM_003805459.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003805459</Hit_accession>
+  <Hit_len>1012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTTGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1753032086|ref|XM_031015786.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_031015786</Hit_accession>
+  <Hit_len>1060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGATCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1753032085|ref|XM_019036658.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_019036658</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGATCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1753032084|ref|XM_004052118.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_004052118</Hit_accession>
+  <Hit_len>1279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>550</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGATCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1753032083|ref|XM_004052117.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004052117</Hit_accession>
+  <Hit_len>1313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>584</Hsp_hit-from>
+      <Hsp_hit-to>1014</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGATCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|795338740|ref|XM_011926733.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus crystallin, alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011926733</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>426</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|795338736|ref|XM_011926732.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus crystallin, alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011926732</Hit_accession>
+  <Hit_len>938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>641</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>426</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|795338730|ref|XM_011926731.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus crystallin, alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011926731</Hit_accession>
+  <Hit_len>1226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>929</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>426</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1351390966|ref|XM_009247045.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_009247045</Hit_accession>
+  <Hit_len>997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>699</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1351390963|ref|XM_009247044.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_009247044</Hit_accession>
+  <Hit_len>917</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>619</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1351390958|ref|XM_009247043.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_009247043</Hit_accession>
+  <Hit_len>1061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>763</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1351390954|ref|XM_009247042.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_009247042</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1351390949|ref|XM_009247041.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009247041</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>657</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1351390944|ref|XM_009247040.2|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009247040</Hit_accession>
+  <Hit_len>989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.614</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>691</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGGAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCATACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCAACGTCTACATCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1800004241|ref|XM_032167373.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032167373</Hit_accession>
+  <Hit_len>901</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1800004239|ref|XM_032167372.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032167372</Hit_accession>
+  <Hit_len>1171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1800004237|ref|XM_032167371.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032167371</Hit_accession>
+  <Hit_len>954</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>654</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1800004235|ref|XM_032167370.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032167370</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>475</Hsp_hit-from>
+      <Hsp_hit-to>905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1622860312|ref|XM_028832671.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_028832671</Hit_accession>
+  <Hit_len>1056</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1622860310|ref|XM_028832670.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_028832670</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1622860308|ref|XM_028832669.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_028832669</Hit_accession>
+  <Hit_len>1095</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>365</Hsp_hit-from>
+      <Hsp_hit-to>795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1381457487|ref|XM_011761414.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011761414</Hit_accession>
+  <Hit_len>1301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>571</Hsp_hit-from>
+      <Hsp_hit-to>1001</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1381457486|ref|XM_011761413.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011761413</Hit_accession>
+  <Hit_len>949</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>649</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|982295822|ref|XM_015435350.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_015435350</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|982295820|ref|XM_015435349.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015435349</Hit_accession>
+  <Hit_len>967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|982295818|ref|XM_015435348.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015435348</Hit_accession>
+  <Hit_len>1031</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795277829|ref|XM_012066401.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys crystallin, alpha B (CRYAB), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_012066401</Hit_accession>
+  <Hit_len>1060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>760</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|795277820|ref|XM_012066400.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys crystallin, alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_012066400</Hit_accession>
+  <Hit_len>1099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|795277811|ref|XM_012066399.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys crystallin, alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_012066399</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|795277804|ref|XM_012066398.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys crystallin, alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012066398</Hit_accession>
+  <Hit_len>965</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|795121140|ref|XM_011976987.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus crystallin, alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011976987</Hit_accession>
+  <Hit_len>887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|795121135|ref|XM_011976986.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus crystallin, alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011976986</Hit_accession>
+  <Hit_len>941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>641</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|795121130|ref|XM_011976985.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus crystallin, alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011976985</Hit_accession>
+  <Hit_len>1222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>492</Hsp_hit-from>
+      <Hsp_hit-to>922</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1777262510|ref|XM_021926533.2|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis crystallin alpha B (CRYAB), mRNA</Hit_def>
+  <Hit_accession>XM_021926533</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCTAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1743165621|ref|XM_030794716.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_030794716</Hit_accession>
+  <Hit_len>901</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACTAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1743165620|ref|XM_004090561.3|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_004090561</Hit_accession>
+  <Hit_len>1171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACTAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1743165618|ref|XM_030794715.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030794715</Hit_accession>
+  <Hit_len>954</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>654</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACTAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1743165617|ref|XM_003253133.3|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003253133</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>475</Hsp_hit-from>
+      <Hsp_hit-to>905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACTAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTTCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGAAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| ||||||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1938864830|ref|XM_008020847.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus crystallin alpha B (CRYAB), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_008020847</Hit_accession>
+  <Hit_len>970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACATCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1938864829|ref|XM_008020848.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus crystallin alpha B (CRYAB), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_008020848</Hit_accession>
+  <Hit_len>1101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>798</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACATCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1938864827|ref|XM_038005222.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus crystallin alpha B (CRYAB), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_038005222</Hit_accession>
+  <Hit_len>903</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACATCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1938864825|ref|XM_038005221.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus crystallin alpha B (CRYAB), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_038005221</Hit_accession>
+  <Hit_len>1000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.499</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCTCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACGTCTACTTCCCTGAGTCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCTGGGAGAAGGACAGGTTCTCTGTCAACCTGGGATGTGAAGCACTTTCTTCCCCAGAGGGAACTCAAAGTTAAAGGTGTTGGGGAGATGTTGATTTGAGGTTGCATGGGAAAACATGGAAGAGGCGCCAGGGTGGAACATGGTTTTCATTTCCAGGGAGTTTCCACAGGAAATACCGG</Hsp_qseq>
+      <Hsp_hseq>GGCTGTAGCTGCAGCTGAAGGAGCTGACCAGCCAGCTGACCCCCCACACTCACCTAGCCACCATGGACATCGCCATCCACCACCCCTGGATCCGCCGCCCCTTCTTTCCTTTCCACTCCCCCAGCCGCCTCTTTGACCAGTTCTTCGGAGAGCACCTGTTGGAGTCTGATCTTTTCCCGACATCTACTTCCCTGAGCCCCTTCTACCTTCGGCCACCCTCCTTCCTGCGGGCACCCAGCTGGTTTGACACTGGACTCTCAGAGATGCGCCT-GGAGAAGGACAGGTTCTCTGTCAACCT-GGATGTGAAGCACTT--CTCCCCAGA-GGAACTCAAAGTT-AAGGTGTT-GGGAGATG-TGA-TTGAGG-TGCAT-GGCAAACAT-GAAGA-GCGCCAGGAT-GAACATGG-TTTCATCTCCAGGGAG-TTCCACAGGAAATACCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||   |||||||| ||||||||||||| |||||||| |||||||| ||| |||||| ||||| || |||||| ||||| |||||||| | |||||||| |||||| ||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

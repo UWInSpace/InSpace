@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14203.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym62d11.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:163509 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>463</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14203.1</Iteration_query-ID>
+  <Iteration_query-def>ym62d11.r1 Soares adult brain N2b4HB55Y Homo sapiens cDNA clone IMAGE:163509 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>463</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1677530304|ref|NM_001318819.2|</Hit_id>
+  <Hit_def>Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001318819</Hit_accession>
+  <Hit_len>6751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5075</Hsp_hit-from>
+      <Hsp_hit-to>5526</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1370507754|ref|XM_024446390.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024446390</Hit_accession>
+  <Hit_len>6315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4791</Hsp_hit-from>
+      <Hsp_hit-to>5242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1370507752|ref|XM_024446389.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024446389</Hit_accession>
+  <Hit_len>6407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4729</Hsp_hit-from>
+      <Hsp_hit-to>5180</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1196493436|ref|NG_054763.1|</Hit_id>
+  <Hit_def>Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), RefSeqGene on chromosome 6</Hit_def>
+  <Hit_accession>NG_054763</Hit_accession>
+  <Hit_len>128603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>124923</Hsp_hit-from>
+      <Hsp_hit-to>125374</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1985464798|ref|NM_001393499.1|</Hit_id>
+  <Hit_def>Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001393499</Hit_accession>
+  <Hit_len>6501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4825</Hsp_hit-from>
+      <Hsp_hit-to>5276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1890284052|ref|NM_015349.3|</Hit_id>
+  <Hit_def>Homo sapiens BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_015349</Hit_accession>
+  <Hit_len>6513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4837</Hsp_hit-from>
+      <Hsp_hit-to>5288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|71891734|dbj|D87077.2|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0240 mRNA for KIAA0240 protein</Hit_def>
+  <Hit_accession>D87077</Hit_accession>
+  <Hit_len>6512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5001</Hsp_hit-from>
+      <Hsp_hit-to>5452</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6002306|emb|AL035587.5|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP3-475N16 on chromosome 6p12.3-21.2, complete sequence</Hit_def>
+  <Hit_accession>AL035587</Hit_accession>
+  <Hit_len>113109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>84524</Hsp_hit-from>
+      <Hsp_hit-to>84073</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|50949851|emb|CR627378.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp686P0250 (from clone DKFZp686P0250)</Hit_def>
+  <Hit_accession>CR627378</Hit_accession>
+  <Hit_len>6343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4802</Hsp_hit-from>
+      <Hsp_hit-to>5253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|21734185|emb|AL833540.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp686E233 (from clone DKFZp686E233)</Hit_def>
+  <Hit_accession>AL833540</Hit_accession>
+  <Hit_len>6361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4837</Hsp_hit-from>
+      <Hsp_hit-to>5288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|28839468|gb|BC047630.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0240, mRNA (cDNA clone IMAGE:4813329)</Hit_def>
+  <Hit_accession>BC047630</Hit_accession>
+  <Hit_len>3332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>718.125</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>1808</Hsp_hit-from>
+      <Hsp_hit-to>2259</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGAATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|34536308|dbj|AK128771.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ45271 fis, clone BRHIP2029625</Hit_def>
+  <Hit_accession>AK128771</Hit_accession>
+  <Hit_len>2475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>718.125</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>966</Hsp_hit-from>
+      <Hsp_hit-to>1417</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCGCTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1849150997|ref|XM_034962106.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_034962106</Hit_accession>
+  <Hit_len>7122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>709.109</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5442</Hsp_hit-from>
+      <Hsp_hit-to>5893</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1849150995|ref|XM_034962105.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034962105</Hit_accession>
+  <Hit_len>8922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>709.109</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>7242</Hsp_hit-from>
+      <Hsp_hit-to>7693</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1849150993|ref|XM_034962103.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034962103</Hit_accession>
+  <Hit_len>7626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>709.109</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5946</Hsp_hit-from>
+      <Hsp_hit-to>6397</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1849150991|ref|XM_034962102.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034962102</Hit_accession>
+  <Hit_len>7218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>709.109</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5538</Hsp_hit-from>
+      <Hsp_hit-to>5989</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1367308930|ref|XM_001135166.6|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_001135166</Hit_accession>
+  <Hit_len>7998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.878</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>6321</Hsp_hit-from>
+      <Hsp_hit-to>6770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGT--ATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1367308926|ref|XM_016955522.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_016955522</Hit_accession>
+  <Hit_len>6469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.878</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4792</Hsp_hit-from>
+      <Hsp_hit-to>5241</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGT--ATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1367308923|ref|XM_009451272.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_009451272</Hit_accession>
+  <Hit_len>6931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.878</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5254</Hsp_hit-from>
+      <Hsp_hit-to>5703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGT--ATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1367308919|ref|XM_024357216.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024357216</Hit_accession>
+  <Hit_len>8925</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.878</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>7248</Hsp_hit-from>
+      <Hsp_hit-to>7697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGT--ATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1367308915|ref|XM_016955520.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016955520</Hit_accession>
+  <Hit_len>7521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.878</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5844</Hsp_hit-from>
+      <Hsp_hit-to>6293</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGT--ATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|16041700|gb|BC015724.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0240, mRNA (cDNA clone IMAGE:3920731), partial cds</Hit_def>
+  <Hit_accession>BC015724</Hit_accession>
+  <Hit_len>1509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.977</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>GTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||| |||||  |  ||| || |||| ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1753077402|ref|XM_031012154.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031012154</Hit_accession>
+  <Hit_len>6385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.075</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4710</Hsp_hit-from>
+      <Hsp_hit-to>5161</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCGCACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTATGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGTAGC--TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| |||  |  ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1753077400|ref|XM_031012153.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031012153</Hit_accession>
+  <Hit_len>7111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.075</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5436</Hsp_hit-from>
+      <Hsp_hit-to>5887</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCGCACATACACACACGTGCATGTATCTGAGCTGCTCAGATCCAGAGGTCATTTTTGTTACAGTGTATGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGTAGC--TTCACCCCA-GCCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| ||||| || |||||  |  ||| |||  |  ||||||||| ||||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1351506934|ref|XM_024248869.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_024248869</Hit_accession>
+  <Hit_len>7204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.041</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5524</Hsp_hit-from>
+      <Hsp_hit-to>5975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTGTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATCGGCCTGTGATGGAAAGGAAGACTTCTGATTAGAAAACACAGCAACAGAAGACCTGTACCCCAGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAATG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||| ||||| ||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  |||  | |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1351506932|ref|XM_024248868.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_024248868</Hit_accession>
+  <Hit_len>6947</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.041</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5267</Hsp_hit-from>
+      <Hsp_hit-to>5718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTGTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATCGGCCTGTGATGGAAAGGAAGACTTCTGATTAGAAAACACAGCAACAGAAGACCTGTACCCCAGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAATG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||| ||||| ||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  |||  | |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1351506930|ref|XM_024248867.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024248867</Hit_accession>
+  <Hit_len>6870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.041</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5190</Hsp_hit-from>
+      <Hsp_hit-to>5641</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTGTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATCGGCCTGTGATGGAAAGGAAGACTTCTGATTAGAAAACACAGCAACAGAAGACCTGTACCCCAGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAATG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||| ||||| ||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  |||  | |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1351506929|ref|XM_002816897.4|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_002816897</Hit_accession>
+  <Hit_len>7129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.041</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5449</Hsp_hit-from>
+      <Hsp_hit-to>5900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTGTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATCGGCCTGTGATGGAAAGGAAGACTTCTGATTAGAAAACACAGCAACAGAAGACCTGTACCCCAGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAATG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||| ||||| ||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  |||  | |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1800044537|ref|XM_032141185.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032141185</Hit_accession>
+  <Hit_len>7410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5737</Hsp_hit-from>
+      <Hsp_hit-to>6187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACAC-AGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACAC--ACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCCTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGTCCCTGTGTCCCACTACACACAAAAAAAACCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| | |||| |||| ||| ||| ||||| || |||||  |  ||| || |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1800044535|ref|XM_032141184.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032141184</Hit_accession>
+  <Hit_len>7017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.024</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5344</Hsp_hit-from>
+      <Hsp_hit-to>5794</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACAC-AGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACAC--ACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCCTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGTCCCTGTGTCCCACTACACACAAAAAAAACCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| | |||| |||| ||| ||| ||||| || |||||  |  ||| || |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1777329898|ref|XM_009205191.4|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_009205191</Hit_accession>
+  <Hit_len>6483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4804</Hsp_hit-from>
+      <Hsp_hit-to>5256</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1777329896|ref|XM_003897602.4|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_003897602</Hit_accession>
+  <Hit_len>7997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>6318</Hsp_hit-from>
+      <Hsp_hit-to>6770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1777329894|ref|XM_031667087.1|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_031667087</Hit_accession>
+  <Hit_len>7445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5766</Hsp_hit-from>
+      <Hsp_hit-to>6218</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1777329892|ref|XM_017957864.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_017957864</Hit_accession>
+  <Hit_len>6732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5053</Hsp_hit-from>
+      <Hsp_hit-to>5505</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1777329890|ref|XM_009205187.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009205187</Hit_accession>
+  <Hit_len>7541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5862</Hsp_hit-from>
+      <Hsp_hit-to>6314</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1777329888|ref|XM_017957863.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017957863</Hit_accession>
+  <Hit_len>6394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.221</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4715</Hsp_hit-from>
+      <Hsp_hit-to>5167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1751272998|ref|XM_030928494.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_030928494</Hit_accession>
+  <Hit_len>7151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5472</Hsp_hit-from>
+      <Hsp_hit-to>5924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTACAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGT--ACTTTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| |||   |||||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1751272996|ref|XM_030928493.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_030928493</Hit_accession>
+  <Hit_len>7351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5672</Hsp_hit-from>
+      <Hsp_hit-to>6124</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTACAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGT--ACTTTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| |||   |||||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1751272994|ref|XM_030928492.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_030928492</Hit_accession>
+  <Hit_len>6668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4989</Hsp_hit-from>
+      <Hsp_hit-to>5441</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTACAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGT--ACTTTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| |||   |||||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1751272992|ref|XM_030928491.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030928491</Hit_accession>
+  <Hit_len>7255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5576</Hsp_hit-from>
+      <Hsp_hit-to>6028</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTACAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGT--ACTTTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| |||   |||||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1751272990|ref|XM_030928490.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030928490</Hit_accession>
+  <Hit_len>6607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4928</Hsp_hit-from>
+      <Hsp_hit-to>5380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTACAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACGT--ACTTTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| |||   |||||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1411154970|ref|XM_025384143.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_025384143</Hit_accession>
+  <Hit_len>6399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4725</Hsp_hit-from>
+      <Hsp_hit-to>5177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1411154968|ref|XM_025384142.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025384142</Hit_accession>
+  <Hit_len>6464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4790</Hsp_hit-from>
+      <Hsp_hit-to>5242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1411154966|ref|XM_025384141.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025384141</Hit_accession>
+  <Hit_len>6782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5108</Hsp_hit-from>
+      <Hsp_hit-to>5560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1411154964|ref|XM_025384140.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025384140</Hit_accession>
+  <Hit_len>6515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4841</Hsp_hit-from>
+      <Hsp_hit-to>5293</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1381448649|ref|XM_024795335.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), mRNA</Hit_def>
+  <Hit_accession>XM_024795335</Hit_accession>
+  <Hit_len>6289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4604</Hsp_hit-from>
+      <Hsp_hit-to>5056</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1743171377|ref|XM_030797041.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030797041</Hit_accession>
+  <Hit_len>7418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5743</Hsp_hit-from>
+      <Hsp_hit-to>6193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACAC-AGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACAT--GTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGAGATGACCCCCATTGTCATCATGTTGGGCATTTCCTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGTCCCTGTGTCCCACTACACACAAAAAAAACCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| | |||| |||| ||| ||| ||||| || |||||  |  ||| || |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1743171375|ref|XM_030797040.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys BRD4 interacting chromatin remodeling complex associated protein like (BICRAL), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030797040</Hit_accession>
+  <Hit_len>7514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.007</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5839</Hsp_hit-from>
+      <Hsp_hit-to>6289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGCCCCTGTGTCCCACTACACAC-AGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACAT--GTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCGTACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAGCATGGAGATGACCCCCATTGTCATCATGTTGGGCATTTCCTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCGGTGTCCCTGTGTCCCACTACACACAAAAAAAACCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| | |||| |||| ||| ||| ||||| || |||||  |  ||| || |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|982244039|ref|XM_015448898.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis GLTSCR1 like (GLTSCR1L), mRNA</Hit_def>
+  <Hit_accession>XM_015448898</Hit_accession>
+  <Hit_len>6748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>653.204</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>5063</Hsp_hit-from>
+      <Hsp_hit-to>5515</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>431</Hsp_identity>
+      <Hsp_positive>431</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATA-CCCCGGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACATACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCTCTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTTTTCCGGATTGGCCTGTTATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAAAAGACCTATACCCCCGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-GGCCAATC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-GCCACATG--CCCTAGCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| ||||||||||| |||||||||||||||||| ||||||||||||||||||| |||||||||| |||||||||||||||||||||||||||||| ||||||||| ||| ||| ||||| || |||||  |  ||| || |||| ||||||||| ||||||||  |||  ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|795300950|ref|XM_011960427.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus GLTSCR1-like (GLTSCR1L), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011960427</Hit_accession>
+  <Hit_len>6408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>653.204</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>4729</Hsp_hit-from>
+      <Hsp_hit-to>5181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GGGAAAGCTACATGATAGTATTTTTATGCACTCTTCTCCCACACATACACACACGTGCATGTATCTGAGCTGCTCGGATCCAGAGGTCATTTTTGTTACAGTGTGTGCACACTCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAATGTGTTGCCAGAATCTGCTTCTGGCTGTCGCCAACATGGGGATGACCCCCATTGTCATCATGTTGGGCATTTCTNTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTAATTAGAAAACACAGCAACAGAAGACCTATACCCC-GGTGCCCCTGTGTCCCACTACACACAGAAAACCCTGTTGAGGATGGGCCAGTCTTTCATTNTGGGCANCGTTACCTTTCACCCCAGGCCACATGGCCCCAGGCCAATTACAATTTGGAA</Hsp_qseq>
+      <Hsp_hseq>GGGAAAGCTACATGATAGTATTTGTATGCACTCTTCTCCCACACACACACACATGTGCGTGTATCTGAGCTGCTCGGATCCAGAGGTCTTTTTTGTTACAGTGTGTGCACACCCACTCTCCTTCTTAGTGTGCATACTCTCTCATTTATTCTGTTTATCTCCCTGGCTCTGGAGGTGCAGCCACTGGTCTTCACTTTAGTGTGTTGCTAGAATCTGCTTCTGGCTGTCGCCAGCATGGGGATGACCCCCATTGCCATCATGTTGGGCATTTCTTTTCCAGATTGGCCTGTGATGGAAAGGAAGGCTTCTGATTAGAAAACACAGCAACAGAAGACCTATACCCCTGGTGCCCCTGTGTCCCACTACACACAAAAAACCCTG-TGA-GAT-AGCCAGTC-TTCATAAT-AGCAACG-TACC-TTCACCCCA-ACCACAT-GCCCCA-GCCAA-TACAAATTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||| ||||||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||| ||| |||  ||||||| |||||  |  ||| || |||| |||||||||  |||||| |||||| ||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14501.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym18e12.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48317 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>455</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14501.1</Iteration_query-ID>
+  <Iteration_query-def>ym18e12.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48317 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>455</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1064244215|ref|NG_051554.1|</Hit_id>
+  <Hit_def>Homo sapiens RUN and FYVE domain containing 3 (RUFY3), RefSeqGene on chromosome 4</Hit_def>
+  <Hit_accession>NG_051554</Hit_accession>
+  <Hit_len>110937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.73857e-137</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>92334</Hsp_hit-from>
+      <Hsp_hit-to>92701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|4240230|dbj|AB020678.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0871 mRNA for KIAA0871 protein</Hit_def>
+  <Hit_accession>AB020678</Hit_accession>
+  <Hit_len>4207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.73857e-137</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2670</Hsp_hit-from>
+      <Hsp_hit-to>3037</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|30704842|gb|BC051716.1|</Hit_id>
+  <Hit_def>Homo sapiens RUN and FYVE domain containing 3, mRNA (cDNA clone MGC:48314 IMAGE:5265230), complete cds</Hit_def>
+  <Hit_accession>BC051716</Hit_accession>
+  <Hit_len>4304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.73857e-137</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2732</Hsp_hit-from>
+      <Hsp_hit-to>3099</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|10433020|dbj|AK021769.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ11707 fis, clone HEMBA1005113</Hit_def>
+  <Hit_accession>AK021769</Hit_accession>
+  <Hit_len>2222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.114</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>3.33626e-136</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>689</Hsp_hit-from>
+      <Hsp_hit-to>1050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1676441572|ref|NM_001291994.2|</Hit_id>
+  <Hit_def>Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001291994</Hit_accession>
+  <Hit_len>4334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2796</Hsp_hit-from>
+      <Hsp_hit-to>3163</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1676439684|ref|NM_001345840.2|</Hit_id>
+  <Hit_def>Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant 6, mRNA</Hit_def>
+  <Hit_accession>NM_001345840</Hit_accession>
+  <Hit_len>3730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2192</Hsp_hit-from>
+      <Hsp_hit-to>2559</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1676318228|ref|NM_014961.5|</Hit_id>
+  <Hit_def>Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_014961</Hit_accession>
+  <Hit_len>4280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2742</Hsp_hit-from>
+      <Hsp_hit-to>3109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1370486480|ref|XM_017007892.2|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant X22, mRNA</Hit_def>
+  <Hit_accession>XM_017007892</Hit_accession>
+  <Hit_len>3710</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2172</Hsp_hit-from>
+      <Hsp_hit-to>2539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1370486478|ref|XM_024453936.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant X21, mRNA</Hit_def>
+  <Hit_accession>XM_024453936</Hit_accession>
+  <Hit_len>5907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>4369</Hsp_hit-from>
+      <Hsp_hit-to>4736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1370486477|ref|XR_002959720.1|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant X20, misc_RNA</Hit_def>
+  <Hit_accession>XR_002959720</Hit_accession>
+  <Hit_len>6137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2744</Hsp_hit-from>
+      <Hsp_hit-to>3111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1370486472|ref|XM_011531755.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens RUN and FYVE domain containing 3 (RUFY3), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_011531755</Hit_accession>
+  <Hit_len>4101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2563</Hsp_hit-from>
+      <Hsp_hit-to>2930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|12583834|gb|AC009570.13|AC009570</Hit_id>
+  <Hit_def>Homo sapiens chromosome 4, clone RP11-46J23, complete sequence</Hit_def>
+  <Hit_accession>AC009570</Hit_accession>
+  <Hit_len>180596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.16447e-135</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>15851</Hsp_hit-from>
+      <Hsp_hit-to>15484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCGTTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCGTATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1849127099|ref|XM_008961148.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus RUN and FYVE domain containing 3 (RUFY3), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_008961148</Hit_accession>
+  <Hit_len>4281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2741</Hsp_hit-from>
+      <Hsp_hit-to>3108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1849127098|ref|XM_008961147.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus RUN and FYVE domain containing 3 (RUFY3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_008961147</Hit_accession>
+  <Hit_len>4335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2795</Hsp_hit-from>
+      <Hsp_hit-to>3162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1367285254|ref|XM_024356135.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes RUN and FYVE domain containing 3 (RUFY3), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_024356135</Hit_accession>
+  <Hit_len>3797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2258</Hsp_hit-from>
+      <Hsp_hit-to>2625</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TCGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1367285249|ref|XM_024356134.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes RUN and FYVE domain containing 3 (RUFY3), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_024356134</Hit_accession>
+  <Hit_len>4092</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2553</Hsp_hit-from>
+      <Hsp_hit-to>2920</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TCGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1034163856|ref|XM_009447777.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes RUN and FYVE domain containing 3 (RUFY3), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_009447777</Hit_accession>
+  <Hit_len>4403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2864</Hsp_hit-from>
+      <Hsp_hit-to>3231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TCGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1034163855|ref|XM_009447776.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes RUN and FYVE domain containing 3 (RUFY3), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_009447776</Hit_accession>
+  <Hit_len>4457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.803</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.41861e-134</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2918</Hsp_hit-from>
+      <Hsp_hit-to>3285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCTGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TCGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1753068670|ref|XM_019025418.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla RUN and FYVE domain containing 3 (RUFY3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_019025418</Hit_accession>
+  <Hit_len>4272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.474</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>1.09063e-129</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2729</Hsp_hit-from>
+      <Hsp_hit-to>3097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCA-TGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACTCTCCTCAATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCATTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAACTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>|||  ||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||| ||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1753068669|ref|XM_019025417.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla RUN and FYVE domain containing 3 (RUFY3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_019025417</Hit_accession>
+  <Hit_len>4326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.474</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>1.09063e-129</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2783</Hsp_hit-from>
+      <Hsp_hit-to>3151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCA-TGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACTCTCCTCAATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCATTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAACTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>|||  ||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||| ||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1743230192|ref|XM_030818963.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys RUN and FYVE domain containing 3 (RUFY3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_030818963</Hit_accession>
+  <Hit_len>4284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.162</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.63747e-128</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2735</Hsp_hit-from>
+      <Hsp_hit-to>3101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAGAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| |||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1743230190|ref|XM_030818962.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys RUN and FYVE domain containing 3 (RUFY3), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030818962</Hit_accession>
+  <Hit_len>4138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.162</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.63747e-128</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2732</Hsp_hit-from>
+      <Hsp_hit-to>3098</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAGAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| |||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1743230188|ref|XM_030818961.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys RUN and FYVE domain containing 3 (RUFY3), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030818961</Hit_accession>
+  <Hit_len>4102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.162</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.63747e-128</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2553</Hsp_hit-from>
+      <Hsp_hit-to>2919</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAGAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCTTATATTGGAGTAAAAAGGACAGGGTATAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--TTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||| |||||||||||||||||||||| |  | |||||||||| ||||| ||||||||||||||||||||||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||  ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1799959075|ref|XM_032150662.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch RUN and FYVE domain containing 3 (RUFY3), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_032150662</Hit_accession>
+  <Hit_len>4289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.129</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.24441e-122</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2738</Hsp_hit-from>
+      <Hsp_hit-to>3104</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAAAAAATGATGCAGTACCCATTTTTCATGTCCTGCCTTTCTTATATTGGAGTAAAAAGGACAGGGTGTAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--CTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TGAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||| |    ||||| |||| ||||| ||||||||||||||||||| ||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||   || ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| | |||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1799959073|ref|XM_032150653.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch RUN and FYVE domain containing 3 (RUFY3), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_032150653</Hit_accession>
+  <Hit_len>4321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.129</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.24441e-122</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2792</Hsp_hit-from>
+      <Hsp_hit-to>3158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAAAAAATGATGCAGTACCCATTTTTCATGTCCTGCCTTTCTTATATTGGAGTAAAAAGGACAGGGTGTAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--CTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TGAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||| |    ||||| |||| ||||| ||||||||||||||||||| ||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||   || ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| | |||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1799959071|ref|XM_032150645.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch RUN and FYVE domain containing 3 (RUFY3), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_032150645</Hit_accession>
+  <Hit_len>3967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.129</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.24441e-122</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2416</Hsp_hit-from>
+      <Hsp_hit-to>2782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTTTCCTATT-ACAAAAAATGATGCAGTACCCATTTTTCATGTCCTGCCTTTCTTATATTGGAGTAAAAAGGACAGGGTGTAGACATGAATGATGATAGTCTACCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTACT--CTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATA-GGAAG-TGAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||| |    ||||| |||| ||||| ||||||||||||||||||| ||||||||||| |||||| ||| |||||||||||||   ||||||| |||||||||||||||||||| |||||||||   || ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||| ||||| | |||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1825841840|ref|XM_033214505.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi RUN and FYVE domain containing 3 (RUFY3), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_033214505</Hit_accession>
+  <Hit_len>3736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.275</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>6.03742e-114</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2197</Hsp_hit-from>
+      <Hsp_hit-to>2560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTGGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGAGTCTAATAGAAACACTCCTCTCCTATTA--AAAAAATGATGCAGTACCCATTTTTCTTATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| ||||| |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  | ||||||| |||||||||||||||||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| || ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1825841838|ref|XM_033214504.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi RUN and FYVE domain containing 3 (RUFY3), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_033214504</Hit_accession>
+  <Hit_len>4286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.275</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>6.03742e-114</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2747</Hsp_hit-from>
+      <Hsp_hit-to>3110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTGGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGAGTCTAATAGAAACACTCCTCTCCTATTA--AAAAAATGATGCAGTACCCATTTTTCTTATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| ||||| |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  | ||||||| |||||||||||||||||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| || ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1825841836|ref|XM_033214503.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi RUN and FYVE domain containing 3 (RUFY3), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_033214503</Hit_accession>
+  <Hit_len>4340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.275</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>6.03742e-114</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2801</Hsp_hit-from>
+      <Hsp_hit-to>3164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTGGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGAGTCTAATAGAAACACTCCTCTCCTATTA--AAAAAATGATGCAGTACCCATTTTTCTTATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| ||||| |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  | ||||||| |||||||||||||||||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| || ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1788690051|ref|XM_023190260.3|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles RUN and FYVE domain containing 3 (RUFY3), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_023190260</Hit_accession>
+  <Hit_len>4487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.275</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>6.03742e-114</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2964</Hsp_hit-from>
+      <Hsp_hit-to>3327</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTCTCCTATTA--AAAAAATGATGCAGTACCCATTTTTCTTATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGAAGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTACTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  ||||||||| |||||||||||||||||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||  || ||||| ||||||||| |||||||||||||  | |||||| || ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1788690050|ref|XM_023190259.3|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles RUN and FYVE domain containing 3 (RUFY3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_023190259</Hit_accession>
+  <Hit_len>3800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.275</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>6.03742e-114</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2277</Hsp_hit-from>
+      <Hsp_hit-to>2640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTCTCCTATTA--AAAAAATGATGCAGTACCCATTTTTCTTATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGAAGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTACTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  ||||||||| |||||||||||||||||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||  || ||||| ||||||||| |||||||||||||  | |||||| || ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1938935390|ref|XM_007998817.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus RUN and FYVE domain containing 3 (RUFY3), transcript variant X17, mRNA</Hit_def>
+  <Hit_accession>XM_007998817</Hit_accession>
+  <Hit_len>4275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.56718e-112</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2733</Hsp_hit-from>
+      <Hsp_hit-to>3097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTGTCGTATTAA-AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGACCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  ||||||||| |||||||||| || |||||| |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||| ||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1938935389|ref|XM_007998816.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus RUN and FYVE domain containing 3 (RUFY3), transcript variant X16, mRNA</Hit_def>
+  <Hit_accession>XM_007998816</Hit_accession>
+  <Hit_len>4307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.56718e-112</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2787</Hsp_hit-from>
+      <Hsp_hit-to>3151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTGTCGTATTAA-AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGACCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  ||||||||| |||||||||| || |||||| |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||| ||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1938935388|ref|XM_007998814.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus RUN and FYVE domain containing 3 (RUFY3), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_007998814</Hit_accession>
+  <Hit_len>4045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.56718e-112</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>2503</Hsp_hit-from>
+      <Hsp_hit-to>2867</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTATTATTTCTTANTA-TATTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCCGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTGTCGTATTAA-AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGACCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTA-TATTCTTTATTATTATTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||  ||||||||| |||||||||| || |||||| |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||| ||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||| ||||  ||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|90075541|dbj|AB170388.1|</Hit_id>
+  <Hit_def>Macaca fascicularis brain cDNA clone: QmoA-10608, similar to human rap2 interacting protein x (RIPX), mRNA, RefSeq: NM_014961.2</Hit_def>
+  <Hit_accession>AB170388</Hit_accession>
+  <Hit_len>1777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.061</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>8.96033e-112</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>1014</Hsp_hit-from>
+      <Hsp_hit-to>1374</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||||||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|90075375|dbj|AB170305.1|</Hit_id>
+  <Hit_def>Macaca fascicularis brain cDNA clone: QmoA-10232, similar to human rap2 interacting protein x (RIPX), mRNA, RefSeq: NM_014961.2</Hit_def>
+  <Hit_accession>AB170305</Hit_accession>
+  <Hit_len>1859</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.061</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>8.96033e-112</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>730</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||||||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1622940268|ref|XM_028848533.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta RUN and FYVE domain containing 3 (RUFY3), transcript variant X22, mRNA</Hit_def>
+  <Hit_accession>XM_028848533</Hit_accession>
+  <Hit_len>4041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.553</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.81003e-110</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2500</Hsp_hit-from>
+      <Hsp_hit-to>2860</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTCTAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-AAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||||||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | |||||||||  |||||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1777314349|ref|XM_009206987.4|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis RUN and FYVE domain containing 3 (RUFY3), transcript variant X18, mRNA</Hit_def>
+  <Hit_accession>XM_009206987</Hit_accession>
+  <Hit_len>4087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2547</Hsp_hit-from>
+      <Hsp_hit-to>2907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTATAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAGAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||| ||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||| ||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1411156783|ref|XM_025385062.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada RUN and FYVE domain containing 3 (RUFY3), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_025385062</Hit_accession>
+  <Hit_len>4394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2854</Hsp_hit-from>
+      <Hsp_hit-to>3214</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTATAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAGAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||| ||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||| ||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1411156781|ref|XM_025385061.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada RUN and FYVE domain containing 3 (RUFY3), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025385061</Hit_accession>
+  <Hit_len>3731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2191</Hsp_hit-from>
+      <Hsp_hit-to>2551</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTT--ATTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCCTTATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAGTTCTGCTTCCTACTTAGGCAGTTCAGAGAGAATGATTATAATAGAAACACTCCTCTCGTATTA--AAAAAATGATGCAGTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAATAAAAAGGACAGGGTATAGACATGAATGTTGATATTCTGCCTGGCCTGTCAT-TTCTTACCT-GGAAACATTTACTTAAAAGTTTCTGTTACT--TTTTGTTCAGATGGAGGTTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAGAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACATTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||||||||||||||||||||||||||||| |||  |||||||||||||||||||||||||||  ||| ||||| ||||||||||||| |||||  |||||||||||||||||||||||| |  | ||||||||||   ||| ||| |||||||||||||||||||||||||||  |||||||||||||||||||||||   ||||||| |||||||||||||||| ||| |||||||||  ||| |||||||||| |  ||||| ||||||||| |||||||||||||  | ||||||||| ||| ||||||| || ||||||| ||  |||||| | ||||||  ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|817298846|ref|XM_012464439.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae RUN and FYVE domain containing 3 (RUFY3), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_012464439</Hit_accession>
+  <Hit_len>4383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2843</Hsp_hit-from>
+      <Hsp_hit-to>3203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGACATTTTCCTGCAATTCTGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAGTAAAAAGAACAGGGTATAGACATGAGTGCCGATATTCTGCCTAGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATAGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||| ||||||||||||||||  |||||||||| || ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||| |||||||||| |  | ||||||||||   ||| ||||||||||| ||||||||||||||||| |   |||||||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| |||||||| |||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|817298844|ref|XM_012464438.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae RUN and FYVE domain containing 3 (RUFY3), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_012464438</Hit_accession>
+  <Hit_len>4437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2897</Hsp_hit-from>
+      <Hsp_hit-to>3257</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGACATTTTCCTGCAATTCTGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGCTTTTCT--TATTGGAGTAAAAAGAACAGGGTATAGACATGAGTGCCGATATTCTGCCTAGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATAGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||| ||||||||||||||||  |||||||||| || ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||| |||||||||| |  | ||||||||||   ||| ||||||||||| ||||||||||||||||| |   |||||||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| |||||||| |||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1864470801|ref|XM_035293604.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X23, mRNA</Hit_def>
+  <Hit_accession>XM_035293604</Hit_accession>
+  <Hit_len>3479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2173</Hsp_hit-from>
+      <Hsp_hit-to>2533</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1864470799|ref|XM_035293603.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X22, mRNA</Hit_def>
+  <Hit_accession>XM_035293603</Hit_accession>
+  <Hit_len>3963</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2657</Hsp_hit-from>
+      <Hsp_hit-to>3017</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1864030217|ref|XM_008993212.3|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X21, mRNA</Hit_def>
+  <Hit_accession>XM_008993212</Hit_accession>
+  <Hit_len>4463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2924</Hsp_hit-from>
+      <Hsp_hit-to>3284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1864470797|ref|XM_035293602.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X20, mRNA</Hit_def>
+  <Hit_accession>XM_035293602</Hit_accession>
+  <Hit_len>3915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2609</Hsp_hit-from>
+      <Hsp_hit-to>2969</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1864030214|ref|XM_003732487.4|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X19, mRNA</Hit_def>
+  <Hit_accession>XM_003732487</Hit_accession>
+  <Hit_len>4235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2929</Hsp_hit-from>
+      <Hsp_hit-to>3289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1864470795|ref|XM_035293600.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X18, mRNA</Hit_def>
+  <Hit_accession>XM_035293600</Hit_accession>
+  <Hit_len>3683</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2377</Hsp_hit-from>
+      <Hsp_hit-to>2737</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1864470793|ref|XM_035293599.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X17, mRNA</Hit_def>
+  <Hit_accession>XM_035293599</Hit_accession>
+  <Hit_len>3759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2453</Hsp_hit-from>
+      <Hsp_hit-to>2813</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1864470791|ref|XM_035293598.1|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus RUN and FYVE domain containing 3 (RUFY3), transcript variant X16, mRNA</Hit_def>
+  <Hit_accession>XM_035293598</Hit_accession>
+  <Hit_len>3895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.64157e-109</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2356</Hsp_hit-from>
+      <Hsp_hit-to>2716</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AAANCCTCCTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCNCTTCCTACTTAGGCAGTTCAGAGAGAACAATTCTAATAAAAACACTCCTCTCCTATTAACAAAAAATGATGCAGTACCCATTTTNCGAANCCTGCTTTTCNTATATNGGAGTAAAAAGGACAGGGTATAGACATGAATNATGATATTCTGCCTGGCCTGTCATAANCTTACCTGGGAAACATTTACTTAAGAGTNTCTGTTACTAATTTAGTTCAGATGGGGANTTGCTAAAAGGTTCTGGGGAAGCTAATAAATTGGAATTATTAGGAAAAACATTTGCAGGAATAGGGAAGTTAAATGNTAAAACTTA--TTATTTCTTANTAT</Hsp_qseq>
+      <Hsp_hseq>AAACCCTCTTCATGTTTGTCATCTTCTACCTCTGCCATTTTCCTGCAATTCCGCTTCCTACTTGGGTAGTTCAGAGAGAACAATTCTAATAACAACGCTCCTCTCCTATTA--AAAAAATGATGCACTACCCATTTTTCATATCCTGTTTTTCT--TATTGGAGTAAAAAGGACAGGGTATAGACATGAGTGCGGATGTTCTGCCTTGCCTGTTAT-TTCTTACCT-GGAAACATTTACTTAAGAGTTTCTGTTAC--CTTTTGTTCAGATGGGGATTTGCT-AAAGGTTCT-GGGAAGCTAATAA--TTGAATTATTA-GAAAAACATTT-CA-GAATAGGAAA--TAAATGAT-AAACTTACCTTCTTTATTATTAT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| || ||||||||||||||||||||||||| ||| ||||||||||||||  ||||||||||||| |||||||||| |  | |||| |||||   ||| ||||||||||||||||||||||||||||| |   ||| |||||||| |||||| ||   ||||||| |||||||||||||||||||| ||||||||   ||| ||||||||||||| ||||| ||||||||| |||||||||||||  | ||||||||| ||||||||||| || ||||||| ||  |||||| | |||||||  || ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

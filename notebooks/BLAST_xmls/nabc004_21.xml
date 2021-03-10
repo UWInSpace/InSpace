@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H13556.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>yj15g10.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148866 3&apos; similar to gb:X57025_rna1 INSULIN-LIKE GROWTH FACTOR IA PRECURSOR (HUMAN), mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>48</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H13556.1</Iteration_query-ID>
+  <Iteration_query-def>yj15g10.s1 Soares placenta Nb2HP Homo sapiens cDNA clone IMAGE:148866 3&apos; similar to gb:X57025_rna1 INSULIN-LIKE GROWTH FACTOR IA PRECURSOR (HUMAN), mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>48</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1849112063|ref|XM_003818375.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_003818375</Hit_accession>
+  <Hit_len>2482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2374</Hsp_hit-from>
+      <Hsp_hit-to>2327</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1849112053|ref|XM_008971662.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_008971662</Hit_accession>
+  <Hit_len>2750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2642</Hsp_hit-from>
+      <Hsp_hit-to>2595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1799992379|ref|XM_032161571.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032161571</Hit_accession>
+  <Hit_len>2777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2669</Hsp_hit-from>
+      <Hsp_hit-to>2622</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1799992377|ref|XM_032161570.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032161570</Hit_accession>
+  <Hit_len>2313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2205</Hsp_hit-from>
+      <Hsp_hit-to>2158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1777301324|ref|XM_017955452.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017955452</Hit_accession>
+  <Hit_len>3604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3496</Hsp_hit-from>
+      <Hsp_hit-to>3449</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1777301323|ref|XM_017955451.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017955451</Hit_accession>
+  <Hit_len>3132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3024</Hsp_hit-from>
+      <Hsp_hit-to>2977</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1753067246|ref|XM_004034130.3|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_004034130</Hit_accession>
+  <Hit_len>2449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2341</Hsp_hit-from>
+      <Hsp_hit-to>2294</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1622900852|ref|XM_028843267.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_028843267</Hit_accession>
+  <Hit_len>2194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2086</Hsp_hit-from>
+      <Hsp_hit-to>2039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1519243331|ref|NM_173546.3|</Hit_id>
+  <Hit_def>Homo sapiens kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>NM_173546</Hit_accession>
+  <Hit_len>1972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1864</Hsp_hit-from>
+      <Hsp_hit-to>1817</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1482620876|ref|XM_023231724.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_023231724</Hit_accession>
+  <Hit_len>2690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2582</Hsp_hit-from>
+      <Hsp_hit-to>2535</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1411138625|ref|XM_025377814.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_025377814</Hit_accession>
+  <Hit_len>2261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2153</Hsp_hit-from>
+      <Hsp_hit-to>2106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1381517335|ref|XM_024792346.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_024792346</Hit_accession>
+  <Hit_len>3689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3581</Hsp_hit-from>
+      <Hsp_hit-to>3534</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1370483421|ref|XM_005264938.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens kelch domain containing 8B (KLHDC8B), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_005264938</Hit_accession>
+  <Hit_len>1994</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1885</Hsp_hit-from>
+      <Hsp_hit-to>1838</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1370483420|ref|XM_006713016.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_006713016</Hit_accession>
+  <Hit_len>2003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1894</Hsp_hit-from>
+      <Hsp_hit-to>1847</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1370483419|ref|XM_006713015.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006713015</Hit_accession>
+  <Hit_len>2024</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1915</Hsp_hit-from>
+      <Hsp_hit-to>1868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1367271341|ref|XM_526201.7|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes kelch domain containing 8B (KLHDC8B), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_526201</Hit_accession>
+  <Hit_len>2662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2554</Hsp_hit-from>
+      <Hsp_hit-to>2507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1367271338|ref|XM_009445488.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_009445488</Hit_accession>
+  <Hit_len>3916</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3808</Hsp_hit-from>
+      <Hsp_hit-to>3761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1367271336|ref|XM_009445487.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009445487</Hit_accession>
+  <Hit_len>3944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3836</Hsp_hit-from>
+      <Hsp_hit-to>3789</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1351490866|ref|XM_024243998.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024243998</Hit_accession>
+  <Hit_len>2273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2165</Hsp_hit-from>
+      <Hsp_hit-to>2118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1034631708|ref|XM_005264940.4|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens kelch domain containing 8B (KLHDC8B), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_005264940</Hit_accession>
+  <Hit_len>2107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1998</Hsp_hit-from>
+      <Hsp_hit-to>1951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|982234579|ref|XM_015445903.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015445903</Hit_accession>
+  <Hit_len>4207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>4099</Hsp_hit-from>
+      <Hsp_hit-to>4052</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|982234577|ref|XM_015445902.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015445902</Hit_accession>
+  <Hit_len>3721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3613</Hsp_hit-from>
+      <Hsp_hit-to>3566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|795461334|ref|XM_012033677.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_012033677</Hit_accession>
+  <Hit_len>2990</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2882</Hsp_hit-from>
+      <Hsp_hit-to>2835</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|795461329|ref|XM_012033676.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_012033676</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2904</Hsp_hit-from>
+      <Hsp_hit-to>2857</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|795461324|ref|XM_012033674.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_012033674</Hit_accession>
+  <Hit_len>3060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2952</Hsp_hit-from>
+      <Hsp_hit-to>2905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|795461320|ref|XM_012033673.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_012033673</Hit_accession>
+  <Hit_len>3082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2974</Hsp_hit-from>
+      <Hsp_hit-to>2927</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|795461315|ref|XM_012033672.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_012033672</Hit_accession>
+  <Hit_len>3091</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2983</Hsp_hit-from>
+      <Hsp_hit-to>2936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|795461311|ref|XM_012033671.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_012033671</Hit_accession>
+  <Hit_len>2237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2129</Hsp_hit-from>
+      <Hsp_hit-to>2082</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|795461305|ref|XM_012033670.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_012033670</Hit_accession>
+  <Hit_len>2855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2747</Hsp_hit-from>
+      <Hsp_hit-to>2700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|795461300|ref|XM_012033669.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_012033669</Hit_accession>
+  <Hit_len>3938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3830</Hsp_hit-from>
+      <Hsp_hit-to>3783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|795461295|ref|XM_012033668.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_012033668</Hit_accession>
+  <Hit_len>2993</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2885</Hsp_hit-from>
+      <Hsp_hit-to>2838</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|795461290|ref|XM_012033667.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012033667</Hit_accession>
+  <Hit_len>2998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2890</Hsp_hit-from>
+      <Hsp_hit-to>2843</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|795461287|ref|XM_012033666.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012033666</Hit_accession>
+  <Hit_len>3114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3006</Hsp_hit-from>
+      <Hsp_hit-to>2959</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|795150489|ref|XM_011939104.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_011939104</Hit_accession>
+  <Hit_len>1983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1875</Hsp_hit-from>
+      <Hsp_hit-to>1828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795140450|ref|XM_011980929.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_011980929</Hit_accession>
+  <Hit_len>1983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1875</Hsp_hit-from>
+      <Hsp_hit-to>1828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1938859803|ref|XM_038003932.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_038003932</Hit_accession>
+  <Hit_len>4266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>4158</Hsp_hit-from>
+      <Hsp_hit-to>4111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1938859802|ref|XM_007984205.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_007984205</Hit_accession>
+  <Hit_len>3788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3680</Hsp_hit-from>
+      <Hsp_hit-to>3633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|383872315|ref|NM_001257592.1|</Hit_id>
+  <Hit_def>Macaca mulatta kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>NM_001257592</Hit_accession>
+  <Hit_len>1867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1805</Hsp_hit-from>
+      <Hsp_hit-to>1758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|306922360|ref|NG_027702.1|</Hit_id>
+  <Hit_def>Homo sapiens kelch domain containing 8B (KLHDC8B), RefSeqGene on chromosome 3</Hit_def>
+  <Hit_accession>NG_027702</Hit_accession>
+  <Hit_len>11902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>9794</Hsp_hit-from>
+      <Hsp_hit-to>9747</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|213021227|gb|AC196228.4|</Hit_id>
+  <Hit_def>MACACA MULATTA BAC clone CH250-177C4 from chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>AC196228</Hit_accession>
+  <Hit_len>180769</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>95611</Hsp_hit-from>
+      <Hsp_hit-to>95564</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|37547430|gb|AY129011.1|</Hit_id>
+  <Hit_def>Homo sapiens clone FP17659 unknown mRNA</Hit_def>
+  <Hit_accession>AY129011</Hit_accession>
+  <Hit_len>1974</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1833</Hsp_hit-from>
+      <Hsp_hit-to>1786</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|7023875|dbj|AK002164.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ11302 fis, clone PLACE1009971</Hit_def>
+  <Hit_accession>AK002164</Hit_accession>
+  <Hit_len>1760</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1653</Hsp_hit-from>
+      <Hsp_hit-to>1606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|30061452|gb|AC135506.3|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3 clone RP11-694I15, complete sequence</Hit_def>
+  <Hit_accession>AC135506</Hit_accession>
+  <Hit_len>174363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>106679</Hsp_hit-from>
+      <Hsp_hit-to>106632</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|197099381|ref|NM_001131718.1|</Hit_id>
+  <Hit_def>Pongo abelii kelch domain containing 8B (KLHDC8B), mRNA &gt;gi|55727267|emb|CR858151.1| Pongo abelii mRNA; cDNA DKFZp468J2023 (from clone DKFZp468J2023)</Hit_def>
+  <Hit_accession>NM_001131718</Hit_accession>
+  <Hit_len>1973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1850</Hsp_hit-from>
+      <Hsp_hit-to>1803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|34785544|gb|BC013110.2|</Hit_id>
+  <Hit_def>Homo sapiens kelch domain containing 8B, mRNA (cDNA clone IMAGE:4346864), partial cds</Hit_def>
+  <Hit_accession>BC013110</Hit_accession>
+  <Hit_len>992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>870</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|24660249|gb|BC039083.1|</Hit_id>
+  <Hit_def>Homo sapiens kelch domain containing 8B, mRNA (cDNA clone MGC:35097 IMAGE:5167173), complete cds</Hit_def>
+  <Hit_accession>BC039083</Hit_accession>
+  <Hit_len>1993</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.03226e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1827</Hsp_hit-from>
+      <Hsp_hit-to>1780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1825831797|ref|XM_033207130.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_033207130</Hit_accession>
+  <Hit_len>3974</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.25755e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>3866</Hsp_hit-from>
+      <Hsp_hit-to>3819</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAAGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||| |||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1743211366|ref|XM_030811787.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys kelch domain containing 8B (KLHDC8B), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030811787</Hit_accession>
+  <Hit_len>2211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.25755e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2103</Hsp_hit-from>
+      <Hsp_hit-to>2056</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGCTGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>||| || |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1743211365|ref|XM_003257047.4|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys kelch domain containing 8B (KLHDC8B), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003257047</Hit_accession>
+  <Hit_len>2313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.25755e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2205</Hsp_hit-from>
+      <Hsp_hit-to>2158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGCTGCTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>||| || |||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1933894153|ref|XM_017506550.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator kelch domain containing 8B (KLHDC8B), mRNA</Hit_def>
+  <Hit_accession>XM_017506550</Hit_accession>
+  <Hit_len>2640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.716</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>5.34723e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2532</Hsp_hit-from>
+      <Hsp_hit-to>2485</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGGATGNTGAGGCACAGAGAGGTGAAGTGACTTGTCCAAGGGCATACA</Hsp_qseq>
+      <Hsp_hseq>AGGATGCTGAGGCACAGAGAGGTGAAGTGACTTGCTCAAGGTCATACA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

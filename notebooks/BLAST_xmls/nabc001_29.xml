@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>U29463.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Human cytochrome b561 gene, exon 6</BlastOutput_query-def>
+  <BlastOutput_query-len>308</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>U29463.1</Iteration_query-ID>
+  <Iteration_query-def>Human cytochrome b561 gene, exon 6</Iteration_query-def>
+  <Iteration_query-len>308</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1015637153|gb|AH006620.2|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17 cytochrome b561 gene, complete cds</Hit_def>
+  <Hit_accession>AH006620</Hit_accession>
+  <Hit_len>8968</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.724</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>2.74586e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>8661</Hsp_hit-from>
+      <Hsp_hit-to>8968</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>GACAGGTCTCTACGGAATTCCCTGTATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>GACAGGTCTCTACGGAATTCCCTGTATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|476590|gb|U06715.1|HSU06715</Hit_id>
+  <Hit_def>Human cytochrome B561, HCYTO B561, mRNA, partial cds</Hit_def>
+  <Hit_accession>U06715</Hit_accession>
+  <Hit_len>2643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>8.97627e-148</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>2342</Hsp_hit-from>
+      <Hsp_hit-to>2643</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GTCTCTACGGAATTCCCTGTATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>GTCTCTACGGAATTCCCTGTATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1519313488|ref|NM_005063.5|</Hit_id>
+  <Hit_def>Homo sapiens stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>NM_005063</Hit_accession>
+  <Hit_len>5245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.66965e-125</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>4959</Hsp_hit-from>
+      <Hsp_hit-to>5244</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|15705162|emb|AL139819.8|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-34D15 on chromosome 10, complete sequence</Hit_def>
+  <Hit_accession>AL139819</Hit_accession>
+  <Hit_len>115278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.66965e-125</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>85726</Hsp_hit-from>
+      <Hsp_hit-to>86011</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6855619|gb|AF113690.1|AF113690</Hit_id>
+  <Hit_def>Homo sapiens clone FLB4718</Hit_def>
+  <Hit_accession>AF113690</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.66965e-125</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>797</Hsp_hit-from>
+      <Hsp_hit-to>1082</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|7415720|dbj|AB032261.1|</Hit_id>
+  <Hit_def>Homo sapiens Scd mRNA for stearoyl-CoA desaturase, complete cds</Hit_def>
+  <Hit_accession>AB032261</Hit_accession>
+  <Hit_len>5329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.66965e-125</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5035</Hsp_hit-from>
+      <Hsp_hit-to>5320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1849002804|ref|XR_608295.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus uncharacterized LOC103782790 (LOC103782790), misc_RNA</Hit_def>
+  <Hit_accession>XR_608295</Hit_accession>
+  <Hit_len>2266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.637</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.90704e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1986</Hsp_hit-from>
+      <Hsp_hit-to>2265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1849002803|ref|XM_003846118.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_003846118</Hit_accession>
+  <Hit_len>5334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.637</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.90704e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5054</Hsp_hit-from>
+      <Hsp_hit-to>5333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1367124295|ref|XR_001706785.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes uncharacterized LOC107966814 (LOC107966814), misc_RNA</Hit_def>
+  <Hit_accession>XR_001706785</Hit_accession>
+  <Hit_len>2262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.637</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.90704e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1982</Hsp_hit-from>
+      <Hsp_hit-to>2261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1367124292|ref|XM_001168563.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_001168563</Hit_accession>
+  <Hit_len>5445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.637</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.90704e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5165</Hsp_hit-from>
+      <Hsp_hit-to>5444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|11493551|gb|AF132203.1|AF132203</Hit_id>
+  <Hit_def>Homo sapiens PRO1933 mRNA, complete cds</Hit_def>
+  <Hit_accession>AF132203</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.834</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.41079e-123</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGA</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|4808600|gb|AF097514.1|AF097514</Hit_id>
+  <Hit_def>Homo sapiens stearoyl-CoA desaturase (SCD) mRNA, complete cds</Hit_def>
+  <Hit_accession>AF097514</Hit_accession>
+  <Hit_len>5221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.932</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>2.41079e-123</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>4922</Hsp_hit-from>
+      <Hsp_hit-to>5204</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATACATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAAAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAAT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1799964281|ref|XR_004252741.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch uncharacterized LOC116485078 (LOC116485078), misc_RNA</Hit_def>
+  <Hit_accession>XR_004252741</Hit_accession>
+  <Hit_len>2248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.325</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.93695e-122</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1962</Hsp_hit-from>
+      <Hsp_hit-to>2247</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATGCATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGCGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||| |   ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1799964279|ref|XM_032180338.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_032180338</Hit_accession>
+  <Hit_len>5432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.325</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.93695e-122</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5146</Hsp_hit-from>
+      <Hsp_hit-to>5431</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATGCATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGCGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||| |   ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1099089497|ref|XR_002007578.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla uncharacterized LOC109028569 (LOC109028569), misc_RNA</Hit_def>
+  <Hit_accession>XR_002007578</Hit_accession>
+  <Hit_len>2284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.817</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.24882e-120</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1998</Hsp_hit-from>
+      <Hsp_hit-to>2283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAAAGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GATAAAATTTGAGAATACATAAACAATGCATTGCCATGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1099089494|ref|XM_004049945.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_004049945</Hit_accession>
+  <Hit_len>5463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.817</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.24882e-120</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5177</Hsp_hit-from>
+      <Hsp_hit-to>5462</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAAAGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GATAAAATTTGAGAATACATAAACAATGCATTGCCATGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1743204571|ref|XR_001115436.2|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys uncharacterized LOC105739511 (LOC105739511), misc_RNA</Hit_def>
+  <Hit_accession>XR_001115436</Hit_accession>
+  <Hit_len>2267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.308</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.52138e-119</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1981</Hsp_hit-from>
+      <Hsp_hit-to>2266</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAGTGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATGCATAAACAACGCATTGCCACGGAAACAGACAGAGGATGCCTTTTCTGTGATTGGGCGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||| |   ||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1743204569|ref|XM_030808491.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_030808491</Hit_accession>
+  <Hit_len>5455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.308</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.52138e-119</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5169</Hsp_hit-from>
+      <Hsp_hit-to>5454</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAACTGAGTGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATGCATAAACAACGCATTGCCACGGAAACAGACAGAGGATGCCTTTTCTGTGATTGGGCGGGATTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||| |   ||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1870286346|gb|AC279775.1|</Hit_id>
+  <Hit_def>Pongo abelii chromosome unknown clone CH276-263D18, complete sequence</Hit_def>
+  <Hit_accession>AC279775</Hit_accession>
+  <Hit_len>205696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.095</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.25792e-117</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>90917</Hsp_hit-from>
+      <Hsp_hit-to>90634</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTT-CCCTTTTTATGTGG-ATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAAATTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCA-GACAAAATTTGAGAATGCATAAACAACGCATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGACTGGGTGGGATTTTTTTCCCTTTTTATGTGGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAGTTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAAT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||| |   |||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1777257104|ref|XR_001891508.2|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis uncharacterized LOC108580445 (LOC108580445), misc_RNA</Hit_def>
+  <Hit_accession>XR_001891508</Hit_accession>
+  <Hit_len>2249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1966</Hsp_hit-from>
+      <Hsp_hit-to>2248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1777257103|ref|XM_003904121.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis stearoyl-CoA desaturase (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_003904121</Hit_accession>
+  <Hit_len>5478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5195</Hsp_hit-from>
+      <Hsp_hit-to>5477</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1777257102|ref|XM_021943587.2|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis stearoyl-CoA desaturase (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_021943587</Hit_accession>
+  <Hit_len>5261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>4978</Hsp_hit-from>
+      <Hsp_hit-to>5260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1519474828|ref|NG_016706.2|</Hit_id>
+  <Hit_def>Homo sapiens stearoyl-CoA desaturase pseudogene 1 (SCDP1) on chromosome 17</Hit_def>
+  <Hit_accession>NG_016706</Hit_accession>
+  <Hit_len>5441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>5058</Hsp_hit-from>
+      <Hsp_hit-to>5337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1548994291|gb|CP034495.1|</Hit_id>
+  <Hit_def>Eukaryotic synthetic construct chromosome 17 &gt;gi|1549096955|gb|CP034520.1| Eukaryotic synthetic construct chromosome 17</Hit_def>
+  <Hit_accession>CP034495</Hit_accession>
+  <Hit_len>88299790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>20692644</Hsp_hit-from>
+      <Hsp_hit-to>20692923</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1411180146|ref|XR_003121186.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada uncharacterized LOC112631752 (LOC112631752), misc_RNA</Hit_def>
+  <Hit_accession>XR_003121186</Hit_accession>
+  <Hit_len>2249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1966</Hsp_hit-from>
+      <Hsp_hit-to>2248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1411180144|ref|XM_025397214.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_025397214</Hit_accession>
+  <Hit_len>5951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5668</Hsp_hit-from>
+      <Hsp_hit-to>5950</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1395189118|gb|AC277866.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17 clone CH17-431I13, complete sequence</Hit_def>
+  <Hit_accession>AC277866</Hit_accession>
+  <Hit_len>211447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>70249</Hsp_hit-from>
+      <Hsp_hit-to>70528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1381513860|ref|XM_024791691.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina stearoyl-CoA desaturase (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_024791691</Hit_accession>
+  <Hit_len>5003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>4720</Hsp_hit-from>
+      <Hsp_hit-to>5002</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1381513859|ref|XR_003017272.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina uncharacterized LOC112426026 (LOC112426026), misc_RNA</Hit_def>
+  <Hit_accession>XR_003017272</Hit_accession>
+  <Hit_len>2242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1959</Hsp_hit-from>
+      <Hsp_hit-to>2241</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|795554469|ref|XM_012051488.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys stearoyl-CoA desaturase (delta-9-desaturase) (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012051488</Hit_accession>
+  <Hit_len>5760</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5484</Hsp_hit-from>
+      <Hsp_hit-to>5759</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>TAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCAAGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |  |||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|795554463|ref|XM_012051487.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys stearoyl-CoA desaturase (delta-9-desaturase) (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012051487</Hit_accession>
+  <Hit_len>5285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5009</Hsp_hit-from>
+      <Hsp_hit-to>5284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>TAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCAAGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |  |||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1959392269|gb|CP068261.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CHM13 chromosome 17</Hit_def>
+  <Hit_accession>CP068261</Hit_accession>
+  <Hit_len>84277185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>20738410</Hsp_hit-from>
+      <Hsp_hit-to>20738689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1909942458|dbj|AP023477.1|</Hit_id>
+  <Hit_def>Homo sapiens DNA, chromosome 17, nearly complete genome</Hit_def>
+  <Hit_accession>AP023477</Hit_accession>
+  <Hit_len>80688777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>20995451</Hsp_hit-from>
+      <Hsp_hit-to>20995730</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|23379135|gb|AC126365.5|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17, clone RP11-283C24, complete sequence</Hit_def>
+  <Hit_accession>AC126365</Hit_accession>
+  <Hit_len>194265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>187069</Hsp_hit-from>
+      <Hsp_hit-to>187348</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|21617728|gb|AC090774.6|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17, clone RP11-344E13, complete sequence</Hit_def>
+  <Hit_accession>AC090774</Hit_accession>
+  <Hit_len>207418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>171791</Hsp_hit-from>
+      <Hsp_hit-to>171512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGAT-AACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| |||||| ||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|27151438|gb|AC127512.11|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 17, clone RP13-72M22, complete sequence</Hit_def>
+  <Hit_accession>AC127512</Hit_accession>
+  <Hit_len>146455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.339</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>140427</Hsp_hit-from>
+      <Hsp_hit-to>140706</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGA-TAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGT-GGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAAAAATTGAATGAATCCATTGGAGAAGCAGTGGATTAACTAGCCA-GACAAAATTTGAGAATGCATAAAAAACACATTGCCACGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGGACATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAACATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTTATAATAAAAGTGAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||| ||| |||||||||||||||||||||| ||||| |||||||||| |||||||||||||||| |||||| ||| |||| |   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||| ||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1938881232|ref|XR_005244201.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus uncharacterized LOC119627962 (LOC119627962), misc_RNA</Hit_def>
+  <Hit_accession>XR_005244201</Hit_accession>
+  <Hit_len>2243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.438</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1965</Hsp_hit-from>
+      <Hsp_hit-to>2242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>ATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1938881230|ref|XM_007963839.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus stearoyl-CoA desaturase (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007963839</Hit_accession>
+  <Hit_len>5474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.438</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5196</Hsp_hit-from>
+      <Hsp_hit-to>5473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>ATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1938881228|ref|XM_038009452.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus stearoyl-CoA desaturase (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_038009452</Hit_accession>
+  <Hit_len>5547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.438</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>3.82355e-108</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5269</Hsp_hit-from>
+      <Hsp_hit-to>5546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>ATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1622966937|ref|XR_001447261.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta uncharacterized LOC100430823 (LOC100430823), misc_RNA</Hit_def>
+  <Hit_accession>XR_001447261</Hit_accession>
+  <Hit_len>2243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1960</Hsp_hit-from>
+      <Hsp_hit-to>2242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1622966936|ref|XM_015147924.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta stearoyl-CoA desaturase (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015147924</Hit_accession>
+  <Hit_len>5468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5185</Hsp_hit-from>
+      <Hsp_hit-to>5467</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1622966935|ref|XM_015147922.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta stearoyl-CoA desaturase (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015147922</Hit_accession>
+  <Hit_len>5541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5258</Hsp_hit-from>
+      <Hsp_hit-to>5540</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|982270084|ref|XR_001493574.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis uncharacterized LOC107130882 (LOC107130882), misc_RNA</Hit_def>
+  <Hit_accession>XR_001493574</Hit_accession>
+  <Hit_len>2243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1960</Hsp_hit-from>
+      <Hsp_hit-to>2242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|982270082|ref|XM_015456548.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis stearoyl-CoA desaturase (delta-9-desaturase) (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_015456548</Hit_accession>
+  <Hit_len>5543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5260</Hsp_hit-from>
+      <Hsp_hit-to>5542</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|982270080|ref|XM_015456547.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis stearoyl-CoA desaturase (delta-9-desaturase) (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015456547</Hit_accession>
+  <Hit_len>5250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>4967</Hsp_hit-from>
+      <Hsp_hit-to>5249</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|795123150|ref|XM_011977396.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus stearoyl-CoA desaturase (delta-9-desaturase) (SCD), mRNA</Hit_def>
+  <Hit_accession>XM_011977396</Hit_accession>
+  <Hit_len>5079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>4803</Hsp_hit-from>
+      <Hsp_hit-to>5078</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>TAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|544459375|ref|XM_005566190.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis stearoyl-CoA desaturase (delta-9-desaturase) (SCD), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_005566190</Hit_accession>
+  <Hit_len>5470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.831</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.65804e-107</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5187</Hsp_hit-from>
+      <Hsp_hit-to>5469</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>CTGT-ATTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>CTGTCATTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAATTTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACTTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || ||||||||||||| |||||||||| |||| |   ||||||||||||||||| | |||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1482608185|ref|XR_002730468.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles uncharacterized LOC111538805 (LOC111538805), misc_RNA</Hit_def>
+  <Hit_accession>XR_002730468</Hit_accession>
+  <Hit_len>2292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.126</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>5.67466e-106</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>2015</Hsp_hit-from>
+      <Hsp_hit-to>2291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAAATTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || |||| |||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1482608184|ref|XM_023206428.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles stearoyl-CoA desaturase (SCD), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023206428</Hit_accession>
+  <Hit_len>5452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.126</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>5.67466e-106</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5175</Hsp_hit-from>
+      <Hsp_hit-to>5451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAAATTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || |||| |||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1482608183|ref|XM_023206427.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles stearoyl-CoA desaturase (SCD), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023206427</Hit_accession>
+  <Hit_len>5519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.126</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>5.67466e-106</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>5242</Hsp_hit-from>
+      <Hsp_hit-to>5518</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>TTAGTCTATATGGTTCTCCAAGAAACTGAATGAATCCATTGGAGAAGCGGTGGATAACTAGCCACGACAAAATTTGAGAATACATAAACAACGCATTCCGCAGGAAACATACAGAGGATGCCTTTTCTGTGATTGGGTGGGATTTTTTCCCTTTTTATGTGGATATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTACATAATCTCGAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATGTG</Hsp_qseq>
+      <Hsp_hseq>TTAGTCTATATGGTTCTCCAAGAGATTGAATGACTCCATTGGAGAAGTGGTGGATAACTAGCCA-GAAAAAAATTGAGAATGCATAAACAACTCATTGCCATGGAAACATACAGAGGATACCTTTTCTTTGATTGGGTGGGATTTTT-CCCTTTTTATGTGGG-ATAGTAGTTACTTGTGACAAGAATAATTTTGGAATAATTTCTATTAATATCAACTCTGAAGCTAATTGTAC-TAATCT-GAGATTGTGTTTGTTCATAATAAAAGTGAAGTGAATCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| | ||||||| ||||||||||||| |||||||||||||||| || |||| |||||||| |||||||||| |||| |   ||||||||||||||||| |||||||| |||||||||||||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

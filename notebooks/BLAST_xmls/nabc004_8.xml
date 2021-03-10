@@ -1,0 +1,1518 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H16868.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym34e04.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:50016 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>498</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H16868.1</Iteration_query-ID>
+  <Iteration_query-def>ym34e04.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:50016 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>498</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1653962437|ref|NM_014817.4|</Hit_id>
+  <Hit_def>Homo sapiens TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>NM_014817</Hit_accession>
+  <Hit_len>4973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>758.701</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2702</Hsp_hit-from>
+      <Hsp_hit-to>3171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>466</Hsp_identity>
+      <Hsp_positive>466</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|28261659|gb|AC005013.3|</Hit_id>
+  <Hit_def>Homo sapiens BAC clone GS1-165L15 from 7, complete sequence</Hit_def>
+  <Hit_accession>AC005013</Hit_accession>
+  <Hit_len>195917</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>758.701</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>174912</Hsp_hit-from>
+      <Hsp_hit-to>174443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>466</Hsp_identity>
+      <Hsp_positive>466</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3327101|dbj|AB014544.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0644 mRNA for KIAA0644 protein</Hit_def>
+  <Hit_accession>AB014544</Hit_accession>
+  <Hit_len>4933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>758.701</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2664</Hsp_hit-from>
+      <Hsp_hit-to>3133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>466</Hsp_identity>
+      <Hsp_positive>466</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|23271341|gb|BC036337.1|</Hit_id>
+  <Hit_def>Homo sapiens KIAA0644 gene product, mRNA (cDNA clone MGC:34343 IMAGE:5179761), complete cds</Hit_def>
+  <Hit_accession>BC036337</Hit_accession>
+  <Hit_len>3706</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>754.193</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2690</Hsp_hit-from>
+      <Hsp_hit-to>3159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAACTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1849161750|ref|XM_003807889.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_003807889</Hit_accession>
+  <Hit_len>4013</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>734.356</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2697</Hsp_hit-from>
+      <Hsp_hit-to>3163</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAG---AGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| ||||||||   ||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1367315813|ref|XM_527706.6|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_527706</Hit_accession>
+  <Hit_len>5186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.339</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2918</Hsp_hit-from>
+      <Hsp_hit-to>3384</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>459</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCCCCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCAGTGGAGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAG---AGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| ||||||||   ||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1099291545|ref|XM_004045232.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_004045232</Hit_accession>
+  <Hit_len>5191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>722.634</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2918</Hsp_hit-from>
+      <Hsp_hit-to>3387</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>458</Hsp_identity>
+      <Hsp_positive>458</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGTGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCGGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATAGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTT-ATTTCT--ATTTAAGGCAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||  |||||   ||||||| |||  ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|114307003|gb|AC189738.3|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-509E4 from chromosome 7, complete sequence</Hit_def>
+  <Hit_accession>AC189738</Hit_accession>
+  <Hit_len>201468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>720.83</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>96885</Hsp_hit-from>
+      <Hsp_hit-to>97351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>458</Hsp_identity>
+      <Hsp_positive>458</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCCCCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCAGTGGAGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAG---AGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AGAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| ||||||||   ||||||| |||||   |||||||||||  ||||||||  ||| ||||  |  |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1351511304|ref|XM_002818126.3|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_002818126</Hit_accession>
+  <Hit_len>5190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>703.698</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2918</Hsp_hit-from>
+      <Hsp_hit-to>3383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>454</Hsp_identity>
+      <Hsp_positive>454</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCATTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAATTCGGGCACCATCCCTCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAAGGGACAA----ATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAAGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTG-TTTCT--ATTTAAGGAAGG--AACTTATT--ACCATTAC--AAAGGAGGC-TTGGTCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||| |||||   |||||||||||  ||||||||  ||| ||||  || |||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1622924471|ref|XM_001088293.4|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_001088293</Hit_accession>
+  <Hit_len>5151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2860</Hsp_hit-from>
+      <Hsp_hit-to>3332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|982239945|ref|XM_005549896.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_005549896</Hit_accession>
+  <Hit_len>3914</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|795090394|ref|XM_011972288.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_011972288</Hit_accession>
+  <Hit_len>4407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.861</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2127</Hsp_hit-from>
+      <Hsp_hit-to>2599</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1381509021|ref|XM_011731307.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_011731307</Hit_accession>
+  <Hit_len>5742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.353</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2779</Hsp_hit-from>
+      <Hsp_hit-to>3251</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>447</Hsp_identity>
+      <Hsp_positive>447</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGTGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|795206472|ref|XM_012082517.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_012082517</Hit_accession>
+  <Hit_len>5202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.845</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGACCAGTTCGGGCACCATCTCCCAATTCCCAATACTGAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||| ||| ||||||||||||| ||||||||||||||||  ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1788696353|ref|XM_023225882.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_023225882</Hit_accession>
+  <Hit_len>4029</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>670.336</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2696</Hsp_hit-from>
+      <Hsp_hit-to>3168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTGCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAGGCCCACCAGCTCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGATACTTGGTGGTCAAAGCCAGAGTAGGAGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGGGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||| |||| ||||||||| |||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||| |||||||||||| ||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||| ||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1777319376|ref|XM_031665332.1|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_031665332</Hit_accession>
+  <Hit_len>5201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGC-TTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCCGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTTGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| || |||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||| ||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1411146812|ref|XM_025379831.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_025379831</Hit_accession>
+  <Hit_len>5207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGC-TTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTGAGGAGCCGCCTCTCCCTGAAGCCCACCCGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||| ||| ||||||| ||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||| ||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|27901837|gb|AC099406.3|</Hit_id>
+  <Hit_def>Papio anubis clone RP41-290L4, complete sequence</Hit_def>
+  <Hit_accession>AC099406</Hit_accession>
+  <Hit_len>163724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.533</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>77608</Hsp_hit-from>
+      <Hsp_hit-to>77135</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGC-TTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCCGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTTGTAGCATCGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGAAGTCTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||| ||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||||||||| ||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1751286874|ref|XM_010371359.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_010371359</Hit_accession>
+  <Hit_len>5195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.828</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>444</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTGCAGGGCATGTAGAGATCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAGGCCCACCAGCTCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGATACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCGAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGGGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||| |||||| ||||||||||||||||||||||||||||||| |||| ||||||||| |||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||| ||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1743171956|ref|XM_003270467.3|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_003270467</Hit_accession>
+  <Hit_len>4998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.926</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2723</Hsp_hit-from>
+      <Hsp_hit-to>3186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGCCCCTAAGGAGCCGCCTCTTCGTGAGGCCCCCCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAG---------TGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTATTTGCTCAGTG-TCAAACGGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||| |||||| ||| |||||||||||||||||||||||| |||||||||||||||||         |||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||| ||||||||||| |||||| ||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|795148049|ref|XM_011938616.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_011938616</Hit_accession>
+  <Hit_len>5198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.516</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2914</Hsp_hit-from>
+      <Hsp_hit-to>3385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>442</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>CAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCC-ACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>CAGCGATTTGCCGACTAGGTGCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAGGCCTACCGGCTCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGATACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCGTTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGGGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||| |||| || ||| || |||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||| ||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1825929543|ref|XM_033193070.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_033193070</Hit_accession>
+  <Hit_len>5201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.302</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2919</Hsp_hit-from>
+      <Hsp_hit-to>3391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTGCAGGGCATGTAGAGATCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAGGCCCACCAGCTCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGAGACAGAGGGCCAGTTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGATACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGCGGTGCTTGTGCCTCCACCAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGGGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||| |||||| ||||||||||||||||||||||||||||||| |||| ||||||||| |||||||||||||||||| |||||||||||||||||||||||| |||| |||||||||||| ||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||| ||| ||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||| ||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1820540589|ref|XM_032758422.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_032758422</Hit_accession>
+  <Hit_len>4997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.597</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2723</Hsp_hit-from>
+      <Hsp_hit-to>3197</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>495</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCA-----------CTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGCCCCTAAGGAGCCGCCTCTTCGTGAGGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAG---------TGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAAGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCTTCTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACGGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||| |||||| |||||||||||||||||||||||||||| |||||||||||||||||         |||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||| ||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1059160829|ref|XM_017881361.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_017881361</Hit_accession>
+  <Hit_len>5057</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.597</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2779</Hsp_hit-from>
+      <Hsp_hit-to>3249</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>442</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTGCAGGGCATGTAGAGATCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAGGCCCACCAGCTCACCTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCCCCCAATTCCCAGTACTCAAGAAGTAAATGGATGATACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGCTTT-GGGGTAGAAA-GGGGTGCTTGTGCCCCGAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGGGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||| |||||| ||||||||||||||||||||||||||||||| |||| ||||||||| |||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| ||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||| |||||||||| |||||||||||||||| ||||| ||||||||||||||||| ||||||| ||||||||||||||||| |||||||| ||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1938863134|ref|XM_007981759.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_007981759</Hit_accession>
+  <Hit_len>5194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>647.794</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2913</Hsp_hit-from>
+      <Hsp_hit-to>3380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGA-GCCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATGTAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCCTGAAGCCCACCAGCCCACTTCAGGGGAAGTGCCCTTTTGTGCACTTGCCAGAGAGGCCAGTGGGGACAGAGGGCCAGTTCGGGCACCATCTCCCAATTCCCAATACTCAAGAAGTAAATG-ATGGTACTTGGTGGTCAAAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTTGGAGTCTTCACTTGGAGGTTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAGAAGCCAGGATTTGGGGGTAGAAAGGGAGTTCTTGTGCCCCCAACAT-GGCCAGAAATATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTGT-----CAGAGAAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||| |||||||||||||| |||||||||||||| |||||||||||||||||||||||| ||||||||||||||||| ||||||||||||| ||||||||||||||||| ||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||| |||| |||||||| |||||||||||||||| |||||||||||||||| |||||||||||||||||| ||||||||||||||||| || |||||||||||||||| ||||||||||||||||| ||||||| ||||||||||||||||||     ||||||||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1804374407|ref|XM_032286906.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_032286906</Hit_accession>
+  <Hit_len>4626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.053</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>2.03371e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>3289</Hsp_hit-from>
+      <Hsp_hit-to>3767</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTCCAGGGCTTGTAGAGACCATCTCATTGGCACCAAGGAGCCGCCTCTCTGTGGGGCCCACCAGGCCACCTCAGAGGAAGTGCCCTTTTAAGCACTTGCCAGAGAGGCCAATGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCAAGCAGTAAATGGATGGTACTTGGTGGTCAAGGCCAAGAGTAGGGGACAAATGGATGGT--GATGCTGAGGTGGGAGGCAGCCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAATAGCCTGGCTTCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAAGATTTGGG-TGCATGC-TTTGTGTTTGCTCAGT-ATCAAACAGAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ATCATTAC--AAAGGAGGC-TTGGCCTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||| | ||||||||||||||||||| | ||||||||||||||| ||| | |||||||| ||||||||| ||||||||| ||||  ||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||  ||| |||||||||||||||||||||||  ||||||||||| |||||    |||| ||||||||||||||||||||||||| |||||||||||||||| |||||||||  |||| ||   |||||||||||||||||||||||||||||||||||||| ||||||||| ||||||| ||||||| ||| ||||||||||||  |||||||||| ||||||||||   ||||| | | ||  | ||||||||  | | ||||  || |||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1933918395|ref|XM_017527062.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_017527062</Hit_accession>
+  <Hit_len>4014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.053</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>2.03371e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2673</Hsp_hit-from>
+      <Hsp_hit-to>3151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTCCAGGGCTTGTAGAGACCATCTCATTGGCACCAAGGAGCCGCCTCTCTGTGGGGCCCACCAGCCCACCTCAGAGGAAGGGCCCTTTTATGCACTTGCCAGAGAGGCCAATGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTAAAGCAGTAAATGGATGGTACTTGGTGGTCAAGGCCAAGAGTAGGGGACAAATGGATGGT--GATGCTGAGGTGGGAGGCAGCCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCATTGCAATGCAATAGCCTGGCTTCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAAGATTTGGG-TGCATGC-TTTGTGTTTGCTCAGTG-TCAAACAGAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ATCATTAC--AGAGGAGGC-TTGGCCTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||| | ||||||||||||||||||| | ||||||||||||||| ||| | |||||||||||||||||| ||||| ||| |||| |||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||  || ||||||||||||||||||||||||||  ||| |||||||||||||||||||||||  ||||||||||| |||||    |||| ||||||||||||||||||||||||| |||||||||||||||| |||||||||  |||| ||   |||||||||||||||||||||||||||||||||||||| ||||||||| ||||||| ||||||| ||| ||||||||||||| |||||||||| ||||||||||   ||||| | | ||  | ||||||||  | | ||||  |  |||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|817357620|ref|XM_012447772.1|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_012447772</Hit_accession>
+  <Hit_len>5087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>7.09835e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2796</Hsp_hit-from>
+      <Hsp_hit-to>3276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGCCTGTAGAAACCATCTCATTGGCACCAAGGAGCTGCCTCTCTGCGGGGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTATGCACTTGCCAGAGAGGCCAATGGGGACAGAGGGCCAATTTGGGCGCCATCCCCCAATTCCCAATATTCAAGCAGTAAATGGATGGTACTTGGTGGTCAAGGCCAAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTGGAAGGCAGCCTTCACTTGGAGGCTTTGACACAGCTATGCAAGTGGCTTTTGTAGCATCGCAATGCAATAGCCTGGCTTCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACAT-GGCCAGAAAGATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATCAC--AAAGGAGGC-TTGGCCTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| | |||| |||||||||||||| | ||||||| ||||||| | | | |||||||||||||||||||||||||||| |||| |||||||||||||||||||  ||||||||||||||||||| |||| |||||||||||||||||||| || || ||||||||||||||||||||||||||  ||| |||||||||||||||||||||||||||||||||||| | |||    |||| ||||||||||||||||||||||||| | ||||||||||||||  ||||||||  |||| ||   |||||||||||||||||||||||||||||||||||||| ||||||||| ||||||| ||||||| ||||||||||||||||| |||||||||| ||||||||||   ||||| | | ||  | ||||||||  ||| | ||  || |||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|725585400|ref|XM_003935164.2|</Hit_id>
+  <Hit_def>PREDICTED: Saimiri boliviensis boliviensis TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_003935164</Hit_accession>
+  <Hit_len>5180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>566.642</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>8.64756e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2900</Hsp_hit-from>
+      <Hsp_hit-to>3379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAGGGTGTGTAGAGACCATGTCATTGGCACCAAGGAGCCGCCTCTCTGTGGGGCCCACCAGCCCACCTCAGGGGAAGTGCTCTTGTATGCACTTGCCAGAGAGGCCAATGGGGACAGAGGGC-AATTCGGGCACCATCCCCCAATTCCCAATATTCAAGCAGTAAATGGATGGTACTTGGTGGTCAAGGCCAAGAGTAGGGGACAAATGGACGGTGGGATGCCGAGGTGGGAGGCAGCCTTCACTTGGAGGCTTTGACACAGCTATGCAAATGGCTTTTGTAGCGTTGCAATGCAAGAGCCTGGCTTCTTTGGGGGTAGAAAGGGGGTGCCTGTGCCCCCAACAT-GGCCAGAAAGATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||  | |||||||||| |||||||| | ||||||||||||||| ||| | |||||||||||||||||||||||||||  || | |||||||||||||||||||  |||||||||||||| |||||||||||||||||||||||||||||| || || ||||||||||||||||||||||||||  ||| ||||||||||||||||||| |||||||||| ||||| |||||    |||| ||||||||||||||||||||||||| |||||||||||||||  |||||||||  |||| ||   ||||||||||||||||||||||| |||||||||||||| ||||||||| ||||||| ||||||| ||||||||||||||||| |||||||||| ||||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1864086096|ref|XM_009002224.2|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_009002224</Hit_accession>
+  <Hit_len>5405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.609</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>2.32046e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>3102</Hsp_hit-from>
+      <Hsp_hit-to>3581</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTCCAGGGCGTGTAGAGACCATCTCATTGGCACCAAGGAGCCGCCTCTCTGTGGGGCCCACCAGCCCACCTCAGGGGAAGTGCCCTTTTATGCACTTGCCAGAGAGGCCAATGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAGTACTCAAACTGTAAATGGATGGTACTTGGTGGTCAAGGCCAAGAGTCTGGGACAAATGAATGGTGGGATGCTGAGGTGGGAGGCAGCCTTCACTTGGAGGCTTTGCCACAGTTATACAAATGGCTTTTGTAGCATTGCAATGCAATAGCCTGGCTTCTTTGGAGGTAGAAAGGGGGTGCTTGTGCCCCCAA-AT-GGCCAGAAAGATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCACACAGAGGACTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGC-TTGGCCTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||| | ||||||||||||||||||| | ||||||||||||||| ||| | |||||||||||||||||||||||||||| |||| |||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||| ||||| |   |||||||||||||||||||||||||  ||| |||||  |||||||||| |||||||||||||||||| |||||    |||| ||||||||||||| ||||| ||| | |||||||||||||||| |||||||||  |||| ||   |||||| |||||||||||||||||||||||||||| || ||||||||| ||||||| ||||||| ||||||||||||||||| ||| |||||| | ||||||||   ||||| | | ||  | ||||||||  ||| ||||  || |||||| |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|829903574|ref|XM_012735891.1|</Hit_id>
+  <Hit_def>PREDICTED: Microcebus murinus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_012735891</Hit_accession>
+  <Hit_len>5943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.943</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>9.89303e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>3616</Hsp_hit-from>
+      <Hsp_hit-to>4115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATA--------TAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCG---------------------------TTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC---GA-GAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC--TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTCCAGGGCCTGCGGGCGAGTAGAGACCATCTCACTGGCCTTGAGGAGCCCCCTCTCCGTGGGGCCCACCAACCCACCTCAGGGGAAGATCCTATCTTAGCAGAGCTTCCCCTTCCTACCTTTTGTGAACGTGCCAGAGAGGCCAAAGGGGACAAAGGGCCAATTCAGGCCCCATACCCCAATTCCCAGTACTCACTGATGAAGTAAATGGGTAGCACTTGGTGGTCAGGGCAA----AGGGGACAAATGGGTGGCGGGGTGCTGAGGTC---GCCTTCACACGAAGGCCTTGGCATAGCTATGGGAAGGGCTTTTGTAGCATTGCAATGTAATAGCCCGGCCTCTTGGGGGTAGAAA-AGCGTGCTTGTGCCCCCAGCCT-GGCCAGAAAGAGATTTGGG-TGAATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--AACATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||| |         |||||||||||||| ||||| | ||||||| |||||||||| | ||||||| ||||||||||||||||  ||                            ||||||| || |||||||||||||   ||||||| ||||||||||| ||| |||| |||||||||||| |||||   || ||||||||||| | | ||||||||||||| || |    ||||||||||||| ||| ||| ||||||||||   | |||| |  | |||| ||| || ||||||| ||| ||||||||||||| ||||||| |  |||| |||   |||||||||||||  | ||||||||||||||| | | ||||||||  | ||||||| || |||| ||||||||||||||||| |||||||||| ||||||||||   ||||| | | ||  | ||||||||  | | ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|826283399|ref|XM_012640686.1|</Hit_id>
+  <Hit_def>PREDICTED: Propithecus coquereli TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_012640686</Hit_accession>
+  <Hit_len>3097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.828</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>5.12472e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2436</Hsp_hit-from>
+      <Hsp_hit-to>2934</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATA--------TAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAGTGCCG---------------------------TTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC---GA-GAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC--TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTCCAGGGCTGCCGGGCGAGTAGAGACCATCTCATTGGCCTTGAGGAGCCACCTCTCCGTGGGGCCCACCAACCCACCTCAGGGGAAGATCCTATTTTAGCAAACCTTCTCCTTCCTACCTTTTGTGAACTTGCCAGAGAGGCCAAAGGGGACAGAGGGCCAATTCAGGCACCATACCCCAATTTCCTATACTCACTGATGGCGTAAATGGGTAGTACTTGGTGGTCAGGGCAA----AGGGGACACATGGGTGGTGGGGTGCCGAGGTC---GCCTTCACATGAAGGCCTTG-CATAGCTATGGGAATGGCTCTTGTAGCATTGCAGTGTAATAGCCTGGCCTCTTTGGAGTAG-AAGAGCATGCTTGTGCCCCCAACGT-GGCCAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGCTCAGTG-TCAAACAGAGGAGTTTTATTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||           |||||||||||||||||||| | ||||||| |||||||||| | ||||||| ||||||||||||||||  ||                            ||||||| ||||||||||||||||   ||||||||||||||||||| |||||||| |||||||| || ||||||   || |  |||||||| | ||||||||||||||| || |    |||||||| |||| ||||||| ||| ||||||   | |||| | || |||| ||| || ||||||| |||||||| |||||||| |||| || |  |||| |||   || || |||| ||| |  |||||||||||||||| | ||||||||  | ||||||| ||||||| ||||||||||||||||| |||||||||| |||||| |||   ||||| | | ||  | ||||||||  ||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|955479528|ref|XM_004418878.2|</Hit_id>
+  <Hit_def>PREDICTED: Ceratotherium simum simum TLR4 interactor with leucine-rich repeats (LOC101389748), mRNA</Hit_def>
+  <Hit_accession>XM_004418878</Hit_accession>
+  <Hit_len>3649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.415</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>4.21034e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2436</Hsp_hit-from>
+      <Hsp_hit-to>2945</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>524</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAG--------AGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAGTGC---------------------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAAT----ACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGAGATTTGCTGACTAGCTCCGGGGCCTCCAGGGGAGTGAAGACCTTCTCATTGGCCTTGAGGAGCCACCTCTCCACGGGGCCCCTCAGCCCACCTCAGGGGAAGATCTCATTTTATCAGACCTTCTCCTTTCCACCTTTTGTGCACTTGCCAGAGAGGCCAAAGGGAGCAGACAGCCAATTC-GGCACCACCCCACAATTCTCAGTACTCACTCACTAACTACATGGATGGT-GTTAGTGGTCACGGCCAAGAGTAGGGGACAAATGGATGGTGGATTCCGGAGGTGGGAGGCCTTCTTTACGTGGAGACCTTGGCGCAGCTATGGGAATGGCTTTTGTGGCATTGCAATACAATAACCTGGCCGCCTTTGGGGTAGAAA-AGGGTGCTTGTGCCCCCAACAT-GGCCGGAAAGAGATTTGGG-TGCATGC--TTTTGTTTGTTCAGT-ATCAAACAAAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACCTATT--ACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| |||||| ||| |||| |  ||        ||||| ||||||||||| | ||||||| |||||||  | | || | |||||||||||||||||||  |                           | ||||||||||||||||||||||||   |||  ||||  |||||||| ||||||| ||| |||||| || |    ||||   || || |||||||||  || |||||||  ||| |||||||||||||||||||||||||  | | ||||| |||||    |||  | ||||| | ||| | |||||||| ||||||||||||| ||| |||||| ||  | || |   || || ||||||||||  ||||||||||||||||||||| |||| |||  | ||||||| |||||||  ||||||||| |||||  ||||||| || ||||||||||   ||||| | | ||  | ||| ||||  ||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|667314956|ref|XM_008587728.1|</Hit_id>
+  <Hit_def>PREDICTED: Galeopterus variegatus TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_008587728</Hit_accession>
+  <Hit_len>3112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.202</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>6.2487e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2426</Hsp_hit-from>
+      <Hsp_hit-to>2890</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATA--------GAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCACCAGCCCACCTCAGGGGAAGTGCC-GTTTT--------------------------GTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCA----ATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGCT-TTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATA-TTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAA</Hsp_qseq>
+      <Hsp_hseq>GCAGAGATTTGCCGACTAGGTCCAGAGCGTCCAAGCGTGTGGAGACCGTCTCGTTGGCCTTGAGGAGCCACCTCTCCGTGGGCCCCCCAACCCACCTCAGGGGAAGACCCTGTTTTATCAGACCTTCTTCTTTCCCCCTTCTGTGCACTTGCCGGAGAGGCCAAAGGGGACAGTGGTCCAAATCGGGCACCACCCCCAAATTCCCAGGACTCACTCGTGAAGTAAATGGATGGTACTCGGTGGTCAAGGCCAAGAGTAGGGGGCAAATGCGTGGTGGGATGCAGAGGTGGAAGGCCTTCTTCTCTCGGAGGCCTTGGCACAGCTCTGGGAATAGCTTCTGTAGTACCGCAATG-----GCTGGCCTCTTTTGGGTAGAAA----------ACGTCTCCAGCAT-GGCCAGAAAGAGATTTGGATGCATGC-TTTTTGTTTGCTCGGTGTCAAACCAGAGGAGTTTTG-TTTCT--ATTTAAGGAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| || |  |        |||||| |||| |||||| | ||||||| |||||||||| |||| ||| ||||||||||||||||  || |||||                          ||||||||||| ||||||||   |||||||| || |||| |||||||||| |||| ||||||||      ||||| ||||||||||||||||||| ||||||||  ||| |||||||||| ||||||  ||||||||||| ||||| | |||    |||| || |||||| ||| ||||||| || |||| |||| ||||| || ||||||     ||  | || ||  |||||||||            | | ||| ||| ||||||||| |  || || ||||||| ||||||||||||| ||||  || ||||| ||||||| |||||   |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1333655920|ref|XM_005615113.3|</Hit_id>
+  <Hit_def>PREDICTED: Equus caballus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_005615113</Hit_accession>
+  <Hit_len>4810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.168</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.67676e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2488</Hsp_hit-from>
+      <Hsp_hit-to>2999</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATA--------GAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAGTG---------------------CCGTTT-------TGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC----GAGAAGTAAATGGATGGTACTTGGTGGTC-AGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG-CTTCGCT---TGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC---TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGCTGCGGGGCCTCCAAGGGTGTGGAGACCATCTCATTGGCCTTGAGGAGTCACCTCTCCACGGGGCCCCTCAACCCACCTCAGGGGAAGATAATCATTTTATCAGACCTTCTCCGTTCCACCTTCTGTGCACTTGCCAGAGAGGCCAAAGGGGACAGCCAGCCAATTC-GGCACCACCCCTCAATTCCCAGTACTCACTTTTTAACCACGTGGATGGTA-TTAATGGTCAAGGGCAAGAGTAGGGGACAAAGGGGTGGTGCGGTCCAGAGGTGGGAGGCCTTCTTTAAGTGGAGACCTTGGTGCAGCTATGGGAATGGCTTATGTGGCACGGCCATACAATAGCCTGGCCCTCTTTGGGGTAGAAA-AGGGTGCTTGTGCCCCCAACGT-GGCCAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTTAGTG-TCAAACAAAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--ACAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| | | |||| |  |        |||||||||||||||||| | ||||| | |||||||  | | || | || ||||||||||||||||                       |||||        |||||||||||||||||||||   ||||||||   |||||||| ||||||| ||| ||||||||| |||||       ||  |  ||||||||| ||  ||||| || || ||||||||||||||| || ||||| | | | ||||| ||||| ||||  |   ||||| | |||   |||||||| ||||||||| ||| |||| || || ||  |||| |||    || ||||||||||  ||||||||||||||||||| | ||||||||  | ||||||| ||||||| |||||||||| | |||| ||||||| || ||||||||||   ||||| | | ||  | ||||||||  ||| ||||  |  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|664719239|ref|XM_008518422.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus przewalskii TLR4 interactor with leucine-rich repeats (TRIL), partial mRNA</Hit_def>
+  <Hit_accession>XM_008518422</Hit_accession>
+  <Hit_len>2506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.168</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.67676e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1116</Hsp_hit-from>
+      <Hsp_hit-to>1627</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATA--------GAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAGTG---------------------CCGTTT-------TGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC----GAGAAGTAAATGGATGGTACTTGGTGGTC-AGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG-CTTCGCT---TGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC---TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGCTGCGGGGCCTCCAAGGGTGTGGAGACCATCTCATTGGCCTTGAGGAGTCACCTCTCCACGGGGCCCCTCAACCCACCTCAGGGGAAGATAATCATTTTATCAGACCTTCTCCGTTCCACCTTCTGTGCACTTGCCAGAGAGGCCAAAGGGGACAGCCAGCCAATTC-GGCACCACCCCTCAATTCCCAGTACTCACTTTTTAACCACGTGGATGGTA-TTAATGGTCAAGGGCAAGAGTAGGGGACAAAGGGGTGGTGCGGTCCAGAGGTGGGAGGCCTTCTTTAAGTGGAGACCTTGGTGCAGCTATGGGAATGGCTTATGTGGCACGGCCATACAATAGCCTGGCCCTCTTTGGGGTAGAAA-AGGGTGCTTGTGCCCCCAACGT-GGCCAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTTAGTG-TCAAACAAAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--ACAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| | | |||| |  |        |||||||||||||||||| | ||||| | |||||||  | | || | || ||||||||||||||||                       |||||        |||||||||||||||||||||   ||||||||   |||||||| ||||||| ||| ||||||||| |||||       ||  |  ||||||||| ||  ||||| || || ||||||||||||||| || ||||| | | | ||||| ||||| ||||  |   ||||| | |||   |||||||| ||||||||| ||| |||| || || ||  |||| |||    || ||||||||||  ||||||||||||||||||| | ||||||||  | ||||||| ||||||| |||||||||| | |||| ||||||| || ||||||||||   ||||| | | ||  | ||||||||  ||| ||||  |  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1387565136|ref|XM_006912027.3|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_006912027</Hit_accession>
+  <Hit_len>3995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.365</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.85247e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2938</Hsp_hit-from>
+      <Hsp_hit-to>3448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAG--------AGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCG-TGAGCCCACCAGCCCACCTCAGGGGAAGT---------------GC------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGG--GCACCATCCCCCAATTCCCAAT----ACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG-CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAA--TATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAACGATTTGCCGACTAGATCCAGGGCCTCCAGGGGTGTGGAGACTGTCTCATTGGCCTTGAGGAGCCACCTCTCCGCTGGGCCCCTCGACCCACCTCGGGGGGAGATGTCATTTCCTCAGAGCATCTCCTTTCCTCCTTTTGTGCACTTGCCAGAGAGGCCAAAGGGAACAGACAGCTAATTCGGCTCCCCGCCCCCCCAATTCCCAGTAGTCACTCATGAAGTAAATGGATGGTACTTGGTAGTCAAGGCCAATAGTAGGGGACACATGGATGGTGGGGTCTAGAGGTGGGAGGCCTTTACGTGGAGCCCTTGGCGCAGCTAAGAGAATGGCTTTTGTGGCATTGCAGTGCAATAGCCTGACCCCTTTGGGAGTAGAAA-AGGGTGCTTGTGCCCCCAGTAT-GGCCAGAAAGGGATTT-AGATGCATGC-TTTTTATTTGTGCGGTG-TCCAACAGTAGAG-TTTGGGTTCT--GTTTAAGGAAAAAGGACTTA--TAACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||| |||||||| |  ||        ||||  ||||||||||| | ||||||| |||||||| || ||||  |  |||||||| |||| ||                ||            | ||||||||||||||||||||||||   ||| |||||  || |||||||   | |   ||||||||||||| |    ||||  ||||||||||||||||||||||| ||||  ||| | ||||||||||| |||||||||||| |   ||||| ||||| |||  | ||||| | ||| | |||||| | ||||||||||||| ||| |||| ||||  |||| |    ||||||| |||||||  |||||||||||||||||  || |||||||||   ||||  | ||||||| ||||| ||||  | ||| || |||||   || ||||  ||||   |||||||||     |||||  ||||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1331447286|ref|XM_011361707.2|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus vampyrus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_011361707</Hit_accession>
+  <Hit_len>5244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.365</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.85247e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2963</Hsp_hit-from>
+      <Hsp_hit-to>3473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAG--------AGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCG-TGAGCCCACCAGCCCACCTCAGGGGAAGT---------------GC------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGG--GCACCATCCCCCAATTCCCAAT----ACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG-CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAA--TATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAACGATTTGCCGACTAGATCCAGGGCCTCCAGGGGTGTGGAGACTGTCTCATTGGCCTTGAGGAGCCACCTCTCCGCTGGGCCCCTCAACCCACCTCGGGGGGAGATGTCATTTCCTCAGAGCGTCTCCTTTCCTCCTTTTGTGCACTTGCCAGAGAGGCCAAAGGGAACAGACAGCTAATTCGGCTCCCCGCCCCCCCAATTCCCAGTAGTCACTCATGAAGTAAATGGATGGTACTTGGTAGTCAAGGCCAATAGTAGGGGACACGTGGATGGTGGGGTCTAGAGGTGGGAGGCCTTTACGTGGAGCCCTTGGCGCGGCTAGGAGAATGGCTTTTGTGGCATTGCAGTGCAATAGCCTGACCCCTTTGGGAGTAGAAA-AGGGTGCTTGTGCCCCCAGTAT-GGCCAGAAAGGGATTT-AGATGCATGC-TTTTTATTTGTGCGGTG-TCCAACAGAGGAG-TTTGGGTTCT--GTTTAAGGAAAAAGGACTTA--TAACCATTAC--AAAGGCGGCTT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||| |||||||| |  ||        ||||  ||||||||||| | ||||||| |||||||| || ||||  || |||||||| |||| ||                ||            | ||||||||||||||||||||||||   ||| |||||  || |||||||   | |   ||||||||||||| |    ||||  ||||||||||||||||||||||| ||||  ||| | |||||||||||  ||||||||||| |   ||||| ||||| |||  | ||||| | ||| | | |||| | ||||||||||||| ||| |||| ||||  |||| |    ||||||| |||||||  |||||||||||||||||  || |||||||||   ||||  | ||||||| ||||| ||||  | ||| || ||||||| || ||||  ||||   |||||||||     |||||  ||||| ||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|958696418|ref|XM_014841041.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus asinus TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_014841041</Hit_accession>
+  <Hit_len>7074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.151</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>8.68583e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>4754</Hsp_hit-from>
+      <Hsp_hit-to>5265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATA--------GAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAGTG---------------------CCGTTT-------TGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC----GAGAAGTAAATGGATGGTACTTGGTGGTC-AGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG-CTTCGCT---TGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC---TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGCTGCTGGGCCTCCAAGGGTGTGGAGACCATCTCATTGGCCTTGAGGAGTCATCTCTCCACGGGGCCCCTCAACCCACCTCAGGGGAAGATAATCATTTTATCAGACCTTCTCCGTTCCACCTTCTGTGCACTTGCCAGAGAGGCCAAAGGGGACAGCCAGCCAATTC-GGCACCACCGCTCAATTCCCAGTACTCACTTTTTAACCACGTGGATGGTA-TTAATGGTCAAGGGCAAGAGTAGGGGACAAAGGGGTGGTGCGGTCCAGAGGTGGGAGGCCTTCTTTAAGTGGAGACCTTGGTGCAGCTATGGGAATGGCTTATGTGGCACGGCCATACAATAGCCTGGCCCTCTTTGGGGTAGAAA-AGGGTGCTTGTGCCCCCAACGT-GGCCAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTTAGTG-TCAAACAAAGGAGTTTTGTTT--CTATTTAAGGAAAAAGGAACTTATT--ACCATTAC--ACAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| | | |||| |  |        |||||||||||||||||| | ||||| |  ||||||  | | || | || ||||||||||||||||                       |||||        |||||||||||||||||||||   ||||||||   |||||||| ||||||| | | ||||||||| |||||       ||  |  ||||||||| ||  ||||| || || ||||||||||||||| || ||||| | | | ||||| ||||| ||||  |   ||||| | |||   |||||||| ||||||||| ||| |||| || || ||  |||| |||    || ||||||||||  ||||||||||||||||||| | ||||||||  | ||||||| ||||||| |||||||||| | |||| ||||||| || ||||||||||   ||||| | | ||  | ||||||||  ||| ||||  |  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1595763095|ref|XM_007111526.3|</Hit_id>
+  <Hit_def>PREDICTED: Physeter catodon TLR4 interactor with leucine rich repeats (TRIL), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007111526</Hit_accession>
+  <Hit_len>4899</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.839</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.28909e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>2630</Hsp_hit-from>
+      <Hsp_hit-to>3156</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>542</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGT------------CCAGGGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAGTGC---------------------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGG---GCACCATCCCCCAATTCCCAATA----CTCGAGAAGTAAATGGATGGTACTTGGTGGTC-AGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGG--------CTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCT-TGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGC-TTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGA-AACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTAGATCCGGGCCTCCAGGGG-TGTGGAGACCATCTTACTGGCCTTGAGGAGCCACCTCTCCGCGGGCCCTCGCAGCCCACCTCAGGGGAAGATCTCATTTTATCCGACCTTCTCTTTTCCCCCTTTTGTGCGCTTGCCAGAGAGGCCAAAGGGGACAGATGGCTAATTAATTCTGCACCACCTCCCAAT-CCCAGTGTTCGCTCGTGAAGTAAATGGATGGTA-TTGGTGGTCAAGAGCAAGAGTAGGGGACAAATGGATGGTGGGGTCCAGAGGTGGGAGGCCTTCTTAACGTGCAGACATTGGTGCAGCTATGATAATGGATTTTTTTTTTTTTTGGCATTGTAAT-CAGTAGGCTGGCCCCCTTTGGGATAGAAA-AGGGTGCTCCTTGCTCCCTACGT-GACCAGAAAGAGATTTGGATT-CATGCTTTTTTTGTTTGTTCAGTG-TCAAACAGAGGAGTTTTG-TTTCT--ATTTAAGGAAAAAAGAACTTATT--ACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||            ||||||  | | |||||||||| | ||||| | ||||||| |||||||| | |||| | |||||||||||||||||||  |                           | |||||||| |||||||||||||||   ||||||||| ||| ||||      |||||| | |||||| |||| |     |||| ||||||||||||||||| ||||||||| ||||| |||||||||||||||||||||||||| | | ||||| |||||    |||  | || || | |||   ||||||||  |||||         |||| | ||| || ||| ||| || | ||   | || ||| ||||||  |||||||   ||| ||| || | | ||||||  | |||||| || ||||| ||||||||||| |||||| |||||||||| ||||||| |||||   |||||||||   | ||||||||  ||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1483742013|ref|XM_026508464.1|</Hit_id>
+  <Hit_def>PREDICTED: Ursus arctos horribilis TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_026508464</Hit_accession>
+  <Hit_len>5291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.823</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>6.67766e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>2944</Hsp_hit-from>
+      <Hsp_hit-to>3444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>514</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGG----CA----TATAGAGACCATCTCATTGGCCCTAAGGAGCC-GCCTCT--CCGTG-AGCCCACCAGCCCACCTCAGGGGAAGTGC---------------------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGG--CACCATCCCC----CAATTCCCAATA----CTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCA-GAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC-----TTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGC-AGA-AGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTG-CCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGATCCAGAGACTCCAGTGGTGTGGAGACCATCTCATTGGCCTTGAGGAGCCAGCCACTTTCTGTGGAGCCCCTCAATCCACCTCAGGGGAAGATCTCATTTTATCAGAGCTTCTCCTTTCCCCCTTTTGTGCACTTGTCAGAGAGGCCAAAGGGGAA-----GCCAGTTCGGCACCCCCATCCCCACCCCAATTTCCAGTATCTACTCATGAAGTGAATGGGTGGTACTTGGTGGTCAAGGCCAAGGGTAGGGGACAAATGGATGTTAGAGTCCAGAGGTGGGAAGCCTTCTTTTACATGGAGACCTTGGCACAGCTATGGGTATGGCTTTTGTGGCATGGCAATGCAAGAGAGCCCGGCCCCCTTTGGGGTAGAAAAGGGCT-CTTTTGCCCCCCAGTATGGG-CAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTCAGTG-TGAAACAGAGGAGTTTTG---TCCTATTTAAGGGAAAAGGAACTTATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| ||||| |    ||    | | |||||||||||||||||| | ||||||| ||| ||  | ||| |||||  ||  |||||||||||||||  |                           | ||||||||||||| ||||||||||   |||||      |||| |||||   | ||||||||    ||||| ||| ||    |||  ||||| ||||| ||||||||||||||||  |||| | |||||||||||||||||| | |  | | ||||| ||| ||     ||  | ||||| | ||| |||||||||| | ||||||||||| |||  ||||||| ||| |||| ||   | || |||||||||| ||| | ||| || ||||||  ||||| |||||  | ||||||| ||||||| |||||||||| |||||| | |||||||| |||||||   || ||||| | ||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|670987485|ref|XM_008686549.1|</Hit_id>
+  <Hit_def>PREDICTED: Ursus maritimus TLR4 interactor with leucine-rich repeats (TRIL), partial mRNA</Hit_def>
+  <Hit_accession>XM_008686549</Hit_accession>
+  <Hit_len>3929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.823</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>6.67766e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>1581</Hsp_hit-from>
+      <Hsp_hit-to>2081</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>514</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGG----CA----TATAGAGACCATCTCATTGGCCCTAAGGAGCC-GCCTCT--CCGTG-AGCCCACCAGCCCACCTCAGGGGAAGTGC---------------------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGG--CACCATCCCC----CAATTCCCAATA----CTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCA-GAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC-----TTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGC-AGA-AGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTG-CCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGATCCAGAGACTCCAGTGGTGTGGAGACCATCTCATTGGCCTTGAGGAGCCAGCCACTTTCTGTGGAGCCCCTCAATCCACCTCAGGGGAAGATCTCATTTTATCAGAGCTTCTCCTTTCCCCCTTTTGTGCACTTGTCAGAGAGGCCAAAGGGGAA-----GCCAGTTCGGCACCCCCATCCCCACCCCAATTTCCAGTATCTACTCATGAAGTGAATGGGTGGTACTTGGTGGTCAAGGCCAAGGGTAGGGGACAAATGGATGTTAGAGTCCAGAGGTGGGAAGCCTTCTTTTACATGGAGACCTTGGCACAGCTATGGGTATGGCTTTTGTGGCATGGCAATGCAAGAGAGCCCGGCCCCCTTTGGGGTAGAAAAGGGCT-CTTTTGCCCCCCAGTATGGG-CAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTCAGTG-TGAAACAGAGGAGTTTTG---TCCTATTTAAGGGAAAAGGAACTTATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| ||||| |    ||    | | |||||||||||||||||| | ||||||| ||| ||  | ||| |||||  ||  |||||||||||||||  |                           | ||||||||||||| ||||||||||   |||||      |||| |||||   | ||||||||    ||||| ||| ||    |||  ||||| ||||| ||||||||||||||||  |||| | |||||||||||||||||| | |  | | ||||| ||| ||     ||  | ||||| | ||| |||||||||| | ||||||||||| |||  ||||||| ||| |||| ||   | || |||||||||| ||| | ||| || ||||||  ||||| |||||  | ||||||| ||||||| |||||||||| |||||| | |||||||| |||||||   || ||||| | ||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1910350412|ref|XM_016135957.2|</Hit_id>
+  <Hit_def>PREDICTED: Rousettus aegyptiacus TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_016135957</Hit_accession>
+  <Hit_len>5434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.019</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>2.33073e-56</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>3268</Hsp_hit-from>
+      <Hsp_hit-to>3644</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>CCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGG-CACCAT--CCCCCAATTCCCAATA----CTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAG-TAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC-TTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAA--TATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGG-AAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>CCCTTTTGTGCACTTGCCAGAGAGGCCAAAGGGAACAGACAGCTCATTCGGCTCCCCCTGCCCCCCAATTCCCAGTAGTCACTCACGAAGTAAAGGGATGGTACTTAGTAGTCAAGGCCAATGGTGGGGGACACATGGATGGCGGGGTCTGGAGGTGGGAGGCCTTTGCGTGGAGACCTTGGCGCAGCTGTGCGAATGGCTTTTGTGGCATTGCCGTGCAATAGCCTGACCCCTTTGGGGGTAGAAA-GAGGTGCTTGTGCCCCCAATAT-GGCCAGAAAGGGATTT-AGATGCATGC-GTTTTATTTGTGCAGTG-TCAAACAGAGGCG-TTTGGGTTCT--GTTTAAGGAAAAAGGAGCTCA--TAACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||   ||| |||||  ||  ||||||  | || |  ||||||||||||| ||    |||  |||||||| ||||||||||| || ||||  ||||  | | ||||||| |||||||| ||| |   ||||| |||||| || || ||||| | ||| | ||||| |||||||||||||||| ||| |||  ||||  |||| |    ||||||||||||||| | ||||||||||||||||| || |||||||||   ||||  | |||||||  |||| ||||  ||||| ||||||||||  | ||||  ||||   ||||||| ||  | | || |  ||||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1845317137|ref|XM_019798405.2|</Hit_id>
+  <Hit_def>PREDICTED: Ailuropoda melanoleuca TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_019798405</Hit_accession>
+  <Hit_len>5742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.609</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>9.91052e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>3072</Hsp_hit-from>
+      <Hsp_hit-to>3569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>510</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGG----CA----TATAGAGACCATCTCATTGGCCCTAAGGAGCC-GCCTCT--CCGTG-AGCCCACCAGCCCACCTCAGGGGAAGTGC---------------------------CGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGG-----GCA-CCATCCCCCAATTCCCAAT----ACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC--TTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGC-AGA-AGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAAGGGAAACTTATT</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGATCCAGAGACTCCAGGGGTGTGGAGACCATCTCATCGGCCTTGAGGAGCCAGCCACTTTCCGTGGAGCCCCTCAATCCACCTCAGGGGAAGATCTCACTTTATCAGAGCTTCTCCTTTCCCCCTTTTGTGCACTTGCCAGAGAGGCCAAAGGGGA-----AGCCAGTTCGGCACCCCCACCCCTACCCCAATTTCCAGTACCCACTCATGAAGTGAATGGGTGGTACTTAGTGGTCAAGGCCAAGAGTAGGGGACAAATGGATGTTAGAGTCCAGAGGTGGGAAGCCTTTTACATGGAGACCTTGGCACAGCTATGGATGTGGCTTTTGTGGCATGGCAGTGCAAGAGAGCCTGGCCCCCTTTGGGGTAGAAA-AGGGCGCTTTTGCCCCCCAGTATGGCCAGAAAGAGATTTGGG-TGCATGC-TTTTTGTTTGTTCAGTG-TGAAACAGAGGAGTTTTG---TCCTATTTAAGGGAAAAGGAACTTATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| ||||| |    ||    | | ||||||||||||| |||| | ||||||| ||| ||  ||||| |||||  ||  |||||||||||||||  |                           | ||||||||||||||||||||||||   |||||      |||| |||||      || || | |||||||| ||| |    ||||  ||||| ||||| |||||||| |||||||  ||| ||||||||||||||||||||| | |  | | ||||| ||| ||  ||  | ||||| | ||| ||||||||||    |||||||||| |||  ||| ||| ||| |||| ||   | || ||||||||||  ||| |||| ||||||| |    ||||||||  | ||||||| ||||||| |||||||||| |||||| | |||||||| |||||||   || ||||| | ||||  | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1561694441|ref|XM_014583776.2|</Hit_id>
+  <Hit_def>PREDICTED: Tupaia chinensis TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_014583776</Hit_accession>
+  <Hit_len>4118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.37758e-46</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>2924</Hsp_hit-from>
+      <Hsp_hit-to>3276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>CCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGAGAAGTAAATGGAT-GGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTC-GCTTG--GAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATG-CAGAAGCCAGGCT-TTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAG--AAATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAA-GGGAAACTTATTTAACCNTTACCAA</Hsp_qseq>
+      <Hsp_hseq>CCATTTTGTGCACTTGCCAGTGAGGGCAAAGGGGACAGACGACCAATTCGGGCATCATTCTCCAATTTCCAGTACTCAAGGAGTAAATAGATGGGTCCTTGGCGGTCAGGGCCA-AGTAGGGGAAAAATGGATGGAGAGTTGAAAAGGT-------TTCTGAATGCAGAGTCCTTGCCACAGCTATGGAAATGGCGTTTGTAGCACTGCGGTGCCATGGTCTGGGCTCTTTGTGTTAGGAA-AGGGTGTTTATACCCGCAGCA-AGGCCAGCAAGAGACTTGG--TGCGTGC-TTTTTGTTTGCTCAGTG-TCAAA-AGAGAAGTTTTG-TTTCT--ATTTAAGGAATAAGGAACTTACT--ACCATTACAAA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||| |||| |   ||||||||| | |||||||||||| ||| | |||||| ||| ||||| || ||||||| ||| ||| ||||| |||||| |||| ||||||||| |||||||||| | | ||   ||||       ||| |  ||  ||| | ||| ||||||||||  |||||| |||||||||||||  || ||    |  |||| || | | ||| ||  ||||| || | ||| || ||  ||||||  | | | ||||  ||| ||| ||||||||||||||||| ||||| |||||||||||| |||||   |||||||||   | |||||| |  ||| |||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.69538</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>2801</Hsp_hit-from>
+      <Hsp_hit-to>2880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAG--------GGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGGTTCAGGACCTCCAGGCGTGTGGAAGGCATGTCATTGGTCTTGAGGAGTCACCTCTTCGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| |||        ||| | | ||   ||| ||||||| | | ||||| | ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1016715814|ref|XM_016222247.1|</Hit_id>
+  <Hit_def>PREDICTED: Miniopterus natalensis TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_016222247</Hit_accession>
+  <Hit_len>4554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.37758e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>2226</Hsp_hit-from>
+      <Hsp_hit-to>2748</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATATAG--------AGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAG-CCCACCAGCCCACCTCAGGGGAAG---------------------------TGCCGTTTTGTGCACTTG-CCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTC----GAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCA-GAGTA-GGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGCTTC-GCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC---TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATA-TTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAA------GTTTTGTTTTCTTATTTTAAGG--AAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTTTGGCCAGGG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCAGACTAGGTCC-GGGCCTGCGGGGGCGCGGAGACCA-CGCACTGACCTTGAGGAGCCAGCTGTCCGTGGGGCCCTTCAACCCACCTCAGGGGAAGCTCTCATTTTATCAGACCGTCTCCTTCTGCCCTTTTGCGCTTTTGGCCAGGGAGGCCAAAGGGGACAGCCGGCCAATTTGGCCCCC--CCCCCCATTCCCAGCACTCACTGGTGAAGTAAATGGATGGTACTTGGTGGTCAAGGCCACGAGCAGGGGGACGCATGGATGGCGGGGTCCGGAGGTGGGAGGCCTCTACGCGGAGACCTTGGCGAAGCTCTGAGATTGCCTTTTGTGGCGTTGGAATCCAGTAGCCCGACCCTCTTGGGGGTGGAAATAGGG-GGTTGTGCCCCCAACAT-GTCCAGAAAGAGATTTGGATACAAAC-TTTTTATTTGTTGAGTGTCAAAAAAAAAAAAAAAGTGTTTTG-GTTCT--ATTTAAGGAAAAAGGAAA-TTATT--ACCATTACCAA--GGAGGC-TTGGCCAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||| |||| |   |        |||||| | || || || | |||||||  || |||||| | |||  || ||||||||||||||||                           |||| ||||| ||  ||| |||| ||||||   ||||||||  |||||||| || | ||  ||||| |||||||  ||||    | ||||||||||||||||||||||||||||  |||| ||| | ||||||  |||||||| ||| | | ||||| |||||| ||  |  |||| | ||| |  |||| || || || ||||||| ||  || ||| ||| |||| | |    |||||||| ||||  ||| | ||||||||||||||| | ||||||| |  || || | ||  | ||||| |||| | |||||  ||| | | ||      ||||||  ||||   |||||||  || ||||| |||||  ||| |||||||  |||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1931233088|ref|XM_037509730.1|</Hit_id>
+  <Hit_def>PREDICTED: Talpa occidentalis TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_037509730</Hit_accession>
+  <Hit_len>3602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.132</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>3.03433e-42</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>3282</Hsp_hit-from>
+      <Hsp_hit-to>3602</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>CCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCG---GGCACCATC-CCCCAATTCCCA----ATACTCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCC-AGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGG----CTTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGG---CTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAATA--TTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAA</Hsp_qseq>
+      <Hsp_hseq>CCGTTTTGTGCACTTGCCGTAGAGGCCAGAGGGGACAGACGACCCATTCGTTCGCCACCATCACCCCAGTTCCCAGGTGTCATTCATGAAGTAAATGGATGGTATCTGGTGGTCAAGGCCAAGATGAGGGGACTAATGGATGGTGGGGTCCAGAGATGGGAGGTTTTCTTTATGTGGAGACCTTG-TGCAGTTATAAGAATGGCATTGGTGACATTACAGTGCCATAGCCTGGCCCCCTGTGGGGTTGAAA-AGGGTGCTTGTGCCCCAAACA-GGGCCAGAAAGAGGTTTGGG-TGCATTGCTTTTTGTTTGTTCAGTG-TCAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  ||||||| | ||||||||| | || |||||   | ||||||| ||||| ||||||      | ||  |||||||||||||||||  |||||||||  ||| |||  ||||||| ||||||||||||| | | ||| | |||||    |||    ||||| | |||   ||| |||  ||||||| || ||  || | || |||   |||| ||   | |  ||||| ||||  ||||||||||||||| |||| |||||||||| |  |||||| |||||   |||||||||| |||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.91826</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>3168</Hsp_hit-from>
+      <Hsp_hit-to>3192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCCGACTAGGTCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1702070956|ref|XM_029925808.1|</Hit_id>
+  <Hit_def>PREDICTED: Suricata suricatta TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_029925808</Hit_accession>
+  <Hit_len>6725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.05909e-41</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>3252</Hsp_hit-from>
+      <Hsp_hit-to>3538</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>CCCCAATTCCCAATAC----TCGAGAAGTAAATGGATGGTACTTGGTGGTCAGAGCCA-GAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC----TTCG-CTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAA--ATATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGGAA</Hsp_qseq>
+      <Hsp_hseq>CCCCAATTCCCAGTACCCACTCATGAAGTGAATGGGTGGTCCTTGGTGGTCAAGGCCAAGAGTAGGGGACAAATGGATGGTGGAGCTCAGAGGTGGGAAGCCTTCTTCTACGTGGAGACCTTGGCACAGCTGTGGAAATGGCGTTTGTAGCACTGCAGTGCAAGAGCCTGTCCCCCTTTGGGGTGGAAA-AGGGTGCTTTTGCCCCCCAGTACGGCCAGAAAGAGATTTGGG-TGCATGC-TTTTAGTTTGTTCAATG-TGAAACAGAAGAGTTTTGTTCT----ATTTAAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||    ||  ||||| ||||| |||| |||||||||||  |||| ||||||||||||||||||||||||    | ||||| ||| ||    |||  | ||||| | ||| ||||||| ||  |||||| |||||||||||||| ||||  |||| |    | || ||||| ||||  |||||||| ||||||| |    ||||||||  | ||||||| ||||||| |||| ||||| ||| || | |||||||  ||||||||| |     |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.0129251</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>3058</Hsp_hit-from>
+      <Hsp_hit-to>3163</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAG--------GGCATATAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGT-GAGCCCACCAGCCCACCTCAGGGGAAG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTTGCTGACTAGATCCAGAGCCTCCAGGGGTGTGGAAACCTTCTCTTTGGCCTTGAGGAGCC-ACTTTCAGTGGAACCCCTCAACCCGCCTCAGGGGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||| |||||        ||  | | || ||| |||| |||||| | |||||||  || || || || |||  || ||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|743700589|ref|XM_010971667.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus bactrianus TLR4 interactor with leucine-rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_010971667</Hit_accession>
+  <Hit_len>2589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.29023e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>2180</Hsp_hit-from>
+      <Hsp_hit-to>2569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>CAGCGATTTGCCGACTAGGTC----CAGGGCATATAG--------AGACCATCTCATTGGCCCTAAGGAGCCGCCTCTCCGTGAGCCCAC-CAGCCCACCTCAGGGGAAG---------------------------TGCCGTTTTGTGCACTTGCCAGAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGA----GAAGTAAATGGATGGTACTTGGTGGTCAGAGCCAGAGTAGGGGACAAATGGATGGTGGGATGCTGAGGTCGGAGGC-TTCGCT---TGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAGGC---TTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCA</Hsp_qseq>
+      <Hsp_hseq>CAGCGATTTGCTGACTAGGTAGATTCAGGGCCTTCAGGGGTGTGGAGGCCCTCTCACTGGTCTTGAGGAGCCACCTATCCGCGGTACCCCGCAGCCCACCTCAGGGGAAGATTTCGTTTTGTCATACCTTATATTTCTCCCTTTTTGTGCCCTTGCCAGAGAGGCCACAGGGGACAAACAGCTAATTCGG-CACCATCCCCCTAT-CCCAGTACTCAGTCATGAAGTAAATGGATGGTA-TTGGCTGTCA----------AGGGGACAAATGTATGGTGGGGTCCAGAGGTGGGAGGCCTTCTGTACGTGGAGACCTTGGTGCAGCTCTGAGAATGGCTTTTGTGGCATTGCAATGCAATAGCCTGGCCCTCTTTGGGGTAGAAA-AGGGTGCTTTTGCCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||     |||||| |  ||        || || ||||| ||| | | ||||||| ||| |||| |   || | |||||||||||||||||||                           | || |||||||| |||||||||||||||   ||||||| |  || ||||||| ||||||||||| || |||| |||||      ||||||||||||||||| ||||  ||||          |||||||||||| |||||||| | | ||||| |||||| |||  |   ||||| | |||   ||||| || ||||||||||||| ||| |||||||||  |||| |||    || ||||||||||  |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1926249593|ref|XM_017652531.2|</Hit_id>
+  <Hit_def>PREDICTED: Manis javanica TLR4 interactor with leucine rich repeats (TRIL), mRNA</Hit_def>
+  <Hit_accession>XM_017652531</Hit_accession>
+  <Hit_len>5251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.213</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.57182e-39</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>3085</Hsp_hit-from>
+      <Hsp_hit-to>3457</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>TTTTGTGCACTTGCCA-GAGAGGCCGGTGGGGACAGAGGGCCAATTCGGGCACCATCCCCCAATTCCCAATACTCGA----GAAGTAAATGGATGGTACTTGGTGGTCAGAGCCA-GAGTAGGGGACAAATGGATGGTG------GGATGCTG-AGGTCGGAGGC----TTCGCTTGGAGGCTTTGACACAGCTATGCGAATGGCTTTTGTAGCACTGCAATGCAGAAGCCAG---GCTTTGGGGGTAGAAAGGGGGTGCTTGTGCCCCCAACATGGGCCAGAAA--TATTTGGGTTGCATGCTTTTTTGTTTGCTCAGTGTTCAAACAGAGAAGTTTTGTTTTCTTATTTTAAGG-AAGGGAAACTTATTTAACCNTTACCAAANGGAGGCTT</Hsp_qseq>
+      <Hsp_hseq>TTTTGTGCACTTGCCAAGAGAGACCAAAGGGGACACCCGGCCAATCCGG-CAACATCCCCTAATTCCCAGTACTCACTCATGAAGTAGGTGGGCGGTGCTTGGGGGTCAAGGCCAAGACTCGAGT-CAAATGGGTTGTGAGGCCTGGAGGTGGGAGGTGGGAGGCCTTCTTCAGATGGAGCCCTTGGCACAGCTATTTGAATGGCTTTTGTGGCATTGCTATTCAATGGCCTGCCCCCTTTGGGGGTA-AAAAGGGGTG--TGTACCCCCAACAT-GGCTAGAAAAGGATTTGGG--GCATGCTT-----TCTGTTCAGTGCT-AACCAGAGGAGTTTTG-TTTCT--CTTTAAGGAAAAAGGAACTTATT--ACCATTAC--AAAGGAGGCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||| ||   |||||||   ||||||| ||| || ||||||| |||||||| |||||      ||||||  |||  ||| ||||| |||||  |||| || | | |  ||||||| | |||      ||| |  | |||| ||||||    |||   ||||| | ||| |||||||||  ||||||||||||| ||| ||| || ||   ||| |    ||||||||||| ||| ||||||  ||| |||||||||| ||| |||||   |||||||  ||||||||     | || |||||| | || ||||| ||||||| |||||   ||||||| ||  | ||||||||  ||| ||||  || ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.0129251</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2946</Hsp_hit-from>
+      <Hsp_hit-to>3052</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>GCAGCGATTTGCCGACTAGGTCCAGGGCATA--------TAGAGACCATCTCATTGGCCCTAAGGAGCCGCCTC-TCCGTGAGCCCACCAGCCCACCTCAGGGGAAG</Hsp_qseq>
+      <Hsp_hseq>GCAGCGATTCGCCGACTAGATCCAGGGCCTCCGCGTGTGTGGAGACCGTCTCATTGGCCTTGAGGAACCACTTCTTCTCAGGGCCCCTAAATCCCCCTCAAGGGAAG</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||| |||||||| |         | |||||| ||||||||||| | |||| || | || ||   | ||||   |  || ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>67550478</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

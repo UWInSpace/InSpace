@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>U19502.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>MMU19502 Mus musculus (A.M.Goffinet) Mus musculus genomic clone CL-3, genomic survey sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>393</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>U19502.1</Iteration_query-ID>
+  <Iteration_query-def>MMU19502 Mus musculus (A.M.Goffinet) Mus musculus genomic clone CL-3, genomic survey sequence</Iteration_query-def>
+  <Iteration_query-len>393</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1390157537|ref|NM_026034.5|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10 (Armc10), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_026034</Hit_accession>
+  <Hit_len>2099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1872</Hsp_hit-from>
+      <Hsp_hit-to>1503</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1390157502|ref|NM_001363422.1|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10 (Armc10), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001363422</Hit_accession>
+  <Hit_len>2057</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1830</Hsp_hit-from>
+      <Hsp_hit-to>1461</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|354798861|gb|JN963362.1|</Hit_id>
+  <Hit_def>Mus musculus targeted non-conditional, lacZ-tagged mutant allele Napepld:tm1e(KOMP)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN963362</Hit_accession>
+  <Hit_len>38531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>36200</Hsp_hit-from>
+      <Hsp_hit-to>36569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|354789157|gb|JN953658.1|</Hit_id>
+  <Hit_def>Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Armc10:tm1a(EUCOMM)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN953658</Hit_accession>
+  <Hit_len>38031</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>36443</Hsp_hit-from>
+      <Hsp_hit-to>36074</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|354785213|gb|JN949714.1|</Hit_id>
+  <Hit_def>Mus musculus targeted non-conditional, lacZ-tagged mutant allele Armc10:tm1e(EUCOMM)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN949714</Hit_accession>
+  <Hit_len>37973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>36385</Hsp_hit-from>
+      <Hsp_hit-to>36016</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|354782055|gb|JN946556.1|</Hit_id>
+  <Hit_def>Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Napepld:tm1a(KOMP)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN946556</Hit_accession>
+  <Hit_len>38508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>36177</Hsp_hit-from>
+      <Hsp_hit-to>36546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|77377260|gb|AC161484.4|</Hit_id>
+  <Hit_def>Mus musculus chromosome 5, clone RP23-6C10, complete sequence</Hit_def>
+  <Hit_accession>AC161484</Hit_accession>
+  <Hit_len>249620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>11300</Hsp_hit-from>
+      <Hsp_hit-to>11669</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|35193101|gb|BC058573.1|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10, mRNA (cDNA clone MGC:65211 IMAGE:6487440), complete cds</Hit_def>
+  <Hit_accession>BC058573</Hit_accession>
+  <Hit_len>2084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1935</Hsp_hit-from>
+      <Hsp_hit-to>1566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|23620435|gb|BC038487.1|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10, mRNA (cDNA clone MGC:46778 IMAGE:2812558), complete cds</Hit_def>
+  <Hit_accession>BC038487</Hit_accession>
+  <Hit_len>1989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1846</Hsp_hit-from>
+      <Hsp_hit-to>1477</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|28374183|gb|BC046281.1|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10, mRNA (cDNA clone MGC:54473 IMAGE:6395384), complete cds</Hit_def>
+  <Hit_accession>BC046281</Hit_accession>
+  <Hit_len>1989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1846</Hsp_hit-from>
+      <Hsp_hit-to>1477</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|22213541|gb|AC125343.2|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-537A5 from 5, complete sequence</Hit_def>
+  <Hit_accession>AC125343</Hit_accession>
+  <Hit_len>131476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>43564</Hsp_hit-from>
+      <Hsp_hit-to>43195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|12849901|dbj|AK012872.1|</Hit_id>
+  <Hit_def>Mus musculus 10, 11 days embryo whole body cDNA, RIKEN full-length enriched library, clone:2810037C14 product:hypothetical protein, full insert sequence</Hit_def>
+  <Hit_accession>AK012872</Hit_accession>
+  <Hit_len>1998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1869</Hsp_hit-from>
+      <Hsp_hit-to>1500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|12847336|dbj|AK011303.1|</Hit_id>
+  <Hit_def>Mus musculus 10 days embryo whole body cDNA, RIKEN full-length enriched library, clone:2610003C16 product:hypothetical ARM repeat structure containing protein, full insert sequence</Hit_def>
+  <Hit_accession>AK011303</Hit_accession>
+  <Hit_len>2013</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1893</Hsp_hit-from>
+      <Hsp_hit-to>1524</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|12844850|dbj|AK009821.1|</Hit_id>
+  <Hit_def>Mus musculus adult male tongue cDNA, RIKEN full-length enriched library, clone:2310045J18 product:hypothetical ARM repeat structure containing protein, full insert sequence</Hit_def>
+  <Hit_accession>AK009821</Hit_accession>
+  <Hit_len>2106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.432</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.53378e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1888</Hsp_hit-from>
+      <Hsp_hit-to>1519</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|12850189|dbj|AK013059.1|</Hit_id>
+  <Hit_def>Mus musculus 10, 11 days embryo whole body cDNA, RIKEN full-length enriched library, clone:2810409L04 product:unclassifiable, full insert sequence</Hit_def>
+  <Hit_accession>AK013059</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.12</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>2.27633e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>595</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAA-GACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|92444047|gb|BC027343.1|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10, mRNA (cDNA clone IMAGE:4017359), **** WARNING: chimeric clone ****</Hit_def>
+  <Hit_accession>BC027343</Hit_accession>
+  <Hit_len>2784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.398</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>4.11571e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2564</Hsp_hit-from>
+      <Hsp_hit-to>2195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>354</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCATCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGAGTCAAGCTTGCAGTATTCACTGGCTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   ||||||||||||||||||||||||||||||| |||||| || ||||||||||||||||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1390208464|ref|NG_057001.1|</Hit_id>
+  <Hit_def>Mus musculus predicted gene 9209 (Gm9209) pseudogene on chromosome 14</Hit_def>
+  <Hit_accession>NG_057001</Hit_accession>
+  <Hit_len>2189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>4.39824e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1966</Hsp_hit-from>
+      <Hsp_hit-to>1596</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAA-GACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATATGTGTATTTATCATTACTGAGAGAAAAAAAAAGACACGGGACCCTAATTCATTGCTTCCCAGCATGCTTTCAAAGCAACTATCTCATGGGTGTGTTTCTCCATGCATCCATCCAGACTTATCAGGACACTCTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCGTGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGCTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  ||||||||||||| |||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||| | ||||||||||| |||||||||||| ||||| |  ||||||||||||||||| || ||||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||| |||||||||||| ||||||||||||||||||||||||||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|28630140|gb|AC122192.4|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP23-45B2 from 14, complete sequence</Hit_def>
+  <Hit_accession>AC122192</Hit_accession>
+  <Hit_len>178698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.019</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>4.39824e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>40872</Hsp_hit-from>
+      <Hsp_hit-to>41242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAA-GACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATATGTGTATTTATCATTACTGAGAGAAAAAAAAAGACACGGGACCCTAATTCATTGCTTCCCAGCATGCTTTCAAAGCAACTATCTCATGGGTGTGTTTCTCCATGCATCCATCCAGACTTATCAGGACACTCTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATGAGCTCAGACTTGCAAGCAGCGTGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGCTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  ||||||||||||| |||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||| | ||||||||||| |||||||||||| ||||| |  ||||||||||||||||| || ||||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||   |||||||||||||||||| |||||||||||| ||||||||||||||||||||||||||||| |||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1390249263|ref|NG_017243.2|</Hit_id>
+  <Hit_def>Mus musculus armadillo repeat containing 10 pseudogene (LOC100417266) on chromosome 3</Hit_def>
+  <Hit_accession>NG_017243</Hit_accession>
+  <Hit_len>2367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.199</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>7.95221e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2136</Hsp_hit-from>
+      <Hsp_hit-to>1765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTT--AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAGACACAGGACCCTAGTACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCTGGACTTATCAGGACACTCTTTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTCCAGTATCTTACACAAGGGGTTAAGCAGTAAGAAAACTCTTTCCATGTAAATGGGAGTACAGTCCAATTGCTCAGAAATGCTGCAGGCAGAGTCTCATGATGGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| |||||||||||||||||||| || ||  ||||||||| ||||||||||||| |||||||||||||||| ||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||| | || |||||||| |||||||||| |||||| ||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|354784369|gb|JN948870.1|</Hit_id>
+  <Hit_def>Mus musculus targeted non-conditional, lacZ-tagged mutant allele Siah2:tm1e(EUCOMM)Hmgu; transgenic &gt;gi|354795494|gb|JN959995.1| Mus musculus targeted non-conditional, lacZ-tagged mutant allele Siah2:tm1e(EUCOMM)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN948870</Hit_accession>
+  <Hit_len>39375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.199</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>7.95221e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>34421</Hsp_hit-from>
+      <Hsp_hit-to>34050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTT--AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAGACACAGGACCCTAGTACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCTGGACTTATCAGGACACTCTTTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTCCAGTATCTTACACAAGGGGTTAAGCAGTAAGAAAACTCTTTCCATGTAAATGGGAGTACAGTCCAATTGCTCAGAAATGCTGCAGGCAGAGTCTCATGATGGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| |||||||||||||||||||| || ||  ||||||||| ||||||||||||| |||||||||||||||| ||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||| | || |||||||| |||||||||| |||||| ||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|354783658|gb|JN948159.1|</Hit_id>
+  <Hit_def>Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Siah2:tm1a(EUCOMM)Hmgu; transgenic</Hit_def>
+  <Hit_accession>JN948159</Hit_accession>
+  <Hit_len>39422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.199</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>7.95221e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>34468</Hsp_hit-from>
+      <Hsp_hit-to>34097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTT--AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAGACACAGGACCCTAGTACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCTGGACTTATCAGGACACTCTTTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTCCAGTATCTTACACAAGGGGTTAAGCAGTAAGAAAACTCTTTCCATGTAAATGGGAGTACAGTCCAATTGCTCAGAAATGCTGCAGGCAGAGTCTCATGATGGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| |||||||||||||||||||| || ||  ||||||||| ||||||||||||| |||||||||||||||| ||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||| | || |||||||| |||||||||| |||||| ||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|63988277|gb|AC119873.38|</Hit_id>
+  <Hit_def>Mus musculus chromosome 3, clone RP24-275F18, complete sequence</Hit_def>
+  <Hit_accession>AC119873</Hit_accession>
+  <Hit_len>183408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.199</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>7.95221e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>142088</Hsp_hit-from>
+      <Hsp_hit-to>142459</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTT--AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAGACACAGGACCCTAGTACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCTGGACTTATCAGGACACTCTTTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTCCAGTATCTTACACAAGGGGTTAAGCAGTAAGAAAACTCTTTCCATGTAAATGGGAGTACAGTCCAATTGCTCAGAAATGCTGCAGGCAGAGTCTCATGATGGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| |||||||||||||||||||| || ||  ||||||||| ||||||||||||| |||||||||||||||| ||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||| | || |||||||| |||||||||| |||||| ||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|56236280|gb|AC142228.4|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP23-427M10 from 3, complete sequence</Hit_def>
+  <Hit_accession>AC142228</Hit_accession>
+  <Hit_len>171554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.199</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>7.95221e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>15315</Hsp_hit-from>
+      <Hsp_hit-to>15686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>344</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTT--AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAGACACAGGACCCTAGTACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCTGGACTTATCAGGACACTCTTTTTTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTCCAGTATCTTACACAAGGGGTTAAGCAGTAAGAAAACTCTTTCCATGTAAATGGGAGTACAGTCCAATTGCTCAGAAATGCTGCAGGCAGAGTCTCATGATGGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| |||||||||||||||||||| || ||  ||||||||| ||||||||||||| |||||||||||||||| ||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||| | || |||||||| |||||||||| |||||| ||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1679847116|ref|XM_021162895.2|</Hit_id>
+  <Hit_def>PREDICTED: Mus caroli armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_021162895</Hit_accession>
+  <Hit_len>2157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.378</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.43779e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>2028</Hsp_hit-from>
+      <Hsp_hit-to>1668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAA--GACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGAAAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAACCATCTCATGGGTGTGTTTCTCCATGCATCCATCCGGACTTATCAGGACACTC----TTAAAGGGCTGCCTGTCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGG-TAAGCAGTAAGAAAACACTTTCCATATAAATGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCATGATGAGCTCAGACTTGCAAGCAGTATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||| | ||||||||||||||||||    ||||||||||| ||| ||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||| |||||||||||||||||||||||||||||||| ||||||||||||||||| |||   ||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1390249266|ref|NG_018277.2|</Hit_id>
+  <Hit_def>Mus musculus predicted gene 5186 (Gm5186) pseudogene on chromosome 12</Hit_def>
+  <Hit_accession>NG_018277</Hit_accession>
+  <Hit_len>2137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.095</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.96875e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1900</Hsp_hit-from>
+      <Hsp_hit-to>1529</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGA---AAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTTCATGTATAAATATATTTATCATTAATTAGAGGGGGAAAAAAAGACATGGGCCTCTACTATATTACTTCACAGCATGCTTTAAAAGCAACCATCTCATGGATGTATTTCTCCATGCATCCATCCAGACTTATCAGGACACTC-TAATTAAAGGGTTGCCTGCCCGTAGGTGGAAGCTTGGGTTGCTCTCCAGTATCTTACACAAGGCGGTAAGCAGTAAGAAAATGTTTTCCATGTAAATGGGAGTACAGTCCTACGGATCAGAAATGCTGCAGGCAGAGTCTCATGATGAGCTCAGACTTGCAAGCAGTATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||| | | |||||||||| | | ||||    ||||||||||| ||| | ||| || ||| |||| ||||||||||| |||||| ||||||||||| | | |||||||||| ||||| |  ||||||||||||||||| |  |||||||| || ||||| || |||| ||||||||  |||||| ||||||||||||||||| ||||||||||||||||| | ||||||||||||||||||||||||||||| |||||||||| |||||||||| |||||| |||   ||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|78039375|emb|CT010435.4|</Hit_id>
+  <Hit_def>Mouse DNA sequence from clone RP23-445H9 on chromosome 12, complete sequence</Hit_def>
+  <Hit_accession>CT010435</Hit_accession>
+  <Hit_len>183240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.095</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.96875e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>91844</Hsp_hit-from>
+      <Hsp_hit-to>91473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGA---AAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTTCATGTATAAATATATTTATCATTAATTAGAGGGGGAAAAAAAGACATGGGCCTCTACTATATTACTTCACAGCATGCTTTAAAAGCAACCATCTCATGGATGTATTTCTCCATGCATCCATCCAGACTTATCAGGACACTC-TAATTAAAGGGTTGCCTGCCCGTAGGTGGAAGCTTGGGTTGCTCTCCAGTATCTTACACAAGGCGGTAAGCAGTAAGAAAATGTTTTCCATGTAAATGGGAGTACAGTCCTACGGATCAGAAATGCTGCAGGCAGAGTCTCATGATGAGCTCAGACTTGCAAGCAGTATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||| | | |||||||||| | | ||||    ||||||||||| ||| | ||| || ||| |||| ||||||||||| |||||| ||||||||||| | | |||||||||| ||||| |  ||||||||||||||||| |  |||||||| || ||||| || |||| ||||||||  |||||| ||||||||||||||||| ||||||||||||||||| | ||||||||||||||||||||||||||||| |||||||||| |||||||||| |||||| |||   ||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|66912479|gb|AC157353.2|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-236H23 from chromosome 12, complete sequence</Hit_def>
+  <Hit_accession>AC157353</Hit_accession>
+  <Hit_len>188463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.095</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.96875e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1069</Hsp_hit-from>
+      <Hsp_hit-to>1440</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGA---AAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTTCATGTATAAATATATTTATCATTAATTAGAGGGGGAAAAAAAGACATGGGCCTCTACTATATTACTTCACAGCATGCTTTAAAAGCAACCATCTCATGGATGTATTTCTCCATGCATCCATCCAGACTTATCAGGACACTC-TAATTAAAGGGTTGCCTGCCCGTAGGTGGAAGCTTGGGTTGCTCTCCAGTATCTTACACAAGGCGGTAAGCAGTAAGAAAATGTTTTCCATGTAAATGGGAGTACAGTCCTACGGATCAGAAATGCTGCAGGCAGAGTCTCATGATGAGCTCAGACTTGCAAGCAGTATGGCAGGGTTGGCGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||| | | |||||||||| | | ||||    ||||||||||| ||| | ||| || ||| |||| ||||||||||| |||||| ||||||||||| | | |||||||||| ||||| |  ||||||||||||||||| |  |||||||| || ||||| || |||| ||||||||  |||||| ||||||||||||||||| ||||||||||||||||| | ||||||||||||||||||||||||||||| |||||||||| |||||||||| |||||| |||   ||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|354789698|gb|JN954199.1|</Hit_id>
+  <Hit_def>Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele 3110035E14Rik:tm1a(KOMP)Wtsi; transgenic</Hit_def>
+  <Hit_accession>JN954199</Hit_accession>
+  <Hit_len>37892</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.28237e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>24793</Hsp_hit-from>
+      <Hsp_hit-to>25115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATATATAAATGTATTTATCATTATTAAGTGAAAAAAAAGACACGGGACCCTAATATATTGCTTCACAGCATGCTTTAAAAGCAACCATCTCATGGGTGTATTTCTCCTTGCATCCATCCGGACTTATCAGGACACTCCTTTTTAGAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGA-TGATCTCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGTTTTCCATGTACA-GGAAGTACAGTTCTACTGATCAGAAATGCTGCAGGCAGAATCTCATGATGGACTCAGGCTTGCAAGCAGTATGGCAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||| | |||||||||||| | | || |||||||||||||||||||||||||| |||||||| ||||||||||| |||||| ||||||||||||| | ||||||| || ||||| | ||||||||||||||||||||| ||| ||||||| ||||||||||||| ||||||||| || ||| ||||||||||||||||||||||||||||||||||||| |||||||||| | || |||||||| ||||||||||||||| ||||||||||  ||||| ||| ||||||| ||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|71480330|gb|AC103620.12|</Hit_id>
+  <Hit_def>Mus musculus chromosome 1, clone RP24-219C22, complete sequence</Hit_def>
+  <Hit_accession>AC103620</Hit_accession>
+  <Hit_len>171728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.28237e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>100657</Hsp_hit-from>
+      <Hsp_hit-to>100979</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATATATAAATGTATTTATCATTATTAAGTGAAAAAAAAGACACGGGACCCTAATATATTGCTTCACAGCATGCTTTAAAAGCAACCATCTCATGGGTGTATTTCTCCTTGCATCCATCCGGACTTATCAGGACACTCCTTTTTAGAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGA-TGATCTCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGTTTTCCATGTACA-GGAAGTACAGTTCTACTGATCAGAAATGCTGCAGGCAGAATCTCATGATGGACTCAGGCTTGCAAGCAGTATGGCAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||| | |||||||||||| | | || |||||||||||||||||||||||||| |||||||| ||||||||||| |||||| ||||||||||||| | ||||||| || ||||| | ||||||||||||||||||||| ||| ||||||| ||||||||||||| ||||||||| || ||| ||||||||||||||||||||||||||||||||||||| |||||||||| | || |||||||| ||||||||||||||| ||||||||||  ||||| ||| ||||||| ||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|71480318|gb|AC158790.5|</Hit_id>
+  <Hit_def>Mus musculus chromosome 1, clone RP23-223M9, complete sequence</Hit_def>
+  <Hit_accession>AC158790</Hit_accession>
+  <Hit_len>178205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.864</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.28237e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>38268</Hsp_hit-from>
+      <Hsp_hit-to>38590</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATATATAAATGTATTTATCATTATTAAGTGAAAAAAAAGACACGGGACCCTAATATATTGCTTCACAGCATGCTTTAAAAGCAACCATCTCATGGGTGTATTTCTCCTTGCATCCATCCGGACTTATCAGGACACTCCTTTTTAGAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGA-TGATCTCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGTTTTCCATGTACA-GGAAGTACAGTTCTACTGATCAGAAATGCTGCAGGCAGAATCTCATGATGGACTCAGGCTTGCAAGCAGTATGGCAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||| | |||||||||||| | | || |||||||||||||||||||||||||| |||||||| ||||||||||| |||||| ||||||||||||| | ||||||| || ||||| | ||||||||||||||||||||| ||| ||||||| ||||||||||||| ||||||||| || ||| ||||||||||||||||||||||||||||||||||||| |||||||||| | || |||||||| ||||||||||||||| ||||||||||  ||||| ||| ||||||| ||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|56037098|dbj|AK212921.1|</Hit_id>
+  <Hit_def>Mus musculus cDNA, clone:Y2G0126I22, strand:minus, reference:ENSEMBL:Mouse-Transcript-ENST:ENSMUST00000040837, based on BLAT search</Hit_def>
+  <Hit_accession>AK212921</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.238</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.71348e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAA-AAAAAAGACACGGGACCCTAATACATTG-CTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTGAGAGAAGAAAAAAGACACGGGACCCTAATACATTGGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCTTTTTTAAAGGGCTGTCTGCCTGTGGGTGGAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| |||||||||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1842191425|ref|XM_034500179.1|</Hit_id>
+  <Hit_def>PREDICTED: Arvicanthis niloticus armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_034500179</Hit_accession>
+  <Hit_len>2094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.008</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.46771e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1966</Hsp_hit-from>
+      <Hsp_hit-to>1595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGG----------------CTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAATGTATTTATCATCATTAAGAGAAAAAAAAAAAAAAAGACCCTAATACTTTGTTTCACAACATGCTTTTAAAACAACCAATTCATGGGTGTATTTCTC----TATCCGGTCAGACTCATCAGGCCACTCGTTTTTAAAGGGCCGCTGCTTAGTCTGCCTGGCTGCCTATGGGTGGAAACTTGGATTGCTCTCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACCTTTCCCCTGTAAATGGAAGTACAGTCTTACTGATCTG---TGCTGCAGGCAGAGTCTCATGATGAACTCAGACTTGCAAGCAGTACGGTGGGGTTGG-GGTGGACTGGAGCTTGCAGTATTCGCTGCTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| | |||||||||||| | | |||||||||||| | |   ||||||||||| ||| ||| || |||||||| ||| || |||  |||||||| | ||||||    |||||     |||| |||||| ||||| || ||||||||                ||| |||||| |||||| || |||||| |||||| ||||||||||||||||||||||||||||||||||||  || || ||||||||| ||||||||| |||||||| |   | |||||||||| |||||| |||  |||||||||||||||||| | ||  ||||||| |||||||| ||||||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1767996334|ref|XM_031380089.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_031380089</Hit_accession>
+  <Hit_len>2249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.106</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>7.46771e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>2095</Hsp_hit-from>
+      <Hsp_hit-to>1729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>AATGTTCTGTCCATGTATGAGTGTATTTATCATAACTGAGAG-------AAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGT--------------CTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCTGTCCATGTATAAGTGTATTTATCATTACTAAGAGGGAAAAAAAAAAAAAGACAGGGGTCCCTAATACATTGCTTCACGGCGTGCTGTAGAAACAACCATTTCATAGGTGTACTTCTTCATGCATCCAGACAGACTCATCAGGACACTTTTT-TTAAAGGGCTGCTGCTTGGTCTGCCACTGCCTGTGGGTGGAAGCTTGGATTGCTCTCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAATGTTTTCCACGTATACGGAAGTCCAGTCCTACTAATCAGAAATGCTGCGGGCAGAGTCTCATGGTGAACTCAGACTTGCAAGCAGTACGGCGGGCTCGGCGGTGGACTCGGGCTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||| ||||       |||||||||||| ||| ||||||||||||||||| | || |||| |  || || |||| |||| ||| |  |||| |||| |||||    |||| |||||||||||  || |||||||||||               ||||||||||||| ||||||||| |||||| ||||||||||||||||||||||||||||||||||| | |||||| ||| | || ||| |||||||||| ||||||||| |||| ||||| |||||| | |  |||||||||||||||||| | ||| || | || |||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|56029601|dbj|AK205424.1|</Hit_id>
+  <Hit_def>Mus musculus cDNA, clone:Y2G0101K07, strand:plus, reference:ENSEMBL:Mouse-Transcript-ENST:ENSMUST00000040837, based on BLAT search</Hit_def>
+  <Hit_accession>AK205424</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.62628e-59</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGA-CTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCAC</Hsp_qseq>
+      <Hsp_hseq>TAAGCAGTAAGAAGACGCTTTCCATGTAA-TGGGAGTACAGTCCTACTGATCAGAAATGCTGCAGGCAGTGTCTCACGATTGAGCTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGAGGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||| ||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1686398708|ref|XM_021190942.2|</Hit_id>
+  <Hit_def>PREDICTED: Mus pahari armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_021190942</Hit_accession>
+  <Hit_len>1930</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.724</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.54193e-57</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1864</Hsp_hit-from>
+      <Hsp_hit-to>1613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>AGGACACTCCTTCTT-AAAGGGCTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTG----CAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAA-------------------------ATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTG</Hsp_qseq>
+      <Hsp_hseq>AGGACACT--TTCTTTAAAGGGCTGCCTGCCTGTGGGTGGAAGCTTGGAGTGCTCGCTCCCCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACCTTTTCCATGTAAGTACATGCACATGTAAGTACTGTAAATGGAAGTACAGTCCTACGGATCAGAAATGCTGCAGACAGAGTAGCATGATGGACTCAGACTTGCAAGCAGTCTGGCAGGGTTGGTGGTGGGCTCGAGCTTGCAATAGTCACTGGTTTG</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||| ||||||||| ||||||||||||| |||||||||||||||      ||||||||||||||||||||||||||||||||||||  |||||||||||                         |||| ||||||||||||| |||||||||| |||||| ||| ||  || ||| |||||||||||||||||||  |||||||||||||||||| |||||||||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1621891305|ref|XM_028789201.1|</Hit_id>
+  <Hit_def>PREDICTED: Grammomys surdaster armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_028789201</Hit_accession>
+  <Hit_len>1850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.199</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.39633e-53</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1715</Hsp_hit-from>
+      <Hsp_hit-to>1513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>CTGTCTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGG-TTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTG</Hsp_qseq>
+      <Hsp_hseq>CTGGCTGCCTATGGGTGGAAACTTGAATTGCTCTCCAGTATCTTACACACGGGGGTAAGCAATAAGAAAAC-CTTGCCCTGTAAATGGAAGTAGAGTCTTACTGATGAGAAATGCTGTGGGCAGAGTCTCACGATCAACTCAGACTTGCAAGCAGTACAGTGGGGTTTGGGGGTGGACTGGAGCTTGCAGTATTCACTGCTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||| || |||| | |||||| |||||||||||||| ||||||||||| ||||||||| ||| || ||||||||| |||| |||| ||||||| |||||| |||  ||||| ||||||||||  |||||||||||||||||| |  |  ||| |||| |||||||| ||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1894914090|emb|LR877235.1|</Hit_id>
+  <Hit_def>Acomys russatus genome assembly, chromosome: 24</Hit_def>
+  <Hit_accession>LR877235</Hit_accession>
+  <Hit_len>60479378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.786</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.79034e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>9305816</Hsp_hit-from>
+      <Hsp_hit-to>9305536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ATGTTCTGTCCATGTATGAGTGT-ATTTATCATAACTGAGAGAAAAAAAAGACACGGGACCCTAATACATTGCTTCCCAGCATGCTTTC--AAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAGGGCTGT-------CTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGTATCTTACACAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAAT</Hsp_qseq>
+      <Hsp_hseq>ATGTTCTGTCCATGTATAAATGTTATTTACCATTGTTAAAA--AAAAAAAGACACAGGACCTTAATACATTGTTTTACAACATGCTTTTTAAAAACAACCATTTCATGGGTGTATTTCTCTATGCGACCAGCTAGAATTATCAAGCTAGTCTTTTTTAAAGAGCAGCTGCCCACCTTCCTGTGGGTGGAAACCTGGCCTGCTCGCCGGTACCTTCTGCACTGGGGTGGGTACTAAGAAGACATCTTCCCTGTAAATGGAAGTACAGCTTTACTGATCAGAAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| | ||| ||||| |||   | | |  |||||||||||| ||||| |||||||||| ||  || ||||||||   ||| || |||| |||||||| | |||||| |||   ||| || || |||||| |  | || || |||||| || |        || |||||||||| || | |||  |||||  | ||| |||   ||  |||||  | | |||||| ||   |||| ||||||||| |||||||   ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1894914076|emb|LR877221.1|</Hit_id>
+  <Hit_def>Acomys russatus genome assembly, chromosome: 10</Hit_def>
+  <Hit_accession>LR877221</Hit_accession>
+  <Hit_len>78787447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.227</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.64924e-25</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>50280762</Hsp_hit-from>
+      <Hsp_hit-to>50280441</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>CACGGGACCCTAATACATTGCTTCCCAGCATGCTTTC-AAAGCAGCCATCTCATGGGTATGTTTCTCCATGTATCCACCTGGACTTATCAGGACACTCCTTCTTAAAG---GGCTGT-------------CTGCCTGTGGGTGTAAGCTTGGAGTGCTCTGCAGT--ATCTTACA---CAAGGGGGTAAGCAGTAAGAAAACGCTTTCCATGTAAATGGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGT-GGTGGACTCGAGCTTGCAGTAT</Hsp_qseq>
+      <Hsp_hseq>CACAGGACCCTAGTACATTGTTTTAGAACATGCTTTCAAAAACAGCCATTTCATGGGTGCATCTCTCAACGAGTCCAGCCAGACTCATCAAGCCAGTCCGTTTTAAAGAGCAGCTGTTCCGTCTGCCCACCTGCCTGTGGGTGGGAACCTGGCCTGCTCGCCAGTGCCTCATACACTGCACGGGGTTGCGTACTAAGAAGAC-ATTTCCCTGTAAGGGGAAGCACAGCTTTCCTGATCAGAAATGATGAGGTCAGATTCTGGGGATGGACACAGACTTGCAAGCAG-ATGGTGGGGTTGGTGGGTGGGCTTGAGCGTGGGGTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||||| ||   | ||||||||| ||| ||||||| ||||||||   | |||| | |  |||| |  |||| |||| | || ||| | ||||||    |||||             |||||||||||||  | | |||  |||||  ||||   || ||||   || |||| |  | | |||||| ||  ||||| |||||  || || ||||   | ||||||||||||  ||  | |||  |||   ||| ||| ||||||||||||||| ||||  |||||||| ||||| || |||| ||  ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.126905</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>50280842</Hsp_hit-from>
+      <Hsp_hit-to>50280811</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>ATGTTCTGTCCATGTATGAGTGTATTTATCAT</Hsp_qseq>
+      <Hsp_hseq>ATGTTCTGTCCATGTATAAATGTATTTATCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|171846595|gb|BC161913.1|</Hit_id>
+  <Hit_def>Rattus norvegicus armadillo repeat containing 10, mRNA (cDNA clone MGC:187647 IMAGE:8369555), complete cds</Hit_def>
+  <Hit_accession>BC161913</Hit_accession>
+  <Hit_len>1955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>5.04951e-13</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>1668</Hsp_hit-from>
+      <Hsp_hit-to>1541</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>GGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGG-TGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCACCGACAGC</Hsp_qseq>
+      <Hsp_hseq>GGAAGTTCAGTCTCACTGATCAGAAATGATGCCGGCAGAGTCT-ATGGTGAACTCGGACTTGCAAGCAGAGCGGTGGGGGTGGCGGGTGGCCTCGAGCTTGCCGGACTCACTGCTTTGAGGCAC--ACAGC</Hsp_hseq>
+      <Hsp_midline>|| ||| |||||  |||||||||||||  ||| ||||| |||| | | |  |||| |||||||||||||   ||  ||| |||  ||||| ||||||||||| | | |||||| ||||  ||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|161333840|ref|NM_001106576.2|</Hit_id>
+  <Hit_def>Rattus norvegicus armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>NM_001106576</Hit_accession>
+  <Hit_len>1944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>5.04951e-13</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>1663</Hsp_hit-from>
+      <Hsp_hit-to>1536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>GGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGG-TGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCACCGACAGC</Hsp_qseq>
+      <Hsp_hseq>GGAAGTTCAGTCTCACTGATCAGAAATGATGCCGGCAGAGTCT-ATGGTGAACTCGGACTTGCAAGCAGAGCGGTGGGGGTGGCGGGTGGCCTCGAGCTTGCCGGACTCACTGCTTTGAGGCAC--ACAGC</Hsp_hseq>
+      <Hsp_midline>|| ||| |||||  |||||||||||||  ||| ||||| |||| | | |  |||| |||||||||||||   ||  ||| |||  ||||| ||||||||||| | | |||||| ||||  ||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|51259540|gb|BC079464.1|</Hit_id>
+  <Hit_def>Rattus norvegicus similar to RIKEN cDNA 2810037C14, mRNA (cDNA clone IMAGE:7122237)</Hit_def>
+  <Hit_accession>BC079464</Hit_accession>
+  <Hit_len>1767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>5.04951e-13</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>1567</Hsp_hit-from>
+      <Hsp_hit-to>1440</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>GGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGG-TGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCACCGACAGC</Hsp_qseq>
+      <Hsp_hseq>GGAAGTTCAGTCTCACTGATCAGAAATGATGCCGGCAGAGTCT-ATGGTGAACTCGGACTTGCAAGCAGAGCGGTGGGGGTGGCGGGTGGCCTCGAGCTTGCCGGACTCACTGCTTTGAGGCAC--ACAGC</Hsp_hseq>
+      <Hsp_midline>|| ||| |||||  |||||||||||||  ||| ||||| |||| | | |  |||| |||||||||||||   ||  ||| |||  ||||| ||||||||||| | | |||||| ||||  ||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1820993424|ref|XM_032907079.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus rattus armadillo repeat containing 10 (Armc10), mRNA</Hit_def>
+  <Hit_accession>XM_032907079</Hit_accession>
+  <Hit_len>1913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.143</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>6.15157e-12</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>1662</Hsp_hit-from>
+      <Hsp_hit-to>1536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>GGGAGTACAGTCCTACTGATCAGAAATTCTGCAGGCAGTGTCTCACGATAGACTCAGACTTGCAAGCAGCATGGCAGGGTTGGTGGTGGACTCGAGCTTGCAGTATTCACTGGTTTGTAGCACCGACAGC</Hsp_qseq>
+      <Hsp_hseq>GGGAGTTCAGTGTCACTGATCAGAAACAATGCCGGCAGAGTCT-ACGGTGAACGCGGACTTGCAGGCAGAGCGGTGGGGGTGGCGGTGGCCTCGAGCTTGCCGGACTCACTGCTTTGAGGCAC--ACAGC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||   ||||||||||||   ||| ||||| |||| ||| |  || | |||||||| ||||   ||  ||| ||| ||||| ||||||||||| | | |||||| ||||  ||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1774765283|gb|CP045891.1|</Hit_id>
+  <Hit_def>Caligus rogercresseyi isolate FCH chromosome 2</Hit_def>
+  <Hit_accession>CP045891</Hit_accession>
+  <Hit_len>35124717</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.442943</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>33669183</Hsp_hit-from>
+      <Hsp_hit-to>33669148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ATGTATGAGTGTATTTATCATAAC-TGAGAGAAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGTATGAGTGTATTTATAATAACATGAGAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1591613413|emb|LR535831.1|</Hit_id>
+  <Hit_def>Denticeps clupeoides genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>LR535831</Hit_accession>
+  <Hit_len>19707071</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.54602</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>4144332</Hsp_hit-from>
+      <Hsp_hit-to>4144369</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>ATGTATGAGTGTATTTATCATAACTGAGAGAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGTATGAGTGTATTAAAAACAACTGAGATAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |  | |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1946338365|emb|OE001116.1|</Hit_id>
+  <Hit_def>4_Tte_b3v08</Hit_def>
+  <Hit_accession>OE001116</Hit_accession>
+  <Hit_len>199598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.54602</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>54615</Hsp_hit-from>
+      <Hsp_hit-to>54648</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATGTATGAGTGTATTTATCATAACTGAGAGAAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGTATGAGTGTATTTAT-ATATATGAGAGAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1946274981|emb|OD564450.1|</Hit_id>
+  <Hit_def>4_Tbi_b3v08</Hit_def>
+  <Hit_accession>OD564450</Hit_accession>
+  <Hit_len>427174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>1.54602</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>213471</Hsp_hit-from>
+      <Hsp_hit-to>213438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATGTATGAGTGTATTTATCATAACTGAGAGAAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGTATGAGTGTATTTAT-ATATATGAGAGAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1894914058|emb|LR877203.1|</Hit_id>
+  <Hit_def>Onychomys torridus genome assembly, chromosome: 16</Hit_def>
+  <Hit_accession>LR877203</Hit_accession>
+  <Hit_len>68548656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.54602</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>44045581</Hsp_hit-from>
+      <Hsp_hit-to>44045615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TCCCAGCATGCTTTCAAAGCAGCCATCTCATGGGT</Hsp_qseq>
+      <Hsp_hseq>TCACAACATGCTTTCAAAACAGACATCTCATGGGT</Hsp_hseq>
+      <Hsp_midline>|| || |||||||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|334089967|gb|CP002780.1|</Hit_id>
+  <Hit_def>Desulfotomaculum ruminis DSM 2154, complete genome</Hit_def>
+  <Hit_accession>CP002780</Hit_accession>
+  <Hit_len>3969014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>1.54602</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>2289347</Hsp_hit-from>
+      <Hsp_hit-to>2289323</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>TTGCTTCCCAGCATGCTTTCAAAGC</Hsp_qseq>
+      <Hsp_hseq>TTGCTTCCCAGCATGCTTTCAAAGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1958674011|ref|XR_005492494.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus norvegicus uncharacterized LOC120096260 (LOC120096260), transcript variant X4, ncRNA</Hit_def>
+  <Hit_accession>XR_005492494</Hit_accession>
+  <Hit_len>8202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>5.39615</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>3430</Hsp_hit-from>
+      <Hsp_hit-to>3453</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TTTATCATAACTGAGAGAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTTATCATAACTGAGAGAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1917153004|emb|LR746269.1|</Hit_id>
+  <Hit_def>Spirodela intermedia genome assembly, chromosome: 6</Hit_def>
+  <Hit_accession>LR746269</Hit_accession>
+  <Hit_len>10170165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>5.39615</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1238112</Hsp_hit-from>
+      <Hsp_hit-to>1238140</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ATTTATCATAACTGAGAGAAAAAAAAGAC</Hsp_qseq>
+      <Hsp_hseq>ATTTATCATAAATGAGAGAAAAAAAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

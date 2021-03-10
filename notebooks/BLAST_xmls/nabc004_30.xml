@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H16764.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym34f02.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:50120 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>389</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H16764.1</Iteration_query-ID>
+  <Iteration_query-def>ym34f02.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:50120 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>389</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|17066436|emb|AJ420572.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA full length insert cDNA clone EUROIMAGE 1635266</Hit_def>
+  <Hit_accession>AJ420572</Hit_accession>
+  <Hit_len>1743</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.611</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.7419e-168</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>1738</Hsp_hit-from>
+      <Hsp_hit-to>1361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|14789989|gb|BC010845.1|</Hit_id>
+  <Hit_def>Homo sapiens osteopetrosis associated transmembrane protein 1, mRNA (cDNA clone IMAGE:3896125), with apparent retained intron</Hit_def>
+  <Hit_accession>BC010845</Hit_accession>
+  <Hit_len>2517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>583.774</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>2.56803e-162</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2517</Hsp_hit-from>
+      <Hsp_hit-to>2142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>365</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTTTTTT----TTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1519244779|ref|NM_014028.4|</Hit_id>
+  <Hit_def>Homo sapiens osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>NM_014028</Hit_accession>
+  <Hit_len>4471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3062</Hsp_hit-from>
+      <Hsp_hit-to>2702</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1370507948|ref|XR_942410.3|</Hit_id>
+  <Hit_def>PREDICTED: Homo sapiens osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, misc_RNA</Hit_def>
+  <Hit_accession>XR_942410</Hit_accession>
+  <Hit_len>3110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3106</Hsp_hit-from>
+      <Hsp_hit-to>2746</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|163965386|ref|NG_007262.1|</Hit_id>
+  <Hit_def>Homo sapiens osteoclastogenesis associated transmembrane protein 1 (OSTM1), RefSeqGene on chromosome 6</Hit_def>
+  <Hit_accession>NG_007262</Hit_accession>
+  <Hit_len>40329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>36920</Hsp_hit-from>
+      <Hsp_hit-to>36560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|22760830|dbj|AK075012.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ90531 fis, clone NT2RP4002451, moderately similar to Osteopetrosis associated transmembrane protein 1</Hit_def>
+  <Hit_accession>AK075012</Hit_accession>
+  <Hit_len>2992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2984</Hsp_hit-from>
+      <Hsp_hit-to>2624</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|21716002|tpg|BK000461.1|</Hit_id>
+  <Hit_def>TPA_exp: Homo sapiens HSPC019 (HSPC019) mRNA, partial cds</Hit_def>
+  <Hit_accession>BK000461</Hit_accession>
+  <Hit_len>2919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2919</Hsp_hit-from>
+      <Hsp_hit-to>2559</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|29170662|gb|AF533891.1|</Hit_id>
+  <Hit_def>Homo sapiens grey-lethal osteopetrosis (GL) mRNA, complete cds</Hit_def>
+  <Hit_accession>AF533891</Hit_accession>
+  <Hit_len>3042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3042</Hsp_hit-from>
+      <Hsp_hit-to>2682</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|4679023|gb|AF077205.1|AF077205</Hit_id>
+  <Hit_def>Homo sapiens HSPC019 mRNA, complete cds</Hit_def>
+  <Hit_accession>AF077205</Hit_accession>
+  <Hit_len>2411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2411</Hsp_hit-from>
+      <Hsp_hit-to>2051</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|17065901|emb|Z98200.9|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP1-111B22 on chromosome 6q16-21, complete sequence</Hit_def>
+  <Hit_accession>Z98200</Hit_accession>
+  <Hit_len>153382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.954</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>4.64311e-159</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>112231</Hsp_hit-from>
+      <Hsp_hit-to>111871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|17066353|emb|AJ420489.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA full length insert cDNA clone EUROIMAGE 2004703</Hit_def>
+  <Hit_accession>AJ420489</Hit_accession>
+  <Hit_len>2487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>568.446</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.9743e-157</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>1428</Hsp_hit-from>
+      <Hsp_hit-to>1068</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|37589563|gb|BC059412.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA clone IMAGE:4794948, containing frame-shift errors</Hit_def>
+  <Hit_accession>BC059412</Hit_accession>
+  <Hit_len>3053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.544</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.9743e-157</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3053</Hsp_hit-from>
+      <Hsp_hit-to>2687</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTT----TTTTCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||    ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|34526477|dbj|AK129854.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ26344 fis, clone HRT03452</Hit_def>
+  <Hit_accession>AK129854</Hit_accession>
+  <Hit_len>3050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.839</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>2.40519e-156</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3050</Hsp_hit-from>
+      <Hsp_hit-to>2692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>ACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>ACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATAGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1753078971|ref|XR_004070731.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_004070731</Hit_accession>
+  <Hit_len>3139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.412</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>5.29778e-152</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3139</Hsp_hit-from>
+      <Hsp_hit-to>2779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGACTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1753078969|ref|XM_031012492.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031012492</Hit_accession>
+  <Hit_len>4425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.412</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>5.29778e-152</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3087</Hsp_hit-from>
+      <Hsp_hit-to>2727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGACTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1849154138|ref|XM_003824331.4|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003824331</Hit_accession>
+  <Hit_len>3084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.45402e-151</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3078</Hsp_hit-from>
+      <Hsp_hit-to>2718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCAAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1034177136|ref|XM_001148469.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes osteopetrosis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_001148469</Hit_accession>
+  <Hit_len>3084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.45402e-151</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3078</Hsp_hit-from>
+      <Hsp_hit-to>2718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGTTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|86264467|gb|AC159019.4|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-550K12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC159019</Hit_accession>
+  <Hit_len>196429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.45402e-151</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>82447</Hsp_hit-from>
+      <Hsp_hit-to>82087</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGTTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1799960258|ref|XM_032156055.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_032156055</Hit_accession>
+  <Hit_len>3084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.477</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>1.42159e-146</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3084</Hsp_hit-from>
+      <Hsp_hit-to>2723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACGTGTCAAAAAAACACTTAAAGATATTCTTGCGAATACATATAAGCTGTGTCTCAGCATTCAGTACTATGCCAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCAGAAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGGTTTATATCCAAAACCAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||  |||||||||||||||||| ||| ||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1743205699|ref|XM_003278923.4|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_003278923</Hit_accession>
+  <Hit_len>3086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.64</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>1.33145e-140</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3086</Hsp_hit-from>
+      <Hsp_hit-to>2728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTCCTTTATTTTAACGTGTCAAAAAAACACTTAAAGATATTCTTGCGAATACATATAAGCTGTGTCTCAGCATTCAGTACTATGCCAATAATTTTTCAATATGACAAAATGAAAAATTT--ACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTAGGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGGTTTATATCCAAAACCAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCAGTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||  |||||||||||||||||| ||| ||||||||||||||| ||| |||||||||||||||||||||||||| ||  |||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||| ||| |||||||| ||||||| |||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1351506924|ref|XM_024248865.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_024248865</Hit_accession>
+  <Hit_len>3079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.508</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>3.57277e-135</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3079</Hsp_hit-from>
+      <Hsp_hit-to>2721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGT----GTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATT-CCTTATTTCCTTTA-----ATGTGTCAAAAAAACACTTAAAGATATTCTTGTGAATACATATAAGCTGTGTCTCAGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTCATACTTATCTTCGAAATCTATTGCTGTTGCTAGATCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||     ||||||||||||||||||||||||||||||||| ||||||||||||||||||    |||| ||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||| |||||| ||||||| ||||||  ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|152206027|gb|AC200336.2|</Hit_id>
+  <Hit_def>Pongo abelii BAC clone CH276-196P21 from chromosome 6, complete sequence</Hit_def>
+  <Hit_accession>AC200336</Hit_accession>
+  <Hit_len>195400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.508</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>3.57277e-135</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>73325</Hsp_hit-from>
+      <Hsp_hit-to>72967</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGT----GTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATT-CCTTATTTCCTTTA-----ATGTGTCAAAAAAACACTTAAAGATATTCTTGTGAATACATATAAGCTGTGTCTCAGTCAGCATTCAGTACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATTTACACACTTTAGGGTAGCGCTTCATACTTATCTTCGAAATCTATTGCTGTTGCTAGATCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||     ||||||||||||||||||||||||||||||||| ||||||||||||||||||    |||| ||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||| |||||| ||||||| ||||||  ||||||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|15808144|emb|AL162273.13|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-215N21 on chromosome 10, complete sequence</Hit_def>
+  <Hit_accession>AL162273</Hit_accession>
+  <Hit_len>103011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.982</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>2.25467e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>31498</Hsp_hit-from>
+      <Hsp_hit-to>31123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTGTTTTGTTTTGTTTATTTTTTTTCCTTATTTCCTTTCTTTTAATGTGTCAAAAACACACTTCAAGATATTCTTGTGAATACATATAAGCTGTGTCTCAGCATGCAGTACTATGCAAATAATTTTTCAATATGGCAAAACGAAAAATTTACACACTTCATGGTAGCGCTTA------ATCTTTGAGATCTATTGCTGATGCTAGGTCTGAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||| |||| |||| ||| |    |||||||||||||||| ||||||||||||||||| |||||| ||||||||||||| |||||||||||||||||| ||| ||| ||||||||||||||| ||||||||||||| ||||| |||||| |||||||||| | |||||||||||      |||||||| ||| ||||||||||||||| || |||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|15042776|gb|AC009386.14|</Hit_id>
+  <Hit_def>Homo sapiens 12 BAC RP11-447I10 (Roswell Park Cancer Institute Human BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC009386</Hit_accession>
+  <Hit_len>164012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.982</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>2.25467e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>68075</Hsp_hit-from>
+      <Hsp_hit-to>67700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTGTTTTGTTTTGTTTATTTTTTTTCCTTATTTCCTTTCTTTTAATGTGTCAAAAACACACTTCAAGATATTCTTGTGAATACATATAAGCTGTGTCTCAGCATGCAGTACTATGCAAATAATTTTTCAATATGGCAAAACGAAAAATTTACACACTTCATGGTAGCGCTTA------ATCTTTGAGATCTATTGCTGATGCTAGGTCTGAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGGT-GCTCAAAAAGTCACCACTTACAGAATT--GAACATGTCATTTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>||||||| |||| |||| ||| |    |||||||||||||||| ||||||||||||||||| |||||| ||||||||||||| |||||||||||||||||| ||| ||| ||||||||||||||| ||||||||||||| ||||| |||||| |||||||||| | |||||||||||      |||||||| ||| ||||||||||||||| || |||| ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| |||||||||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|795409600|ref|XM_011758867.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina osteopetrosis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011758867</Hit_accession>
+  <Hit_len>3056</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.867</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.16795e-128</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3056</Hsp_hit-from>
+      <Hsp_hit-to>2723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTCATCTTTGAAATCTATTGCTGATGCTATGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||     ||||||||||||  |||||||||||||||||||||||||||||| |||||||||||||||  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| ||||||||||||||||||||||| |||||||||||| ||||||||||||| | ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1938849508|ref|XM_038001055.1|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_038001055</Hit_accession>
+  <Hit_len>3055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.867</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.16795e-128</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3055</Hsp_hit-from>
+      <Hsp_hit-to>2722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTCATCTTTGAAATCTATTGCTGATGCTATGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||     ||||||||||||  |||||||||||||||||||||||||||||| |||||||||||||||  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| ||||||||||||||||||||||| |||||||||||| ||||||||||||| | ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1411154302|ref|XM_025383789.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_025383789</Hit_accession>
+  <Hit_len>4097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.359</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.42285e-127</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3053</Hsp_hit-from>
+      <Hsp_hit-to>2720</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCCTGTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTCATCTTTGAAATCTATTGCTGATGCTATGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||     ||||||||||||  |||||||||||||||||||||||||| ||| |||||||||||||||  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| ||||||||||||||||||||||| |||||||||||| ||||||||||||| | ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|982242929|ref|XM_005551524.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis osteopetrosis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005551524</Hit_accession>
+  <Hit_len>3058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.359</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.42285e-127</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3058</Hsp_hit-from>
+      <Hsp_hit-to>2725</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTGTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATGTGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTCATCTTTGAAATCTATTGCTGATGCTATGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||     ||||||||||||  |||||||||||||||||||||||||||||| |||||||||||||||  | ||| ||||||| ||||||||||| |||||||||| |||||||||||||||  |||| ||||||||||||||||||||||| |||||||||||| ||||||||||||| | ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1482589412|ref|XM_023205964.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023205964</Hit_accession>
+  <Hit_len>3057</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.85</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>6.05011e-126</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3057</Hsp_hit-from>
+      <Hsp_hit-to>2724</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAACTTCCTTATTTTATTTCCTTTATTTTAACGTGTCAAAAAAACACTTAAAGATATTCTTCTGAATACATATAAGCAGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTATGTCTAAGGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||     |||||||||||| ||||||||||||||||||||||||||||| | ||||||||||||| |  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| |||||||||||||||||||||||||||||||||||| ||||||||||||| | |||| || ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|795548644|ref|XM_012050405.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys osteopetrosis associated transmembrane protein 1 (OSTM1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012050405</Hit_accession>
+  <Hit_len>3051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.735</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>8.97916e-124</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3051</Hsp_hit-from>
+      <Hsp_hit-to>2719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAATTTCCTTATTTTATTTCCTTTATTTTAACATCTCAAAAAAACACTGAAAGATATT-TTGTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTTAGGGTAGCGCTTAATACTCATCTTTGAAATCTATTGCTGATGCTATGTCTAAAGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||     ||||||||||||  | ||||||||||||| ||||||||| |||| |||||||||||||||  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| ||||||||||||||||||||||| |||||||||||| ||||||||||||| | ||||||| ||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1825883693|ref|XM_033234783.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_033234783</Hit_accession>
+  <Hit_len>3055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.834</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>3.13403e-123</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3055</Hsp_hit-from>
+      <Hsp_hit-to>2722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TTACAATTTCCTTATTT-----CCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTACAACTTCCTTATTTTATTTCCTTTATTTTAACATGTCAAAAAAACACTTAAAGATATTCTTCTGAATACATATAAGCTGCCTCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGACAAAATGAAAAATGTACATACTTGAGGGTAGCGCTTAATACTTATCTTTGAAATCTATTGCTGATGCTATGTCTAAGGA-GCAAT-GACTCAACCA-GAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGCTTTTACAAATACGTAATACTGAAAGGT-GCTCAAAAAGTCACCACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||     ||||||||||||  |||||||||||||||||||||||||||| | |||||||||||||||  | ||| ||||||| ||||||||||| ||||||||||||||||||||||||||  |||| |||| ||||||||||||||||||||||||||||||| ||||||||||||| | |||| || ||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||| ||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|829989262|ref|XM_012753257.1|</Hit_id>
+  <Hit_def>PREDICTED: Microcebus murinus osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_012753257</Hit_accession>
+  <Hit_len>3082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.943</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>7.88347e-93</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3070</Hsp_hit-from>
+      <Hsp_hit-to>2728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>295</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>TTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTC--AACATTCAGTACTATGCAAATCATTTTTCAATATGACAA---AATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAA</Hsp_qseq>
+      <Hsp_hseq>TTATTTCATTTATTT-AATGTGTCAAAGAAAC--TTAAAGATAGGTGTGTGCATACATATAAGCTATGTATCTCAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACCACGAAATGAAATATTTACACACTTTAGTGTAGCACTTAATACTTACTTTTGAAATCTATTGCTGATGCTACTTCTAAAGAG-CAA-GGACCTAACCAG--AAAAATAGTAAAGGTGGCCTTTTCTTTTTTAAAGTGCTTATTAGCCTTATATTCAAAAACAATGGTTTTTACAAATACATAATATTGAAAGGT-GCTCAAAAAGTCACTACTTACAGAA--TCGAACATGTAATTTTCTAA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||| ||||||||||| ||||  |||||||||    |||  ||||||||||||| ||| ||  |  |||||| ||||||||||  ||||||||||||||| |   ||||||| | ||||||||||||| ||||| |||||||||||  ||||||||| |||||||||||||   |||||||| ||| ||||  ||||||  ||||||||||||||  |||||||| |||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||| |||| ||| |||||||| ||||| |||||| | |  | || || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|826313100|ref|XM_012651153.1|</Hit_id>
+  <Hit_def>PREDICTED: Propithecus coquereli osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_012651153</Hit_accession>
+  <Hit_len>3070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.336</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>9.60403e-92</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3070</Hsp_hit-from>
+      <Hsp_hit-to>2729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>TTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTC--AACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAA</Hsp_qseq>
+      <Hsp_hseq>TTATTTCGTTTATTT-AAGGTGTCAAAGAAAC---TTAAGACAGTCTTGTGCATACATATATGCTATGTATCTCAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTACAAAATGAAATATTTACACACTTTAGTGTGGCGCTTAATACTTACTTTTGAAATCTACTGCTGATGCTACTTCTAAAGAG-CAATG-ACCCAACCAG--AAAAATAGTAAAGGTGGCCTTTTTTTTTTTAAAGTGCTTATTAGCCTTATATTCAAAAACAATGGTTTTTACAAATACATAATATTGAAAGGT-GCTCAAAAAGTCACTACTTACAGAA--TCGAACATGTCATTTTCTAA</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||| || |||||||| ||||   | |||| | ||||||  ||||||||| ||| ||| ||  |  |||||| ||||||||||  |||||||||||||||   ||||||||| | ||||||||||||| || ||||||||||||||  ||||||||| | |||||||||||   |||||||| ||||| || |||||||  ||||||||||||||  |||||||  |||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||| |||| ||| |||||||| ||||| |||||| | |  | || || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|955495947|ref|XM_004422183.2|</Hit_id>
+  <Hit_def>PREDICTED: Ceratotherium simum simum osteopetrosis associated transmembrane protein 1 (LOC101390714), mRNA</Hit_def>
+  <Hit_accession>XM_004422183</Hit_accession>
+  <Hit_len>3068</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.252</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>3.58225e-78</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3057</Hsp_hit-from>
+      <Hsp_hit-to>2740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGT--CAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAA-ACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCCTTTATTTCA--GTGTCAAAAAAAC---TAAAGATGTTCTTGTGCACACATAAATGCTGTGTGTTTCAGAATTCAGAACTACACAAAGAATTTTTCAATATGACTAAAAAATGAAATATTTACACACTTTAGTGTAGTGCTTAATACTTACTTTTGAAATCTATTGCTGATGCTACTTCTAAAGA-GCAA-CAACTCAACCAG--AAAAACAGTAAAGGCTGCCTTTTCTTTTTTAAAGTGCTTATTAGCAACCATATCCAAAAGGCAACGGTTTTTAGAAATACATAATAATGAAAGGT-GCTCAAGGAGTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| |  |||||||||||||   ||||||| |||||||  | ||||| | |||||||||  ||  |||||| ||||  ||||  |||||||||||||||   ||||||||| | ||||||||||||| |||| ||||||||||||  ||||||||| |||||||||||||   ||||||| ||||   ||||||||||  ||||| |||||||||||||||||| ||||||||||||||||||||    ||||||||||  ||| |||||||| |||||||||||| |||| ||| ||||||   ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1333557313|ref|XM_023650881.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus caballus osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_023650881</Hit_accession>
+  <Hit_len>3097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.12</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.61252e-73</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3081</Hsp_hit-from>
+      <Hsp_hit-to>2761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTC--AACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC---TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCCTTTATTTCAAAGTGTGAAAAAAAC---TGAAGATGTTCTTGCGCACCCATATATGCTATGTGTCTCAGAATTCAGAACTATGCAAAGAATTTTTTGATATGAGTAAAAAATGAAATATTTGCACACTTTAGTGTAGTGCTTAATACTTATTTTTTAAATCTATTGCTAATGCTACTTCTAAAGAG--CATTGACTCAACCAG--AAAAACAGTAAAGGCTGCCTTTTCTTTTTTAAAGTGCTTATTTTCGCAACCATATCCAAAAGCAATGGTTTTTAGAAATACATAATAGTGAAAGGT-GCTCAAAGAGTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || |||| ||||||||   | ||||| ||||||   |  |||||| ||| ||||||  |  |||||| ||||||||||  ||||||  ||||||    ||||||||| | || |||||||||| |||| ||||||||||||| ||| ||||| |||||| ||||||   ||||||||   || |||||||||||  ||||| |||||||||||||||||| |||||||||||||||||  |      |||||||||| |||||||||||| |||||||||||| |||| ||| |||||||  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1016703207|ref|XM_016217547.1|</Hit_id>
+  <Hit_def>PREDICTED: Miniopterus natalensis osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_016217547</Hit_accession>
+  <Hit_len>3123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.219</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>9.61252e-73</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>2973</Hsp_hit-from>
+      <Hsp_hit-to>2643</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>CAATTTCCTTATT-----TCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTT-GAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>CAATTTCCTTAAGCTACCTCCTTTATGTCAAAGTTTCAAAAAAA-ACT-AAAGATGTTCTTGTACACACATATGCCTTGTGTCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTAAAAAATGAAATATTTACACACTTTAGTGTAGTACTTAATATTTATTTTTTGAAATCTCTTGCTGATGTTACTTCTAAAGAG-CAATG-ACTCAACCAG--AAAAATAGTAAAGGCTGCCTTTTCTTTTTTAAAGTGCTTATTAGCAAACATTTCCAAAAGCAATGGTTTTTAGAAATATATAATATTCAAAAGT-GCTCAGA--GTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||       |||||||| | || || ||||||||| ||| |||||| |||||||| | ||||||    ||||| | |  |||||| ||||||||||  |||||||||||||||   ||||||||| | ||||||||||||| ||||  ||||||| |||| ||| ||||||  ||||||||| ||   |||||||| ||||| ||||||||||  |||||||||||||||||||||||| ||||||||||||||||||||    || ||||||| |||||||||||| ||||| |||||| | ||  || ||||| |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1334620047|ref|XM_023727629.1|</Hit_id>
+  <Hit_def>PREDICTED: Trichechus manatus latirostris osteopetrosis associated transmembrane protein 1 (LOC101353544), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023727629</Hit_accession>
+  <Hit_len>3046</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.17104e-71</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2879</Hsp_hit-from>
+      <Hsp_hit-to>2532</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGT----GTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTGTATTTTAAAGTGTCAAAAAACC---TAAAGATGTTCTTATGCATATACATATGCTGTTTATGTCTCAAAATTTGGAACTATGCAAAGAATTATTCAATATGACTACAAAATGAAATATCTGCACGCTTTAGTGTAGCGCTTAATACTTATTTTTGGATTCTATTGCTGATGCTACTTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATAGTACAGTCTGCCTTTT-TTTTTTAAAGTGCTTATTAAC-AACCATCCAAAAGCAATGGTTTTTACAAACACATAATAGTGAAA-GACGCTCAAAAAGTCACTACTTACAGAA--TCGA--ATGTAATCTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| ||||||||||| |   ||||||| ||||| |  ||| | ||| |||||    || |||| |||  | ||||||||||  ||| |||||||||||   ||||||||| |  | ||| |||||| |||||||||||||||||| |||| | || |||||||||||||   ||||||| ||||| |||||||||||  |||||||||| || |||||||||  |||||||||||||||||| |     |||||||| |||||||||||||||| |||||||| ||||  |  |||||||| ||||| |||||| | |  | ||  | || || |||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1334620046|ref|XM_004372441.2|</Hit_id>
+  <Hit_def>PREDICTED: Trichechus manatus latirostris osteopetrosis associated transmembrane protein 1 (LOC101353544), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004372441</Hit_accession>
+  <Hit_len>3220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.17104e-71</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>3053</Hsp_hit-from>
+      <Hsp_hit-to>2706</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGT----GTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTGTATTTTAAAGTGTCAAAAAACC---TAAAGATGTTCTTATGCATATACATATGCTGTTTATGTCTCAAAATTTGGAACTATGCAAAGAATTATTCAATATGACTACAAAATGAAATATCTGCACGCTTTAGTGTAGCGCTTAATACTTATTTTTGGATTCTATTGCTGATGCTACTTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATAGTACAGTCTGCCTTTT-TTTTTTAAAGTGCTTATTAAC-AACCATCCAAAAGCAATGGTTTTTACAAACACATAATAGTGAAA-GACGCTCAAAAAGTCACTACTTACAGAA--TCGA--ATGTAATCTTCT-AACTCTGCAC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| ||||||||||| |   ||||||| ||||| |  ||| | ||| |||||    || |||| |||  | ||||||||||  ||| |||||||||||   ||||||||| |  | ||| |||||| |||||||||||||||||| |||| | || |||||||||||||   ||||||| ||||| |||||||||||  |||||||||| || |||||||||  |||||||||||||||||| |     |||||||| |||||||||||||||| |||||||| ||||  |  |||||||| ||||| |||||| | |  | ||  | || || |||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|664701528|ref|XM_008520671.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus przewalskii osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_008520671</Hit_accession>
+  <Hit_len>3018</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.17104e-71</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3007</Hsp_hit-from>
+      <Hsp_hit-to>2687</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTC--AACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC---TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCCTTTATTTCAAAGTGCGAAAAAAAC---TGAAGATGTTCTTGCGCACCCATATATGCTATGTGTCTCAGAATTCAGAACTATGCAAAGAATTTTTTGATATGAGTAAAAAATGAAATATTTGCACACTTTAGTGTAGTGCTTAATACTTATTTTTTAAATCTATTGCTAATGCTACTTCTAAAGAG--CATTGACTCAACCAG--AAAAACAGTAAAGGCTGCCTTTTCTTTTTTAAAGTGCTTATTTTCGCAACCATATCCAAAAGCAATGGTTTTTAGAAATACATAATAGTGAAAGGT-GCTCAAAGAGTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || |||  ||||||||   | ||||| ||||||   |  |||||| ||| ||||||  |  |||||| ||||||||||  ||||||  ||||||    ||||||||| | || |||||||||| |||| ||||||||||||| ||| ||||| |||||| ||||||   ||||||||   || |||||||||||  ||||| |||||||||||||||||| |||||||||||||||||  |      |||||||||| |||||||||||| |||||||||||| |||| ||| |||||||  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|958689452|ref|XM_014839044.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus asinus osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_014839044</Hit_accession>
+  <Hit_len>3250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.42662e-70</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3078</Hsp_hit-from>
+      <Hsp_hit-to>2756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGT----CAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC---TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCCTTTATTTCAAAGTGTGAAAAAAAC---TGAAGATGTTCTTGCGCACCCATATATGCTATGTGTGTCTCAGAATTCAGAACTATGCAAAGAATTTTTTGATATGAGTAAAAAATGAAATATTTGCACACTTTAGTGTAGTGCTTAATACTTATTTTTTAAATCTATTGCTAATGGTACTTCTAAAGAG--CATTGACTCAACCAG--AAAAACAGTAAAGGCTGCCTTTTCTTTTTTAAAGTGCTTATTTTCGCAACCATATCCAAAAGCAATGGTTTTTAGAAATACATAATAGTGAAAGGT-GCTCAAAGAGTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || |||| ||||||||   | ||||| ||||||   |  |||||| ||| |||||    ||  |||||| ||||||||||  ||||||  ||||||    ||||||||| | || |||||||||| |||| ||||||||||||| ||| ||||| |||||| ||| ||   ||||||||   || |||||||||||  ||||| |||||||||||||||||| |||||||||||||||||  |      |||||||||| |||||||||||| |||||||||||| |||| ||| |||||||  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1910921858|ref|XM_036249306.1|</Hit_id>
+  <Hit_def>PREDICTED: Molossus molossus osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_036249306</Hit_accession>
+  <Hit_len>3327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.103</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>4.97941e-70</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3019</Hsp_hit-from>
+      <Hsp_hit-to>2696</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>CAATTTCCGTAAG--CTTTATTTCAAAGTGTCAAAAAAA-ACT-AAAGATGTTCTTGTACACACATAT--GCTATGTGTCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTAAAAAATGAAATATTTACACCCTTTAGTGTAGTACTTAATACTTATTTTTTAAATCTATTGCTGATGCTACTTGTAAAAGAGCAAT-GACTCAACCAG--AAAAATAGTAAAAGCTGCCTTCTCTTTTTTAAAGTGCTTATTAGCAAACATTACCAAAAGCAATAGTTTTTAGAAATACATAATATTCAAAAGT-GCTCAGA--GTCACTACTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||    |||||||| || |||||||||||| ||| |||||| |||||||| | ||||||  ||| |||||| |   |||||| ||||||||||  |||||||||||||||   ||||||||| | |||||| |||||| ||||  |||||||||||| ||| ||||| |||||||||||||    ||||   ||||| |||||||||||  |||||||||||| |||||||| || ||||||||||||||||||||    ||  |||||| |||| ||||||| |||||||||||| | ||  || ||||| |  ||||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1910921856|ref|XM_036249305.1|</Hit_id>
+  <Hit_def>PREDICTED: Molossus molossus osteoclastogenesis associated transmembrane protein 1 (OSTM1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_036249305</Hit_accession>
+  <Hit_len>3330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.103</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>4.97941e-70</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3022</Hsp_hit-from>
+      <Hsp_hit-to>2699</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>CAATTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>CAATTTCCGTAAG--CTTTATTTCAAAGTGTCAAAAAAA-ACT-AAAGATGTTCTTGTACACACATAT--GCTATGTGTCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTAAAAAATGAAATATTTACACCCTTTAGTGTAGTACTTAATACTTATTTTTTAAATCTATTGCTGATGCTACTTGTAAAAGAGCAAT-GACTCAACCAG--AAAAATAGTAAAAGCTGCCTTCTCTTTTTTAAAGTGCTTATTAGCAAACATTACCAAAAGCAATAGTTTTTAGAAATACATAATATTCAAAAGT-GCTCAGA--GTCACTACTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||    |||||||| || |||||||||||| ||| |||||| |||||||| | ||||||  ||| |||||| |   |||||| ||||||||||  |||||||||||||||   ||||||||| | |||||| |||||| ||||  |||||||||||| ||| ||||| |||||||||||||    ||||   ||||| |||||||||||  |||||||||||| |||||||| || ||||||||||||||||||||    ||  |||||| |||| ||||||| |||||||||||| | ||  || ||||| |  ||||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1910335563|ref|XM_016160217.2|</Hit_id>
+  <Hit_def>PREDICTED: Rousettus aegyptiacus osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_016160217</Hit_accession>
+  <Hit_len>3188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.103</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>4.97941e-70</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3024</Hsp_hit-from>
+      <Hsp_hit-to>2712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGAC--AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCTTTTATTTCAAATTGTCAAAAAAAGA------GATGTTCTTGTACACACACATACACTATGTGTCAAAGAATTCAGAACTATACAAATAATTTTTCAGTATGACTAAAAATGAAATATTTACACACTTTAATGTAGTGCTCAATACTTATTTTTGAAACCTATTGCTGATGCTTCTTCTAAAGA-ACAAT-GACTCAGCCAG--AAAAATAGTAAAGGCTGCCTCTTCTTTTTTAAAGTGCTTATTAGCAAACATATCCAAAAGCAATGGTTTTTAGAAATACATAATATTCAAAAGT-GCTCAGA--GTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||  ||||||||||| |      ||| |||||||| | ||| |||  || ||||||||   |||||| ||||| ||||| |||||||| ||||||  ||||||||| | ||||||||||||  |||| ||| ||||||||| ||||||| | ||||||||||||    |||||||  |||| |||||| ||||  |||||||||||||||||||| ||| ||||||||||||||||||||    |||||||||| |||||||||||| |||||||||||| | ||  || ||||| |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1387562866|ref|XM_006926051.3|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus alecto osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_006926051</Hit_accession>
+  <Hit_len>3211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.202</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>4.97941e-70</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3047</Hsp_hit-from>
+      <Hsp_hit-to>2722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACT------TAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAATATGAC---AAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAG---GCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TACTTCTTTTATTACAAAGTGTCAGAAAAATAAAATAAAATAAAGATGTTCTTGTACACACACATATGCTATGTGTCAA-ATTCAGAACTATGCAAATAATTTTTCAGTATGACTAAAAAATGAAATATTTACACACTTTAATGTAGTGCTCAATACTTATTTTTGAAACCTATTGCTGATGCTTCTTCTAAAGA-ACAAT-GACTCAGCCAG--AAAAATAGTAAAGGCTGCTGCCTCTTCTTTTTTAAAGTGCTTATTAGCAAACATATCCAAAAGCAATGGTTTTTAGAAATACATAATATTCAAAAGT-GCTCAGA--GTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||  || |||||| ||||| |        ||||||| |||||||| | ||| ||| ||| |||||||| |||||| ||||||||||| |||||||| ||||||   ||||||||| | ||||||||||||  |||| ||| ||||||||| ||||||| | ||||||||||||    |||||||  |||| |||||| ||||  |||||||||||||   ||||||| ||| ||||||||||||||||||||    |||||||||| |||||||||||| |||||||||||| | ||  || ||||| |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1187590556|ref|XM_020892364.1|</Hit_id>
+  <Hit_def>PREDICTED: Odocoileus virginianus texanus osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_020892364</Hit_accession>
+  <Hit_len>3116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.497</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>6.06616e-69</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3105</Hsp_hit-from>
+      <Hsp_hit-to>2786</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGACA----AAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAA-GGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTTTATTTCAAAGTGTCAAAAAAC----TAAAGATATTCTGGTACACACACATATACTATGAATCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTTTACAAATGAAATATTTACACACTTTAGCATAGTGCTTAATACTTATTTTTGAAATCTATTGCTGATGCTACTTTTAAAGA-GCAAT-GACTCAACCAG--AAAAATATTAAAGGGATGCCTTTTCTTTTGTAAAGTGCTTATTAGCAGCCATATCCAAAAGCCAGGGTTTTCAGAAATACATAATATTAAAAGAT-GCTCAAAGAGTCACTTCTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| || |||||||||||     |||||||||||| ||| | ||| |||  || ||  || |   |||||| ||||||||||  |||||||||||||||     |||||||| | |||||||||||||  ||| ||||||||||||| ||||||||| |||||||||||||    |||||| ||||| |||||||||||  ||||||| |||| || ||||||||| ||| ||||||||||||||||    |||||||||| | | |||||| | |||||||||||| | || | | |||||||  |||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|850485237|gb|CP011893.1|</Hit_id>
+  <Hit_def>Ovis canadensis canadensis isolate 43U chromosome 8 sequence</Hit_def>
+  <Hit_accession>CP011893</Hit_accession>
+  <Hit_len>90795278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.792</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.1173e-68</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>29231217</Hsp_hit-from>
+      <Hsp_hit-to>29230898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGACA----AAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAA-AGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTTTATTTCAAAGTGTCAAAAAAC----TAAAGATATTCCGGTACAYACACATATACTATGAATCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTTTACAAATGAAATATTTACACACTTTAGCATAGTGCTTAATACTTATTTTTGAAATCTCTTGCTGATGCTACTTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATATTAAGGGGATGCCTTTTCTTTTGTAAAGTGCTTATTAGCAGCCATATCCAAAAGCCAGGGTTTTCAGAAATACATAATATTAAAAGGT-GCTCAAAGAGTCACTTCTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| || |||||||||||     |||||||||||  ||| | ||| |||  || ||  || |   |||||| ||||||||||  |||||||||||||||     |||||||| | |||||||||||||  ||| ||||||||||||| |||||||||  ||||||||||||   ||||||| ||||| |||||||||||  ||||||| |||  || ||||||||| ||| ||||||||||||||||    |||||||||| | | |||||| | |||||||||||| | || ||| |||||||  |||||  |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>5.33535</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>44411758</Hsp_hit-from>
+      <Hsp_hit-to>44411713</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTTACAATTTCCTTATTTCCTTTATTTTA</Hsp_qseq>
+      <Hsp_hseq>TTTGTTTTTTKTTTKTTTTTTTA--ATTTTTATTTTTMCTTTATTTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| ||| ||||||||  ||||   | ||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1567566781|ref|XM_004023572.3|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_004023572</Hit_accession>
+  <Hit_len>3094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.89</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>7.3901e-68</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3083</Hsp_hit-from>
+      <Hsp_hit-to>2740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGACA----AAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAA-AGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAA</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTTTATTTCAAAGTGTCAAAAAAC----TAAAGATATTCCGGTACACACACATATACTATGAATCTAAGAATTCAGAACTATGCAAAGAATTTTTCAATATGACTTTACAAATGAAATATTTACACACTTTAGCATAGTGCTTAATACTTATTTTTGAAATCTCTTGCTGATGCTACTTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATATTAAGGGGATGCCTTTTCTTTTGTAAAGTGCTTATTAGCAGCCATATCCAAAAGCCAGGGTTTTCAGAAATACATAATATTAAAAGGT-GCTCAAAGAGTCACTTCTTACAGAATT--GAAAATGCCATTTTGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| || |||||||||||     |||||||||||  ||| | ||| |||  || ||  || |   |||||| ||||||||||  |||||||||||||||     |||||||| | |||||||||||||  ||| ||||||||||||| |||||||||  ||||||||||||   ||||||| ||||| |||||||||||  ||||||| |||  || ||||||||| ||| ||||||||||||||||    |||||||||| | | |||||| | |||||||||||| | || ||| |||||||  |||||  ||||| | | |  ||  | | |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|602705855|ref|XM_007447254.1|</Hit_id>
+  <Hit_def>PREDICTED: Lipotes vexillifer osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_007447254</Hit_accession>
+  <Hit_len>3102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.087</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>2.5794e-67</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3091</Hsp_hit-from>
+      <Hsp_hit-to>2781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>TTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTC--AACATTCAGTACTATGCAAATCATTTTTCAATATGACA----AAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TTTATTTCAAAGTGCCAAAAAAC----TAAAGGTGTTCTGGTGTACACACATATGCTGTGAATCTAAAAATTCAGAACTATGCAAAGAACTTTTCAATATGACTTTACAAATGAAATATTTACACACTTTACTGTAGTGCTTAATGCTTATTTTTGAAATCTATTGCTGATGCT-CCTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATATTAAAGGCTGCCTTTTCTTTTGTAAAGTGCTTATTAGCAACCATATCCAAAAGCAATGGTTTTCAGAAATACATGATATTAAAAGGT-GCTCAAAGAGTCACCTCTTAC</Hsp_hseq>
+      <Hsp_midline>||||||| || ||| |||||||     ||||| | |||| ||  | ||| ||| ||||||  ||  || |||||| ||||||||||  | |||||||||||||     |||||||| | ||||||||||||  |||| ||||||| ||||| ||||||||| ||||||||||||    ||||||| ||||| |||||||||||  ||||||| |||||||||||||||| ||| ||||||||||||||||    |||||||||| |||||||||| | |||||||| ||| | || ||| |||||||  |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1121834824|ref|XM_019658968.1|</Hit_id>
+  <Hit_def>PREDICTED: Hipposideros armiger osteopetrosis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_019658968</Hit_accession>
+  <Hit_len>3113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.5794e-67</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>2949</Hsp_hit-from>
+      <Hsp_hit-to>2632</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>TATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAAC--ATTCAGTACTATGCAAATCATTTTTCAATATGACAAAAT---GAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGC-TTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTAC</Hsp_qseq>
+      <Hsp_hseq>TATGTCCTTTATTTCAAAGTTTCAAAAAAA-ACT-AAAGATGTTCTTGTGCACACACATATGCTATGCATCGAAGAATTCAGAACTATGCAAAGAACTTTTCAATATGACGAAATAATGAAATGTTTACACACTTTAGTGTAGTGCTTAGTACTTATTTTTGAAATCTATTGCTGATGCTACTTCTAAAGA-GCAAT-GACTCAACCAG--AAAAATAGTAAAGGCTGCTTTTTCTTTTTTAAAGTGCTCATTAGCAAACAGATCCAAAAGTAATGGCTTTAAAAAATACATAATATTCAAAAGT-GCTGAGA--GTCACTACTTAC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| || || ||||||||| ||| |||||| |||||||  | ||| ||| ||| ||  || |   |||||| ||||||||||  | ||||||||||||| ||||   ||||   ||||||||||||| |||| ||||| ||||||| ||||||||| |||||||||||||   ||||||| ||||| |||||||||||  |||||||||||||||||| ||||| ||||||||||||| ||||||    | ||||||||  ||||| ||| | |||||||||||| | ||  || ||| | |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1864040114|ref|XM_002746901.5|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus osteoclastogenesis associated transmembrane protein 1 (OSTM1), mRNA</Hit_def>
+  <Hit_accession>XM_002746901</Hit_accession>
+  <Hit_len>4723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.283</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.00298e-67</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>2969</Hsp_hit-from>
+      <Hsp_hit-to>2761</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>CTTAATACTTATCTTTGAAATCAATTGCTGATGCTAGGNCTAAAGAGGCAATGGACTCAACCAGGAAAAAATAGTAAAGGCTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAANGGTGGCTCAAAANGTCACCACTTACCGGANTTGGANCAGGTCATTTTCTAAACTCNGCAC</Hsp_qseq>
+      <Hsp_hseq>CTTAATACTCATCTTTGAAATCTATTACTGATGCTATGTCTAAAG-GGCAATG-ACTCAACCAG-AAAAAATTGTAAAGGTTGCCTTTTCCTTTTTAAAGTGCTTATTAGCTTTATATCCAAAAACAATGGTTTTTACAAATACATAATACTGAAAGAT-GCTCAAAAAGTCACTACTTACAGAACT--GAACATGTCATTTTCT-AACTCGGCAC</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||| ||| ||||||||| | |||||| ||||||| |||||||||| ||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | | |||||||| ||||| |||||| | | |  || || |||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>8.43954e-42</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>3416</Hsp_hit-from>
+      <Hsp_hit-to>3257</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>TTTCCTTATTTCCTTTATTTTAATGTGTCAAAAAAACACTTAAAGATATTCTTGTAAATACATATAAGCTGTGTGTCAACATTCAGTACTATGCAAATCATTTTTCAAT---ATGACAAAATGAAAAACTTACACACTTTAGGGTAGCGCTTAATACTTATCTTT</Hsp_qseq>
+      <Hsp_hseq>TTTCCTTATTTCCTTTATTTTAACTTGTCAAAAAAC-----AAAGATATTCTTGTGCATACATACAGGCTGTCCCTCAGCATTCAGAACTATGCAAATAATTTTTCAATATGATGACAAAATGAAAAATTTACACACTTTAGTGTAGTGCTTAATACTTTTCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||  ||||||||||      ||||||||||||||  ||||||| | |||||   ||| ||||||| ||||||||||| ||||||||||   |||||||||||||||| ||||||||||||| |||| ||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>381941052488</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

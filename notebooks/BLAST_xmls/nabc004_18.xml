@@ -1,0 +1,1689 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H15951.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym20b04.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48455 5&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>450</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H15951.1</Iteration_query-ID>
+  <Iteration_query-def>ym20b04.r1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48455 5&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>450</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1677501991|ref|NM_182970.4|</Hit_id>
+  <Hit_def>Homo sapiens regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_182970</Hit_accession>
+  <Hit_len>5411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3880</Hsp_hit-from>
+      <Hsp_hit-to>4288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1677499226|ref|NM_001205317.2|</Hit_id>
+  <Hit_def>Homo sapiens regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001205317</Hit_accession>
+  <Hit_len>5414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3883</Hsp_hit-from>
+      <Hsp_hit-to>4291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1548994295|gb|CP034499.1|</Hit_id>
+  <Hit_def>Eukaryotic synthetic construct chromosome 20 &gt;gi|1549098600|gb|CP034524.1| Eukaryotic synthetic construct chromosome 20</Hit_def>
+  <Hit_accession>CP034499</Hit_accession>
+  <Hit_len>68480253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>43321980</Hsp_hit-from>
+      <Hsp_hit-to>43321572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.514063</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>31101422</Hsp_hit-from>
+      <Hsp_hit-to>31101487</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCA</Hsp_qseq>
+      <Hsp_hseq>CCCATTTTACAGATGAGGAAACTGAGGCTCAGAGAGGGGAAGTAACTTACCCAAGACTGCACAGCA</Hsp_hseq>
+      <Hsp_midline>||||| | | || |  |||||||||||| |||| |  |||||| ||| || ||||||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>33226647</Hsp_hit-from>
+      <Hsp_hit-to>33226678</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GGGAAACTGAGGCCCAGAAACAGGAAGTGACT</Hsp_qseq>
+      <Hsp_hseq>GGGAAACTGAGGCAAAGAAAAAGGAAGTGACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  ||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>45212826</Hsp_hit-from>
+      <Hsp_hit-to>45212799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGA</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAA-AGGAAGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1440898</Hsp_hit-from>
+      <Hsp_hit-to>1440860</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAG</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAAAGTGAAGTGACTTGCCCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||   |||||||||  | ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>63678599</Hsp_hit-from>
+      <Hsp_hit-to>63678561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAG</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAAAGTGAAGTGACTTGCCCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||   |||||||||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1959392218|gb|CP068258.1|</Hit_id>
+  <Hit_def>Homo sapiens isolate CHM13 chromosome 20</Hit_def>
+  <Hit_accession>CP068258</Hit_accession>
+  <Hit_len>66210247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>46489068</Hsp_hit-from>
+      <Hsp_hit-to>46488660</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.514063</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>34299118</Hsp_hit-from>
+      <Hsp_hit-to>34299183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCA</Hsp_qseq>
+      <Hsp_hseq>CCCATTTTACAGATGAGGAAACTGAGGCTCAGAGAGGGGAAGTAACTTACCCAAGACTGCACAGCA</Hsp_hseq>
+      <Hsp_midline>||||| | | || |  |||||||||||| |||| |  |||||| ||| || ||||||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36419504</Hsp_hit-from>
+      <Hsp_hit-to>36419535</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GGGAAACTGAGGCCCAGAAACAGGAAGTGACT</Hsp_qseq>
+      <Hsp_hseq>GGGAAACTGAGGCAAAGAAAAAGGAAGTGACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  ||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>48380363</Hsp_hit-from>
+      <Hsp_hit-to>48380336</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGA</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAA-AGGAAGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1569436</Hsp_hit-from>
+      <Hsp_hit-to>1569398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAG</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAAAGTGAAGTGACTTGCCCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||   |||||||||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1909942461|dbj|AP023480.1|</Hit_id>
+  <Hit_def>Homo sapiens DNA, chromosome 20, nearly complete genome</Hit_def>
+  <Hit_accession>AP023480</Hit_accession>
+  <Hit_len>62398354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>42788716</Hsp_hit-from>
+      <Hsp_hit-to>42788308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.514063</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>30603215</Hsp_hit-from>
+      <Hsp_hit-to>30603280</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCA</Hsp_qseq>
+      <Hsp_hseq>CCCATTTTACAGATGAGGAAACTGAGGCTCAGAGAGGGGAAGTAACTTACCCAAGACTGCACAGCA</Hsp_hseq>
+      <Hsp_midline>||||| | | || |  |||||||||||| |||| |  |||||| ||| || ||||||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>32720947</Hsp_hit-from>
+      <Hsp_hit-to>32720978</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GGGAAACTGAGGCCCAGAAACAGGAAGTGACT</Hsp_qseq>
+      <Hsp_hseq>GGGAAACTGAGGCAAAGAAAAAGGAAGTGACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  ||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>44679690</Hsp_hit-from>
+      <Hsp_hit-to>44679663</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGA</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAA-AGGAAGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>6.26258</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1477659</Hsp_hit-from>
+      <Hsp_hit-to>1477621</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAG</Hsp_qseq>
+      <Hsp_hseq>GGAAACTGAGGCCCAGAAAAGTGAAGTGACTTGCTCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||   |||||||||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|34530463|dbj|AK124626.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ42635 fis, clone BRACE3022769</Hit_def>
+  <Hit_accession>AK124626</Hit_accession>
+  <Hit_len>4595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3066</Hsp_hit-from>
+      <Hsp_hit-to>3474</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|34533440|dbj|AK126807.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ44857 fis, clone BRACE3052595, moderately  similar to Rattus norvegicus Nim3 protein (Nim3)</Hit_def>
+  <Hit_accession>AK126807</Hit_accession>
+  <Hit_len>5104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3575</Hsp_hit-from>
+      <Hsp_hit-to>3983</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|16550489|dbj|AK055698.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ31136 fis, clone IMR322001029</Hit_def>
+  <Hit_accession>AK055698</Hit_accession>
+  <Hit_len>2733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>1204</Hsp_hit-from>
+      <Hsp_hit-to>1612</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|15419620|gb|AF294352.1|</Hit_id>
+  <Hit_def>Homo sapiens tandem acid-sensitive potassium channel TASK5 (KCNK15) gene, complete cds</Hit_def>
+  <Hit_accession>AF294352</Hit_accession>
+  <Hit_len>16930</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>7045</Hsp_hit-from>
+      <Hsp_hit-to>7453</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|9581784|emb|AL118522.32|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP4-781B1 on chromosome 20, complete sequence</Hit_def>
+  <Hit_accession>AL118522</Hit_accession>
+  <Hit_len>107109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>15477</Hsp_hit-from>
+      <Hsp_hit-to>15069</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|34368119|emb|BX648947.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp686D0748 (from clone DKFZp686D0748)</Hit_def>
+  <Hit_accession>BX648947</Hit_accession>
+  <Hit_len>5000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.561</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.47366e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3442</Hsp_hit-from>
+      <Hsp_hit-to>3850</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|21755038|dbj|AK095716.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ38397 fis, clone FEBRA2008036</Hit_def>
+  <Hit_accession>AK095716</Hit_accession>
+  <Hit_len>2258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.053</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>1.90225e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>729</Hsp_hit-from>
+      <Hsp_hit-to>1137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCGTACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|34191963|gb|BC036612.2|</Hit_id>
+  <Hit_def>Homo sapiens regulating synaptic membrane exocytosis 4, mRNA (cDNA clone IMAGE:5277655)</Hit_def>
+  <Hit_accession>BC036612</Hit_accession>
+  <Hit_len>2444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.053</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>1.90225e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>875</Hsp_hit-from>
+      <Hsp_hit-to>1283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCGCAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  || ||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1849074511|ref|XM_034947324.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034947324</Hit_accession>
+  <Hit_len>5417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.46245e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3889</Hsp_hit-from>
+      <Hsp_hit-to>4296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCATCTCTAT--AAAACAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||| ||||||  ||| ||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1849074509|ref|XM_034947323.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034947323</Hit_accession>
+  <Hit_len>5420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.46245e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3892</Hsp_hit-from>
+      <Hsp_hit-to>4299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCATCTCTAT--AAAACAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||| ||||||  ||| ||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1849074507|ref|XM_008951321.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus potassium two pore domain channel subfamily K member 15 (KCNK15), mRNA</Hit_def>
+  <Hit_accession>XM_008951321</Hit_accession>
+  <Hit_len>5576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.46245e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3782</Hsp_hit-from>
+      <Hsp_hit-to>3375</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCC-AAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCATCTCTAT--AAAACAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||| ||||||  ||| ||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1367236684|ref|XM_016937978.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_016937978</Hit_accession>
+  <Hit_len>5210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.46245e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3682</Hsp_hit-from>
+      <Hsp_hit-to>4089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCATCTCTAT--AAAACAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||| ||||||  ||| ||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1367236682|ref|XM_016937977.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_016937977</Hit_accession>
+  <Hit_len>5213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.46245e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3685</Hsp_hit-from>
+      <Hsp_hit-to>4092</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCATCTCTAT--AAAACAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||| ||||||  ||| ||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1753054571|ref|XM_019017178.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_019017178</Hit_accession>
+  <Hit_len>5408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.412</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>6.21848e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3882</Hsp_hit-from>
+      <Hsp_hit-to>4289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAAATGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGAGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGTGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||| |||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1753054569|ref|XM_019017177.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_019017177</Hit_accession>
+  <Hit_len>5411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.412</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>6.21848e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3885</Hsp_hit-from>
+      <Hsp_hit-to>4292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAAATGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGAGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGTGACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||| |||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1351479203|ref|XM_024239036.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024239036</Hit_accession>
+  <Hit_len>5205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.789</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.92429e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3675</Hsp_hit-from>
+      <Hsp_hit-to>4078</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAG</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAACAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCAC-AAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCGGT-GCATG-TCTGCT-GGGACAAGGATTCCC--GGCCTT-GAAGACCTGGGCT--GCACAGCCCTCCTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCTT-GGGGAGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||| |||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| | |||| |||||||||||| ||  |||||| |||| |||||| |  |||||||| |  | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1351479201|ref|XM_024239035.1|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024239035</Hit_accession>
+  <Hit_len>5208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.789</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.92429e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>3678</Hsp_hit-from>
+      <Hsp_hit-to>4081</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAG</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAACAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCAC-AAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTT-GCTCCGGT-GCATG-TCTGCT-GGGACAAGGATTCCC--GGCCTT-GAAGACCTGGGCT--GCACAGCCCTCCTGGGCT--CCACCTCTAT--AAACCAG-TGACTTCTCT--GGGCC-TGGGTCTT-GGGGAGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||| |||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| | |||| |||||||||||| ||  |||||| |||| |||||| |  |||||||| |  | || |  ||||||||||  ||||||| ||| |||| |  ||||| ||||| || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1800048606|ref|XM_032143307.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032143307</Hit_accession>
+  <Hit_len>5152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.03283e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3624</Hsp_hit-from>
+      <Hsp_hit-to>4030</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCGGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATAGCCCCCAAAAA--TGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGGGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAAAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACGAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACGGCCCTACTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||  ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| ||||| |||| |||||||  | ||||||||||||| |  |||| ||| || | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1800048604|ref|XM_032143306.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032143306</Hit_accession>
+  <Hit_len>5155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.03283e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3627</Hsp_hit-from>
+      <Hsp_hit-to>4033</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCGGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATAGCCCCCAAAAA--TGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGGGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAAAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACGAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACGGCCCTACTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||  ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| ||||| |||| |||||||  | ||||||||||||| |  |||| ||| || | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1777283919|ref|XM_003904699.3|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>XM_003904699</Hit_accession>
+  <Hit_len>5405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.03283e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3875</Hsp_hit-from>
+      <Hsp_hit-to>4281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1743155815|ref|XM_030826052.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_030826052</Hit_accession>
+  <Hit_len>5427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.03283e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3898</Hsp_hit-from>
+      <Hsp_hit-to>4304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATAGCCCCCAAAAA--TGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAAAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACTGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||| ||||||||||||||||||||||||||| ||||||||| ||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1743155813|ref|XM_030826051.1|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_030826051</Hit_accession>
+  <Hit_len>5430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.772</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.03283e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3901</Hsp_hit-from>
+      <Hsp_hit-to>4307</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCCGGAGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATAGCCCCCAAAAA--TGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAAAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACTGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCGAAGCCCTGGGCT--GCACAGCCCTACTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||| ||||||||||||||||||||||||||| ||||||||| ||| |||||||| ||||| | |||| |||||||||| |||||||  | ||||||||||||| |  |||||||| || | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|795239305|ref|XM_011997628.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011997628</Hit_accession>
+  <Hit_len>5190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.4765e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3660</Hsp_hit-from>
+      <Hsp_hit-to>4066</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGACCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||| ||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|795239297|ref|XM_011997627.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011997627</Hit_accession>
+  <Hit_len>5193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.4765e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3663</Hsp_hit-from>
+      <Hsp_hit-to>4069</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGACCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||| ||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|795239290|ref|XM_011997626.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011997626</Hit_accession>
+  <Hit_len>5165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.4765e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3635</Hsp_hit-from>
+      <Hsp_hit-to>4041</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGACCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||| ||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1381463043|ref|XM_011766815.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>XM_011766815</Hit_accession>
+  <Hit_len>5230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.05303e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3700</Hsp_hit-from>
+      <Hsp_hit-to>4106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>381</Hsp_identity>
+      <Hsp_positive>381</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCCGCTGGGCT--CCACCTCTA--CAAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| ||||    | || |  |||||||||   || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|982277655|ref|XM_005569099.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_005569099</Hit_accession>
+  <Hit_len>5250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.05303e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3720</Hsp_hit-from>
+      <Hsp_hit-to>4126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>381</Hsp_identity>
+      <Hsp_positive>381</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCCGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| ||||    | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|982277654|ref|XM_005569097.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005569097</Hit_accession>
+  <Hit_len>5292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.755</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.05303e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3762</Hsp_hit-from>
+      <Hsp_hit-to>4168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>381</Hsp_identity>
+      <Hsp_positive>381</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCCGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| ||||    | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1411088899|ref|XM_025400006.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025400006</Hit_accession>
+  <Hit_len>5167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.67545e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3632</Hsp_hit-from>
+      <Hsp_hit-to>4043</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGT----NGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGTGCAGTGCGTG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| ||||||||     || || | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1411088897|ref|XM_025400005.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025400005</Hit_accession>
+  <Hit_len>5222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.67545e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3687</Hsp_hit-from>
+      <Hsp_hit-to>4098</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGT----NGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGTGCAGTGCGTG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| ||||||||     || || | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1411088895|ref|XM_025400004.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025400004</Hit_accession>
+  <Hit_len>5225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.67545e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3690</Hsp_hit-from>
+      <Hsp_hit-to>4101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGT----NGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGTGCAGTGCGTG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| ||||||||     || || | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|795272132|ref|XM_012065764.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012065764</Hit_accession>
+  <Hit_len>5118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.67545e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3590</Hsp_hit-from>
+      <Hsp_hit-to>3994</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCC--AAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCGTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTCCT----GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| | ||    ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|795272128|ref|XM_012065763.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012065763</Hit_accession>
+  <Hit_len>5250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>3.67545e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3722</Hsp_hit-from>
+      <Hsp_hit-to>4126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>380</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCC--AAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCGTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTCCT----GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| | ||    ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1785914810|ref|NM_001194458.2|</Hit_id>
+  <Hit_def>Macaca mulatta regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>NM_001194458</Hit_accession>
+  <Hit_len>5162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.345</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>4.47761e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3629</Hsp_hit-from>
+      <Hsp_hit-to>4038</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCC---CTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCCGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||   ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| ||||    | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1622836835|ref|XM_028827343.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca mulatta regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_028827343</Hit_accession>
+  <Hit_len>5294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.345</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>4.47761e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3761</Hsp_hit-from>
+      <Hsp_hit-to>4170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCC---CTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCCGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||   ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| ||||    | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1788687393|ref|XM_031934710.1|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>XM_031934710</Hit_accession>
+  <Hit_len>5183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>5.45485e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3651</Hsp_hit-from>
+      <Hsp_hit-to>4058</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAGTGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGAACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| |||||||||||||||| ||||||||||||| |||||||| ||||| | |||| || ||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|795351207|ref|XM_011928981.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011928981</Hit_accession>
+  <Hit_len>5172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>5.45485e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3642</Hsp_hit-from>
+      <Hsp_hit-to>4049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGCATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTACT-GGAACAAGGA-TTCCTGG--CCTCTAAGCCCTGGG--TTGCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| |||||||||||||||| ||||||||||||| |||||||| ||||| | | || || ||||||| |||||||  | || ||||||||||  | ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|795351201|ref|XM_011928980.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011928980</Hit_accession>
+  <Hit_len>5175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>5.45485e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3645</Hsp_hit-from>
+      <Hsp_hit-to>4052</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGCATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTACT-GGAACAAGGA-TTCCTGG--CCTCTAAGCCCTGGG--TTGCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| |||||||||||||||| ||||||||||||| |||||||| ||||| | | || || ||||||| |||||||  | || ||||||||||  | ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|795351196|ref|XM_011928979.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011928979</Hit_accession>
+  <Hit_len>5164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>5.45485e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3634</Hsp_hit-from>
+      <Hsp_hit-to>4041</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGCATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCATTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTACT-GGAACAAGGA-TTCCTGG--CCTCTAAGCCCTGGG--TTGCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||    |||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| |||||||||||||||| ||||||||||||| |||||||| ||||| | | || || ||||||| |||||||  | || ||||||||||  | ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|90077691|dbj|AB171463.1|</Hit_id>
+  <Hit_def>Macaca fascicularis brain cDNA clone: QccE-18462, similar to human regulating synaptic membrane exocytosis 4 (RIMS4), mRNA, RefSeq: NM_182970.2</Hit_def>
+  <Hit_accession>AB171463</Hit_accession>
+  <Hit_len>1867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.623</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>8.09571e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACT-AGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGG</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGG-CCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAAGAACTAAGGGGCTCCATTGTTCTTCAGGCAACAGGAGACCGTTGCCTCCAGTGCCATG-TCTGCT-GGGACAAGGA-TTCCTG---CCTCTAAGCCCTGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||| |||||||  |||| | |||| |||||||||| ||||||   | || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1059154320|ref|XM_017877998.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017877998</Hit_accession>
+  <Hit_len>5094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.82568e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3569</Hsp_hit-from>
+      <Hsp_hit-to>3976</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTTCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCACTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGAACAAGGA-TTCCTAGTC--TCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| ||| |||||||||||| ||||||||||||| |||||||| ||||| | |||| || ||||||| ||||| | |  || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1059154318|ref|XM_017877997.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017877997</Hit_accession>
+  <Hit_len>5209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.82568e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3684</Hsp_hit-from>
+      <Hsp_hit-to>4091</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTTCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCACTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGAACAAGGA-TTCCTAGTC--TCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| ||| |||||||||||| ||||||||||||| |||||||| ||||| | |||| || ||||||| ||||| | |  || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1825916372|ref|XM_033186508.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>XM_033186508</Hit_accession>
+  <Hit_len>5429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.311</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.20151e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3903</Hsp_hit-from>
+      <Hsp_hit-to>4310</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTTCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCACTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGAACAAGGA-TTCCTAG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---CGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||| |||||||    |||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| ||| |||||||||||| ||||||||||||| |||||||| ||||| | |||| || ||||||| ||||| |  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| |||| |  ||||| ||||| |    || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1938888439|ref|XM_008016390.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus regulating synaptic membrane exocytosis 4 (RIMS4), mRNA</Hit_def>
+  <Hit_accession>XM_008016390</Hit_accession>
+  <Hit_len>5439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.196</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.7832e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3909</Hsp_hit-from>
+      <Hsp_hit-to>4315</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAGCCTGGGTCCTCTCCTTCCAACAGAGGCTGACCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCGCAAAGGGGGAGGAACTAGGGGCTCCACTGTTCTTCAGGCATCCAGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGGACAAGGA-TTCCTGG--CCTCTAAGCCCTGGGCT--GCATAGCCCTGCTGGGCT--CCACCTCTAT--AAGCCAG-TGACTTCCT---GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||||||||||||| ||||| |||| ||| ||||| |    |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||| ||||||||||||  |  ||||||||| |||||||| ||||| | |||| |||||||||| |||||||  | || |||||||||| |  ||| |||| |  | || |  ||||||||||  || |||| ||| ||| |   ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1751214067|ref|XM_010384267.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana regulating synaptic membrane exocytosis 4 (RIMS4), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_010384267</Hit_accession>
+  <Hit_len>5427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.294</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>6.22398e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>3902</Hsp_hit-from>
+      <Hsp_hit-to>4309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>TGTGTGTTCAGTGGCACCCCCAGCCTGGGTCCCCTCCTCCCAATAGANGCTGAGCGTANGCCAGGGCAGTATGAGGTGGGGCTGCCACTGCCCATACCTCCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCCCCAAAAGATGGGCAGGACAAGCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGTGCAAAGGGGGAAGAACTAGGGGCTCCATTGTTCTTCAGGCGACAGGAGACCGTTGGCTCCAGTNGCATGTTTTGCTGGGGACAAGGATTTCCTGGGCCTTCGAAGCCCTGGGGTTGGCACAGCCTTANTTGGGTTNCCACCTCTATTAAAACCAGTTGANTTCTTTTGGGGCCTTGGGTTTTNGGGGNGAGAGGGTT</Hsp_qseq>
+      <Hsp_hseq>TGTGTGTTCAGTGACACCCCCAACCTGGGTCCCCTCCTCCCAATAGAGGCTGAGCTGGAGCCAGGGCAGTATGAGGTAGGGCTGCCACTGCCCATACCTTCTCCTCCCTTCTTTCTTTGAAGCCTAATGGCCCC-CAAAAGATGGGCAGGACAATCTGTAGCCCATCTGAGAGGTTGGGAAACTGAGGCCCAGAAACAGGAAGTGACTCACACAAGACCCCTCAGCAAGGGCACAAAGGGGGAAGAACTAGGGGCGCCACTGTTCTTCAGGCAACAGGAGACCGTT-GCTCCAGT-GCATG-TCTGCT-GGAACAAGGA-TTCCTAGTC--TCTAAGTCCTGGGCT--GCATAGCCCTGCTGGGCT--CCATCTCTAT--AAGCCAG-TGACTTCTCT--GGGCC-TGGGTCT---GGGGGAGAGGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||| |||||||||||||||||||||||| |||||||    |||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| ||| |||||||||||| ||||||||||||| |||||||| ||||| | |||| || ||||||| ||||| | |  || ||| |||||| |  ||| |||| |  | || |  ||| ||||||  || |||| ||| |||| |  ||||| ||||| |   ||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

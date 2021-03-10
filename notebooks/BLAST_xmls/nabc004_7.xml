@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>H14591.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ym19g01.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48544 3&apos;, mRNA sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>492</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>H14591.1</Iteration_query-ID>
+  <Iteration_query-def>ym19g01.s1 Soares infant brain 1NIB Homo sapiens cDNA clone IMAGE:48544 3&apos;, mRNA sequence</Iteration_query-def>
+  <Iteration_query-len>492</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|31873299|emb|BX537399.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA; cDNA DKFZp686A0786 (from clone DKFZp686A0786); complete cds</Hit_def>
+  <Hit_accession>BX537399</Hit_accession>
+  <Hit_len>2647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.926</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2595</Hsp_hit-from>
+      <Hsp_hit-to>2123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>450</Hsp_identity>
+      <Hsp_positive>450</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>491</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTTTTTTTTTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAGCATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||| |||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|15214994|gb|BC012625.1|</Hit_id>
+  <Hit_def>Homo sapiens protein phosphatase 1, regulatory (inhibitor) subunit 3C, mRNA (cDNA clone MGC:13673 IMAGE:4245774), complete cds</Hit_def>
+  <Hit_accession>BC012625</Hit_accession>
+  <Hit_len>2524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.909</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2519</Hsp_hit-from>
+      <Hsp_hit-to>2047</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>491</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTTTTTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTCTTTTTTTTTTTTTTTTGTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTCGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAGCATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||| |||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1066584762|ref|NG_051567.1|</Hit_id>
+  <Hit_def>Homo sapiens protein phosphatase 1 regulatory subunit 3C (PPP1R3C), RefSeqGene on chromosome 10</Hit_def>
+  <Hit_accession>NG_051567</Hit_accession>
+  <Hit_len>11662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.76</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>8.90526e-176</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>9661</Hsp_hit-from>
+      <Hsp_hit-to>9211</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>CTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>CTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAGCATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||| |||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|14161176|emb|AL359986.15|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-106M14 on chromosome 10, complete sequence</Hit_def>
+  <Hit_accession>AL359986</Hit_accession>
+  <Hit_len>173119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.76</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>8.90526e-176</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>65197</Hsp_hit-from>
+      <Hsp_hit-to>65647</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>CTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>CTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAGCATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||| |||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1519315432|ref|NM_005398.7|</Hit_id>
+  <Hit_def>Homo sapiens protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>NM_005398</Hit_accession>
+  <Hit_len>2541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>627.957</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>3.10824e-175</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2541</Hsp_hit-from>
+      <Hsp_hit-to>2092</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAGCATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||| |||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1099091679|ref|XM_019035023.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla protein phosphatase 1 regulatory subunit 3C (PPP1R3C), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_019035023</Hit_accession>
+  <Hit_len>2582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.449</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.78661e-174</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2582</Hsp_hit-from>
+      <Hsp_hit-to>2133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGTT--GGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| ||  ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1099091676|ref|XM_004049788.2|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla protein phosphatase 1 regulatory subunit 3C (PPP1R3C), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_004049788</Hit_accession>
+  <Hit_len>2565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.449</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.78661e-174</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2565</Hsp_hit-from>
+      <Hsp_hit-to>2116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGTT--GGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| ||  ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1351386274|ref|XM_002820971.3|</Hit_id>
+  <Hit_def>PREDICTED: Pongo abelii protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_002820971</Hit_accession>
+  <Hit_len>2565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.923</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>8.34057e-170</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2565</Hsp_hit-from>
+      <Hsp_hit-to>2116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACGAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTACG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| ||| |   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1034082822|ref|XM_507911.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_507911</Hit_accession>
+  <Hit_len>2925</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.923</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>8.34057e-170</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2925</Hsp_hit-from>
+      <Hsp_hit-to>2476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTAAAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1849002217|ref|XM_003825357.3|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_003825357</Hit_accession>
+  <Hit_len>2716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.317</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>1.01609e-168</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2716</Hsp_hit-from>
+      <Hsp_hit-to>2268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGAAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCTTTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|90077533|dbj|AB171384.1|</Hit_id>
+  <Hit_def>Macaca fascicularis brain cDNA clone: QbsA-10417, similar to human protein phosphatase 1, regulatory (inhibitor) subunit 3C(PPP1R3C), mRNA, RefSeq: NM_005398.3</Hit_def>
+  <Hit_accession>AB171384</Hit_accession>
+  <Hit_len>1258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>591.89</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.23809e-164</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>1258</Hsp_hit-from>
+      <Hsp_hit-to>793</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>431</Hsp_identity>
+      <Hsp_positive>431</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTCTTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GAGCCTACAGAATGAATTAAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTAAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| || || |||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1799964887|ref|XM_032136934.1|</Hit_id>
+  <Hit_def>PREDICTED: Hylobates moloch protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_032136934</Hit_accession>
+  <Hit_len>2563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.758</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.72064e-159</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2563</Hsp_hit-from>
+      <Hsp_hit-to>2120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>416</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAGATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGTCTC-----CTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGTTACTT-CTATG--TGCAAGGTACTGGATTCTTCA---CTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||     ||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||| ||| |||||||||  || ||||||||  | | ||||| |||||   ||| ||||| ||  | | |     ||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1777257576|ref|XM_003903990.4|</Hit_id>
+  <Hit_def>PREDICTED: Papio anubis protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_003903990</Hit_accession>
+  <Hit_len>2921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.758</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.72064e-159</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2921</Hsp_hit-from>
+      <Hsp_hit-to>2473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|795247728|ref|XM_012063082.1|</Hit_id>
+  <Hit_def>PREDICTED: Cercocebus atys protein phosphatase 1, regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_012063082</Hit_accession>
+  <Hit_len>2562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.758</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.72064e-159</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2562</Hsp_hit-from>
+      <Hsp_hit-to>2114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAG-CAAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGTT--GGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||   |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| ||  ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1938880234|ref|XM_007963533.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_007963533</Hit_accession>
+  <Hit_len>2924</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.758</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.72064e-159</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2924</Hsp_hit-from>
+      <Hsp_hit-to>2476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGGCT--GCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || | |||||| |  ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1743205047|ref|XM_003255216.3|</Hit_id>
+  <Hit_def>PREDICTED: Nomascus leucogenys protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_003255216</Hit_accession>
+  <Hit_len>2563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>7.31634e-158</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2563</Hsp_hit-from>
+      <Hsp_hit-to>2120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>415</Hsp_identity>
+      <Hsp_positive>415</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGCGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGGTGCTAGCCAAACTTCAGATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTC-----CTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTAAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGGGATGGG--TTGTTACTT-CTATG--TGCAAGGTACTGGATTCTTCA---CTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||     ||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||  |||| |||| ||| |||||||||  || ||||||||  | | ||||| |||||   ||| ||||| ||  | | |     ||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1411180078|ref|XM_025397180.1|</Hit_id>
+  <Hit_def>PREDICTED: Theropithecus gelada protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_025397180</Hit_accession>
+  <Hit_len>2927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>7.31634e-158</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2927</Hsp_hit-from>
+      <Hsp_hit-to>2479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>416</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGTTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | | ||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|795119426|ref|XM_011976650.1|</Hit_id>
+  <Hit_def>PREDICTED: Mandrillus leucophaeus protein phosphatase 1, regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_011976650</Hit_accession>
+  <Hit_len>2621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.249</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>7.31634e-158</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2621</Hsp_hit-from>
+      <Hsp_hit-to>2173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>416</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAG-CAAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||   |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1825822158|ref|XM_033224208.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_033224208</Hit_accession>
+  <Hit_len>2925</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>569.347</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>7.31634e-158</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2925</Hsp_hit-from>
+      <Hsp_hit-to>2475</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGTACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCATATCC-TTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGTATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1751200104|ref|XM_010387096.2|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus roxellana protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_010387096</Hit_accession>
+  <Hit_len>2564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.232</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.78996e-155</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2564</Hsp_hit-from>
+      <Hsp_hit-to>2116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAGTGGTTGTGTACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCATATCC-TTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1482592416|ref|XM_023226312.2|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_023226312</Hit_accession>
+  <Hit_len>2562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.232</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.78996e-155</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2562</Hsp_hit-from>
+      <Hsp_hit-to>2114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGTACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAGTACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAATAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|982269589|ref|XM_005565941.2|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_005565941</Hit_accession>
+  <Hit_len>2562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.232</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.78996e-155</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2562</Hsp_hit-from>
+      <Hsp_hit-to>2114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GAGCCTACAGAATGAATTAAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTAAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| || || |||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|795332200|ref|XM_011739114.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca nemestrina protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_011739114</Hit_accession>
+  <Hit_len>2921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.232</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.78996e-155</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2921</Hsp_hit-from>
+      <Hsp_hit-to>2473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGTTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GAGCCTACAGAATGAATTAAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| |||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| || || |||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|383873034|ref|NM_001257737.1|</Hit_id>
+  <Hit_def>Macaca mulatta protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>NM_001257737</Hit_accession>
+  <Hit_len>2559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.232</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.78996e-155</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2559</Hsp_hit-from>
+      <Hsp_hit-to>2106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>473</Hsp_align-len>
+      <Hsp_qseq>TTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTGCACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GAGCCTACAGAATGAATTAAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCA-TTTTAAAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|||| || |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||  |||||||| || || |||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1059187899|ref|XM_017894707.1|</Hit_id>
+  <Hit_def>PREDICTED: Rhinopithecus bieti protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_017894707</Hit_accession>
+  <Hit_len>2927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.626</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>4.61711e-154</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2927</Hsp_hit-from>
+      <Hsp_hit-to>2480</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTA-AAAAGTATGGATGCCAGCCAAACTTCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAGTGGTTGTGTACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCATATCC-TTTTTTTAAAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGTT--GGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| ||  ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|795196145|ref|XM_011947847.1|</Hit_id>
+  <Hit_def>PREDICTED: Colobus angolensis palliatus protein phosphatase 1, regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_011947847</Hit_accession>
+  <Hit_len>2927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.724</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>4.61711e-154</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2927</Hsp_hit-from>
+      <Hsp_hit-to>2479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>413</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAAGT</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTGAAGTGAGAAGCTCATCAAGGATAGCTAGAGAAGAGTGAAATATTTACAGTAAAAAAGTATGGATGCTAGCCAAACATCAAATTCTGTCACTGCAGAGCTATTCCAATAGTACTTTTCCACCATGACACATCACACATGTTAAAATTAACTGCATTCTTGTAACACTTCTCAATGGTTGTATACAATAATAGAAGCAACATTCTGGGACTCCCTTTCTTAA-GATCCTACAGAATGAATTTAT-GCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTT-AAAAAAAGA-AAACA-GCAA-GAT-GAAAATAGG--CAAGTGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCAAACATCACATCAAAAAAGT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||||||||| ||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||  ||||||||||| |||||||||||||||||  |||||||| ||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||  |||| |||| ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| |||||||  ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1212437007|ref|XM_012454766.2|</Hit_id>
+  <Hit_def>PREDICTED: Aotus nancymaae protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_012454766</Hit_accession>
+  <Hit_len>2565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.87</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>2.24006e-145</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>2565</Hsp_hit-from>
+      <Hsp_hit-to>2121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCAATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACCGCATTCTTGTAACACCTCTCAAT-GATGTGCACAAAAATAGAAGCAACATTCTGGAACTCCTTTTCTTAA-GATCCTACAGAATAGATTTAT-GCACACACAAAAACAAGTATAATACAACACATTCAAAACAAGTCACATCCATTTTTCTTAAAAGAA----AACAGCGA--GAT-GAAAATAGG--CAAGTGATGGGCT--GCTA-TTTCTATG--TGCAAGGTACTGG---ATTCTTGCATTAGGAATCCTAGTGT--CGGGCCTCACGTCGAACATCACAT-CAAAA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| | ||||||||| |||||| |||||||||||| |||| ||||||||| ||||| |||||||  |||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||| | |||| ||    |||||  |  ||| |||||||||  || | |||||| |  |||| || |||||   ||| ||||| ||    | |  || | |||| ||| ||| |   ||||| ||||||   |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|725555010|ref|XM_003922402.2|</Hit_id>
+  <Hit_def>PREDICTED: Saimiri boliviensis boliviensis protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_003922402</Hit_accession>
+  <Hit_len>2563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.263</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.72896e-144</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>2563</Hsp_hit-from>
+      <Hsp_hit-to>2121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>405</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAA</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCAATAGTACTTTTCCACCATGGCATATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAAT-GACGTGCACAAAAATAGAAGCAACATTCTGGGACTCCTTTTCTCAA-GATCCTACAGAATGGATTTCT-GCACACACAAAAACAAGTATAATACAACACATTCAAAACAAGTCACATCCATTTTTCTTAAAAGAA----AACAGCGA--GAT-GAAAATAGG--CAAGCGATGGG--TTGCTACTT-CTATG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCGAACATCACAT-CAAAA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |  |||||||| |||||| ||||||||||||||||| |||||| || ||||| |||||||| |||| | ||||||||||||||||||||||||||| |||||||||||||||||||||||||||| | |||| ||    |||||  |  ||| |||||||||  || | ||||||  | ||||||| |||||   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||   |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1863955375|ref|XM_002756396.4|</Hit_id>
+  <Hit_def>PREDICTED: Callithrix jacchus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_002756396</Hit_accession>
+  <Hit_len>2933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.443</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>4.93407e-141</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>489</Hsp_query-to>
+      <Hsp_hit-from>2933</Hsp_hit-from>
+      <Hsp_hit-to>2490</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>405</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>469</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATAAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATACTTACAGTAGAAAAAGTATGGATCCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCAATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAATACCTCTCAAT-GATGTGCACAAAAATAGAAGCAACATTCTGGGACTC--TTTCTTAA-GATCCTACAGAATGGATTTAT-GCACACACAAAAACAAGTATAATACAACACATTCAAAACAAGTCACATCCATTTTTCTTAAAAGAA----AACAGCGA--GAT-GAAAATAGG--CAAGCAATGGG--TTGCTACTT-CTACG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCCTAGTGT--CGGGCCTCACGTCGAACATCACAT-CAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| | ||||||||| |||||| |||||||||||||||||  |||||||| ||||| |||||||| |||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||| | |||| ||    |||||  |  ||| |||||||||  || |  |||||  | ||||||| ||| |   ||| |||||   || |||  |  |||| || ||| ||| |   ||||| ||||||   |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1804417630|ref|XM_032245552.1|</Hit_id>
+  <Hit_def>PREDICTED: Sapajus apella protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_032245552</Hit_accession>
+  <Hit_len>2928</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.328</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>2.55591e-138</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>2928</Hsp_hit-from>
+      <Hsp_hit-to>2484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>402</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCGAGGATAGCTAGAGGAGAGTGAAATATTTACAGTATAAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCAATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAAT-GACGTGCACAAAAATAGAAGCAACATTCTGGGACTGCTTTTCTTAA-GATCCTACAGAATGGATTTCT-GCACACTCAAAAACAAGTATAATACAACACATTCAAAACAAGTCACATCCATTTTTCTTAAAAGAA----AACAGCGA--GAT-GAAAATAGG--CAAGCGATGGG--TTGCTACTT-CTACG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCTTAGTGT--CGGGCCTCACGTCGAACGTCACAT-CAAAA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  |||||||| |||||| ||||||||||||||||  ||||||||| ||||| |||||||| |||| | |||||| |||||||||||||||||||| |||||||||||||||||||||||||||| | |||| ||    |||||  |  ||| |||||||||  || | ||||||  | ||||||| ||| |   ||| |||||   || |||  |  |||| || ||  ||| |   ||||| ||||||   | |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1933975610|ref|XM_017498212.2|</Hit_id>
+  <Hit_def>PREDICTED: Cebus imitator protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_017498212</Hit_accession>
+  <Hit_len>2927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.704</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.61295e-134</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>2927</Hsp_hit-from>
+      <Hsp_hit-to>2484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>400</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGATNAACAGGCAAGGATGGAAAATAGGGCCAGGGGATGGGGTTGGCTACTTCCTATGGTGGCAGGGTACNGGGGTTTCCNGGCTTGAGGATTCCCAGTTTTCGGGGCCCCACGTCAGGCATCACATNCAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCGAGGATAGCTAGAGGAAAGTGAAATATTTACAGTATAAAAAGTATGGATGCTAGCCAAACTTCAAATTCCGTCACTGCAGAGTTATTCCAATAGTACTTTTCCACCATGGCACATCACACATGTT-AAATTAACTGCATTCTTGTAACACCTCTCAAT-GACGTGCACAAAAATAGAAGCAACATTCTGGGACTGCTTTTCTTAA-GATCCTACAGAATGGATTTCT-GCACACTCAAAAACAAGTATAATACAACACATTCAAAACAAGTCACATCCATTTTTCTTAAAAGAA----AACAGCGA--GAT-GAAAATAGG--CAAGCGATGGG--TTGCTACTT-CTACG--TGCAAGGTACT--GGATTCTTGCATTGA-GAATCTTAGTGT--CGGGCCTCACGTCAAACGTCACAT-CAAAA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||| |||| |||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |  |||||||| |||||| ||||||||||||||||  ||||||||| ||||| |||||||| |||| | |||||| |||||||||||||||||||| |||||||||||||||||||||||||||| | |||| ||    |||||  |  ||| |||||||||  || | ||||||  | ||||||| ||| |   ||| |||||   || |||  |  |||| || ||  ||| |   ||||| |||||||  | |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|671007210|ref|XM_008696245.1|</Hit_id>
+  <Hit_def>PREDICTED: Ursus maritimus protein phosphatase 1, regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_008696245</Hit_accession>
+  <Hit_len>2539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.55</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>8.37009e-94</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2539</Hsp_hit-from>
+      <Hsp_hit-to>2213</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACTTTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGTAGAAAAATTGTGGGTGCTAGCCAAACTTCAGACACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAGTGGATGTGCACAATGATAGAAGCAAACATTCAAGGACTCCTGTTCTTAA-GATCTTATAGAATGGATTTAT-GCACACTCCAAAACAATTATATTACAATACA-TCCAAACAATTCACATC----TATTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||| |||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| ||||||||| |  ||| |||||||||||||||| |  ||||||  ||||||||||||| |||||||||||||| ||||||| ||||||| |||||||||||||||||||||   ||||||||||| ||| |||||||||| ||||| || |||||||  |||||| | ||||||| ||||  | |||||| |||||| |||||| | ||||||| |||| ||||| ||| || |||||| |||||||    | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1483815060|ref|XM_026481645.1|</Hit_id>
+  <Hit_def>PREDICTED: Ursus arctos horribilis protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_026481645</Hit_accession>
+  <Hit_len>2540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.648</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.92145e-93</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2540</Hsp_hit-from>
+      <Hsp_hit-to>2212</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACTTTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGTAGAAAAATTGTGGGTGCTAGCCAAACTTCAGACACTGTCATAGCAGAGTTATTCCAATAGTATTTTTCCAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAGTGGATGTGCACAATGATAGAAGCAAACATTCAAGGACTCCTGTTCTTAA-GATCTTATAGAATGGATTTAT-GCACACTCCAAAACAATTATATTACAATACA-TCCAAACAATTCACATC----TATTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| ||||||||| |  ||| |||||||||||||||| |  ||||||  ||||||||||||| |||||| ||||||| ||||||| ||||||| |||||||||||||||||||||   ||||||||||| ||| |||||||||| ||||| || |||||||  |||||| | ||||||| ||||  | |||||| |||||| |||||| | ||||||| |||| ||||| ||| || |||||| |||||||    | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|955512111|ref|XM_004427822.2|</Hit_id>
+  <Hit_def>PREDICTED: Ceratotherium simum simum protein phosphatase 1 regulatory subunit 3C (LOC101393453), mRNA</Hit_def>
+  <Hit_accession>XM_004427822</Hit_accession>
+  <Hit_len>2565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.943</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.01969e-92</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>2564</Hsp_hit-from>
+      <Hsp_hit-to>2247</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>TATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTT</Hsp_qseq>
+      <Hsp_hseq>TATCAAACACATTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTACAGGAGAGTGAAATATTTAGAGCAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGAATTATTCTAATAGTACTTTTCCAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAATGGACATGCACAATGACAGAAGCAAACATTCAGGGACTCCTATCCTT-AGGACCTTACAGAATAGATTTAT-GCACATCCCAAAACAAGTATATTACAACACATCCAAAACAATTCACATCCATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| || |||||| |  ||| |||||||||||| |||||| ||||||| ||||| ||||||  |||||||||||||| ||||||| ||||||| |||||||||||||||||||||   |||||||||||||||   |||||||| | ||| || ||||||| ||||||| | | ||| |||| |  |||||||  |||||| |||||  | |||||||||||| ||||| |||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1187556035|ref|XM_020876192.1|</Hit_id>
+  <Hit_def>PREDICTED: Odocoileus virginianus texanus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_020876192</Hit_accession>
+  <Hit_len>2607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.516</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.24601e-88</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>2607</Hsp_hit-from>
+      <Hsp_hit-to>2274</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGT-ATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAG-AGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAAC-AAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAAGAT</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACTTTTATTTTTAAAGTGAGAAGTTCACAGAGGATAGCTACAGGAGAGTGAAATATTTAGAGTAGAAAAATTATGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCATATCACACGTGTTAAAATTAACTGCATTCTCAGAACACCTTTCAACGGATGTCCATGATGATAGAAGTGAACATTCAGAGGCTCCTGTTCTTAA-GATCTTACAGAATGGATTTAT-GCACAGTCCAAAACAAAGTATATTACAACACAACCAAAACAATTCACCTCCA-----TTAAAAAAAAAAT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||| ||||||||||||| |||   |||||||||| |||||||||||||||||| ||||||||| | |||| |||||||||||| |||||| ||||||| ||||||||||||| |||||||||||||| ||||||| ||||||| |||||||||||||||||||||   ||||||| |||| || ||| ||  || |||| ||  ||||||| | | ||| | ||||||| ||||  |||||||| |||||| |||||  | ||||| ||||||| ||||| |||  |||||||| |||| ||||     |||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|958690783|ref|XM_014839426.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus asinus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_014839426</Hit_accession>
+  <Hit_len>2600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.615</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>7.83933e-88</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2597</Hsp_hit-from>
+      <Hsp_hit-to>2272</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TATCAAACACATTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGCAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGGGTTATTCCAATAGCACTTTCCTAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAGTGGACGTGCACAATGACAGAAGCAAACATTCAGGGACTC-CTCTCTTTAGGACCTTACAGAATGGATTTAT-GCACATCTCAAAACAAGTATATTACAACATATCCAAAACAGTTCACATCCA----TTTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| || |||||| |  ||| |||||||||||| |||||| ||||||| |||| |||||||| |||| ||||| | | ||||||| ||||||| |||||||||||||||||||||   ||||||||||| |||  ||||||||| | ||| || ||||||| |||||||  | |||| |||| |  |||||||| |||||| |||||    |||||||||||| ||||| | || |||||||  |||||||||    |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1828349961|gb|CP050626.1|</Hit_id>
+  <Hit_def>Canis lupus familiaris breed Labrador retriever chromosome 28b</Hit_def>
+  <Hit_accession>CP050626</Hit_accession>
+  <Hit_len>41256193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.106</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>9.55026e-87</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>6199842</Hsp_hit-from>
+      <Hsp_hit-to>6200170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTT-AAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTTAAAGTGAGAAGTTCACAAAGGACAGCTATAGGAGAGTGAAACATTTACAGTAGAAAAATTGTGGTGCTAGCCAAACCTCAAATACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACATGTTAAATTCAACTGCATTCTCTGAACACCTCTCAATGGATGTGCACAGTGATAGAAGCAAACATTCAAGGACTCCTATTCTT-ATGATCTTATAGAATGGATATAT-ACACACCCCAAAACAATTATATTACAATACA-TCCAAACAATTCATATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| ||||||||| ||||||||||| |||  ||||| ||||| |||||||||||| ||||||||||||||| |   | |||||||||||| |||||| ||||||  ||||||||||||| |||||||||||||| ||||||| ||||||||||||||| | |||||||||||   ||||||||||||||| |||||||| | ||||| || |||||||  |||||| | ||||| | ||||  | |||||| || |||  ||||| | ||||||| |||| ||||| ||| || |||||| ||| |||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1435539033|ref|XM_025990648.1|</Hit_id>
+  <Hit_def>PREDICTED: Vulpes vulpes protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_025990648</Hit_accession>
+  <Hit_len>2532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.696</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>4.06087e-85</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2532</Hsp_hit-from>
+      <Hsp_hit-to>2205</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTT-AAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTGTATCAAACACTTTTATTCTTTAAAGTGAGAAGTTCACAAAGGACAGCTATAGGAGAGTGAAACATTTACAGTAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATAGCAGATCACACATGTTAAATTCAACTGCATTCTCTGAACACCTCTCAATGGATGTGCACAGTGATAGAAGCAAACATTCAAGGACTCCTATTCTT-ATCATCTTATAGAATGGATATAT-ACACACCCCAAAACAATTATATTACAATACA-TCCAAACAATTCACATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||| ||||||||| ||||||||||| |||  ||||| ||||| |||||||||||| ||||||||||||||| |  ||| |||||||||||| |||||| ||||||  ||||||||||||| |||||||||||||| ||| ||| ||||||||||||||| | |||||||||||   ||||||||||||||| |||||||| | ||||| || |||||||  |||||| | ||||| |  |||  | |||||| || |||  ||||| | ||||||| |||| ||||| ||| || |||||| |||||||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1121775040|ref|XM_019638979.1|</Hit_id>
+  <Hit_def>PREDICTED: Hipposideros armiger protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_019638979</Hit_accession>
+  <Hit_len>2600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.188</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.72673e-83</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2595</Hsp_hit-from>
+      <Hsp_hit-to>2256</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAG-TATGGATGCTAGCCAAACTT----------CAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACTTTTATTCTTAAAGTGAGAAGTTCACTAAGGATAGCTACAGGAGAGTGAAATAGTTAGAGTAGAAAAACTGTGGGTGCTAGCCAAAATTGTGAGTATTTCAAATACTGTCACAGCAGAGTTATTCCAATAGCACTTTTCCAGCATAGCAGATCACACATGTTAAAATTAAGTGCATTCTCTGAACACCTCTCAATAGACATGCACAAGAATAGAAGCAAACATTCAGGGACCCCTGTCCTTGA-GATCTTACAAAATGGATTTAT-GCACACCTCAAAACAAATATATTACAACACATCCAAAACAATTCACATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||||||||||||||||| |||  ||||||||||| |||||||||||||| ||| |||||||||  | ||| ||||||||||| ||          ||||| ||||||| ||||||||||||| |||| ||||||||| ||| ||| |||||||||||||||||||| ||||||||   ||||||||||||| |   ||||||| |||||| || ||||||| ||||| | | | ||| | ||||  ||| |||| |||||| ||||||   ||||||| |||| ||||| |||| |||||||| |||||||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1953352667|ref|XM_038439923.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_038439923</Hit_accession>
+  <Hit_len>2583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.581</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.10358e-82</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2583</Hsp_hit-from>
+      <Hsp_hit-to>2260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTT-AAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTTAAAGTGAGAAGTTCACAAAGGACAGCTATAGGAGAGTGAAACATTTACAGTAGAAAAATTGTGGTGCTAGCCAAACCTCAAATACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACATGTTAAATTCAACTGCATTCTCTGAACACCTCTCAATGGATGTGCACAGTGATAGAAGCAAACATTCAAGGACTCCTT------ATGATCTTATAGAATGGATATAT-ACACACCCCAAAACAATTATATTACAATACA-TCCAAACAATTCATATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| ||||||||| ||||||||||| |||  ||||| ||||| |||||||||||| ||||||||||||||| |   | |||||||||||| |||||| ||||||  ||||||||||||| |||||||||||||| ||||||| ||||||||||||||| | |||||||||||   ||||||||||||||| |||||||| | ||||| || |||||||  |||||| ||      | ||||  | |||||| || |||  ||||| | ||||||| |||| ||||| ||| || |||||| ||| |||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1952737491|ref|XM_534961.7|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_534961</Hit_accession>
+  <Hit_len>2583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.581</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.10358e-82</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2583</Hsp_hit-from>
+      <Hsp_hit-to>2260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTT-AAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTTAAAGTGAGAAGTTCACAAAGGACAGCTATAGGAGAGTGAAACATTTACAGTAGAAAAATTGTGGTGCTAGCCAAACCTCAAATACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACATGTTAAATTCAACTGCATTCTCTGAACACCTCTCAATGGATGTGCACAGTGATAGAAGCAAACATTCAAGGACTCCTT------ATGATCTTATAGAATGGATATAT-ACACACCCCAAAACAATTATATTACAATACA-TCCAAACAATTCATATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| ||||||||| ||||||||||| |||  ||||| ||||| |||||||||||| ||||||||||||||| |   | |||||||||||| |||||| ||||||  ||||||||||||| |||||||||||||| ||||||| ||||||||||||||| | |||||||||||   ||||||||||||||| |||||||| | ||||| || |||||||  |||||| ||      | ||||  | |||||| || |||  ||||| | ||||||| |||| ||||| ||| || |||||| ||| |||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1886273857|ref|XM_025466499.2|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_025466499</Hit_accession>
+  <Hit_len>2583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.581</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.10358e-82</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>2583</Hsp_hit-from>
+      <Hsp_hit-to>2260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTT-AAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTTAAAGTGAGAAGTTCACAAAGGACAGCTATAGGAGAGTGAAACATTTACAGTAGAAAAATTGTGGTGCTAGCCAAACCTCAAATACTGTCATAGCAGAGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACATGTTAAATTCAACTGCATTCTCTGAACACCTCTCAATGGATGTGCACAGTGATAGAAGCAAACATTCAAGGACTCCTT------ATGATCTTATAGAATGGATATAT-ACACACCCCAAAACAATTATATTACAATACA-TCCAAACAATTCATATCCA----TTTAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| ||||||||| ||||||||||| |||  ||||| ||||| |||||||||||| ||||||||||||||| |   | |||||||||||| |||||| ||||||  ||||||||||||| |||||||||||||| ||||||| ||||||||||||||| | |||||||||||   ||||||||||||||| |||||||| | ||||| || |||||||  |||||| ||      | ||||  | |||||| || |||  ||||| | ||||||| |||| ||||| ||| || |||||| ||| |||||    ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1333546930|ref|XM_001502693.6|</Hit_id>
+  <Hit_def>PREDICTED: Equus caballus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_001502693</Hit_accession>
+  <Hit_len>2621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.679</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>2.10358e-82</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2618</Hsp_hit-from>
+      <Hsp_hit-to>2297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTAT-GGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TATCAAACACATTTATTCTTAAAGTGAGAAGTTCACAAAGG----CTATAGGAGACTGAAATATTTAGAGCAGAAAAATTGCGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGGGTTATTCCAATAGCACTTTCCCAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAGTGGACGTGCACAATGACAGAAGCAAACATTCAGGGACTC-CTCTCTTTAGGACCTTACAGAATGGATTTAT-GCACATCTCAAAACAAGTATATTACAACATATCCAAAACAATTCACATCCA----TTTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||  ||||    ||| |||||| ||||||||||| || |||||| |   || |||||||||||| |||||| ||||||| |||| |||||||| |||| ||||| ||| ||||||| ||||||| |||||||||||||||||||||   ||||||||||| |||  ||||||||| | ||| || ||||||| |||||||  | |||| |||| |  |||||||| |||||| |||||    |||||||||||| ||||| | || |||||||| |||||||||    |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|664703692|ref|XM_008532276.1|</Hit_id>
+  <Hit_def>PREDICTED: Equus przewalskii protein phosphatase 1, regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_008532276</Hit_accession>
+  <Hit_len>2589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.679</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>2.10358e-82</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2588</Hsp_hit-from>
+      <Hsp_hit-to>2267</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>TATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTAT-GGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TATCAAACACATTTATTCTTAAAGTGAGAAGTTCACAAAGG----CTATAGGAGACTGAAATATTTAGAGCAGAAAAATTGCGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGGGTTATTCCAATAGCACTTTCCCAGCATGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAACACCTCTCAGTGGACGTGCACAATGACAGAAGCAAACATTCAGGGACTC-CTCTCTTTAGGACCTTACAGAATGGATTTAT-GCACATCTCAAAACAAGTATATTACAACATATCCAAAACAATTCACATCCA----TTTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||| |||  ||||    ||| |||||| ||||||||||| || |||||| |   || |||||||||||| |||||| ||||||| |||| |||||||| |||| ||||| ||| ||||||| ||||||| |||||||||||||||||||||   ||||||||||| |||  ||||||||| | ||| || ||||||| |||||||  | |||| |||| |  |||||||| |||||| |||||    |||||||||||| ||||| | || |||||||| |||||||||    |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1567538560|ref|XM_004020030.3|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_004020030</Hit_accession>
+  <Hit_len>2579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.974</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.56269e-81</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2579</Hsp_hit-from>
+      <Hsp_hit-to>2250</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAG-AAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAG-AGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAAC-AAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCTTATATCAAACACTTTTATTTTTAAAGTGAGAAGTTCACAGAGGATAGCTACAGGAGAGTGAAATATTTAGAGTAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCACAGCAGAGTTATTCCAATA--ACTTTTCCAGCATGGCATATCACACGTGTTAAAATTAACTGCATTCTCAGAATACCTTTCAACGGATGTGCGTGATGATAGAAGTGAACATTCAGAGGCTCCTGTT-TTGAAGATCTTACAGAATGGATTTAT-GCACAGTCCAAAACAAAGTATATTACAACACACCCAAAACAATTCACATCCA----TTTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||| ||||||||||||| |||   |||||||||| |||||||||||||||||| ||||| |||| | ||| |||||||||||| |||||| ||||||| ||||||||||||| |||  ||||||||| ||||||| ||||||| |||||||||||||||||||||   || |||| |||| || |||||   || |||| ||  ||||||| | | ||| | || || | ||||  |||||||| |||||| |||||  | ||||| ||||||| ||||| |||  |||||||| |||||||||    |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|402693177|ref|NM_001076164.2|</Hit_id>
+  <Hit_def>Bos taurus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>NM_001076164</Hit_accession>
+  <Hit_len>2583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.974</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.56269e-81</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2583</Hsp_hit-from>
+      <Hsp_hit-to>2243</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAG-AAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAG-AGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAAC-AAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTATATCAAACACTTTTATTTTTAAAGTGAGAAGTTCACAGAGGATAGCTACAGAAGAGTGAAATATTTAGACTAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCAGAGCAGAGTTATTCCAATAG--ATTTTCCAGCATGGCATATCACACGTGTTAAAATTAACTGCATTCTCAGAACACCTTTCAACGGATGTACACGATGATAGAAGGGAACATTGAGAGGCTCCTGTTCTGAA-GACCTTACAGAATGGATTTAT-GCACAGTCCAAAACAAAGTATATTACAACACACCCAAAACAATTCACAGCCA-----TTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || |||||||||| |||||| ||||||||||||| |||   |||||||||| || ||||||||||||||| | ||| |||| | ||| |||||||||||| |||||| ||||||  ||||||||||||| ||||   ||||||| ||||||| ||||||| |||||||||||||||||||||   ||||||| |||| || ||| ||| || |||| ||| ||||||  | | ||| | |||| || || |  |||||||| |||||| |||||  | ||||| ||||||| ||||| |||  |||||||| ||||| |||     ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|111308524|gb|BC120042.1|</Hit_id>
+  <Hit_def>Bos taurus protein phosphatase 1, regulatory (inhibitor) subunit 3C, mRNA (cDNA clone MGC:140560 IMAGE:8271920), complete cds</Hit_def>
+  <Hit_accession>BC120042</Hit_accession>
+  <Hit_len>2585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.974</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.56269e-81</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2585</Hsp_hit-from>
+      <Hsp_hit-to>2245</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>TTTTTTTTTTTTTCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAG-AAAAGTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAG-AGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAAC-AAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTTTTTTTTTTTTTTTATATCAAACACTTTTATTTTTAAAGTGAGAAGTTCACAGAGGATAGCTACAGAAGAGTGAAATATTTAGACTAGAAAAATTGTGGGTGCTAGCCAAACCTCAAATACTGTCAGAGCAGAGTTATTCCAATAG--ATTTTCCAGCATGGCATATCACACGTGTTAAAATTAACTGCATTCTCAGAACACCTTTCAACGGATGTACACGATGATAGAAGGGAACATTGAGAGGCTCCTGTTCTGAA-GACCTTACAGAATGGATTTAT-GCACAGTCCAAAACAAAGTATATTACAACACACCCAAAACAATTCACAGCCA-----TTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || |||||||||| |||||| ||||||||||||| |||   |||||||||| || ||||||||||||||| | ||| |||| | ||| |||||||||||| |||||| ||||||  ||||||||||||| ||||   ||||||| ||||||| ||||||| |||||||||||||||||||||   ||||||| |||| || ||| ||| || |||| ||| ||||||  | | ||| | |||| || || |  |||||||| |||||| |||||  | ||||| ||||||| ||||| |||  |||||||| ||||| |||     ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1965451729|ref|XM_039230178.1|</Hit_id>
+  <Hit_def>PREDICTED: Hyaena hyaena protein phosphatase 1 regulatory subunit 3C (PPP1R3C), mRNA</Hit_def>
+  <Hit_accession>XM_039230178</Hit_accession>
+  <Hit_len>2559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.072</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>2.56269e-81</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>2559</Hsp_hit-from>
+      <Hsp_hit-to>2234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>TTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAA-GTATGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAAT-AATAGAGGCAACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATTTTTTTAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTATATCAAACACTTTTATTCTTCAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGTAGAAAAAGTGTGGGTGCTAGCCAAGCCTCAAATATTGTCACAGCAGAGTTATTCCAATAGTACTTGTCCAGCACGGCAGATCACACGTGTTAAAATTAACTGCATTCTCTGAATACCTCTCAATGGATGTGCACGTTGACAAAAGCCAACGTTCAAGGACTCCTGTTGTT-AGGATCTTACAGAATGGATTTAT-GCACAC-CCCAAACAAGCATATTACAACACA-TCCAAACAATTCACAGCCA-----TTAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||| ||||||||| |||||||||| |||  ||||||||||| |||||||||||||||||| ||||||||| || ||| |||||||||| | ||||||  |||||| ||||||||||||| ||||||||| |||| || |||| ||||||| |||||||||||||||||||||   || |||||||||||| |||||||  | |  | || |||| |||  |||||| | || || ||||||  |||||||| |||||| |||||| |  ||||||| ||| ||||| ||| || |||||| ||||| |||     ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1900093267|ref|XM_036092766.1|</Hit_id>
+  <Hit_def>PREDICTED: Halichoerus grypus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_036092766</Hit_accession>
+  <Hit_len>2590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.367</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.122e-80</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>2590</Hsp_hit-from>
+      <Hsp_hit-to>2275</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATT</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGTAGAAAAATTGTTGGTGCTAGCCAAACCTCAAACACTGTCAT-----AGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACTTGTTAAAATTAACTGCATTCTCTGAACACTTCTCAAAGGATGTGCACAATGATAGAAGCAAACATTCAAGGATTCCTGTTCTTAA-TATCTTATAGAGTGGATTTAT-GCACACCCCAAAATAATTATATTACAATACA-TCCAAACAATTCACATCTATT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| ||||||||| |  | | |||||||||||| |||||  ||||||      ||||||||| |||||||||||||| ||||||| ||||||| |||||||||||||||||||||   ||||| |||||| || |||||||||| ||||| || |||||||  ||| || | |||||||  |||  | ||| || |||||| |||||| | |||| || |||| ||||| ||| || |||||| ||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1900093265|ref|XM_036092765.1|</Hit_id>
+  <Hit_def>PREDICTED: Halichoerus grypus protein phosphatase 1 regulatory subunit 3C (PPP1R3C), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_036092765</Hit_accession>
+  <Hit_len>2550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.367</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.122e-80</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>2550</Hsp_hit-from>
+      <Hsp_hit-to>2235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>TCTTNTATCAAACACATTTATTCTTAAAGTGAGAAGCTCATCAAGGATAGCTAGAGGAGAGTGAAATATTTACAGTAGAAAAGTA-TGGATGCTAGCCAAACTTCAAATTCTGTCACTGCAGAGTTATTCCGATAGTACTTTTCCACCATGGCACATCACACATGTTAAAATTAACTGCATTCTTGTAACACCTCTCAATGGTTGTGCACAATAATAGAGGC-AACATTCTGGGACTCTTTTTCTTAAGGATCCNACAGAATGAATTTATGGCACACACAAAAACAAGTATAATACAAAACATTCAAAACAAGTCACATCCATT</Hsp_qseq>
+      <Hsp_hseq>TCTTGTATCAAACACTTTTATTCTTAAAGTGAGAAGTTCACAAAGGATAGCTATAGGAGAGTGAAATATTTAGAGTAGAAAAATTGTTGGTGCTAGCCAAACCTCAAACACTGTCAT-----AGTTATTCCAATAGTACTTTTCCAGCATGGCAGATCACACTTGTTAAAATTAACTGCATTCTCTGAACACTTCTCAAAGGATGTGCACAATGATAGAAGCAAACATTCAAGGATTCCTGTTCTTAA-TATCTTATAGAGTGGATTTAT-GCACACCCCAAAATAATTATATTACAATACA-TCCAAACAATTCACATCTATT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||| |||||||||||||||||||| |||  ||||||||||| |||||||||||||||||| ||||||||| |  | | |||||||||||| |||||  ||||||      ||||||||| |||||||||||||| ||||||| ||||||| |||||||||||||||||||||   ||||| |||||| || |||||||||| ||||| || |||||||  ||| || | |||||||  |||  | ||| || |||||| |||||| | |||| || |||| ||||| ||| || |||||| ||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161003</Statistics_db-num>
+      <Statistics_db-len>398782714215</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
