@@ -6,7 +6,7 @@ class MolecularMassTestCase(unittest.TestCase):
 
     def test_lower(self):
         result_lower = get_prot_mass('mpfmvnniyvsfceikeivcaggsttkyadvlqenneqgrtvklq')
-        self.assertEqual(results_lower, 5051.7509)
+        self.assertEqual(result_lower, 5051.7509)
         
     def test_gaps(self):
         result_gaps = get_prot_mass('MPFMVNNIYVSF  CEIKEIV CAGGSTTKYADVLQEN NEQGRTVKLQ')
