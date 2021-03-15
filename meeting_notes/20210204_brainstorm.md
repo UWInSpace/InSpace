@@ -7,10 +7,10 @@ Data analysis steps:
 
 ## Data:
 * Transcriptomics from Gene lab
- * gene up/down-regulated ??
- * Meta-data: 
- * growth conditions (the ML algorithm would learn to put weight on the parameters)
- * machinery parameters (rotating reactor, etc)
+	* gene up/down-regulated ??
+        * Meta-data: 
+        * growth conditions (the ML algorithm would learn to put weight on the parameters)
+        * machinery parameters (rotating reactor, etc)
 
 * How are people going to use our system?
  * Biomanufacturing in space?
