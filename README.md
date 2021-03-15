@@ -25,13 +25,11 @@ In regards to the design of these complex processes, it is crucial to understand
 ## Dependencies
 1. [BioPython](https://anaconda.org/bioconda/biopython)
 	- Bio.Entrez package
-2. [DAVID](https://david.ncifcrf.gov/content.jsp?file=release.html)
-	- Bioinformatics Resources
-4. [Numpy](https://anaconda.org/anaconda/numpy)
+2. [Numpy](https://anaconda.org/anaconda/numpy)
 	- Mathematical operations
-5. [Pandas](https://anaconda.org/anaconda/pandas)
+3. [Pandas](https://anaconda.org/anaconda/pandas)
 	- Handling dataframes
-6. [Scikit-Learn](https://anaconda.org/anaconda/scikit-learn)
+4. [Scikit-Learn](https://anaconda.org/anaconda/scikit-learn)
 	- Machine learning models (ensemble)
 
 
@@ -39,6 +37,6 @@ In regards to the design of these complex processes, it is crucial to understand
 
 
 
-![image]![DIRECT_projectcuration](https://user-images.githubusercontent.com/41084770/111225485-1692a100-859d-11eb-9fc0-add8b1b62183.jpg)
+[DIRECT_projectcuration](https://user-images.githubusercontent.com/41084770/111225485-1692a100-859d-11eb-9fc0-add8b1b62183.jpg)
 
 
