@@ -3,28 +3,28 @@ With the NASA GeneLab and KEGG datasets, our group aims to (1) compile transcrip
 
 ### Discussion (02/04/2021)
 Data analysis steps:
-• Transcripts of bacteria in space/ align transcripts with terrestrial (ctrl) organism differential expression analysis (which genes are up/down regulated) annotate gene and protein (pretty sure there’s some free software/codes available)
+* Transcripts of bacteria in space/ align transcripts with terrestrial (ctrl) organism differential expression analysis (which genes are up/down regulated) annotate gene and protein (pretty sure there’s some free software/codes available)
 
 ## Data:
-• Transcriptomics from Gene lab
- • gene up/down-regulated ??
- • Meta-data: 
- • growth conditions (the ML algorithm would learn to put weight on the parameters)
- • machinery parameters (rotating reactor, etc)
+* Transcriptomics from Gene lab
+ * gene up/down-regulated ??
+ * Meta-data: 
+ * growth conditions (the ML algorithm would learn to put weight on the parameters)
+ * machinery parameters (rotating reactor, etc)
 
-• How are people going to use our system?
- • Biomanufacturing in space?
- • Chemically unstable compounds would degrade in space
- • Producing it on space will be more sustainable
- • User inputs? 
+* How are people going to use our system?
+ * Biomanufacturing in space?
+ * Chemically unstable compounds would degrade in space
+ * Producing it on space will be more sustainable
+ * User inputs? 
 
-• Our outputs:
- • ECLLS compatible
- • Peptide as monomer
- • Protein domains for biocatalysis compared it to metab pathway of compound of interest
- • Optimal conditions specifications?
+* Our outputs:
+ * ECLLS compatible
+ * Peptide as monomer
+ * Protein domains for biocatalysis compared it to metab pathway of compound of interest
+ * Optimal conditions specifications?
 
 **As a group:** 
- • Work on our use cases (will be our class HW as well)
- • Create repository
- • Upload a readme file for use cases
+ * Work on our use cases (will be our class HW as well)
+ * Create repository
+ * Upload a readme file for use cases
