@@ -39,5 +39,6 @@ In regards to the design of these complex processes, it is crucial to understand
 
 
 
-![image](https://www.flickr.com/photos/192507756@N04/51041049311/in/dateposted-public/)
+![image]![DIRECT_projectcuration](https://user-images.githubusercontent.com/41084770/111225485-1692a100-859d-11eb-9fc0-add8b1b62183.jpg)
+
 
