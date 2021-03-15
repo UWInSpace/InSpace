@@ -17,13 +17,13 @@ __Current Functionality__:
 1. [BioPython](https://anaconda.org/bioconda/biopython)
 	- Bio.Entrez package
 2. [DAVID](https://david.ncifcrf.gov/content.jsp?file=release.html)
-  - Bioinformatics Resources
+	- Bioinformatics Resources
 4. [Numpy](https://anaconda.org/anaconda/numpy)
 	- Mathematical operations
 5. [Pandas](https://anaconda.org/anaconda/pandas)
 	- Handling dataframes
 6. [Scikit-Learn](https://anaconda.org/anaconda/scikit-learn)
-  - Machine learning models (ensemble)
+	- Machine learning models (ensemble)
 
 
 
