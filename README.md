@@ -37,6 +37,6 @@ In regards to the design of these complex processes, it is crucial to understand
 
 
 
-[DIRECT_projectcuration](https://user-images.githubusercontent.com/41084770/111225485-1692a100-859d-11eb-9fc0-add8b1b62183.jpg)
+
 
 
