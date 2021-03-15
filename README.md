@@ -3,6 +3,7 @@
 ![versions](https://img.shields.io/pypi/pyversions/pybadges.svg)
 
 # InSpace
+Interstellar iN-Situ Predictive Algorithm for Cellular Engineering (InSpace), made by UW students, aims to predict relative viability of bacteria-of-interest (BOI) to spaceflight conditions (data sourced from NASA GeneLab).
 
 __Current Functionality__:
 - [ ] A
