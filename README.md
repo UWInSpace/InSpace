@@ -37,10 +37,5 @@ In regards to the design of these complex processes, it is crucial to understand
 
 
 
-<<<<<<< HEAD
 ![DIRECT_projectcuration](https://user-images.githubusercontent.com/66701908/111225945-af292100-859d-11eb-86b8-337ea766999d.jpg)
-=======
-
-
->>>>>>> dcd5c447bf9158f58f9b3be89c0cc460d211dcb7
 
