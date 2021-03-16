@@ -4,6 +4,11 @@
 # NEED TO COPY IN utils.py
 #################################################################################
 
+def test_get_seq():
+    seq = get_seq("karanjia@uw.edu", 728886557)
+    expect = 'mlrsmltasttlnqlqqqidtissnlsnsnttgykakdtnfselvrqqfdqvdekneevakarktppglrlgvgammssrlvsdqgsiqktdrdldiaftspyqylqvnvngnrqytrdgalyvtpsaananqlqlvtgngypvldengntvnidssmknitinkngtltasdgnavqrfnlgvvqvnnpqelksegnnlfsidnaaafeelnganrqnigmqqgslemsnvdiseqmtdlitsqrsyqlnsrtitmgdqmlglinsvr'
+    assert seq == expect, 'the get_seq function is not working'
+
 def test_usr_seq():
     # Case 1: input is EID
     usr_in = 15599626

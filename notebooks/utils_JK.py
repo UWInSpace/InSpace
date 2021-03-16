@@ -1,5 +1,26 @@
 # Functions to run the UWInSpace tool for ChemE 545/546 in Winter 2021
 
+def get_seq(email, prot_accession_num): 
+    Entrez.email = email
+
+    gis = [prot_accession_num] 
+    request = Entrez.epost("protein",id=",".join(map(str,gis)))
+    result = Entrez.read(request)
+    webEnv = result["WebEnv"]
+    queryKey = result["QueryKey"]
+    handle = Entrez.efetch(db="protein",retmode="xml", webenv=webEnv, query_key=queryKey) 
+
+    for r in Entrez.parse(handle):
+        try:
+            gi=int([x for x in r['GBSeq_other-seqids'] if "gi" in x][0].split("|")[1])
+        except ValueError:
+            gi=None
+        #print(r['GBSeq_sequence'])
+        seq = r['GBSeq_sequence']
+    return seq
+
+
+
 def usr_seq(user_input, email):
     """If user input is an integer (EID and not a sequence that would be a string), get the sequence"""
     t = type(user_input)
@@ -197,11 +218,51 @@ def scale_input_feat(X):
 
 
 
+def bagging_regr(X_user):
+    '''
+    the function takes in the master csv and user input
+    csv_file should be inputted as a string = 'compiled_features_complete.csv'
+    test ratio, random state and n_estimator are set (from previous ML optimization)
+    returning the predicted output based on user input
+    '''
 
+    # Open and load dataset
+    bacterial_csv = pd.read_csv('UWInSpace_ModelData.csv')
+    df = pd.DataFrame(data=bacterial_csv)
+    
+    #assign input (X) /output (y) features
+    X= df[['AA_NP','AA_POS', 'AA_POL','AA_NEG', 'MW', 'AROM', 'ISO_E']]
+    y= df['LOG2FC']
+    
+    #Scale input features
+    X_arr = X.values #returns a numpy array for X (needed to use the min_max_scaler)
 
-##################################################################
-# NEED BAGGING REGRESSOR FUNCTION AND VISUALIZATION FUNCTION HERE!
-##################################################################
+    X_col_names = list(X.columns.values.tolist()) #get column names to then put back into X_norm
+
+    #min-max normalization (rescaling) of input features
+    min_max_scaler = preprocessing.MinMaxScaler()
+    X_scaled = min_max_scaler.fit_transform(X_arr)
+    X_norm= pd.DataFrame(X_scaled)
+
+    #put back the original column names
+    X_norm.columns = X_col_names
+    
+  
+    #set Bagging regressor parameters, from ML training: 
+    test_ratio = 0.30
+    seed_random = 42
+    n_estim= 20
+    
+    X_train, X_test, y_train, y_test = train_test_split(X_norm, y, test_size=test_ratio, random_state=seed_random, shuffle=True)
+    #Model is Bagging Regressor, base estimator is Decision Tree regressor
+    model = BaggingRegressor(base_estimator=DecisionTreeRegressor(),n_estimators=n_estim, random_state=seed_random)
+    model.fit(X_train, y_train)
+    #y_testpredict = model.predict(X_test)
+       
+      
+    user_predict = model.predict(X_user)
+    
+    return user_predict
 
 
 
