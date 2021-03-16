@@ -308,7 +308,7 @@ def multi_pred_log2fc(user_inputs, email):
     result_log2fc = []
     
     for i in user_inputs:
-        result = predict_log2fc(i, email)
+        result, df = predict_log2fc(i, email)
         result_log2fc.append(result)
     
     return result_log2fc
