@@ -396,7 +396,7 @@ def test_usr_seq():
     email = 'jaking11@uw.edu'
     usr_in = 15599626
     result = usr_seq(usr_in, email)
-    assert result is str, 'the usr_seq function does not work'
+    assert result == 'mnkfmawvdarfpatkmwedhlskyyapknfnfwyffgslallvlvnqiltgiwltmsftpsaeeafasveyimrdvdygwiirymhstgasaffivvylhmfrgllygsyqkprelvwifgmliylalmaeafmgyllpwgqmsywgaqviislfgaipvvgedlaqwirgdflisgitlnrffalhvialpivllglvvlhilalhevgsnnpdgvdikkkkdengvpldgiafhpyytvkdivgvvvflfifctvifffpemggyflekpnfemanqfktpehiapvwyftpfyailravpdklmgvvamgaaiavlfvlpwldrspvrsirykgwlsklwlvifavsfvilgyygaqapsplgttlsrvctvlyfaffilmpfytrmektkpvpervtg', 'the usr_seq function does not work'
     return
 
 
