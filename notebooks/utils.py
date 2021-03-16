@@ -304,13 +304,11 @@ def multi_pred_log2fc(user_input, email):
     and return a list of predicted log2fc's.
     """
     
-    input_length = len(user_input)
-    
     # Initiate results list
     result_log2fc = []
     
-    for i in range(input_length):
-        result, df = predict_log2fc(user_input[i], email)
+    for i in user_inputs:
+        result = predict_log2fc(i, email)
         result_log2fc.append(result)
     
     return result_log2fc
