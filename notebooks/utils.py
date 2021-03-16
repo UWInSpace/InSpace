@@ -284,11 +284,8 @@ def predict_log2fc(user_input, email):
     # Get features
     user_features_df = get_feat(user_sequence)
     
-    # Scale features
-    scaled_features_df = scale_input_feat(user_features_df)
-    
     # Predict log2fc
-    prediction = bagging_regr(scaled_features_df)
+    prediction = bagging_regr(user_features_df)
     prediction = prediction[0]
     prediction = round(prediction, 4)
     
@@ -300,7 +297,7 @@ def predict_log2fc(user_input, email):
 
 
 
-def multi_pred_log2fc(user_inputs, email):
+def multi_pred_log2fc(user_input, email):
     """Input the proteins of interest as a list.  This function will iterate through 
     and return a list of predicted log2fc's.
     """
