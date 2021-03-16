@@ -32,26 +32,6 @@ def get_seq(email, prot_accession_num):
     return seq
 
 
-def get_feat(user_sequence):
-    """
-    This function takes the sequence that the user is querying and returns a dataframe appended 
-    with all of the features used in the predictive model
-    """
-    
-    mass = get_prot_mass(user_sequence)
-    
-    molwt_biopy, aromaticity, isoelectric_pt = get_biopy_feat(user_sequence)
-    
-    nonpolar, positive, polar, negative = count_aa_types(user_sequence)
-    
-    # Make the features into a Pandas DataFrame
-    column_names = ['AA_NP', 'AA_POS', 'AA_POL', 'AA_NEG', 'MW', 'AROM', 'ISO_E']   
-    feat_list = [nonpolar, positive, polar, negative, mass, aromaticity, isoelectric_pt]
-    feat_df = pd.DataFrame([feat_list], columns=column_names)
-    
-    return feat_df
-
-
 def get_prot_mass(AASeq):
     
     '''Tabulate approximate total mass of input amino acid string based on the sum of
@@ -167,6 +147,29 @@ def count_aa_types(sequence):
     return nonpolar, positive, polar, negative
 
 
+
+def get_feat(user_sequence):
+    """
+    This function takes the sequence that the user is querying and returns a dataframe appended 
+    with all of the features used in the predictive model
+    """
+    
+    mass = get_prot_mass(user_sequence)
+    
+    molwt_biopy, aromaticity, isoelectric_pt = get_biopy_feat(user_sequence)
+    
+    nonpolar, positive, polar, negative = count_aa_types(user_sequence)
+    
+    # Make the features into a Pandas DataFrame
+    column_names = ['AA_NP', 'AA_POS', 'AA_POL', 'AA_NEG', 'MW', 'AROM', 'ISO_E']   
+    feat_list = [nonpolar, positive, polar, negative, mass, aromaticity, isoelectric_pt]
+    feat_df = pd.DataFrame([feat_list], columns=column_names)
+    
+    return feat_df
+
+
+
+
 def scale_input_feat(X):
     '''
     The function takes in X (our input features), and rescale based on min-max normalization
@@ -258,7 +261,7 @@ def predict_log2fc(user_input, email):
     
     print('The predicted log2fc is ', prediction)
     
-    return prediction
+    return prediction, user_features_df
 
 
 def multi_pred_log2fc(user_inputs, email):
