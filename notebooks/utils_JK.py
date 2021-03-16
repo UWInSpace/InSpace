@@ -33,31 +33,6 @@ def usr_seq(user_input, email):
     return user_sequence
 
 
-
-def get_seq(eid, email):
-    """
-    This function gets the sequence for the eid called
-    """
-    seq = []
-
-    Entrez.email = email
-    
-    request = Entrez.epost("protein",id=",".join(map(str,id_list)))
-    result = Entrez.read(request)
-    webEnv = result["WebEnv"]
-    queryKey = result["QueryKey"]
-    handle = Entrez.efetch(db="protein",retmode="xml", webenv=webEnv, query_key=queryKey)
-
-    for r in Entrez.parse(handle):
-        try:
-            gi=int([x for x in r['GBSeq_other-seqids'] if "gi" in x][0].split("|")[1])
-        except ValueError:
-            gi=None
-        seq.append((r['GBSeq_sequence']))
-    
-    return seq
-
-
 def get_feat(user_sequence):
     """
     This function takes the sequence that the user is querying and returns a dataframe appended 
