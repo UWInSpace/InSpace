@@ -12,7 +12,10 @@ def usr_seq(user_input, email):
     return user_sequence
 
 
-def get_seq(email, prot_accession_num): 
+def get_seq(email, prot_accession_num):
+    from Bio import Entrez
+    from Bio.SeqUtils.ProtParam import ProteinAnalysis
+    
     Entrez.email = email
 
     gis = [prot_accession_num] 
@@ -84,6 +87,7 @@ def get_prot_mass(AASeq):
         aa_weight = AASeq.count(amino_acid)*mw
         mass_list.append(aa_weight)
     total_mass = sum(mass_list)
+    total_mass = round(total_mass, 2)
     
     return total_mass
 
@@ -94,6 +98,7 @@ def get_biopy_feat(sequence):
     generate additional features from each protein sequence to help better train a machine
     learning model to predict log2FC
     """
+    from Bio.SeqUtils.ProtParam import ProteinAnalysis
     ProtA = ProteinAnalysis(sequence)
     molwt_biopy = ProtA.molecular_weight()
     aromaticity = ProtA.aromaticity()
@@ -140,9 +145,13 @@ def count_aa_types(sequence):
     
     # Percentage calculation to return
     nonpolar = nonpolar_c / l *100
+    nonpolar = round(nonpolar, 2)
     positive = positive_c / l *100
+    positive = round(positive, 2)
     polar = polar_c / l *100
+    polar = round(polar, 2)
     negative = negative_c / l *100
+    negative = round(negative, 2)
     
     return nonpolar, positive, polar, negative
 
@@ -153,7 +162,7 @@ def get_feat(user_sequence):
     This function takes the sequence that the user is querying and returns a dataframe appended 
     with all of the features used in the predictive model
     """
-    
+    import pandas as pd
     mass = get_prot_mass(user_sequence)
     
     molwt_biopy, aromaticity, isoelectric_pt = get_biopy_feat(user_sequence)
@@ -175,6 +184,8 @@ def scale_input_feat(X):
     The function takes in X (our input features), and rescale based on min-max normalization
     it returns the normalized X
     '''
+    import pandas as pd
+    from sklearn import preprocessing
     #returns a numpy array for X (needed to use the min_max_scaler)
     X_arr = X.values 
 
@@ -198,7 +209,13 @@ def bagging_regr(X_user):
     test ratio, random state and n_estimator are set (from previous ML optimization)
     returning the predicted output based on user input
     '''
-
+    import pandas as pd
+    from sklearn import preprocessing
+    
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import mean_squared_error, r2_score
+    from sklearn.ensemble import BaggingRegressor
+    from sklearn.tree import DecisionTreeRegressor
     # Open and load dataset
     bacterial_csv = pd.read_csv('UWInSpace_ModelData.csv')
     df = pd.DataFrame(data=bacterial_csv)
@@ -244,6 +261,22 @@ def predict_log2fc(user_input, email):
     an amino acid sequence and predicts how much the sequence will change after 
     being in space (near-zero gravity and increased radiation exposure)
     """
+    import Bio
+    from Bio import Entrez
+    from Bio.SeqUtils.ProtParam import ProteinAnalysis
+    import math
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt   
+
+    # Import Scikit-Learn library for the regression model
+    import sklearn   
+    from sklearn import preprocessing #sklearn for normalization function
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import mean_squared_error, r2_score
+    #for Bagging regressor
+    from sklearn.ensemble import BaggingRegressor
+    from sklearn.tree import DecisionTreeRegressor
     
     # Get user sequence
     user_sequence = usr_seq(user_input, email)
@@ -275,7 +308,7 @@ def multi_pred_log2fc(user_inputs, email):
     result_log2fc = []
     
     for i in range(input_length):
-        result = predict_log2fc(user_input[i], email)
+        result, df = predict_log2fc(user_input[i], email)
         result_log2fc.append(result)
     
     return result_log2fc
