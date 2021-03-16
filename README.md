@@ -24,14 +24,16 @@ In regards to the design of these complex processes, it is crucial to understand
 
 ## Dependencies
 1. [BioPython](https://anaconda.org/bioconda/biopython)
-	- Bio.Entrez package
+	- Bio.Entrez, Bio.SeqUtils.ProtParam packages
+	- Retrieving amino acid sequences and feature generation for predictive model
 2. [Numpy](https://anaconda.org/anaconda/numpy)
-	- Mathematical operations
+	- Performing mathematical operations
 3. [Pandas](https://anaconda.org/anaconda/pandas)
-	- Handling dataframes
+	- Manipulating and handling dataframes
 4. [Scikit-Learn](https://anaconda.org/anaconda/scikit-learn)
-	- Machine learning models (ensemble)
-
+	- Building machine learning models (Bagging regressor, ensemble)
+5. [Seaborn](https://anaconda.org/anaconda/seaborn)
+	- Visualizing selected gene clusters in respect to predicted log2FC
 
 
 
