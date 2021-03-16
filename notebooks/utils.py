@@ -1,17 +1,5 @@
 # Functions to run the UWInSpace tool for ChemE 545/546 in Winter 2021
 
-def usr_seq(user_input, email):
-    """If user input is an integer (EID and not a sequence that would be a string), get the sequence
-    """
-    t = type(user_input)
-    if t is int:
-        user_sequence = get_seq(email, user_input)
-    else:
-        user_sequence = user_input
-    
-    return user_sequence
-
-
 def get_seq(email, prot_accession_num):
     from Bio import Entrez
     from Bio.SeqUtils.ProtParam import ProteinAnalysis
@@ -33,6 +21,20 @@ def get_seq(email, prot_accession_num):
         #print(r['GBSeq_sequence'])
         seq = r['GBSeq_sequence']
     return seq
+
+
+
+def usr_seq(user_input, email):
+    """If user input is an integer (EID and not a sequence that would be a string), get the sequence
+    """
+    t = type(user_input)
+    if t is int:
+        user_sequence = get_seq(email, user_input)
+    else:
+        user_sequence = user_input
+    
+    return user_sequence
+
 
 
 def get_prot_mass(AASeq):
