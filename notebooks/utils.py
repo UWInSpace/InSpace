@@ -299,7 +299,7 @@ def predict_log2fc(user_input, email):
 
 
 
-def multi_pred_log2fc(user_input, email):
+def multi_pred_log2fc(user_inputs, email):
     """Input the proteins of interest as a list.  This function will iterate through 
     and return a list of predicted log2fc's.
     """
