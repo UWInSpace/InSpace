@@ -6,11 +6,11 @@
 Interstellar iN-Situ Predictive Algorithm for Cellular Engineering (InSpace), made by UW students, aims to predict relative viability of bacteria-of-interest (BOI) to spaceflight conditions (data sourced from [NASA GeneLab](https://genelab-data.ndc.nasa.gov/genelab/projects)).
 
 __Current Functionality__:
+-  Retrieve protein sequence from NCBI (GI number)
+-  Obtain properties of a protein sequence 
+	- MW, polarity, isoelectricity, aromaticity 
 -  Predict microbial log2FC (viability metric) for space environment
 	-  Non-linear regression (Bagging Regressor)
--  Obtain properties of an amino acid sequence 
-	- MW, polarity, isoelectricity, aromaticity 
--  Retrieve amino acid sequence from NCBI (GI number)
 
 ## Justification
 As spaceflight technologies advance and mission lengths increase, there is an interest to develop technologies that decrease cost and reduce risks associated with providing biologically relevant resources to longer-term space missions [1]. A potential solution is in-situ resource utilization or ISRU, coupled with the process of in-situ manufacturing, where materials located on-site can be utilized as precursors to create other space-based commodities [2]. 
