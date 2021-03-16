@@ -312,3 +312,68 @@ def multi_pred_log2fc(user_input, email):
         result_log2fc.append(result)
     
     return result_log2fc
+
+
+def cluster_visuals(user_df, NASA_df, user_genecluster):
+    import pandas as pd
+    import seaborn as sns
+    from matplotlib import pyplot as plt
+
+    # set seaborn as default plotting language
+    sns.set()
+
+    # function definition
+    # NASA_data is the "compiled features complete CSV", maybe need to change to final version of this
+
+    UD = pd.read_csv(user_df)
+    NASA_data = pd.read_csv(NASA_df)
+    
+    ND_ABC = NASA_data[NASA_data['GENENAME'] == 'ABC_transporter']
+    ND_CYT = NASA_data[NASA_data['GENENAME'] == 'cytochrome']
+    ND_DNA = NASA_data[NASA_data['GENENAME'] == 'DNA_polymerase']
+    ND_EFF = NASA_data[NASA_data['GENENAME'] == 'efflux_transporter']
+    ND_ELE = NASA_data[NASA_data['GENENAME'] == 'electron_transfer']
+    ND_FLA = NASA_data[NASA_data['GENENAME'] == 'flagellar_motility']
+    ND_NAD = NASA_data[NASA_data['GENENAME'] == 'NADH_NADPH']
+    ND_RNA = NASA_data[NASA_data['GENENAME'] == 'RNA_polymerase']
+    
+    fig, axes = plt.subplots(1, 7, figsize= (15, 5), sharey=True)
+    fig.suptitle('Comparison of features per user-specified gene cluster')
+    
+    if user_genecluster == 'ABC_transporter':
+        ND = ND_ABC
+    elif user_genecluster == 'cytochrome':
+        ND = ND_CYT
+    elif user_genecluster == 'DNA_polymerase':
+        ND = ND_DNA
+    elif user_genecluster == 'efflux_transporter':
+        ND = ND_EFF
+    elif user_genecluster == 'electron_transfer':
+        ND = ND_ELE
+    elif user_genecluster == 'flagellar_motility':
+        ND = ND_FLA
+    elif user_genecluster == 'NADH_NADPH':
+        ND = ND_NAD
+    elif user_genecluster == 'RNA_polymerase':
+        ND = ND_RNA
+    else: 
+        print('Please check your user-defined gene cluster and ensure that it matches the possible 8 categories')
+    
+    # user protein df
+    p0a = sns.scatterplot(ax=axes[0], data=UD, x='AA_NP', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p1a = sns.scatterplot(ax=axes[1], data=UD, x='AA_POL', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p2a = sns.scatterplot(ax=axes[2], data=UD, x='AA_POS', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p3a = sns.scatterplot(ax=axes[3], data=UD, x='AA_NEG', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p4a = sns.scatterplot(ax=axes[4], data=UD, x='MW', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p5a = sns.scatterplot(ax=axes[5], data=UD, x='AROM', y='LOG2FC', hue='LOG2FC', palette=['red'], legend=False)
+    p6a = sns.scatterplot(ax=axes[6], data=UD, x='ISO_E', y='LOG2FC', hue='LOG2FC', palette=['red'])
+    
+    p0 = sns.scatterplot(ax=axes[0], data=ND, x='AA_NP', y='LOG2FC', hue='ORG', legend=False)
+    p1 = sns.scatterplot(ax=axes[1], data=ND, x='AA_POL', y='LOG2FC', hue='ORG', legend=False)
+    p2 = sns.scatterplot(ax=axes[2], data=ND, x='AA_POS', y='LOG2FC', hue='ORG', legend=False)
+    p3 = sns.scatterplot(ax=axes[3], data=ND, x='AA_NEG', y='LOG2FC', hue='ORG', legend=False)
+    p4 = sns.scatterplot(ax=axes[4], data=ND, x='MW', y='LOG2FC', hue='ORG', legend=False)
+    p5 = sns.scatterplot(ax=axes[5], data=ND, x='AROM', y='LOG2FC', hue='ORG', legend=False)
+    p6 = sns.scatterplot(ax=axes[6], data=ND, x='ISO_E', y='LOG2FC', hue='ORG')
+    
+    return
