@@ -397,10 +397,6 @@ def test_usr_seq():
     usr_in = 15599626
     result = usr_seq(usr_in, email)
     assert result is str, 'the usr_seq function does not work'
-    # Case 2: input is sequence
-    usr_in = 'juliaisthecoolest'
-    result = usr_seq(usr_in, email)
-    assert result == usr_in, 'the usr_seq function does not work'
     return
 
 
