@@ -314,7 +314,7 @@ def multi_pred_log2fc(user_input, email):
     return result_log2fc
 
 
-def cluster_visuals(user_df, NASA_df, user_genecluster):
+def cluster_visuals(user_df, user_genecluster):
     import pandas as pd
     import seaborn as sns
     from matplotlib import pyplot as plt
@@ -325,8 +325,8 @@ def cluster_visuals(user_df, NASA_df, user_genecluster):
     # function definition
     # NASA_data is the "compiled features complete CSV", maybe need to change to final version of this
 
-    UD = pd.read_csv(user_df)
-    NASA_data = pd.read_csv(NASA_df)
+    UD = user_df
+    NASA_data = pd.read_csv('UWInSpace_ModelData.csv')
     
     ND_ABC = NASA_data[NASA_data['GENENAME'] == 'ABC_transporter']
     ND_CYT = NASA_data[NASA_data['GENENAME'] == 'cytochrome']
