@@ -292,9 +292,12 @@ def predict_log2fc(user_input, email):
     prediction = prediction[0]
     prediction = round(prediction, 4)
     
+    user_features_df['LOG2FC'] = [prediction]
+    
     print('The predicted log2fc is ', prediction)
     
     return prediction, user_features_df
+
 
 
 def multi_pred_log2fc(user_inputs, email):
