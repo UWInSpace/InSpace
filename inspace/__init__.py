@@ -1,1 +1,1 @@
- ''' This is an init python file for inspace package '''
+''' This is an init python file for inspace package '''
